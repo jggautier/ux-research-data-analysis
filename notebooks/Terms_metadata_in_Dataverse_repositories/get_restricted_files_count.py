@@ -15,11 +15,11 @@ with open(csvfile, mode='w') as metadatafile:
     metadatafile = csv.writer(metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
     # Create header row
-    metadatafile.writerow(['datasetVersionId', 'persistentUrl', 'restricted_files'])
+    metadatafile.writerow(['datasetVersionId', 'persistentUrl', 'restricted_files', 'file_access_request'])
 
 # Save path of directory containing Dataverse JSON metadata exports
 # jsonDirectory = '/Users/juliangautier/Desktop/dv_installation_metadata_database-all_dataset_versions/all_json_metadata_files'
-jsonDirectory = '/Users/juliangautier/Desktop/metadata'
+jsonDirectory = '/Users/juliangautier/Desktop/dv_installation_metadata_database-all_dataset_versions/all_json_metadata_files'
 
 # Save number of files in jsonDirectory to 'total' variable
 total = len(os.listdir(jsonDirectory))
@@ -57,13 +57,28 @@ for jsonfile in glob.glob(os.path.join(jsonDirectory, '*.json')):  # For each JS
             for file in datasetMetadata['data']['datasetVersion']['files']:
                 if file['restricted'] is True:
                     restrictedCount += 1
-            restrictedFiles = restrictedCount
+            # Record if there are no restricted files
+            if restrictedCount == 0:
+                restrictedFiles = False
+            # Otherwise record that there's one or more restricted files
+            else:
+                restrictedFiles = True
+
+    # Record if file request is enabled
+
+    # If fileAccessRequest key doesn't exist, repository's JSON export doesn't include info about file request feature
+    if 'fileAccessRequest' not in datasetMetadata['data']['datasetVersion']:
+        fileAccessRequest = 'NA (not recorded)'
+
+    # If repository's JSON export does include info about file request feature, record if file request is enabled or not
+    else:
+        fileAccessRequest = datasetMetadata['data']['datasetVersion']['fileAccessRequest']
 
     # Append fields to the csv file
     with open(csvfile, mode='a') as metadatafile:
         metadatafile = csv.writer(metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
         # Create new row
-        metadatafile.writerow([datasetVersionId, persistentUrl, restrictedFiles])
+        metadatafile.writerow([datasetVersionId, persistentUrl, restrictedFiles, fileAccessRequest])
 
-    print('%s of %s (%s)\n' % (datasetCount, total, jsonfile))
+    print('%s of %s' % (datasetCount, total))
