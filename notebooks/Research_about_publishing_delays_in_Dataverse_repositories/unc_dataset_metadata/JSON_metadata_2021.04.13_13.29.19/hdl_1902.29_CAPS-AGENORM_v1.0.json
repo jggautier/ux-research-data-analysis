@@ -1,0 +1,390 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-AGENORM",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3572,
+            "storageIdentifier": "file://1902.29/CAPS-AGENORM",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T15:02:17Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:17:07Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Age Appropriate Behaviors (CAPS-AGENORM module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-AGENORM"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-AGENORM"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This unit, developed by Cindy Gimbel and Rachel Sweat, Department of Sociology at UNC, is designed to ascertain the beliefs held by college students about the appropriate ages for certain behaviors. Similar work has been done by Bernice Neugarten (reference below).</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Age"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Life course"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Norms"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Neugarten, Moore and Lowe. American Journal of Sociology: 70:710-717, 1965."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Neugarten, Moore and Lowe. American Journal of Sociology: 70:710-717, 1965."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Hagestad and Neugarten. Age and the Life Course. Handbook of Aging and the Social Sciences (second edition). Binstock and Shanas, eds."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1988_agenorm_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3572,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 6753,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_agenorm_data",
+                        "contentType": "text/plain",
+                        "filesize": 361920,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_agenorm_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_agenorm_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3572,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 6757,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_agenorm_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 10766,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_agenorm_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_agenorm_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3572,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 6758,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_agenorm_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 234160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_agenorm_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_agenorm_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3572,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 6754,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_agenorm_source",
+                        "contentType": "text/plain",
+                        "filesize": 34354,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_agenorm_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_agenorm_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3572,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 6755,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_agenorm_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 64616,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_agenorm_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_agenorm_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3572,
+                    "categories": [
+                        "Data File 1 (caps_1988_agenorm_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 6756,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_agenorm_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 58451,
+                        "storageIdentifier": "caps_1988_agenorm_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:tg/w87ee7DIeB8pATwNhyg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

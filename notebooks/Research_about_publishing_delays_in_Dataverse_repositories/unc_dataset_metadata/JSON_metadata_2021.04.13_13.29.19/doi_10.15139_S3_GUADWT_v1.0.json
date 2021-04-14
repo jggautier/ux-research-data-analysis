@@ -1,0 +1,286 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/GUADWT",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-04-25",
+        "datasetVersion": {
+            "id": 30854,
+            "storageIdentifier": "file://10.15139/S3/GUADWT",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:eUG92UeDIXjYvvtryQ+8Fg==",
+            "lastUpdateTime": "2019-04-25T21:41:34Z",
+            "releaseTime": "2019-04-25T21:41:34Z",
+            "createTime": "2019-04-25T21:40:37Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Race and Partisan Animus in Economic Decision-Making"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Mehlhaff, Isaac"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Mehlhaff, Isaac"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "mehlhaff@live.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Data and R script for \"Race and Partisan Animus in Economic Decision-Making,\" by Isaac Mehlhaff. Replication and extension of \"The Economic Consequences of Partisanship in a Polarized Era,\" by Christopher McConnell, Yotam Margalit, Neil Malhotra, and Matthew Levendusky."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Christopher McConnell, Yotam Margalit, Neil Malhotra, and Matthew Levendusky, \"The Economic Consequences of Partisanship in a Polarized Era,\" American Journal of Political Science 62, no. 1 (January 2018), 5-18."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Mehlhaff, Isaac"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-04-25"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "ajps_codebook.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30854,
+                    "dataFile": {
+                        "id": 7505794,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ajps_codebook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 91369,
+                        "storageIdentifier": "16a56711ba7-ab24b8925620",
+                        "rootDataFileId": -1,
+                        "md5": "3cef0041bab7def0396c64a43f19a4f9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3cef0041bab7def0396c64a43f19a4f9"
+                        },
+                        "creationDate": "2019-04-25"
+                    }
+                },
+                {
+                    "label": "data_study2_covars.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30854,
+                    "dataFile": {
+                        "id": 7505797,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "data_study2_covars.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 151503,
+                        "storageIdentifier": "16a56711d69-2e446ff91225",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 155048,
+                        "UNF": "UNF:6:Ek6yrtAZVU2PnSL7WzKouw==",
+                        "rootDataFileId": -1,
+                        "md5": "cf4e9d4147b3da65a3ca348d19790c54",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cf4e9d4147b3da65a3ca348d19790c54"
+                        },
+                        "creationDate": "2019-04-25"
+                    }
+                },
+                {
+                    "label": "data_study2.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30854,
+                    "dataFile": {
+                        "id": 7505795,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "data_study2.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 97247,
+                        "storageIdentifier": "16a56711e73-82b68cf7a0b7",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 100683,
+                        "UNF": "UNF:6:oav9YMfSTA7HCJW0daUKGw==",
+                        "rootDataFileId": -1,
+                        "md5": "223e50347f3443a70a0209eaa9b3f9bc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "223e50347f3443a70a0209eaa9b3f9bc"
+                        },
+                        "creationDate": "2019-04-25"
+                    }
+                },
+                {
+                    "label": "McConnell et al. - 2018 - The Economic Consequences of Partisanship in a Pol copy.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30854,
+                    "dataFile": {
+                        "id": 7505793,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "McConnell et al. - 2018 - The Economic Consequences of Partisanship in a Pol copy.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 965173,
+                        "storageIdentifier": "16a567114b3-2c1eb82157c0",
+                        "rootDataFileId": -1,
+                        "md5": "60f110f5488938980f86abeb1eb4ed13",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "60f110f5488938980f86abeb1eb4ed13"
+                        },
+                        "creationDate": "2019-04-25"
+                    }
+                },
+                {
+                    "label": "Race and Partisan Animus.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30854,
+                    "dataFile": {
+                        "id": 7505796,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Race and Partisan Animus.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 267644,
+                        "storageIdentifier": "16a5671182c-2a87f3a41845",
+                        "rootDataFileId": -1,
+                        "md5": "d205fe03f18ac84c52a288983c3dbb4a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d205fe03f18ac84c52a288983c3dbb4a"
+                        },
+                        "creationDate": "2019-04-25"
+                    }
+                },
+                {
+                    "label": "Race and Partisan Animus.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30854,
+                    "dataFile": {
+                        "id": 7505798,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Race and Partisan Animus.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 50014,
+                        "storageIdentifier": "16a56711a7a-bfc03e199ad4",
+                        "rootDataFileId": -1,
+                        "md5": "4a391ad51592a91a19048235fb46b9c4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4a391ad51592a91a19048235fb46b9c4"
+                        },
+                        "creationDate": "2019-04-25"
+                    }
+                },
+                {
+                    "label": "study3_recoded.csv",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30854,
+                    "dataFile": {
+                        "id": 7505799,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "study3_recoded.csv",
+                        "contentType": "text/csv",
+                        "filesize": 1321622,
+                        "storageIdentifier": "16a56711fdc-21a6f2387ba0",
+                        "rootDataFileId": -1,
+                        "md5": "919e27c5fe023b3899900c0a399c86a3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "919e27c5fe023b3899900c0a399c86a3"
+                        },
+                        "creationDate": "2019-04-25"
+                    }
+                }
+            ]
+        }
+    }
+}

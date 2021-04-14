@@ -1,0 +1,637 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/FUC5EW",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2020-05-28",
+        "datasetVersion": {
+            "id": 31509,
+            "storageIdentifier": "file://10.15139/S3/FUC5EW",
+            "versionNumber": 1,
+            "versionMinorNumber": 1,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:lKDlufQBr2ZmihgTu4F0Vw==",
+            "lastUpdateTime": "2020-07-28T16:31:58Z",
+            "releaseTime": "2020-07-28T16:31:58Z",
+            "createTime": "2020-07-28T16:31:43Z",
+            "license": "NONE",
+            "citationRequirements": "In accordance with the norms of the academic and scientific communities, works (publications, presentations or research reports) which use the data from this study should include appropriate citation to the source of the data.",
+            "disclaimer": "Data Disclaimer: Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall Emory University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Data for Placental microRNA Expression Associates with Birthweight through Control of Adipokines: Results from Two Independent Cohorts"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Goehring, Elizabeth"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Burt, Amber"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "amber.anne.burt@emory.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MicroRNAs are non-coding RNAs that regulate gene expression post-transcriptionally. In the placenta, the master regulator of fetal growth and development, microRNAs shape the basic processes of trophoblast biology and specific microRNA have been associated with fetal growth. To comprehensively assess the role of microRNAs in placental function and fetal development, we have performed small RNA sequencing to profile placental microRNAs from two independent mother-infant cohorts: the Rhode Island Child Health Study (n=225) and the New Hampshire Birth Cohort Study (n=317). We modeled microRNA counts on infant birthweight percentile (BWP) in each cohort, while accounting for race, sex, parity and technical factors, using negative binomial generalized linear models."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2020-05-06"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "microRNA"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "birthweight"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory Libraries and Information Technology Services"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.emory.edu/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Burt, Amber"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2020-05-06"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "miR532_predicted_targets.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509874,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "miR532_predicted_targets.RData",
+                        "contentType": "application/gzip",
+                        "filesize": 69385,
+                        "storageIdentifier": "17204f7aee8-c96fb2228456",
+                        "rootDataFileId": -1,
+                        "md5": "f069d0810f1fb57303a99d4865540491",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f069d0810f1fb57303a99d4865540491"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS normalized miRNA data",
+                    "label": "miR.norm.data.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509889,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "miR.norm.data.RData",
+                        "contentType": "application/x-rlang-transport",
+                        "filesize": 840007,
+                        "description": "RICHS normalized miRNA data",
+                        "storageIdentifier": "17205a1721b-0132b73a3e8f",
+                        "rootDataFileId": -1,
+                        "md5": "9221615492a8162665e00f20cb6567ae",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9221615492a8162665e00f20cb6567ae"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS normalized RNASeq data",
+                    "label": "mRNA.norm.data.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509888,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "mRNA.norm.data.RData",
+                        "contentType": "application/x-rlang-transport",
+                        "filesize": 11534581,
+                        "description": "RICHS normalized RNASeq data",
+                        "storageIdentifier": "17205a1644f-f666b0fc3540",
+                        "rootDataFileId": -1,
+                        "md5": "25aff2181766f10bfeff45bf75b459e2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "25aff2181766f10bfeff45bf75b459e2"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "label": "NHBCS_covar.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509877,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NHBCS_covar.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 13105,
+                        "storageIdentifier": "172051453c6-fa6b357364c9",
+                        "originalFileFormat": "application/x-rlang-transport",
+                        "originalFormatLabel": "R Data",
+                        "originalFileSize": 3965,
+                        "UNF": "UNF:6:BMWqbzJ+JYu4mHiV6m7f/w==",
+                        "rootDataFileId": -1,
+                        "md5": "d228470acaae06d9c833ac04d8492e21",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d228470acaae06d9c833ac04d8492e21"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "NHBCS miRNA DESeq analysis script\r\nDESeq2 package available in bioconductor: https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+                    "label": "NHBCS_miR_analysis_2.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Code"
+                    ],
+                    "dataFile": {
+                        "id": 7509879,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NHBCS_miR_analysis_2.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 3564,
+                        "description": "NHBCS miRNA DESeq analysis script\r\nDESeq2 package available in bioconductor: https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+                        "storageIdentifier": "17205758281-5cb2467177a6",
+                        "rootDataFileId": -1,
+                        "md5": "6e9d1ecf6783929656d24f664f11d79b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6e9d1ecf6783929656d24f664f11d79b"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "NHBCS miRNA count data",
+                    "label": "NHBCS_miR_counts.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509897,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NHBCS_miR_counts.RData",
+                        "contentType": "application/x-rlang-transport",
+                        "filesize": 898239,
+                        "description": "NHBCS miRNA count data",
+                        "storageIdentifier": "172063bf3a8-33c6900109ca",
+                        "rootDataFileId": -1,
+                        "md5": "24caa07fef1d35fa013e4eff76fc7b1b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "24caa07fef1d35fa013e4eff76fc7b1b"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "label": "res.LGA.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509891,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "res.LGA.RData",
+                        "contentType": "application/x-rlang-transport",
+                        "filesize": 799214,
+                        "storageIdentifier": "17205a188fc-9722185dd8ef",
+                        "rootDataFileId": -1,
+                        "md5": "163d9842d8e2a169b67d5df3b83291c6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "163d9842d8e2a169b67d5df3b83291c6"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "label": "res.SGA.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509890,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "res.SGA.RData",
+                        "contentType": "application/x-rlang-transport",
+                        "filesize": 807439,
+                        "storageIdentifier": "17205a17df6-604b7ec783d3",
+                        "rootDataFileId": -1,
+                        "md5": "d33a202e47b3dfe200b45c87de3ec759",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d33a202e47b3dfe200b45c87de3ec759"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS miRNA DESeq analysis script\r\nDESeq2 package available in bioconductor: https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+                    "label": "RICHS_miR_analysis_1.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Code"
+                    ],
+                    "dataFile": {
+                        "id": 7509881,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RICHS_miR_analysis_1.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 3996,
+                        "description": "RICHS miRNA DESeq analysis script\r\nDESeq2 package available in bioconductor: https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+                        "storageIdentifier": "172057bafe2-d22e996ab594",
+                        "rootDataFileId": -1,
+                        "md5": "756945edac8b65829c93c22c065ca50f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "756945edac8b65829c93c22c065ca50f"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS miRNA count matrix",
+                    "label": "RICHS_miR_counts.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509882,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RICHS_miR_counts.RData",
+                        "contentType": "application/x-rlang-transport",
+                        "filesize": 509041,
+                        "description": "RICHS miRNA count matrix",
+                        "storageIdentifier": "172057d6cf3-58aed9f1e837",
+                        "rootDataFileId": -1,
+                        "md5": "0c07cc5aade9823bad9b6aa84157cb1d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0c07cc5aade9823bad9b6aa84157cb1d"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS covariates for samples with miRNA count data",
+                    "label": "RICHS_miR_covar.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509898,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RICHS_miR_covar.RData",
+                        "contentType": "application/gzip",
+                        "filesize": 3138,
+                        "description": "RICHS covariates for samples with miRNA count data",
+                        "storageIdentifier": "1720660a69a-246a2821b524",
+                        "rootDataFileId": -1,
+                        "md5": "70a009a8501a6191dbf7d318aeb69849",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "70a009a8501a6191dbf7d318aeb69849"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS miRNA target analysis R script\r\nDESeq2 package available in bioconductor: https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+                    "label": "RICHS_miR_target_analysis_5.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Code"
+                    ],
+                    "dataFile": {
+                        "id": 7509893,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RICHS_miR_target_analysis_5.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 3131,
+                        "description": "RICHS miRNA target analysis R script\r\nDESeq2 package available in bioconductor: https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+                        "storageIdentifier": "17205a18f99-f3ade1a28775",
+                        "rootDataFileId": -1,
+                        "md5": "e7c562db3c744519cb42e4988c251188",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e7c562db3c744519cb42e4988c251188"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS RNASeq analysis R script",
+                    "label": "RICHS_mRNA_analysis_3.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509894,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RICHS_mRNA_analysis_3.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 5768,
+                        "description": "RICHS RNASeq analysis R script",
+                        "storageIdentifier": "17205a193d4-d084cff1bb53",
+                        "rootDataFileId": -1,
+                        "md5": "389299b06b6873ef7ad3a7744b434d5f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "389299b06b6873ef7ad3a7744b434d5f"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS RNASeq count data",
+                    "label": "RICHS_mRNA_counts.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509895,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RICHS_mRNA_counts.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 25378583,
+                        "description": "RICHS RNASeq count data",
+                        "storageIdentifier": "17205a22e6a-3a6c87351ea7",
+                        "originalFileFormat": "application/x-rlang-transport",
+                        "originalFormatLabel": "R Data",
+                        "originalFileSize": 11390361,
+                        "UNF": "UNF:6:1IYtxeq+DIEFaNQTmCqvTA==",
+                        "rootDataFileId": -1,
+                        "md5": "59feed0723da56be36c3a0263b78f50b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "59feed0723da56be36c3a0263b78f50b"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS covar for samples with RNASeq data",
+                    "label": "RICHS_mRNA_covar.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509896,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RICHS_mRNA_covar.RData",
+                        "contentType": "application/gzip",
+                        "filesize": 2326,
+                        "description": "RICHS covar for samples with RNASeq data",
+                        "storageIdentifier": "17205a23353-7b6208b6768e",
+                        "rootDataFileId": -1,
+                        "md5": "4a1f5ebb1a23de773cfd2d52819c855f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4a1f5ebb1a23de773cfd2d52819c855f"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS RNASeq interaction analysis R script",
+                    "label": "RICHS_mRNA_interaction_analysis_6.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Code"
+                    ],
+                    "dataFile": {
+                        "id": 7509887,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RICHS_mRNA_interaction_analysis_6.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 3041,
+                        "description": "RICHS RNASeq interaction analysis R script",
+                        "storageIdentifier": "17205a0c502-0c4507ca7b15",
+                        "rootDataFileId": -1,
+                        "md5": "b3d1668e2f04dd7f2a196946aa29b749",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b3d1668e2f04dd7f2a196946aa29b749"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                },
+                {
+                    "description": "RICHS RNASeq sex stratified analysis R script\r\nDESeq2 package available in bioconductor: https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+                    "label": "RICHS_mRNA_sex_stratified_analysis_4.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31509,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7509892,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RICHS_mRNA_sex_stratified_analysis_4.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 5471,
+                        "description": "RICHS RNASeq sex stratified analysis R script\r\nDESeq2 package available in bioconductor: https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+                        "storageIdentifier": "17205a18af7-bb566623bee5",
+                        "rootDataFileId": -1,
+                        "md5": "a498bcbc31bcb7239d3c2f86e2b55bc4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a498bcbc31bcb7239d3c2f86e2b55bc4"
+                        },
+                        "creationDate": "2020-05-11"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,686 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-LIFESAT",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3403,
+            "storageIdentifier": "file://1902.29/CAPS-LIFESAT",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T18:47:18Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:21:47Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Satisfaction with Life Scale (CAPS-LIFESAT module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-LIFESAT"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-LIFESAT"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This 5-item Satisfaction with Life Scale (SWLS) measures global life satisfaction. The scale has been shown to have high internal consistency and high temporal reliability.</p><p>Scoring information: Create a summary SWLS measure as follows: SWLS=IDEAL+CONDT+STAIS+IMPT+CHANGE. (Range=5-35.)</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Life satisfaction"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Satisfaction, Happiness, Satisfaction with life scale"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Deiner, Ed, Emmons, Robert A., Larsen, Randy J., and Griffin, Sharon. The satisfaction with life scale, Journal of Personality Assessment, 49, 1, 1985, 71-75."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_lifesat_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9572,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lifesat_data",
+                        "contentType": "text/plain",
+                        "filesize": 34320,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lifesat_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lifesat_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9573,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lifesat_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2529,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lifesat_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lifesat_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9564,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lifesat_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 20160,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lifesat_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lifesat_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9558,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lifesat_source",
+                        "contentType": "text/plain",
+                        "filesize": 4035,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lifesat_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lifesat_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9560,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lifesat_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 14596,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lifesat_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_lifesat_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "Data File 1 (caps_1986_lifesat_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9569,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lifesat_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 13024,
+                        "storageIdentifier": "caps_1986_lifesat_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:sn2cs2VHHxVSaAZp42enCQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lifesat_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9568,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lifesat_data",
+                        "contentType": "text/plain",
+                        "filesize": 39000,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lifesat_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lifesat_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9570,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lifesat_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2486,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lifesat_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lifesat_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9561,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lifesat_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 22320,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lifesat_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lifesat_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9559,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lifesat_source",
+                        "contentType": "text/plain",
+                        "filesize": 3743,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lifesat_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lifesat_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9575,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lifesat_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16400,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lifesat_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_lifesat_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "Data File 2 (caps_1987_lifesat_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9562,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lifesat_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14810,
+                        "storageIdentifier": "caps_1987_lifesat_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:0CSdgvYYHaKeJFGJT0qUgg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lifesat_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9571,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lifesat_data",
+                        "contentType": "text/plain",
+                        "filesize": 37830,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lifesat_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lifesat_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9565,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lifesat_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 1703,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lifesat_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lifesat_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9563,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lifesat_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 22720,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lifesat_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lifesat_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9566,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lifesat_source",
+                        "contentType": "text/plain",
+                        "filesize": 4576,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lifesat_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lifesat_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9574,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lifesat_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16072,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lifesat_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_lifesat_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3403,
+                    "categories": [
+                        "Data File 3 (caps_1988_lifesat_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9567,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lifesat_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14356,
+                        "storageIdentifier": "caps_1988_lifesat_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:ek6Vzjz52S+1n9+HwWCqbg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

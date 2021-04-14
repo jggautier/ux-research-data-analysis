@@ -1,0 +1,180 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12312",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-02-02",
+        "datasetVersion": {
+            "id": 163,
+            "storageIdentifier": "file://10.15139/S3/12312",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "5/2/2016 dmg Initial set-up",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-02-02T21:01:35Z",
+            "releaseTime": "2017-02-02T21:01:35Z",
+            "createTime": "2016-05-02T22:15:45Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "[Exp 09] Matthew MCMURRAY's MRI Scan data analyzed by Beatriz PANIAGUA in 2012-13"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Paniagua, Beatriz"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thu-Mai Christian"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odumarchive@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dr. Paniagua analyzed MRI data at UNC from Matt\u2019s animals.  NOTE: These were UNC animals that Matt worked with. They were analyzed with MRI equipment at UNC.    Matt supervised the animals\u2019 MRI scans back in 2010.  The MRI scans were done on the live animals.     The first analyses of these animals was performed by Ipek Oguz in 2011-12.  That analysis resulted in some regions being identified as critical.  These regions were then analyzed manually for more accuracy by Dr. Paniagua\u2019s group."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013-07-26"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "cocaine"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-05-02"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Volume of brain structures in pups live-scanned on  Post-Natal Day 14.",
+                    "label": "b14_01.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 163,
+                    "dataFile": {
+                        "id": 7185836,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "b14_01.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20221,
+                        "description": "Volume of brain structures in pups live-scanned on  Post-Natal Day 14.",
+                        "storageIdentifier": "19549",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:5ZEe+RjmrKd3K1/Y7PCG4g==",
+                        "rootDataFileId": -1,
+                        "md5": "968184e5e7c9659df56fbe32fa7099bc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "968184e5e7c9659df56fbe32fa7099bc"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                },
+                {
+                    "description": "Guide to the data file in this experiment.",
+                    "label": "Beatriz Paniagua`s MRI Codebooks.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 163,
+                    "dataFile": {
+                        "id": 7375047,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Beatriz Paniagua`s MRI Codebooks.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 52486,
+                        "description": "Guide to the data file in this experiment.",
+                        "storageIdentifier": "157d2ba7c04-f0aaf8f6c4c2",
+                        "rootDataFileId": -1,
+                        "md5": "bfa9f1b81da7f6cc6525c15de8764b98",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bfa9f1b81da7f6cc6525c15de8764b98"
+                        },
+                        "creationDate": "2016-10-17"
+                    }
+                }
+            ]
+        }
+    }
+}

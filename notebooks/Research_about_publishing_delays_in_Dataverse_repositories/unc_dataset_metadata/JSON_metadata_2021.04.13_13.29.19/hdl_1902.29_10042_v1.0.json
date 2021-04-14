@@ -1,0 +1,650 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/10042",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-12-18",
+        "datasetVersion": {
+            "id": 1536,
+            "storageIdentifier": "file://1902.29/10042",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "distributionDate": "2008-01-10",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-12-18T16:22:42Z",
+            "releaseTime": "2009-12-18T00:00:00Z",
+            "createTime": "2008-01-10T20:50:10Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Monmouth University New Jersey Poll, Number 5"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-33664"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "NNSP-NJ-MUP-005"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Monmouth University Polling Institute"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Monmouth University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This survey was conducted among residents of New Jersey and primarily addresses issues surrounding the state budget.  Sales tax, Governor John Corzine's job performance, and general demographics are also covered."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2008-01-10"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "New Jersey"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sales tax"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Politics--State"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Budget--State"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Job performance"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: STANDARD DEPOSIT TERMS 1.0 Type: DATAPASS:TERMS:STANDARD:1.0 Notes: This study was deposited under the terms of the Data-PASS standard deposit terms. A copy of the usage agreement is included in the file section of this study.;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Monmouth University Polling Institute"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Monmouth University"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.monmouth.edu/polling/default.as"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.monmouth.edu/polling/images/MU_Polling_logo.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2006"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "West Long Branch, NJ"
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2008-01-10"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2008-01-04"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2006-07-11"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2006-07-13"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "nnsp_jersey_monmouth_codes.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Key to Polls 1-31a, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4333346,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_codes.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 42806,
+                        "description": "",
+                        "storageIdentifier": "3247",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "Data-PASS Deposit Agreement",
+                    "label": "nnsp_jersey_monmouth_deposit.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Deposit Form, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 56515,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_deposit.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 87254,
+                        "description": "Data-PASS Deposit Agreement",
+                        "storageIdentifier": "763",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "State Budget Shenanigans: Plenty of Blame To Go Around According to Monmouth/Gannett Poll",
+                    "label": "nnsp_jersey_monmouth_mup05_press1.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 52761,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_press1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 166850,
+                        "description": "State Budget Shenanigans: Plenty of Blame To Go Around According to Monmouth/Gannett Poll",
+                        "storageIdentifier": "563",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "Senate Race In A Tentative Tie: Menendez Hurt By State Budget, But Bush A Drag On Kean",
+                    "label": "nnsp_jersey_monmouth_mup05_press2.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 52762,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_press2.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 171433,
+                        "description": "Senate Race In A Tentative Tie: Menendez Hurt By State Budget, But Bush A Drag On Kean",
+                        "storageIdentifier": "564",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "Property Tax Solutions: New Jersey Taxpayers Support Consolidation And Shared Services Over Service Cuts & Tax Redistribution",
+                    "label": "nnsp_jersey_monmouth_mup05_press3.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 52764,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_press3.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 169284,
+                        "description": "Property Tax Solutions: New Jersey Taxpayers Support Consolidation And Shared Services Over Service Cuts & Tax Redistribution",
+                        "storageIdentifier": "565",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "Garden State Traffic: New Jerseyans Spend Nearly 2 Hours A Day In Their Cars",
+                    "label": "nnsp_jersey_monmouth_mup05_press4.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 52763,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_press4.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 163626,
+                        "description": "Garden State Traffic: New Jerseyans Spend Nearly 2 Hours A Day In Their Cars",
+                        "storageIdentifier": "566",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "Little Home State Interest In McGreevey Confession: Few Want To Read Former Governor's Autobiography",
+                    "label": "nnsp_jersey_monmouth_mup05_press5.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 52765,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_press5.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 96397,
+                        "description": "Little Home State Interest In McGreevey Confession: Few Want To Read Former Governor's Autobiography",
+                        "storageIdentifier": "567",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "What New Jersey Parents Want In A High School: Small Class Size Triumphs High Test Scores",
+                    "label": "nnsp_jersey_monmouth_mup05_press6.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 52766,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_press6.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 98893,
+                        "description": "What New Jersey Parents Want In A High School: Small Class Size Triumphs High Test Scores",
+                        "storageIdentifier": "568",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_jersey_monmouth_mup05_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Questionnaire, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 52767,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 101920,
+                        "description": "",
+                        "storageIdentifier": "570",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "New Jersey Opinions On School Funding Options",
+                    "label": "nnsp_jersey_monmouth_mup05_report.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Report, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 52769,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_report.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 98490,
+                        "description": "New Jersey Opinions On School Funding Options",
+                        "storageIdentifier": "571",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_jersey_monmouth_mup05_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "SAS Export Library"
+                    ],
+                    "dataFile": {
+                        "id": 52768,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 533360,
+                        "description": "",
+                        "storageIdentifier": "572",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_jersey_monmouth_mup05_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1536,
+                    "categories": [
+                        "Data File (nnsp_jersey_monmouth_mup05_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 52770,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup05_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 150337,
+                        "description": "",
+                        "storageIdentifier": "573",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:13GcmqA4BWBTeRrk2n/Sdg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

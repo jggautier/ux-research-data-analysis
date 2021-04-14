@@ -1,0 +1,1617 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-17558",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 1873,
+            "storageIdentifier": "file://1902.29/D-17558",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T15:39:28Z",
+            "license": "NONE",
+            "termsOfUse": "Citation requirements: <br /><br /> Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data. <br /><br /> Data Disclaimer: <br /><br /> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of the\nse files.",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event s\nhall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Census of Agriculture, 1978 Final File"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-17558"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "U.S. Bureau of the Census"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>\"Data are provided for 1978 and 1974 on farms, farm characteristics, and farm products for all farms and farms with sales of $2,500 or more. Many categories were expanded for the final file, therefore providing more detailed data than were presented in the preliminary file. Data include farm size, value, land use, and major industrial classification of farms. Additional data cover number of farms and value of specific agricultural products sold; selected farm production expenses including spe\ncific energy and petroleum products; agricultural chemicals used; number of farms by number of hired farm workers; availability of selected machinery and equipment and market value of all machinery and equipment; type of farm organization and characteristics of the operator such as age, principal occupation, principal place of residence, and number of days work was done off the farm. A detailed inventory of specified livestock and poultry shows the number of each type of animal, the number of farms handling each type, and related value of sales. Data for the major crops produced in each State and county show the number of farms producing each crop, the number of acres involved in production for a specific crop, and the crop yield. Some data fields contain incorrect data. Corrected data have been appended to the end of the tape. A printout showing the correction records begins on page 133 of the documentation.\"\n</p><p>Data are available for each State and all counties with 10 farms or more</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Farms"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: The universe is all farms. A farm is defined as any place from which $1,000 or more of agricultural products were sold or normally would have been sold during the census year.;Type: ODUM:ACCESS.CATEGORY Notes: I;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bureau of the Census"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1981"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Washington, DC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1978"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Summary Statistics)"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "Codebook, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 14815,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 7763052,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.ct16",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14811,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.ct16",
+                        "contentType": "text/plain",
+                        "filesize": 198100,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.ct16",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.de51",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14788,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.de51",
+                        "contentType": "text/plain",
+                        "filesize": 99050,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.de51",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.ma14",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14805,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.ma14",
+                        "contentType": "text/plain",
+                        "filesize": 277340,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.ma14",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.md52",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14827,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.md52",
+                        "contentType": "text/plain",
+                        "filesize": 495250,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.md52",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.me11",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14793,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.me11",
+                        "contentType": "text/plain",
+                        "filesize": 356580,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.me11",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.nh12",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14813,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.nh12",
+                        "contentType": "text/plain",
+                        "filesize": 237720,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.nh12",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.or92",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14824,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.or92",
+                        "contentType": "text/plain",
+                        "filesize": 752780,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.or92",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.ri15",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14797,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.ri15",
+                        "contentType": "text/plain",
+                        "filesize": 138670,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.ri15",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.vt13",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14798,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.vt13",
+                        "contentType": "text/plain",
+                        "filesize": 316960,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.vt13",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.wa91",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14787,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.wa91",
+                        "contentType": "text/plain",
+                        "filesize": 812210,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.wa91",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.wi35",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14833,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.wi35",
+                        "contentType": "text/plain",
+                        "filesize": 1446130,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.wi35",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs1.wv55",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14830,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs1.wv55",
+                        "contentType": "text/plain",
+                        "filesize": 1089550,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs1.wv55",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs2.ak94",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14826,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs2.ak94",
+                        "contentType": "text/plain",
+                        "filesize": 118860,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs2.ak94",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs2.co84",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14821,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs2.co84",
+                        "contentType": "text/plain",
+                        "filesize": 1228220,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs2.co84",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs2.il33",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14796,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs2.il33",
+                        "contentType": "text/plain",
+                        "filesize": 2060240,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs2.il33",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs2.in32",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14800,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs2.in32",
+                        "contentType": "text/plain",
+                        "filesize": 1862140,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs2.in32",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs2.oh31",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14822,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs2.oh31",
+                        "contentType": "text/plain",
+                        "filesize": 1782900,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs2.oh31",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs2.tn62",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14812,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs2.tn62",
+                        "contentType": "text/plain",
+                        "filesize": 1921570,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs2.tn62",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs2.va54",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14792,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs2.va54",
+                        "contentType": "text/plain",
+                        "filesize": 1961190,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs2.va54",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs2.wy83",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14831,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs2.wy83",
+                        "contentType": "text/plain",
+                        "filesize": 495250,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs2.wy83",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs3.ar71",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14834,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs3.ar71",
+                        "contentType": "text/plain",
+                        "filesize": 1525370,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs3.ar71",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs3.ca93",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14801,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs3.ca93",
+                        "contentType": "text/plain",
+                        "filesize": 1148980,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs3.ca93",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs3.id82",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14814,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs3.id82",
+                        "contentType": "text/plain",
+                        "filesize": 911260,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs3.id82",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs3.ky61",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14828,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs3.ky61",
+                        "contentType": "text/plain",
+                        "filesize": 2416820,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs3.ky61",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs3.mi34",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14807,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs3.mi34",
+                        "contentType": "text/plain",
+                        "filesize": 1664040,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs3.mi34",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs3.mo43",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14816,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs3.mo43",
+                        "contentType": "text/plain",
+                        "filesize": 2297960,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs3.mo43",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs3.nj22",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14837,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs3.nj22",
+                        "contentType": "text/plain",
+                        "filesize": 435820,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs3.nj22",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs3.ny21",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14825,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs3.ny21",
+                        "contentType": "text/plain",
+                        "filesize": 1188600,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs3.ny21",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.az86",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14791,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.az86",
+                        "contentType": "text/plain",
+                        "filesize": 316960,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.az86",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.fl59",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14799,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.fl59",
+                        "contentType": "text/plain",
+                        "filesize": 1347080,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.fl59",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.ks47",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14795,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.ks47",
+                        "contentType": "text/plain",
+                        "filesize": 2119670,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.ks47",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.mt81",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14808,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.mt81",
+                        "contentType": "text/plain",
+                        "filesize": 1148980,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.mt81",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.nc56",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14789,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.nc56",
+                        "contentType": "text/plain",
+                        "filesize": 2000810,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.nc56",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.ne46",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14820,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.ne46",
+                        "contentType": "text/plain",
+                        "filesize": 1881950,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.ne46",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.nm85",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14818,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.nm85",
+                        "contentType": "text/plain",
+                        "filesize": 653730,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.nm85",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.nv88",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14835,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.nv88",
+                        "contentType": "text/plain",
+                        "filesize": 356580,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.nv88",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.ok73",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14809,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.ok73",
+                        "contentType": "text/plain",
+                        "filesize": 1564990,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.ok73",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs4.tx74",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14794,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs4.tx74",
+                        "contentType": "text/plain",
+                        "filesize": 5071360,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs4.tx74",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.al63",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14806,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.al63",
+                        "contentType": "text/plain",
+                        "filesize": 1366890,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.al63",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.ga58",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14819,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.ga58",
+                        "contentType": "text/plain",
+                        "filesize": 3189410,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.ga58",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.hi95",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14829,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.hi95",
+                        "contentType": "text/plain",
+                        "filesize": 99050,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.hi95",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.ia42",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14802,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.ia42",
+                        "contentType": "text/plain",
+                        "filesize": 2000810,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.ia42",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.la72",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14832,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.la72",
+                        "contentType": "text/plain",
+                        "filesize": 1287650,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.la72",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.mn41",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14804,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.mn41",
+                        "contentType": "text/plain",
+                        "filesize": 1743280,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.mn41",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.ms64",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14810,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.ms64",
+                        "contentType": "text/plain",
+                        "filesize": 1664040,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.ms64",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.nd44",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14823,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.nd44",
+                        "contentType": "text/plain",
+                        "filesize": 1089550,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.nd44",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.pa23",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14817,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.pa23",
+                        "contentType": "text/plain",
+                        "filesize": 1347080,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.pa23",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.sc57",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14790,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.sc57",
+                        "contentType": "text/plain",
+                        "filesize": 950880,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.sc57",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.sd45",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14836,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.sd45",
+                        "contentType": "text/plain",
+                        "filesize": 1366890,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.sd45",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag78_fs5.ut87",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1873,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14803,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag78_fs5.ut87",
+                        "contentType": "text/plain",
+                        "filesize": 614110,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag78_fs5.ut87",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

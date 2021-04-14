@@ -1,0 +1,623 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-2631",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 2593,
+            "storageIdentifier": "file://1902.29/H-2631",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T17:04:10Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 1977 Consumer Survey, study no. 2631"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-2631"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 2631"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>Study examines public opinion about consumerism and public service organizations.</p><p>Questions include affects of consumer movement, product quality and safety, government regulation of business.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "National priorities"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Product safety"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Consumer movement"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Hopes and fears"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public services"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social systems"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Harris used a random multi-stage cluster sampling design to obtain a national cross-section sample of the U.S. population 18 years and over. A cross-section sample of national leaders was also collected. Attitudes on various topics were collected by questionnaire in a face- to-face interview; \"U.S. adults 18 years and over; National leaders\";Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: H-2631;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1977-01"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris Data Center, University of North Carolina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_s2631_leaders_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "Column Binary File -- Leaders"
+                    ],
+                    "dataFile": {
+                        "id": 31544,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_leaders_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 250560,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_leaders_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2631_leaders_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "Questionnaire, PDF File -- Leaders"
+                    ],
+                    "dataFile": {
+                        "id": 31534,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_leaders_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 789960,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_leaders_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2631_leaders_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "SAS Code -- Leaders"
+                    ],
+                    "dataFile": {
+                        "id": 31543,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_leaders_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 62814,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_leaders_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2631_leaders_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "SAS Export Library -- Leaders"
+                    ],
+                    "dataFile": {
+                        "id": 31541,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_leaders_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 404480,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_leaders_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2631_leaders_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "SPSS Portable File -- Leaders"
+                    ],
+                    "dataFile": {
+                        "id": 31545,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_leaders_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 247536,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_leaders_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s2631_leaders_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "Data File 1 (harris_s2631_leaders_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 31536,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_leaders_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 226108,
+                        "storageIdentifier": "harris_s2631_leaders_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 247536,
+                        "UNF": "UNF:3:SplQczDG4WVorleedMWM7w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2631_public_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "Column Binary File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 31539,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_public_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 1449600,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_public_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2631_public_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "Questionnaire, PDF File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 31537,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_public_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1220430,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_public_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2631_public_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "SAS Code -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 31542,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_public_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 129796,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_public_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2631_public_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "SAS Export Library -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 31535,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_public_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 6326640,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_public_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2631_public_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "SPSS Portable File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 31540,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_public_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 1642296,
+                        "description": "",
+                        "storageIdentifier": "harris_s2631_public_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s2631_public_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2593,
+                    "categories": [
+                        "Data File 2 (harris_s2631_public_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 31538,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2631_public_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1573902,
+                        "storageIdentifier": "harris_s2631_public_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 1642296,
+                        "UNF": "UNF:3:3/KKTtlwYtf1fu4RHL8Ypg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

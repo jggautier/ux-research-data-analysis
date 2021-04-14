@@ -1,0 +1,206 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/1VJGUY",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-01-28",
+        "datasetVersion": {
+            "id": 30736,
+            "storageIdentifier": "file://10.15139/S3/1VJGUY",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2019-01-28T15:58:58Z",
+            "releaseTime": "2019-01-28T15:58:58Z",
+            "createTime": "2019-01-07T21:13:56Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "U.S. EPA NEI version 2 Modeling Platform v7.2"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Baek, Bok. H."
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Baek, B. H."
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "bbaek@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "U.S. EPA National Emissions Inventory. 2014 Modeling Platform version 7.2\r\n\r\nThese packages contain the CMAQ-ready, gridded, speciated hourly emissions files for 2014 including 15 days of spinup days.\r\n\r\nThe case name for these SMOKE output files is \"2014fa_nata_cb6cmaq_14j\", which serves as the basis of EPA's 2014v7.0 platform for air quality modeling for the National\r\nAir Toxics Assessment (NATA). CMAQ model-ready emissions generated using these packages with SMOKE v4.5 should be identical to those used in EPA's 2014v7.0 platform. The detail information regarding to all the inventories, ancillary files and run scripts from the NEIv2 Platform package v7.2 is available from EPA's Clearinghouse of for Inventories and Emission Factors (CHIEF) site."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2019-01-07"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Earth and Environmental Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emissions"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "NEI"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.epa.gov/chief"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://doi.org/10.5281/zenodo.1421403"
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.cmascenter.org/smoke/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "language",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "English"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Baek, Bok Haeng"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-01-07"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Gdrive instruction to download all files from CMAS Data Warehouse Website",
+                    "label": "run_download_NEI_emissions_2014_cb6 .csh",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30736,
+                    "dataFile": {
+                        "id": 7504755,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "run_download_NEI_emissions_2014_cb6 .csh",
+                        "contentType": "application/x-csh",
+                        "filesize": 787,
+                        "description": "Gdrive instruction to download all files from CMAS Data Warehouse Website",
+                        "storageIdentifier": "1682a29d787-a66486fda9e6",
+                        "rootDataFileId": -1,
+                        "md5": "d67d08c340fb9c86feea34b6367d59e9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d67d08c340fb9c86feea34b6367d59e9"
+                        },
+                        "creationDate": "2019-01-07"
+                    }
+                }
+            ]
+        }
+    }
+}

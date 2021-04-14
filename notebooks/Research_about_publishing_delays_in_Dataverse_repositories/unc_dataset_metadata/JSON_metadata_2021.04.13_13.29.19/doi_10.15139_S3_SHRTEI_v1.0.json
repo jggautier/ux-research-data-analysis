@@ -1,0 +1,227 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/SHRTEI",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2018-04-26",
+        "datasetVersion": {
+            "id": 30512,
+            "storageIdentifier": "file://10.15139/S3/SHRTEI",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:nkP49BHU+DNVpdbDs8MKEg==",
+            "lastUpdateTime": "2018-04-27T03:49:16Z",
+            "releaseTime": "2018-04-27T03:49:16Z",
+            "createTime": "2018-04-27T03:46:07Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Will Patton Replication Project "
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Patton, William"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Patton, William"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "willpat@live.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Replication Data for POLI 784"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Hassell, Hans. \"Party Control of Party Primaries: Party Influence in Nominations for the U.S. Senate.\" The Journal of Politics, vol. 78, no. 1"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Patton, William"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2018-04-26"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "Data .tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30512,
+                    "dataFile": {
+                        "id": 7503087,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Data .tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 482054,
+                        "storageIdentifier": "163053304bc-d506cd3633e1",
+                        "originalFileFormat": "application/x-rlang-transport",
+                        "originalFormatLabel": "R Data",
+                        "UNF": "UNF:6:nkP49BHU+DNVpdbDs8MKEg==",
+                        "rootDataFileId": -1,
+                        "md5": "1c8539de096196bb9df6732493940546",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1c8539de096196bb9df6732493940546"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "Party Control of Primaries Replication Article",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30512,
+                    "dataFile": {
+                        "id": 7503090,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Party Control of Primaries Replication Article",
+                        "contentType": "application/pdf",
+                        "filesize": 1016836,
+                        "storageIdentifier": "16305337388-c0e38b166a82",
+                        "rootDataFileId": -1,
+                        "md5": "8c9dc24452e695c1b460c2275c3fc429",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8c9dc24452e695c1b460c2275c3fc429"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "Replication Code",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30512,
+                    "dataFile": {
+                        "id": 7503088,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Replication Code",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 10457,
+                        "storageIdentifier": "163053281c4-848dcd7c01c4",
+                        "rootDataFileId": -1,
+                        "md5": "d8ca30c8d9fc2ac7c28ad0fa3b6b32d0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d8ca30c8d9fc2ac7c28ad0fa3b6b32d0"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "Replication Final Paper",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30512,
+                    "dataFile": {
+                        "id": 7503089,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Replication Final Paper",
+                        "contentType": "application/pdf",
+                        "filesize": 175690,
+                        "storageIdentifier": "1630532a8f4-a2f80bc49fa3",
+                        "rootDataFileId": -1,
+                        "md5": "d6011c40de1a45f4b92714bbfcd1324b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d6011c40de1a45f4b92714bbfcd1324b"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                }
+            ]
+        }
+    }
+}

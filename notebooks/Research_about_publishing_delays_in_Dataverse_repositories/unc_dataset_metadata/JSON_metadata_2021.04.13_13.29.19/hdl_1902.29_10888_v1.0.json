@@ -1,0 +1,262 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/10888",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2011-12-22",
+        "datasetVersion": {
+            "id": 198,
+            "storageIdentifier": "file://1902.29/10888",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "This is an initial pass at setting up a study. The details are too fuzzy to fill in yet but will need to be addressed by a variety of people (Paula & Martha) at a later time.  There are both SPSS & CSV files in the set.",
+            "distributionDate": "2011",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2011-12-22T22:59:43Z",
+            "releaseTime": "2011-12-22T00:00:00Z",
+            "createTime": "2011-12-22T19:56:52Z",
+            "license": "NONE",
+            "citationRequirements": "tbd",
+            "contactForAccess": "Martha Larson",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication data for: Carleton Campus Energy and Sustainability data"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Martha Larson"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Manager of Campus Energy and Sustainability"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Martha Larson"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carleton College"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This study set includes any applicable data from Campus Energy and Sustainability resources. The initial set was harvested from an array of idiosyncratic spreadsheets stored in a folder on a network folder shared by a variety of people in Facilities.   The data were harvested/extracted/recovered by Jie Lin '14\n& Daniel Alabi '14 during winter break 2011. (As supervised by Paula Lackie & Martha Larson.)"
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2011-12-21"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Internally generated, managed & analyzed."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2011"
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2011"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2011-12-22"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2001"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2011"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1996"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2011"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "CSV output from various campus energy data management sensors"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicUnit",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Carleton College"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "first trial data dump from \"energy data\" database.  17 buildings; gas, steam, oil, water, plus wind turbine 1 (which is in the building \"campus\"), facilities blgd, steam plant. Electricity has a separate entry for Burton dining hall.   ",
+                    "label": "Fiscal2011.csv",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 198,
+                    "categories": [
+                        "buildings2011"
+                    ],
+                    "dataFile": {
+                        "id": 7001260,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Fiscal2011.csv",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 9847380,
+                        "description": "first trial data dump from \"energy data\" database.  17 buildings; gas, steam, oil, water, plus wind turbine 1 (which is in the building \"campus\"), facilities blgd, steam plant. Electricity has a separate entry for Burton dining hall.   ",
+                        "storageIdentifier": "4004",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "This is an upload of a rudimentary SPSS v15 file. The variables include  what was available as of Dec 22, 2011. ",
+                    "label": "Fiscal2011.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 198,
+                    "categories": [
+                        "Buildings2011"
+                    ],
+                    "dataFile": {
+                        "id": 7001261,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Fiscal2011.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 9767173,
+                        "description": "This is an upload of a rudimentary SPSS v15 file. The variables include  what was available as of Dec 22, 2011. ",
+                        "storageIdentifier": "4005",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "UNF": "UNF:5:2pa4XFVVAI373SrrCIz9jA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

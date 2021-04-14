@@ -1,0 +1,170 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/RZPB1Z",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-07-25",
+        "datasetVersion": {
+            "id": 30792,
+            "storageIdentifier": "file://10.15139/S3/RZPB1Z",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2019-07-25T19:45:40Z",
+            "releaseTime": "2019-07-25T19:45:40Z",
+            "createTime": "2019-03-11T19:48:13Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "MCIP Model Version 4.3 Output Data -- 5/2015-9/2015 Northeast US_4km"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "EPA"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ORD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Spero, Tanya"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "National Exposure Research Laboratory, Environmental Protection Agency"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "spero.tanya@epa.gov"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h2>Data Summary:</h2>\r\nMCIPv4.3 output data from a May to September 2015 simulation over the Northeast US based on WRFv3.8.<strong>Note:The datasets are on a Google Drive. The metadata associated with this DOI contain the link to the Google Drive folder and instructions for downloading the data.</strong>\r\n\r\n<h2>File Location and Download Instructions:</h2>\r\n<ul><li><strong><a href=\"https://drive.google.com/drive/folders/13p0MogqckF0TsM-MrpSbezTEFqJCRgaL \"> Link to MCIP Output Files</a></li><li><a href=\"https://docs.google.com/document/d/1e7B94zFkbKygVWfrhGwEZL51jF4fGXGXZbvi6KzXYQ4/edit\">Download instructions</a></strong></li></ul> \r\n\r\n<h2>File Format:</h2>The 2015 model output are stored as netcdf formatted files using I/O API data structures <a href=\"https://www.cmascenter.org/ioapi/\">(https://www.cmascenter.org/ioapi/)</a>. Information on the model projection and grid structure is contained in the header information of the netcdf file.  The output files can be opened and manipulated using I/O API utilities (e.g. M3XTRACT, M3WNDW) or other software programs that can read and write netcdf formatted files (e.g. Fortran, R, Python).<br> \r\n"
+                                    }
+                                },
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h2>Simulation Settings and Inputs</h2>\r\n<h3>MCIP</h3>\r\n<ul><li>MCIP Version: Meteorology-Chemistry Interface Processor, version 4.3</li></ul><br>\r\n\r\n<h3>WRF Inputs</h3>\r\n<ul><li>WRF Model: Weather Research Forecast model, version 3.8 (WRF v3.8) simulated meteorology for 2015.</li> \r\nLand Cover: 2011 National Land Cover Database (NLCD) \r\n<li>Data assimilation: based on version-2 four-dimensional data assimilation (FDDA) with no nudging in the planetary boundary layer and used blended 3-hourly reanalysis fields (combination of 3-hour Meteorological Assimilation Data Ingest System (MADIS) data and intermediate 12km North American Mesoscale Model (NAM) 3-hour forecast)</li> \r\n<li>ptop=50 hPa</li>\r\n<li>WRF v3.8 parameters</li>\r\n - Morrison double-moment microphysics<br>\r\n- RRTMG longwave and shortwave radiation<br>\r\n-Kain Fritsch with kfeta_trigger = 2 Ma and Tan (2009) trigger;<br> \r\n-NLCD woody wetlands land use category recognized (wetlands-100) \u2013 part of v3.8 (not a separate option)<br> \r\n-Pleim-Xiu land-surface model and surface layer/ ACM2 PBL<br>\r\n<li>Vertical Resolution: 35 layers from the surface to the top of the free troposphere with layer 1 nominally 19 m tall.</li></ul>\r\n"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Earth and Environmental Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2015"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Simulation Year"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MCIPv4.3"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MCIP"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Meteorology-Chemistry Interface Processor"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Boykin, Randa"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-03-11"
+                        }
+                    ]
+                }
+            },
+            "files": []
+        }
+    }
+}

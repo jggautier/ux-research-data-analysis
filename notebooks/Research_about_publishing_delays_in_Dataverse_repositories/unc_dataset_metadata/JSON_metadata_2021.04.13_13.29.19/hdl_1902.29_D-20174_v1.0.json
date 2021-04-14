@@ -1,0 +1,766 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-20174",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 4731,
+            "storageIdentifier": "file://1902.29/D-20174",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T15:45:15Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shal\nl the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Southern Focus Poll, Fall 1992"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-20174"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Southern Focus Poll, Fall 1992"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Center for the Study of the American South"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science, University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This is the second in a series of polls dealing with the region of the South. Questions were asked about political orientation and party and candidate preferences. Additional questions included church attendance and religious affiliation, images of the Southern woman, grits, Kentucky Derby, mint julep, Southern Living Magazine, interest in the South, integration/segregation, feminism, women's issues, government spending, and pornography.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Consumer attitudes and behavior"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Economy"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "South"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "North"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Regionalism"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Southern culture"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Racial issues"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Women's issues"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: This survey used two random digit dialing samples producing Southern and nonsouthern numbers. The target population was adults age 18 or older, residing in households with telephones in the United States.;Type: ODUM:ACCESS.CATEGORY Notes: II;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Center for the Study of the American South"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.uncsouth.org/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1992"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1992-09-09"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1992-10-29"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas and Virginia, South"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "southern_focus_counties.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "County and State FIPS Codes, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 15482,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_counties.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 136590,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_counties.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_fall92.cdbk",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "Machine-readable Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 15476,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_fall92.cdbk",
+                        "contentType": "text/plain",
+                        "filesize": 65577,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_fall92.cdbk",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_freqs.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "Frequencies, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 15486,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_freqs.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1065410,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_freqs.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_nonsouth_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "SAS Export File, Non South"
+                    ],
+                    "dataFile": {
+                        "id": 15475,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_nonsouth_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 763360,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_nonsouth_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_nonsouth_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "SPSS Portable File, Non South"
+                    ],
+                    "dataFile": {
+                        "id": 15483,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_nonsouth_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 215865,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_nonsouth_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "southern_focus_fall92_nonsouth_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "Data File 1 (southern_focus_fall92_nonsouth_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 15480,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_nonsouth_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 227956,
+                        "storageIdentifier": "southern_focus_fall92_nonsouth_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 215865,
+                        "UNF": "UNF:3:T2Y6Tw0BDqHXc5rZYb/hvQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_nonsouth_xtabs.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "Crosstabulations, PDF File, Nonsouth"
+                    ],
+                    "dataFile": {
+                        "id": 15477,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_nonsouth_xtabs.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2996351,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_nonsouth_xtabs.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_openends.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "Open Ended Answers -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 15488,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_openends.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1554278,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_openends.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "Questionnaire, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 15481,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 721914,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_south_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "SAS Export File, South"
+                    ],
+                    "dataFile": {
+                        "id": 15487,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_south_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 1236560,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_south_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_south_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "SPSS Portable File, South"
+                    ],
+                    "dataFile": {
+                        "id": 15484,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_south_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 351297,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_south_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "southern_focus_fall92_south_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "Data File 2 (southern_focus_fall92_south_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 15478,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_south_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 380937,
+                        "storageIdentifier": "southern_focus_fall92_south_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:SZQdCFw3DLbRpNyn4Kl9yw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_south_xtabs.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "Crosstabulations, PDF File, South"
+                    ],
+                    "dataFile": {
+                        "id": 15479,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_south_xtabs.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3177015,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_south_xtabs.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "southern_focus_fall92_studydoc.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4731,
+                    "categories": [
+                        "Study Documentation, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 15485,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "southern_focus_fall92_studydoc.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 308150,
+                        "description": "",
+                        "storageIdentifier": "southern_focus_fall92_studydoc.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

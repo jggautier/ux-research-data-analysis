@@ -1,0 +1,442 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/6ILDLJ",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2020-10-23",
+        "datasetVersion": {
+            "id": 31587,
+            "storageIdentifier": "file://10.15139/S3/6ILDLJ",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2020-10-23T14:31:04Z",
+            "releaseTime": "2020-10-23T14:31:04Z",
+            "createTime": "2020-10-12T20:10:29Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "SPURS-1 ROMS 1-Jan-2012 - 31-Dec-2012"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Li, Zhijin"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "California Institute of Technology, Jet Propulsion Lab"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    },
+                                    "authorIdentifier": {
+                                        "typeName": "authorIdentifier",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "0000-0003-1879-7866"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bingham, Frederick"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina Wilmington"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "binghamf@uncw.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "These files contain output from the ROMS model for the subtropical North Atlantic, 1-Jan-2012 - 31-Dec-2012. There are 4 files, the first one is for 1-Jan - 31-March, the second is for 1-Apr - 30-June, etc. The variables in the files are salinity (s_da, in psu), temperature (t_da, in degC), eastward velocity (u_da, in m/s), northward velocity (v_da, in m/s),vertical velocity (w_da, in m/s) and vorticity (s^-1). The spurs_grd.nc.1 file contains the grid on which horizontal velocity components u and v and density / salinity are computed. Files in this folder are compressed. Uncompressed files are in netCDF format. The vertical grid levels (in reverse order) for the model files are\r\n\r\n% p_roms = [0., 5., 10., 15., 20., 25., 30., 35., 40., 45., ...\r\n%                  50.,  55.,  60.,  70.,  80., ...\r\n%                  90.,  100., 115., 135., 155., ...\r\n%                  180., 210., 250., 300., 360., ...\r\n%                  430., 510., 600., 700., 810., 930., 1060];"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Earth and Environmental Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "EARTH SCIENCE > OCEANS > SALINITY/DENSITY > SALINITY"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://earthdata.nasa.gov/earth-observation-data/find-data/gcmd"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bingham, F.M., P. Li, Z. Li, Q. Vu, and Y. Chao. 2015. Data management support for the SPURS Atlantic field campaign. Oceanography 28(1):46\u201355, doi:10.5670/oceanog.2015.13"
+                                    },
+                                    "publicationIDType": {
+                                        "typeName": "publicationIDType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "doi"
+                                    },
+                                    "publicationIDNumber": {
+                                        "typeName": "publicationIDNumber",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "10.5670/oceanog.2015.13"
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://doi.org/10.5670/oceanog.2015.13"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Li, Zhijin"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "California Institute of Technology, Jet Propulsion Lab"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "NASA / JPL"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.jpl.nasa.gov/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "contributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "contributorType": {
+                                        "typeName": "contributorType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "Researcher"
+                                    },
+                                    "contributorName": {
+                                        "typeName": "contributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Li, Zhijin"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Bingham, Frederick"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2020-10-12"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2012-01-01"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2012-12-31"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Model output"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "North Atlantic Ocean"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "geographicBoundingBox",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "westLongitude": {
+                                        "typeName": "westLongitude",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "-41.7"
+                                    },
+                                    "eastLongitude": {
+                                        "typeName": "eastLongitude",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "-32.6"
+                                    },
+                                    "northLongitude": {
+                                        "typeName": "northLongitude",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "28.3"
+                                    },
+                                    "southLongitude": {
+                                        "typeName": "southLongitude",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "20.3"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "SPURS-1_ROMS1.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31587,
+                    "dataFile": {
+                        "id": 7513167,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SPURS-1_ROMS1.zip",
+                        "contentType": "application/zip",
+                        "filesize": 8743346763,
+                        "description": "",
+                        "storageIdentifier": "1752843643b-64d1ea800660",
+                        "rootDataFileId": -1,
+                        "md5": "68f67a2e20a2f59a6436f015afe5d1bc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "68f67a2e20a2f59a6436f015afe5d1bc"
+                        },
+                        "creationDate": "2020-10-14"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "SPURS-1_ROMS2.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31587,
+                    "dataFile": {
+                        "id": 7513168,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SPURS-1_ROMS2.zip",
+                        "contentType": "application/zip",
+                        "filesize": 8737779707,
+                        "description": "",
+                        "storageIdentifier": "175284868be-2e32d925f186",
+                        "rootDataFileId": -1,
+                        "md5": "1d37cad07c5e9572795c48d495f53c75",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1d37cad07c5e9572795c48d495f53c75"
+                        },
+                        "creationDate": "2020-10-14"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "SPURS-1_ROMS3.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31587,
+                    "dataFile": {
+                        "id": 7513169,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SPURS-1_ROMS3.zip",
+                        "contentType": "application/zip",
+                        "filesize": 8828054584,
+                        "description": "",
+                        "storageIdentifier": "175284ea544-819e84a22746",
+                        "rootDataFileId": -1,
+                        "md5": "24a6952510a2ffbaa2214fa82c7f7e32",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "24a6952510a2ffbaa2214fa82c7f7e32"
+                        },
+                        "creationDate": "2020-10-14"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "SPURS-1_ROMS4.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31587,
+                    "dataFile": {
+                        "id": 7513170,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SPURS-1_ROMS4.zip",
+                        "contentType": "application/zip",
+                        "filesize": 8832642727,
+                        "description": "",
+                        "storageIdentifier": "17528552981-504bbd12e3a6",
+                        "rootDataFileId": -1,
+                        "md5": "f76c3d8c8624962800ba2973a1501040",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f76c3d8c8624962800ba2973a1501040"
+                        },
+                        "creationDate": "2020-10-14"
+                    }
+                },
+                {
+                    "description": "This file describes the grid for the model output in this dataverse. It is in netCDF format.",
+                    "label": "spurs_grd.nc.1",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 31587,
+                    "dataFile": {
+                        "id": 7513173,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "spurs_grd.nc.1",
+                        "contentType": "application/octet-stream",
+                        "filesize": 20276288,
+                        "description": "This file describes the grid for the model output in this dataverse. It is in netCDF format.",
+                        "storageIdentifier": "1752894b99d-008e8911d409",
+                        "rootDataFileId": -1,
+                        "md5": "69fe49dd969d69fa119f6673b3312749",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "69fe49dd969d69fa119f6673b3312749"
+                        },
+                        "creationDate": "2020-10-14"
+                    }
+                }
+            ]
+        }
+    }
+}

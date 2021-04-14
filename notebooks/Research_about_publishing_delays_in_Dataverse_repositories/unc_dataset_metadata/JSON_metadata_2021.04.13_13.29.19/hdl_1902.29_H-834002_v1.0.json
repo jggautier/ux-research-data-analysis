@@ -1,0 +1,860 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-834002",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2008-05-21",
+        "datasetVersion": {
+            "id": 2833,
+            "storageIdentifier": "file://1902.29/H-834002",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "distributionDate": "1985",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2008-05-21T14:05:01Z",
+            "releaseTime": "2008-05-21T00:00:00Z",
+            "createTime": "2007-08-29T14:53:00Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 1983 Health Care Benefits Survey, study no. 834002"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-834002"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 834002"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:study"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "74-01-834002-HARRIS-84"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This survey focuses on the American health system and includes questions on the quality of health care, the availability of health care, health insurance, hospital care and prescription drugs. There are 6 discrete samples: physicians, employers, unions, hospital administrators, insurance executives, and cross-section of the American public</p><p>Additional variables include amount family spent on health care, on health insurance, increases in health care costs, changes to Medicare and Medicai\nd costs and services, and overall changes to U.S. health care costs.\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health care"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health insurance"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Medicaid"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Medicare"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Prescription drugs"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Elder care"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Harris telephone surveys use a form of random digit dialing. Interviewers are usually given the first five digits of a series of randomly selected residential telephone numbers that have previously been stratified by geographic locations, including minor civil divisions. The interviewers then add two randomly generated digits to complete a new seven-digit number;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: H-8340-02;Type: ODUM:NOTES.CONTENTS Notes: Cross-section (526 logical records) -- Physicians (100 logical records) -- Employers (250 logical records) -- Unions (26 logical records) -- Hospital administrators (100 logical records) -- Insurance executives (50 logical records);"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1983-03"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris Data Center"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1985"
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (survey)"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_s834002_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Column Binary File"
+                    ],
+                    "dataFile": {
+                        "id": 25647,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 252480,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_employ_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Questionnaire, PDF File -- Employers/Unions"
+                    ],
+                    "dataFile": {
+                        "id": 25639,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_employ_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 785894,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_employ_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_employ_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "SAS Code -- Employers/Unions"
+                    ],
+                    "dataFile": {
+                        "id": 25633,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_employ_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 41159,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_employ_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_employ_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "SAS Export Library -- Employers/Unions"
+                    ],
+                    "dataFile": {
+                        "id": 56853,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_employ_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 336160,
+                        "description": "",
+                        "storageIdentifier": "840",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_employ_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Data File -- Employers/Unions (harris_s834002_employ_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 56854,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_employ_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 75669,
+                        "description": "",
+                        "storageIdentifier": "841",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 89626,
+                        "UNF": "UNF:3:I36dDrZKZ5ApcckEmW7WVA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_hosp_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Questionnaire, PDF File -- Hospital Administrators/Insurance Executives"
+                    ],
+                    "dataFile": {
+                        "id": 25642,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_hosp_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 624305,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_hosp_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_hosp_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "SAS Code -- Hospital Administrators/Insurance Executives"
+                    ],
+                    "dataFile": {
+                        "id": 25644,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_hosp_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 31382,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_hosp_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_hosp_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "SAS Export Library -- Hospital Administrators/Insurance Executives"
+                    ],
+                    "dataFile": {
+                        "id": 56855,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_hosp_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 158160,
+                        "description": "",
+                        "storageIdentifier": "842",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_hosp_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Data File -- Hospital Administrators/Insurance Executives (harris_s834002_hosp_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 56856,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_hosp_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 33045,
+                        "description": "",
+                        "storageIdentifier": "843",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 43624,
+                        "UNF": "UNF:3:LwZourJBgJX8B9Ks2wR7Hw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_phy_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Questionnaire, PDF File -- Physicians"
+                    ],
+                    "dataFile": {
+                        "id": 25626,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_phy_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 719205,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_phy_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_phy_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "SAS Code -- Physicians"
+                    ],
+                    "dataFile": {
+                        "id": 25638,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_phy_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 36045,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_phy_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_phy_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "SAS Export Library -- Physicians"
+                    ],
+                    "dataFile": {
+                        "id": 56857,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_phy_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 125440,
+                        "description": "",
+                        "storageIdentifier": "844",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_phy_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Data File  -- Physicians (harris_s834002_phy_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 56858,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_phy_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21867,
+                        "description": "",
+                        "storageIdentifier": "845",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 35178,
+                        "UNF": "UNF:3:yOHTKzI7QY6vuUMyMwOwQQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_public_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Column Binary File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 25645,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_public_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 720480,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_public_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_public_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Questionnaire, PDF File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 25637,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_public_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 718091,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_public_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_public_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "SAS Code -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 25627,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_public_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 39655,
+                        "description": "",
+                        "storageIdentifier": "harris_s834002_public_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_public_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "SAS Export Library -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 57057,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_public_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 1506480,
+                        "description": "",
+                        "storageIdentifier": "858",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s834002_public_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2833,
+                    "categories": [
+                        "Data File -- Public (harris_s834002_public_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 57058,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s834002_public_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 377131,
+                        "description": "",
+                        "storageIdentifier": "859",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 388270,
+                        "UNF": "UNF:3:1gvNdoxvfb4SsNiZVvZ4LQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

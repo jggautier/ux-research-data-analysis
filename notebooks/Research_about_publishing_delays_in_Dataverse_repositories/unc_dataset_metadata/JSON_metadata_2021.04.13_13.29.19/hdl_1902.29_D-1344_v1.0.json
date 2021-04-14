@@ -1,0 +1,679 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-1344",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 1813,
+            "storageIdentifier": "file://1902.29/D-1344",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T15:29:19Z",
+            "license": "NONE",
+            "termsOfUse": "Citation requirements: <br /><br /> Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data. <br /><br /> Data Disclaimer: <br /><br /> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of the\nse files.",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "International radio project"
+                        },
+                        {
+                            "typeName": "subtitle",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "middle east study"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-1344"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bureau of Applied Research, Columbia University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Columbia University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This survey done in the early 1950's records radio listening habits in the middle east.</p><p>Variables include: radio programs, foreign news, movies, newspapers, foreign channels of communication, perceptions of other countries.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Radio programs--Near East"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Undeveloped areas--Communication"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Media"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cross-national studies"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Type: ODUM:NOTES.CONTENTS Notes: file 1. Greece -- file 2. Turkey -- file 3. Syria -- file 4. Lebanon -- file 5. Jordan -- file 6. Iran -- file 7. Egypt;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bureau of Applied Research, Columbia University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1951"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "basr_cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Master Codebook, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 13092,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1231208,
+                        "description": "",
+                        "storageIdentifier": "basr_cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_egypt.cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Codebook, PDF File, Egypt"
+                    ],
+                    "dataFile": {
+                        "id": 13093,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_egypt.cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 777758,
+                        "description": "",
+                        "storageIdentifier": "basr_egypt.cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_egypt.colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Data, Column Binary, Egypt"
+                    ],
+                    "dataFile": {
+                        "id": 13087,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_egypt.colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 52960,
+                        "description": "",
+                        "storageIdentifier": "basr_egypt.colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_greece.cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Codebook, PDF File, Greece"
+                    ],
+                    "dataFile": {
+                        "id": 13096,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_greece.cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2814560,
+                        "description": "",
+                        "storageIdentifier": "basr_greece.cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_greece.colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Data, Column Binary, Greece"
+                    ],
+                    "dataFile": {
+                        "id": 13097,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_greece.colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 144000,
+                        "description": "",
+                        "storageIdentifier": "basr_greece.colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_guide.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Interview Guide, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 13099,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_guide.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 864797,
+                        "description": "",
+                        "storageIdentifier": "basr_guide.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_iran.cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Codebook, PDF File, Iran"
+                    ],
+                    "dataFile": {
+                        "id": 13089,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_iran.cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 895346,
+                        "description": "",
+                        "storageIdentifier": "basr_iran.cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_iran.colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Data, Column Binary, Iran"
+                    ],
+                    "dataFile": {
+                        "id": 13088,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_iran.colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 64320,
+                        "description": "",
+                        "storageIdentifier": "basr_iran.colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_jordan.cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Codebook, PDF File, Jordan"
+                    ],
+                    "dataFile": {
+                        "id": 13101,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_jordan.cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 747130,
+                        "description": "",
+                        "storageIdentifier": "basr_jordan.cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_jordan.colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Data, Column Binary, Jordan"
+                    ],
+                    "dataFile": {
+                        "id": 13098,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_jordan.colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 46080,
+                        "description": "",
+                        "storageIdentifier": "basr_jordan.colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_lebanon.cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Codebook, PDF File, Lebanon"
+                    ],
+                    "dataFile": {
+                        "id": 13100,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_lebanon.cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 731434,
+                        "description": "",
+                        "storageIdentifier": "basr_lebanon.cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_lebanon.colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Data, Column Binary, Lebanon"
+                    ],
+                    "dataFile": {
+                        "id": 13095,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_lebanon.colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 48640,
+                        "description": "",
+                        "storageIdentifier": "basr_lebanon.colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_syria.cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Codebook, PDF File, Syria"
+                    ],
+                    "dataFile": {
+                        "id": 13091,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_syria.cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 795037,
+                        "description": "",
+                        "storageIdentifier": "basr_syria.cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_syria.colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Data, Column Binary, Syria"
+                    ],
+                    "dataFile": {
+                        "id": 13090,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_syria.colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 49920,
+                        "description": "",
+                        "storageIdentifier": "basr_syria.colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_turkey.cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Codebook, PDF File, Turkey"
+                    ],
+                    "dataFile": {
+                        "id": 13102,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_turkey.cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2431084,
+                        "description": "",
+                        "storageIdentifier": "basr_turkey.cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "basr_turkey.colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1813,
+                    "categories": [
+                        "Data, Column Binary, Turkey"
+                    ],
+                    "dataFile": {
+                        "id": 13094,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "basr_turkey.colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 132960,
+                        "description": "",
+                        "storageIdentifier": "basr_turkey.colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

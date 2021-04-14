@@ -1,0 +1,728 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-LINEAGE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3405,
+            "storageIdentifier": "file://1902.29/CAPS-LINEAGE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T18:49:50Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:21:47Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Lineage Consciousness Questionnaire (CAPS-LINEAGE module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-LINEAGE"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-LINEAGE"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Lineage Consciousness Questionnaire was developed by Kurt Back and Mary Lindahl to determine what constitutes lineage consciousness on an individual and family level, what is its relationship to such structural factors such as age, sex, SES and ethnic group, and what are its consequences for the individual, for families and for society.</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Lineage consciousness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Generational continuity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Generational solidarity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Genealogy"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family history"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published reference. Paper presented at ASA meetings: Lindahl and Back. Lineage consciousness, generational continuity, and the elderly. 1986."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_lineage_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9582,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lineage_data",
+                        "contentType": "text/plain",
+                        "filesize": 119600,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lineage_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lineage_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9577,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lineage_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 7515,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lineage_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lineage_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9583,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lineage_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 109600,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lineage_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lineage_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9591,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lineage_source",
+                        "contentType": "text/plain",
+                        "filesize": 15738,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lineage_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lineage_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9576,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lineage_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 37966,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lineage_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_lineage_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "Data File 1 (caps_1986_lineage_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9586,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lineage_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 33540,
+                        "storageIdentifier": "caps_1986_lineage_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:6+XOsUp9Q6abfiQ6W1gbQw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lineage_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9578,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lineage_data",
+                        "contentType": "text/plain",
+                        "filesize": 117000,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lineage_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lineage_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9590,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lineage_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 7518,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lineage_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lineage_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9580,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lineage_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 107520,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lineage_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lineage_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9581,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lineage_source",
+                        "contentType": "text/plain",
+                        "filesize": 15732,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lineage_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lineage_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9579,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lineage_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 36900,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lineage_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_lineage_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "Data File 2 (caps_1987_lineage_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9589,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lineage_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 32432,
+                        "storageIdentifier": "caps_1987_lineage_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:rL2xKTfofVN//U++mhq+Rg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lineage_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9584,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lineage_data",
+                        "contentType": "text/plain",
+                        "filesize": 123500,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lineage_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lineage_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9593,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lineage_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 6176,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lineage_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lineage_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9592,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lineage_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 118160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lineage_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lineage_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9588,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lineage_source",
+                        "contentType": "text/plain",
+                        "filesize": 16323,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lineage_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lineage_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9585,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lineage_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 36982,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lineage_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_lineage_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3405,
+                    "categories": [
+                        "Data File 3 (caps_1988_lineage_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9587,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lineage_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 31079,
+                        "storageIdentifier": "caps_1988_lineage_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:8JA9fAi+2xbU2Ct7/MX5Ng==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

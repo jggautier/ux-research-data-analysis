@@ -1,0 +1,1140 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-BRAIN",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3352,
+            "storageIdentifier": "file://1902.29/CAPS-BRAIN",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T17:21:46Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:17:59Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Brainstorming Task (CAPS-BRAIN CAPS-BSTORM and CAPS-BJUDGE modules)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-BRAIN"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-BRAIN CAPS-BSTORM CAPS-BJUDGE"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>Bibb Latane and John Barefoot designed this unit to assess social loafing on a creativity task. BRAIN1 and BRAIN2 stressed the quantity of ideas (replicating Harkins, et al). BRAIN3 and BRAIN4 stressed the creativity of the ideas.</p><p>In BRAIN1 and BRAIN2 Rs were asked to generate as many uses as possible for 4 objects presented in pairs at 2 different sessions. 1 pair was easy (knife and shoe box), and the other difficult (doorknob and burned out light bulb). In BRAIN1 half of the Rs were\ngiven the easy ones and the other half the difficult ones. In BRAIN2 the assignments were reversed. Rs were told that they were working on one object in each session individually, the other in a group (their regular CAPS group or an anonymous one). Rs were told that quantity of their ideas would be judged. In BRAIN3 and BRAIN4, the same scenario was used, but the objects were approximately equal in difficulty (can, brick, phonebook, toothpick) and Rs were told that creativity, not quantity, was the goal. Measures of the creativity of the uses generated in BRAIN3 and BRAIN4 were obtained from another CAPS unit BRAIN_JUDGE1 and BRAIN_JUDGE2.\n</p><p>In Brainstorm I respondents were asked to generated uses for two objects. Some subjects were given easy objects (small kitchen knife and shoe box) while others got more difficult items (detached doorknob and burned-out light bulb). Each item was given under different conditions. Some did one item under individual orientation instructions and the other with their regular group members. The remaining respondents worked on one item under individual instructions and one under anonymous group\nconditions.</p><p>\"CONDITION ASSIGNMENTS for BSTORM1 LETTER 1st INSTRUCTION 1st OBJECT 2nd INSTRUCTION\t 2nd OBJECT A\t INDIV\t\t KNIFE\t IDEN\t\t BOX B INDIV\t\t BOX\t\t IDEN\t\t KNIFE C \t IDEN\t\t KNIFE\t INDIV\t\t BOX D\t IDEN\t\t BOX\t\t INDIV\t\t KNIFE E\t INDIV\t\t KNIFE\t ANON\t\t BOX F\t INDIV\t\t BOX\t\t ANON\t\t KNIFE G\t ANON\t\t KNIFE\t INDIV\t\t BOX H\t ANON\t\t BOX\t\t INDIV\t\t KNIFE I\t INDIV \t\t BULB\t\t IDEN\t\t KNOB J\t INDIV\t\t KNOB\t\t IDEN\t\t BULB K\t IDEN\t\t BULB \t INDIV\t\t KNOB L\t IDEN\t\t KNOB\t\t INDIV\t\t BULB M\t INDIV\t\t BULB\t\t ANON\t\t KNO\nB N\t INDIV\t\t KNOB\t\t ANON\t\t BULB O\t ANON\t\t BULB\t\t INDIV\t\t KNOB P\t ANON\t\t KNOB\t\t INDIV\t\t BULB \"</p><p>\"Brainstorm II CONDITION ASSIGNMENTS LETTER 1st INSTRUCTION 1st OBJECT 2nd INSTRUCTION\t 2ndOBJECT K INDIV\t KNIFE\t\t IDEN\t\t BOX L\tINDIV\t\t BOX\t\t IDEN\t\t KNIFE I\tIDEN\t\t KNIFE\t\t INDIV\t\t BOX J\tIDEN\t\t BOX\t\t INDIV\t\t KNIFE O\tINDIV\t\t KNIFE\t\t ANON\t\t BOX P\tINDIV\t\t BOX\t\t ANON\t\t KNIFE M\tANON\t\t KNIFE\t\t INDIV\t\t BOX N\tANON\t\t BOX\t\t INDIV\t\t KNIFE C\tINDIV \t\t BULB\t\t IDEN\t\t KNOB D\tINDIV\t\t KNOB\t\t IDEN\t\t BULB A\tIDEN\t\t BUL\nB \t\t INDIV\t\t KNOB B\tIDEN\t\t KNOB\t\t INDIV\t\t BULB G\tINDIV\t\t BULB\t\t ANON\t\t KNOB H\tINDIV\t\t KNOB\t\t ANON\t\t BULB E\tANON\t\t BULB\t\t INDIV\t\t KNOB F\tANON\t\t KNOB\t\t INDIV\t\t BULB\"\n</p><p>\"C. BSTORM3: This unit is like one administered in weeks 4 and 7 during the fall semester, except that the objects used are different and the instructions stressed that the uses generated for the objects should be creative. (The instructions in weeks 4 and 7 indicated that the quantity, not the quality should be considered.) The objects used in this unit were a brick and an empty beer can. Condition assignments for this unit follow: CONDITION ASSIGNMENTS LETTER 1st INSTRUCTION 1st OBJECT\n2nd INSTRUCTION 2nd OBJECT A\tINDIV\t\t CAN\t\t IDEN\t\t BRICK B\tINDIV\t\t BRICK\t\t IDEN\t\t CAN C\tIDEN\t\t CAN \t INDIV\t\t BRICK D\tIDEN\t\t BRICK\t\t INDIV\t\t CAN E\tINDIV\t\t CAN\t\t ANON\t \t BRICK\t F INDIV\t\t BRICK\t\t ANON\t\t CAN G\tANON\t\t CAN\t\t INDIV\t\t BRICK H ANON\t\t BRICK\t\t INDIV\t\t CAN\t\t I\tINDIV\t\t BRICK\t\t IDEN\t\t CAN J INDIV\t\t CAN\t\t IDEN\t\t BRICK K IDEN\t\t BRICK\t\t INDIV\t \t CAN\t L\tIDEN\t\t CAN \t\t INDIV\t\t BRICK M\tINDIV \t BRICK\t ANON\t\t CAN N INDIV\t\t CAN\t ANON\t\t BRICK O\tANON\t\t BRICK\t INDIV\t\t CAN P\tANON\t\t CAN\t\t ANON\t\t BRICK\"\n</p><p>\"C. BSTORM4: Same instructions as BSTORM3 (see week 11), but items are different and condition assignments are reversed. The new items are a toothpick and out of date telephone directory. Condition assignments follow: CONDITION ASSIGNMENTS LETTER 1stINSTRUCTION 1stOBJECT 2ndINSTRUCTION 2ndOBJECT K\tINDIV\t TOOTHPICK\t IDEN\t\t PHONE BOOK L\tINDIV\t PHONE BOOK\t IDEN\t\t TOOTHPICK I\tIDEN\t TOOTHPICK\t INDIV\t\t PHONE BOOK J IDEN\t PHONE BOOK\t INDIV\t\t TOOTHPICK O INDIV TOOTHPICK\t ANON\t \t PHONE BOOK\t P IND\nIV\t PHONE BOOK\t ANON\t\t TOOTHPICK M\tANON\t TOOTHPICK\t INDIV\t\t PHONE BOOK N\tANON\t PHONE BOOK\t INDIV\t\t TOOTHPICK\t C\tINDIV\t PHONE BOOK\t IDEN\t\t TOOTHPICK D\tINDIV\t TOOTHPICK\t IDEN\t\t PHONE BOOK A\tIDEN\t PHONE BOOK\t INDIV\t \t TOOTHPICK\t B\tIDEN \t TOOTHPICK \t INDIV\t\t PHONE BOOK G\tINDIV \t PHONE BOOK ANON\t\t TOOTH PICK H\tINDIV\t TOOTHPICK\t ANON\t\t PHONE BOOK E\tANON\t PHONE BOOK INDIV\t\t TOOTHPICK F\tANON\t TOOTHPICK ANON\t\t PHONE BOOK\"\n</p><p>BJUDGE3: In this task, Rs rate the ideas of other respondents from the BSTORM3 task on a 1-10 creativity scale. Each R rates the responses of his/her real group and anon group members but does not know that this is the case. Each R rates half under a only-judge condition and half under a multiple-judge condition (thinks five other judges are making the same ratings). All Rs rate 4 bogus files as well as the real and anon group files. The scores created by this unit will be used for qualit\ny scores for the BSTORM3 task and will also provide data which can itself be analyzed as a loafing task (comparison of the only-judge and multiple-judge conditions). In the latter task, extremity of ratings and variance can be looked at.\n</p><p>BJUDGE4: In this task, Rs rate the ideas of other respondents from the BSTORM3 task on a 1-10 creativity scale. Each R rates the responses of his/her real group and anon group members but does not know that this is the case. Each R rates half under a only-judge condition and half under a multiple-judge condition (thinks five other judges are making the same ratings). All Rs rate 4 bogus files as well as the real and anon group files. The scores created by this unit will be used for qualit\ny scores for the BSTORM4 task and will also provide data which can itself be analyzed as a loafing task (comparison of the only-judge and multiple-judge conditions). In the latter task, extremity of ratings\nand variance can be looked at.</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social loafing"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Task"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Difficulty"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Creativity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Brainstorming"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harkins, S and Petty R Effects of task difficulty and task uniqueness on social loafing. Journal of Personality and Social Psychology, 1982, 43, 1214-1229."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1984_brain12_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7370,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain12_data",
+                        "contentType": "text/plain",
+                        "filesize": 547300,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain12_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7379,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 771360,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7392,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 72652,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brain1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 1 (caps_1984_brain1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7396,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 65883,
+                        "storageIdentifier": "caps_1984_brain1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:OAYOzt7pEotKH84k//YNEQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7395,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 699280,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7389,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 72488,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brain2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 9 (CAPS-BRAIN/caps_1984_brain2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7391,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 65817,
+                        "storageIdentifier": "caps_1984_brain2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:DLOj7qKFMmdSIP1xbZ8Wgw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7369,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain3_data",
+                        "contentType": "text/plain",
+                        "filesize": 248560,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7381,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 389920,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7374,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 57154,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brain3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 10 (CAPS-BRAIN/caps_1984_brain3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7375,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 52706,
+                        "storageIdentifier": "caps_1984_brain3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:y+E3eM4snPFqYle+EO3RKQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7390,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain4_data",
+                        "contentType": "text/plain",
+                        "filesize": 228150,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7387,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 447440,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7385,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 64780,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brain4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 2 (caps_1984_brain4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7368,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 59765,
+                        "storageIdentifier": "caps_1984_brain4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:oRtBQayyyvxDU1TY75MoSw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brainj3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7386,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brainj3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 2269680,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brainj3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brainj3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7394,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brainj3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 366376,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brainj3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brainj3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 3 (caps_1984_brainj3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7393,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brainj3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 345163,
+                        "storageIdentifier": "caps_1984_brainj3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:UNZrMWvMBorxpIhyCyMGqw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brainj4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7384,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brainj4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 2191920,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brainj4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brainj4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7373,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brainj4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 390156,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brainj4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brainj4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 4 (caps_1984_brainj4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7366,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brainj4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 370579,
+                        "storageIdentifier": "caps_1984_brainj4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:miK+TZDhD3JhkOOyB3qwPw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain_judge1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7388,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_judge1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 50880,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain_judge1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain_judge1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7372,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_judge1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 23534,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain_judge1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brain_judge1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 5 (caps_1984_brain_judge1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7367,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_judge1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20176,
+                        "storageIdentifier": "caps_1984_brain_judge1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:h3bdVavcvFWdjXx3EAszxg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain_judge2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7371,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_judge2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 49120,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain_judge2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain_judge2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7377,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_judge2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22550,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain_judge2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brain_judge2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 6 (caps_1984_brain_judge2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7397,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_judge2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19352,
+                        "storageIdentifier": "caps_1984_brain_judge2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:HgvDomnq4tddHNnhKlEWXQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain_storm12_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7383,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_storm12_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 10720,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain_storm12_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain_storm12_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7398,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_storm12_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 5986,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain_storm12_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brain_storm12_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 7 (caps_1984_brain_storm12_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7378,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_storm12_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 4658,
+                        "storageIdentifier": "caps_1984_brain_storm12_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:um4Y//t8UtberiDCQbHRPQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain_storm34_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7380,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_storm34_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 60960,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain_storm34_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_brain_storm34_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 7376,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_storm34_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 29930,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_brain_storm34_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_brain_storm34_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3352,
+                    "categories": [
+                        "Data File 8 (caps_1984_brain_storm34_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7382,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_brain_storm34_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 29621,
+                        "storageIdentifier": "caps_1984_brain_storm34_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:v1bHtHdElTsenNYwVo0VNw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,394 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-37767",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2014-01-17",
+        "datasetVersion": {
+            "id": 3298,
+            "storageIdentifier": "file://1902.29/H-37767",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Edited dataset uploaded. -99.99 values were recoded to -99 and value labels adjusted accordingly to accommodate DVN system parameters (DVN does not read decimal values as discrete values).",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2013-09-11T16:53:28Z",
+            "releaseTime": "2014-01-17T00:00:00Z",
+            "createTime": "2013-04-12T15:46:20Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In n\no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 2010 Public Opinion Survey, study no. 37767"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-37767"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 37767"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris Interactive, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>Topics addressed in this study include confidence in the leaders of major institutions, health behaviors (specifically weight, seat belt use, and smoking habits), attitudes towards Wall Street, and power of different groups in influencing government policy. Demographic variables include respondent's gender, age, educational status, origin or descent (Spanish, Hispanic, or Latino), race, self-identified political party, political philosophy; number of individuals age 18 or over, between the ag\nes of 13 and 17, and under age 13 who live in the household; presence of a disabled individual in the household, household income, and number of voice telephone lines available at home.\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Institutions--Confidence in"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health behavior"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Wall Street"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Power and influence"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: National cross-sectional sample of persons 18 years of age or older interviewed by telephone.;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: H-37767;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris Interactive, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2010-02"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2013-04-12"
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2010-02-16"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2010-02-22"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        },
+                        {
+                            "typeName": "relatedMaterial",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Press Releases: <p><a href=\"http://www.harrisinteractive.com/vault/Harris-Interactive-Poll-Research-Financial-Regulation-2010-03.pdf\">82% of Public Believe Wall Street Should Be Regulated More Toughly</a><b>;</b> <a href=\"http://www.harrisinteractive.com/vault/Harris-Interactive-Poll-Research-Health-Trends-2010-03.pdf\"> Long Term Health Trends Continue \u2013 Fewer Smokers, More Obesity</a><b>;</b> <a href=\"http://www.harrisinteractive.com/vault/Harris-Interactive-Poll-Research-Education-Confidence-2\n010-03.pdf\"> Virtually No Change in Annual Harris Poll Confidence Index from Last Year\n</a> </p>"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "Feb_2010_99.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3298,
+                    "categories": [
+                        "Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 7076152,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Feb_2010_99.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 210034,
+                        "description": "",
+                        "storageIdentifier": "11508",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 149274,
+                        "UNF": "UNF:5:NAwlNhJx+Y3W3wc+Ls20CA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-09-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_37767.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3298,
+                    "categories": [
+                        "Questionnaire"
+                    ],
+                    "dataFile": {
+                        "id": 7067959,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_37767.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 208328,
+                        "description": "",
+                        "storageIdentifier": "4606",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-12"
+                    }
+                }
+            ]
+        }
+    }
+}

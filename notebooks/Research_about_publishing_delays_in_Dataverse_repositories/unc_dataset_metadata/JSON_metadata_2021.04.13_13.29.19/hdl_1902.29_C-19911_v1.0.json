@@ -1,0 +1,254 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/C-19911",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 4050,
+            "storageIdentifier": "file://1902.29/C-19911",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "archiveTime": "2013-06-18T14:30:04Z",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T14:52:06Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Census of Population and Housing, 1990"
+                        },
+                        {
+                            "typeName": "subtitle",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Summary Tape File 2B (North Carolina)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "C-19911"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "U.S. Bureau of the Census"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "U.S. Department of Commerce"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>\"Summary Tape File 2 (STF2) contains 100-percent data. There are both A and B records. A records, which contain all tables (matrices) with a table (matrix) number beginning with PA or HA, are provided for each summary level in a geographic area, then repeated for each geographic component. B records, which have a table (matrix) number beginning with PB or HB, are repeated for each geographic component as well as each characteristic iteration. Population items in the A record include counts of\npersons by race (37 categories), American Indian tribes (29 categories), Hispanic origin (5 categories along with a separate table with two categories cross tabulated by race), and group quarters (45 categories along with a separate table with 13 categories cross tabulated by age). Record A housing counts include race of householder (37 categories with a separate table of all 37 categories tabulated by Hispanic origin); tenure by persons in unit, household type, and age of householder (49 categories); tenure by number of nonrelatives and by number of persons in unit; vacancy status by boarded-up status and duration of vacancy; and price or rent asked for vacant-for-sale-only or vacant-for-rent-units. Population counts in the B record include persons; families; households; sex; sex by age (103 categories); sex by marital status by age; sex by group quarters (32 categories); household size and relationship; household size and household type; and household type and relationship tabulated for all persons, persons under 6 years, under 18 years, and 60 years and over as well as tabulated by sex and age. Housing unit counts in the B record include counts of occupied housing units by tenure and tenure tabulated by persons in unit, rooms, persons per room, units in structure, and age of householder. Value is provided for specified owner-occupied housing units and owner- occupied mobile homes. Contract rent is shown for specified renter-occupied housing units. The A record in STF 2A, 2B, and 2C files provides a single record for\neach summary level/geographic component combination within a unit of geography. The B record in STF 2A repeats tables for each summary level/geographic component combination for 34 categories of race and Hispanic origin; each of the categories listed above as well as more detailed categories for American Indian, Eskimo, and Aleut; Asian and Pacific Islander; Hispanic origin; and not of Hispanic origin.\"\n</p><p>\"STF2B provides data for each State, counties, county subdivisions, county subdivisions with 1,000 or more persons (in 12 states); county subdivisions with fewer than 1,000 persons and in an MSA/CMSA (New England States only), places with 1,00 or more persons, State and county portion of American Indian reservations with and without trust lands, and Alaska Native Regional Corporations\"</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: The universe includes all persons and housing units in the United States;Type: ODUM:ACCESS.CATEGORY Notes: II;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The Bureau"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1991"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Washington, DC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1991"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Summary statistics"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "census_c90_stf2b_nc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4050,
+                    "categories": [
+                        "Data, North Carolina"
+                    ],
+                    "dataFile": {
+                        "id": 5365,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c90_stf2b_nc",
+                        "contentType": "text/plain",
+                        "filesize": 352884234,
+                        "description": "",
+                        "storageIdentifier": "census_c90_stf2b_nc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

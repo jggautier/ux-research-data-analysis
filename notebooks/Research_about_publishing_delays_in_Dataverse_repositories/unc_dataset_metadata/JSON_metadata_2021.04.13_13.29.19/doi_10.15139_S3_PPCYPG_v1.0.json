@@ -1,0 +1,195 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/PPCYPG",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-08-24",
+        "datasetVersion": {
+            "id": 30950,
+            "storageIdentifier": "file://10.15139/S3/PPCYPG",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:xluzrRXN742OOBHWXgsHaw==",
+            "lastUpdateTime": "2019-08-24T18:46:08Z",
+            "releaseTime": "2019-08-24T18:46:08Z",
+            "createTime": "2019-07-31T13:56:45Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication Data for: Effect of Prices, Distribution Strategies, and Marketing on Demand for HIV Self-Testing in Zimbabwe"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Chang, Wei"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Chang, Wei"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "wei@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This dataset provides the necessary study variables to recreate the paper titled \"Effect of Prices, Distribution Strategies, and Marketing on Demand for HIV Self-Testing in Zimbabwe\"."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chang, Wei"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-07-31"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "HIV_Self-Tests_Price_Experiment_Household_members.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30950,
+                    "dataFile": {
+                        "id": 7506990,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "HIV_Self-Tests_Price_Experiment_Household_members.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 479924,
+                        "storageIdentifier": "16cb9c43ef6-59fb7e923e39",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "originalFileSize": 584308,
+                        "UNF": "UNF:6:jvKsrURwbF1SRyT4BVNJzw==",
+                        "rootDataFileId": -1,
+                        "md5": "6c890ccb3fa833f0366541ac0bb3f3e0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6c890ccb3fa833f0366541ac0bb3f3e0"
+                        },
+                        "creationDate": "2019-08-22"
+                    }
+                },
+                {
+                    "label": "HIV_Self-Tests_Price_Experiment_participants.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30950,
+                    "dataFile": {
+                        "id": 7506991,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "HIV_Self-Tests_Price_Experiment_participants.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 497797,
+                        "storageIdentifier": "16cb9c43f88-599cdbb594bb",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "originalFileSize": 523166,
+                        "UNF": "UNF:6:/74AO7jE8Nnp1HezhAMN1Q==",
+                        "rootDataFileId": -1,
+                        "md5": "59dd1a7d94a636a263afdb8617f219d3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "59dd1a7d94a636a263afdb8617f219d3"
+                        },
+                        "creationDate": "2019-08-22"
+                    }
+                },
+                {
+                    "label": "Questionnaire_English v1.4_8 November 2017.docx",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30950,
+                    "dataFile": {
+                        "id": 7506992,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Questionnaire_English v1.4_8 November 2017.docx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                        "filesize": 37056,
+                        "storageIdentifier": "16cb9c7b61c-e7219ba0c5ea",
+                        "rootDataFileId": -1,
+                        "md5": "400c8c0cdf8e4fa57993adcd9f2d00d5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "400c8c0cdf8e4fa57993adcd9f2d00d5"
+                        },
+                        "creationDate": "2019-08-22"
+                    }
+                }
+            ]
+        }
+    }
+}

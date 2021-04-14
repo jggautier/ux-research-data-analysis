@@ -1,0 +1,755 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-LONE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3413,
+            "storageIdentifier": "file://1902.29/CAPS-LONE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T18:58:17Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:21:53Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Loneliness Scale (CAPS-LONE module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-LONE"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-LONE"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This unit consists of two, twelve-item scales adapted by Dr. Phillip Shaver and his co-workers from two earlier loneliness scales, the Revised UCLA Loneliness Scale (Russell, Peplau, and Cutrona, 1980) and the NYU Loneliness Scale (Rubenstein and Shaver, 1982). The aim was to measure both state (current or recent) and trait (chronic) loneliness, something that has rarely been done in loneliness studies. This was accomplished by using identical items in the state and trait scales, with the for\nmer referring to 'the last few days' and the latter to 'the last few years'. Both scales have proven internally consistent (alpha approximately equal to .90) in previous studies (e.g., Shaver, Furman, and Buhrmester, 1985). The two scales are usually moderately correlated with each other, especially if the respondents are in a fairly familiar and stable social environment. On the trait measure, there are four additional items meant to assess self-attributions of loneliness.\n</p><p>Scoring information: Higher scores indicate greater loneliness.</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Loneliness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "State-trait loneliness scales"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "State loneliness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Trait loneliness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Rubenstein, C. and Shaver, P. (1982). The experience of loneliness. In L. A. Paplau, and D. Perlman (eds.), Loneliness: A sourcebook of current theory, research, and therapy. New York: Wiley-Interscience."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Rubenstein, C. and Shaver, P. (1982). The experience of loneliness. In L. A. Paplau, and D. Perlman (eds.), Loneliness: A sourcebook of current theory, research, and therapy. New York: Wiley-Interscience."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Russell, D., Peplau, L. A., and Cutrona, C. E. (1980). The revised UCLA loneliness scale: Concurrent and discriminant validity evidence. Journal of Personality and Social Psychology, 39, 472-480."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Rubenstein, C. and Shaver, P. (1982). The experience of loneliness. In L. A. Paplau, and D. Perlman (eds.), Loneliness: A sourcebook of current theory, research, and therapy. New York: Wiley-Interscience."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Russell, D., Peplau, L. A., and Cutrona, C. E. (1980). The revised UCLA loneliness scale: Concurrent and discriminant validity evidence. Journal of Personality and Social Psychology, 39, 472-480."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Shaver, P., Furman, W., and Buhrmester, D. (1985). Transition to college: Network changes, social skills, and loneliness. In S. Duck and D. Perlman (Eds.), Understanding personal relationships: An interdisciplinary approach. London: Sage Publications."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_lone_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9652,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lone_data",
+                        "contentType": "text/plain",
+                        "filesize": 48360,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lone_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lone_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9637,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lone_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5780,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lone_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lone_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9645,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lone_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 49360,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lone_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lone_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9640,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lone_source",
+                        "contentType": "text/plain",
+                        "filesize": 10746,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lone_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_lone_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9639,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lone_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 24190,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_lone_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_lone_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "Data File 1 (caps_1986_lone_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9654,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_lone_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21456,
+                        "storageIdentifier": "caps_1986_lone_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 24190,
+                        "UNF": "UNF:3:vSRkQKCOjqqiLGBhjWiwxQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lone_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9642,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lone_data",
+                        "contentType": "text/plain",
+                        "filesize": 48880,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lone_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lone_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9649,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lone_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5936,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lone_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lone_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9643,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lone_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 48000,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lone_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lone_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9651,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lone_source",
+                        "contentType": "text/plain",
+                        "filesize": 10742,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lone_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_lone_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9638,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lone_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 23780,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_lone_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_lone_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "Data File 2 (caps_1987_lone_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9641,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_lone_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21056,
+                        "storageIdentifier": "caps_1987_lone_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:x+sabuClpEKaS/mp9f1cOQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lone_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9644,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lone_data",
+                        "contentType": "text/plain",
+                        "filesize": 49400,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lone_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lone_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9650,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lone_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3673,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lone_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lone_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9653,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lone_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 46640,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lone_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lone_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9648,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lone_source",
+                        "contentType": "text/plain",
+                        "filesize": 12619,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lone_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_lone_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9647,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lone_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22550,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_lone_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_lone_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3413,
+                    "categories": [
+                        "Data File 3 (caps_1988_lone_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9646,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_lone_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19475,
+                        "storageIdentifier": "caps_1988_lone_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:jVFe1gr+FWhLLdMzZ03x+g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

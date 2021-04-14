@@ -1,0 +1,951 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-1831",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 2432,
+            "storageIdentifier": "file://1902.29/H-1831",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T16:36:54Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 1968 Health Survey, study no. 1831"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-1831"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 1831"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>A study designed to assess how various economic and ethnic groups in the U.S. regard their health problems and the health services available to them.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health care"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health surveys"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Medical care--Cost"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Medical care--Poor"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public hygiene--United States"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Harris used a random multi-stage cluster sampling design to obtain a national cross-section sample of likely voters. A sample of Appalachian whites from rural areas of that region, a sample of blacks living in urban ghettos, and a sample of Spanish-speaking people from high cluster poverty areas were also collected. Attitudes on various topics were collected by questionnaire in a face- to-face interview; \"U.S. adults, likely voters; Appalachian whites from rural areas of that region; Blacks living in urban ghettos; Spanish-speaking people from high cluster poverty areas\";Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: h-1831;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1968-04"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris Data Center, University of North Carolina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_s1831_medical_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Column Binary File -- Medical"
+                    ],
+                    "dataFile": {
+                        "id": 22718,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_medical_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 216800,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_medical_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_medical_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Questionnaire, PDF File -- Medical"
+                    ],
+                    "dataFile": {
+                        "id": 22715,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_medical_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 42362,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_medical_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_medical_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SAS Code -- Medical"
+                    ],
+                    "dataFile": {
+                        "id": 22721,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_medical_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2535,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_medical_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_medical_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SAS Export Library -- Medical"
+                    ],
+                    "dataFile": {
+                        "id": 22732,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_medical_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 42800,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_medical_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_medical_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SPSS Portable File -- Medical"
+                    ],
+                    "dataFile": {
+                        "id": 22716,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_medical_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 26001,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_medical_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s1831_medical_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Data File 1 (harris_s1831_medical_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 22736,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_medical_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 25305,
+                        "storageIdentifier": "harris_s1831_medical_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 26001,
+                        "UNF": "UNF:3:2Q3jPirK8qMlBuYsfAAL+g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poltical_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Column Binary File -- Political Tack-on"
+                    ],
+                    "dataFile": {
+                        "id": 22727,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poltical_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 187680,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poltical_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poltical_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Questionnaire, PDF File -- Political Tack-on"
+                    ],
+                    "dataFile": {
+                        "id": 22728,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poltical_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 417744,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poltical_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poltical_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SAS Code -- Political Tack-on"
+                    ],
+                    "dataFile": {
+                        "id": 22726,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poltical_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 34877,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poltical_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poltical_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SAS Export Library -- Political Tack-on"
+                    ],
+                    "dataFile": {
+                        "id": 22738,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poltical_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 945040,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poltical_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poltical_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SPSS Portable File -- Political Tack-on"
+                    ],
+                    "dataFile": {
+                        "id": 22724,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poltical_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 239112,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poltical_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s1831_poltical_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Data File 2 (harris_s1831_poltical_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 22729,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poltical_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 245499,
+                        "storageIdentifier": "harris_s1831_poltical_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 239112,
+                        "UNF": "UNF:3:+D0SEHT0krOgvOIrZw4R2g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poverty_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Column Binary File -- Poor People"
+                    ],
+                    "dataFile": {
+                        "id": 22730,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poverty_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 202560,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poverty_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poverty_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Questionnaire, PDF File -- Poor People"
+                    ],
+                    "dataFile": {
+                        "id": 22737,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poverty_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 741038,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poverty_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poverty_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SAS Code -- Poor People"
+                    ],
+                    "dataFile": {
+                        "id": 22717,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poverty_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 109442,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poverty_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poverty_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SAS Export Library -- Poor People"
+                    ],
+                    "dataFile": {
+                        "id": 22723,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poverty_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 1212480,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poverty_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_poverty_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SPSS Portable File -- Poor People"
+                    ],
+                    "dataFile": {
+                        "id": 22719,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poverty_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 309987,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_poverty_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s1831_poverty_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Data File 3 (harris_s1831_poverty_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 22735,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_poverty_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 304955,
+                        "storageIdentifier": "harris_s1831_poverty_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 309987,
+                        "UNF": "UNF:3:HkpXJRDiRCiPYF/ysyHw/w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_public_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Column Binary File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 22731,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_public_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 708480,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_public_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_public_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Questionnaire, PDF File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 22734,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_public_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 741038,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_public_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_public_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SAS Code -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 22733,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_public_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 110272,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_public_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_public_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SAS Export Library -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 22720,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_public_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 3989040,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_public_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1831_public_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "SPSS Portable File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 22722,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_public_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 1012176,
+                        "description": "",
+                        "storageIdentifier": "harris_s1831_public_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s1831_public_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2432,
+                    "categories": [
+                        "Data File 4 (harris_s1831_public_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 22725,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1831_public_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1069188,
+                        "storageIdentifier": "harris_s1831_public_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 1012176,
+                        "UNF": "UNF:3:8g1qakFjBkRYQHD4jxx4FQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

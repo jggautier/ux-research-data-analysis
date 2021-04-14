@@ -1,0 +1,267 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/QOMWPE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-09-26",
+        "datasetVersion": {
+            "id": 29704,
+            "storageIdentifier": "file://10.15139/S3/QOMWPE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:oalCGxyrsGTLF6L6Yi9hcw==",
+            "lastUpdateTime": "2017-09-27T03:45:51Z",
+            "releaseTime": "2017-09-27T03:45:51Z",
+            "createTime": "2017-09-27T03:41:24Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication Data for: Visible and Invisible Diasporas: Ethiopian Somalis in the Diaspora Scene"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thompson, Daniel"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    },
+                                    "authorIdentifier": {
+                                        "typeName": "authorIdentifier",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "0000-0001-8396-6879"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thompson, Daniel"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "daniel.thompson@emory.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The files in this dataset are formatted versions of public data. If using, please cite the originals. The files are as follows:\r\n\r\n1. UN_data_1990_2015.csv is derived from spreadsheets published by the UN Department for Economic and Social Affairs (UNDESA) containing migration statistics. These spreadsheets were combined and converted into long format. Original data is: United Nations, Department of Economic and Social Affairs (2015). Trends in International Migrant Stock: Migrants by Destination and Origin (United Nations database, POP/DB/MIG/Stock/Rev.2015).\r\n\r\nFiles 2 and 3 were created from data that is open-access and can be downloaded through a US Census API or from the American Community Survey Website: https://www.census.gov/programs-surveys/acs/\r\n\r\n2. Bildhaan_data1.csv is a formatted version of American Community Survey Data, tables B04006 (\"People reporting ancestry\") and B05006 (\"Place of birth for the foreign-born population\"). Estimates cover the years 2009-2015.\r\n\r\n3. Bildhaan_data2.csv is a formatted version of American Community Survey Data, tables B04004 and B04005, 2009-2015.\r\n\r\n4. Bildhaan2017_script contains the R script used to generate many of the results and figures reported in the research."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2017-09-27"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Somali diaspora"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Migration statistics"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Ethiopian Somalis"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Thompson, Daniel"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2017-09-26"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "Bildhaan2017_script.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29704,
+                    "dataFile": {
+                        "id": 7497749,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Bildhaan2017_script.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 27650,
+                        "storageIdentifier": "15ec16aafb1-2027905b9c9c",
+                        "rootDataFileId": -1,
+                        "md5": "866371e86fb8e85a4953368916f3ad80",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "866371e86fb8e85a4953368916f3ad80"
+                        },
+                        "creationDate": "2017-09-26"
+                    }
+                },
+                {
+                    "label": "Bildhaan_data1.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 29704,
+                    "dataFile": {
+                        "id": 7497748,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Bildhaan_data1.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 11505037,
+                        "storageIdentifier": "15ec15ba039-a8eadb36c5f7",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:QYE3pweLKxsVwyUKHDRCvw==",
+                        "rootDataFileId": -1,
+                        "md5": "52c15e9e894cdb66b2a97982c431f1a7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "52c15e9e894cdb66b2a97982c431f1a7"
+                        },
+                        "creationDate": "2017-09-26"
+                    }
+                },
+                {
+                    "label": "Bildhaan_data2.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 29704,
+                    "dataFile": {
+                        "id": 7497746,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Bildhaan_data2.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 76971,
+                        "storageIdentifier": "15ec15b03f6-36513af97394",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:Qh8SYZPDbagNP7VfJXfjbQ==",
+                        "rootDataFileId": -1,
+                        "md5": "21b19db62d8e2c6bf4bf27402e75516b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "21b19db62d8e2c6bf4bf27402e75516b"
+                        },
+                        "creationDate": "2017-09-26"
+                    }
+                },
+                {
+                    "label": "UN_data_1990_2015.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 29704,
+                    "dataFile": {
+                        "id": 7497747,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UN_data_1990_2015.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17962644,
+                        "storageIdentifier": "15ec158b8d7-4257dc9f1af3",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:exW7vEHp9BMkEb2gOMlYHQ==",
+                        "rootDataFileId": -1,
+                        "md5": "f988d32d8b91ed3bddb22308cdf4d1ce",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f988d32d8b91ed3bddb22308cdf4d1ce"
+                        },
+                        "creationDate": "2017-09-26"
+                    }
+                }
+            ]
+        }
+    }
+}

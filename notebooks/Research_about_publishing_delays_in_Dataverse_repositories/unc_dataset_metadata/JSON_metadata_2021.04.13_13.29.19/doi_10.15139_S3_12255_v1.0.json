@@ -1,0 +1,629 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12255",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2016-04-01",
+        "datasetVersion": {
+            "id": 6,
+            "storageIdentifier": "file://10.15139/S3/12255",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Metadata  & Data for Hogue-Marland Study ",
+            "distributionDate": "2016-03-30",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2016-04-01T16:54:09Z",
+            "releaseTime": "2016-04-01T00:00:00Z",
+            "createTime": "2016-03-30T15:52:59Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Uncertainty in Gridded CO2 Emissions Estimates"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Susannah Hogue"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Department of Mathematical Sciences, Appalachian State University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Eric Marland"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Department of Mathematical Sciences & Research Institute for Environment, Energy, and Economics, Appalachian State University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Robert J. Andres"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Climate Change Science Institute, Oak Ridge National Laboratory"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Gregg Marland"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Research Institute for Environment, Energy, and Economics, Appalachian State University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dawn Woodard"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Department of Earth Systems Science, University of California, Irvine"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Eric Marland"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Department of Mathematical Sciences & Research Institute for Environment, Energy, and Economics, Appalachian State University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "marlandes@appstate.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "We are interested in the spatial distribution of fossil-fuel-related emissions of CO2 for both geochemical and geopolitical reasons, but it is important to understand the uncertainty that exists in spatially explicit emissions estimates.  Working from one of the widely-used gridded data sets of CO2 emissions, we examine the elements of uncertainty, focusing on gridded data for the U.S. at the scale of 1 degree latitude by 1 degree longitude.  Uncertainty is introduced in the magnitude of total U.S. emissions, the magnitude and location of large point sources, the magnitude and distribution of non-point sources, and from the use of proxy data to characterize emissions.  For the U.S. we develop estimates of the contribution of each component of uncertainty.  At 1 degree resolution, in most grid cells, the largest contribution to uncertainty comes from how well the distribution of the proxy (in this case population density) represents the distribution of emissions.  In other grid cells the magnitude and location of large point sources make the major contribution to uncertainty.  Uncertainty in population density can be important where a large gradient in population density occurs near a grid cell boundary.  Uncertainty\nis strongly scale-dependent with uncertainty increasing as grid size decreases.  Uncertainty for our data set with one degree grid cells for the U.S. is typically on the order of +/- 150%, but this is perhaps not excessive in a data set where emissions per grid cell vary over 8 orders of magnitude."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2016-03-30"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CO2 emissions"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "gridded emissions"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "large point sources"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CO2 proxy data"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CO2 emissions"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Susannah Hogue, Eric Marland, Robert J. Andres, Gregg Marland, Dawn Woodard (2016) Uncertainty in Gridded CO2 Emissions Estimates, Earth's Future, Vol___ Issue___ (in press)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Susannah Hogue"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Appalachian State University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Earth's Future"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Wiley Publishing"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2328-4277/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-03-30"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-03-30"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2010-01"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2010-12"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2014"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2015"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                ".TIFF & .txt"
+                            ]
+                        },
+                        {
+                            "typeName": "relatedDatasets",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Woodard, D., M. Branham, G. Buckingham, S. Hogue, M. Hutchins, R. Gosky, G. Marland, and E. Marland(2015). A spatial uncertainty metric for anthropogenic CO2 emissions. Greenhouse Gas Measurement and Management, doi:10.1080/20430779.2014.1000793."
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "United States"
+                                    }
+                                },
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Continental United States (excluding Alaska)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "geographicUnit",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "1X1 degree resolution ( approx 10 X 10 Kilometers)"
+                            ]
+                        }
+                    ]
+                },
+                "socialscience": {
+                    "displayName": "Social Science and Humanities Metadata",
+                    "fields": [
+                        {
+                            "typeName": "unitOfAnalysis",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Other"
+                            ]
+                        },
+                        {
+                            "typeName": "universe",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Co2 Emissions"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "The magnitude uncertainty in large point sources",
+                    "label": "magLPS.tif",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 6,
+                    "dataFile": {
+                        "id": 7185694,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "magLPS.tif",
+                        "contentType": "image/tiff",
+                        "filesize": 6731,
+                        "description": "The magnitude uncertainty in large point sources",
+                        "storageIdentifier": "19400",
+                        "rootDataFileId": -1,
+                        "md5": "335e98c62f690f7b135bb68905017bc3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "335e98c62f690f7b135bb68905017bc3"
+                        },
+                        "creationDate": "2016-04-01"
+                    }
+                },
+                {
+                    "description": "The magnitude uncertainty in the population data",
+                    "label": "magPopulation.tif",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 6,
+                    "dataFile": {
+                        "id": 7185695,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "magPopulation.tif",
+                        "contentType": "image/tiff",
+                        "filesize": 6081,
+                        "description": "The magnitude uncertainty in the population data",
+                        "storageIdentifier": "19401",
+                        "rootDataFileId": -1,
+                        "md5": "071c883b65cb828cec252bc964bdc52e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "071c883b65cb828cec252bc964bdc52e"
+                        },
+                        "creationDate": "2016-04-01"
+                    }
+                },
+                {
+                    "description": "The CDIAC dataset redistributed without large point sources",
+                    "label": "modifiedCDIAC.tif",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 6,
+                    "dataFile": {
+                        "id": 7185696,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "modifiedCDIAC.tif",
+                        "contentType": "image/tiff",
+                        "filesize": 5700,
+                        "description": "The CDIAC dataset redistributed without large point sources",
+                        "storageIdentifier": "19402",
+                        "rootDataFileId": -1,
+                        "md5": "5b9469f24f7880ab293e5f541038c43c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5b9469f24f7880ab293e5f541038c43c"
+                        },
+                        "creationDate": "2016-04-01"
+                    }
+                },
+                {
+                    "description": "The uncertainty in the proxy data",
+                    "label": "Proxy.tif",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 6,
+                    "dataFile": {
+                        "id": 7185697,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Proxy.tif",
+                        "contentType": "image/tiff",
+                        "filesize": 6121,
+                        "description": "The uncertainty in the proxy data",
+                        "storageIdentifier": "19403",
+                        "rootDataFileId": -1,
+                        "md5": "dfeb876474d1ad7bcc0c095b8ea9da5c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dfeb876474d1ad7bcc0c095b8ea9da5c"
+                        },
+                        "creationDate": "2016-04-01"
+                    }
+                },
+                {
+                    "description": "The spatial uncertainty for large point sources",
+                    "label": "PSUM.tif",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 6,
+                    "dataFile": {
+                        "id": 7185698,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PSUM.tif",
+                        "contentType": "image/tiff",
+                        "filesize": 4658,
+                        "description": "The spatial uncertainty for large point sources",
+                        "storageIdentifier": "19404",
+                        "rootDataFileId": -1,
+                        "md5": "e42cb6b8556db57fefa4aae8062685cf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e42cb6b8556db57fefa4aae8062685cf"
+                        },
+                        "creationDate": "2016-04-01"
+                    }
+                },
+                {
+                    "description": "Description of the 8 raster datasets on 1X1 degree resolution. The latitude and longitude coordinates given represent the bottom left point of the grid cells. Data values are in metric tons of CO2.",
+                    "label": "README.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 6,
+                    "dataFile": {
+                        "id": 7185702,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "README.txt",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 867,
+                        "description": "Description of the 8 raster datasets on 1X1 degree resolution. The latitude and longitude coordinates given represent the bottom left point of the grid cells. Data values are in metric tons of CO2.",
+                        "storageIdentifier": "19410",
+                        "rootDataFileId": -1,
+                        "md5": "8682e70bb00aa82d8e81fa3d1d19a1af",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8682e70bb00aa82d8e81fa3d1d19a1af"
+                        },
+                        "creationDate": "2016-04-01"
+                    }
+                },
+                {
+                    "description": "The spatial uncertainty in the population data",
+                    "label": "SpatUncertPopulation.tif",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 6,
+                    "dataFile": {
+                        "id": 7185699,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SpatUncertPopulation.tif",
+                        "contentType": "image/tiff",
+                        "filesize": 8111,
+                        "description": "The spatial uncertainty in the population data",
+                        "storageIdentifier": "19405",
+                        "rootDataFileId": -1,
+                        "md5": "c1ea2ffbd71fd2e6464d72bfd9270dc9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c1ea2ffbd71fd2e6464d72bfd9270dc9"
+                        },
+                        "creationDate": "2016-04-01"
+                    }
+                },
+                {
+                    "description": "The total emissions for the United States (modified CDIAC with large point sources added back in)",
+                    "label": "TotEmissions.tif",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 6,
+                    "dataFile": {
+                        "id": 7185700,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "TotEmissions.tif",
+                        "contentType": "image/tiff",
+                        "filesize": 6269,
+                        "description": "The total emissions for the United States (modified CDIAC with large point sources added back in)",
+                        "storageIdentifier": "19406",
+                        "rootDataFileId": -1,
+                        "md5": "83d6b083c75e533a84da716201e2a1d5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "83d6b083c75e533a84da716201e2a1d5"
+                        },
+                        "creationDate": "2016-04-01"
+                    }
+                },
+                {
+                    "description": "The total uncertainty in CO2 emissions for the United States using the CDIAC dataset.",
+                    "label": "TotUncertainty.tif",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 6,
+                    "dataFile": {
+                        "id": 7185701,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "TotUncertainty.tif",
+                        "contentType": "image/tiff",
+                        "filesize": 10026,
+                        "description": "The total uncertainty in CO2 emissions for the United States using the CDIAC dataset.",
+                        "storageIdentifier": "19407",
+                        "rootDataFileId": -1,
+                        "md5": "28ca1d2329da4eb94c9460d1010dfcfc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "28ca1d2329da4eb94c9460d1010dfcfc"
+                        },
+                        "creationDate": "2016-04-01"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/10893",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2012-01-02",
+        "datasetVersion": {
+            "id": 199,
+            "storageIdentifier": "file://1902.29/10893",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Starting January 2, 2011",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2012-01-02T22:45:38Z",
+            "releaseTime": "2012-01-02T00:00:00Z",
+            "createTime": "2012-01-02T22:42:00Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication data for: Political Science Methods Data"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Varies"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "These data are for use in the Political Science Methods courses at Carleton College."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Course-related data."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2012-01-02"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "World Dataset  This data is made available on the SCPA CD-ROM (from A STATA companion to Political Analysis: 2nd ed).  It is a cross-sectional dataset (snap-shot in  time) that contains over 40 social and political indicator variables for 114 countries.    ",
+                    "label": "world.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 199,
+                    "dataFile": {
+                        "id": 7001578,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "world.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16983,
+                        "description": "World Dataset  This data is made available on the SCPA CD-ROM (from A STATA companion to Political Analysis: 2nd ed).  It is a cross-sectional dataset (snap-shot in  time) that contains over 40 social and political indicator variables for 114 countries.    ",
+                        "storageIdentifier": "4006",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:ycUCAwtJdAdW7hH2MDblUg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

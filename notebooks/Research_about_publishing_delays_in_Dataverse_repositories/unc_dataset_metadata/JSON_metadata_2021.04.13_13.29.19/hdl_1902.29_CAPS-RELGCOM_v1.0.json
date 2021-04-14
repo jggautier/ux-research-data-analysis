@@ -1,0 +1,826 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-RELGCOM",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-13",
+        "datasetVersion": {
+            "id": 3499,
+            "storageIdentifier": "file://1902.29/CAPS-RELGCOM",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-13T17:34:47Z",
+            "releaseTime": "2009-04-13T00:00:00Z",
+            "createTime": "2007-08-28T15:23:50Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising fro\nm use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Dimensions of Religious Commitment (CAPS-RELGCOM module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-RELGCOM"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-RELGCOM"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>Dimensions of Religious Commitment (Glock and Stark 1966) The Dimensions of Religious Commitment is a questionnaire designed to measure the four dimensions of religiosity (Glock and Stark, 1965) -- Belief, Ritual, Experience, and Knowledge. Originally, Glock and Stark proposed five dimensions, which include 'Consequences' as the fifth dimension. However, the authors did not generate measures for this last dimension. Their analysis of the first four dimensions showed that these dimensions are\nessentially uncorrelated, and that other attitudes and behavior can be predicted form positions on these dimensions. Furthermore, the authors had constructed indices of the four dimensions, mainly by summing points assigned to each item which was answered in a certain direction. Among these indices the orthodoxy index was found to be the best predictor of all other aspects of religiosity, implying that belief is the most significant component of religiosity.\n</p><p>The entire Glock and Stark questionnaire contained over 500 items. The interested reader may consult the published analyses.</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dimensions of religious commitment questionnaire"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religious commitment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Beliefs"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Ritual experience"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religious knowledge"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religious practice"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Orthodoxy"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Particularism"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Ethicalism"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Ritual involvement"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Devotionalism"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religiosity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Glock, C. and Stark, R., Christian Beliefs and Anti-Semitism. New York: Harper and Row, 1965. (This book contains the full questionnaire and several of the indices. However, some of our information also came from an as yet unpublished manuscript: R. Stark and C. Glock, American Piety: The Nature of Religious Commitment.)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_relgcom_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10893,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relgcom_data",
+                        "contentType": "text/plain",
+                        "filesize": 100620,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relgcom_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_relgcom_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10892,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relgcom_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 11808,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relgcom_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_relgcom_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10891,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relgcom_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 93920,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relgcom_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_relgcom_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10898,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relgcom_source",
+                        "contentType": "text/plain",
+                        "filesize": 19362,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relgcom_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_relgcom_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10887,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relgcom_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 25666,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relgcom_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_relgcom_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "Data File 1 (caps_1986_relgcom_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10895,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relgcom_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21138,
+                        "storageIdentifier": "caps_1986_relgcom_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:7brE0fA0hIfgGMy3j9jPMw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relgcom_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10896,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relgcom_data",
+                        "contentType": "text/plain",
+                        "filesize": 114660,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relgcom_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relgcom_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10899,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relgcom_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 11577,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relgcom_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relgcom_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10903,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relgcom_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 105520,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relgcom_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relgcom_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10904,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relgcom_source",
+                        "contentType": "text/plain",
+                        "filesize": 19360,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relgcom_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relgcom_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10890,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relgcom_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 29438,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relgcom_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_relgcom_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "Data File 2 (caps_1987_relgcom_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10901,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relgcom_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 24877,
+                        "storageIdentifier": "caps_1987_relgcom_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:HijwdiMYet1+F2c1OBxztg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relgcom_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10889,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relgcom_data",
+                        "contentType": "text/plain",
+                        "filesize": 128700,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relgcom_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relgcom_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10902,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relgcom_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5292,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relgcom_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relgcom_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10900,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relgcom_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 98080,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relgcom_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relgcom_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10894,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relgcom_source",
+                        "contentType": "text/plain",
+                        "filesize": 22577,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relgcom_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relgcom_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10897,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relgcom_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 27798,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relgcom_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_relgcom_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3499,
+                    "categories": [
+                        "Data File 3 (caps_1988_relgcom_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10888,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relgcom_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 23765,
+                        "storageIdentifier": "caps_1988_relgcom_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:df+eQtDJWb5uzqUlR8YNGw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

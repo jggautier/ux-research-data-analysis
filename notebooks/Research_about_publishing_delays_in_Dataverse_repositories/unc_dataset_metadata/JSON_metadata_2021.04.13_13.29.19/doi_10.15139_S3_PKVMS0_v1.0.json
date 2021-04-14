@@ -1,0 +1,3296 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/PKVMS0",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-09-08",
+        "datasetVersion": {
+            "id": 29671,
+            "storageIdentifier": "file://10.15139/S3/PKVMS0",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-09-08T20:20:47Z",
+            "releaseTime": "2017-09-08T20:20:47Z",
+            "createTime": "2017-09-08T20:17:45Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "WRF Model hourly precipitation data output"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Rickenbach, Thomas"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "East Carolina University"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Rickenbach, Thomas"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "East Carolina University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "rickenbacht@ecu.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "WRF model output, hourly precipitation data IPF and MPF"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Earth and Environmental Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Rickenbach, Thomas"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2017-09-08"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "case7r00_2010-06-17_hr00_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497220,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr00_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 703778,
+                        "storageIdentifier": "15e632158c4-799c2efd9ca7",
+                        "rootDataFileId": -1,
+                        "md5": "6d9d85d296cdc1cb0738b9416f59bcf1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6d9d85d296cdc1cb0738b9416f59bcf1"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr01_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497214,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr01_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 619928,
+                        "storageIdentifier": "15e63216ff9-c520464e46d2",
+                        "rootDataFileId": -1,
+                        "md5": "2a75575ef4a76b5199ff6e4cabda8fbc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2a75575ef4a76b5199ff6e4cabda8fbc"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr02_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497265,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr02_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 567277,
+                        "storageIdentifier": "15e63216f1c-63d3699ec441",
+                        "rootDataFileId": -1,
+                        "md5": "dd276efb1bab1df56f94a88233680cec",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dd276efb1bab1df56f94a88233680cec"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr03_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497264,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr03_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 485174,
+                        "storageIdentifier": "15e63216c80-9b90b791074e",
+                        "rootDataFileId": -1,
+                        "md5": "ff1b4062297ae2e9cf52bf6639ce5728",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ff1b4062297ae2e9cf52bf6639ce5728"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr04_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497295,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr04_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 470119,
+                        "storageIdentifier": "15e6321659a-bd07d6c45866",
+                        "rootDataFileId": -1,
+                        "md5": "b83b075805d67e75754a2b4479e0f515",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b83b075805d67e75754a2b4479e0f515"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr05_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497261,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr05_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 450682,
+                        "storageIdentifier": "15e63216099-414d47000ed5",
+                        "rootDataFileId": -1,
+                        "md5": "9906144edb5142759b0e783545fe8c23",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9906144edb5142759b0e783545fe8c23"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr06_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497217,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr06_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 473018,
+                        "storageIdentifier": "15e632166d6-e613825ea1bb",
+                        "rootDataFileId": -1,
+                        "md5": "0471d2f6e0270da5976a2c0b8e605a09",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0471d2f6e0270da5976a2c0b8e605a09"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr07_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497210,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr07_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 499506,
+                        "storageIdentifier": "15e63216ed7-08ae1e85e148",
+                        "rootDataFileId": -1,
+                        "md5": "12922544356da18af92c43b454c9c4f0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "12922544356da18af92c43b454c9c4f0"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr08_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497262,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr08_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 523097,
+                        "storageIdentifier": "15e63217a76-ce2f6eaf609b",
+                        "rootDataFileId": -1,
+                        "md5": "a8bc804b3756225c9847aeefe500f409",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a8bc804b3756225c9847aeefe500f409"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr09_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497280,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr09_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 550850,
+                        "storageIdentifier": "15e63217456-7792af06abce",
+                        "rootDataFileId": -1,
+                        "md5": "8da0ff58ecf2860fff6298432a5b68db",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8da0ff58ecf2860fff6298432a5b68db"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr10_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497281,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr10_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 561262,
+                        "storageIdentifier": "15e6321872f-1b47db7c07a7",
+                        "rootDataFileId": -1,
+                        "md5": "f78ec0b98acef13b6ef5aee1392d7668",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f78ec0b98acef13b6ef5aee1392d7668"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr11_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497251,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr11_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 597758,
+                        "storageIdentifier": "15e63217ebf-dfca70638c83",
+                        "rootDataFileId": -1,
+                        "md5": "8b395edbaad8b50016ce2387106cc4e9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8b395edbaad8b50016ce2387106cc4e9"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr12_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497290,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr12_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 561741,
+                        "storageIdentifier": "15e63218c91-9c214c8ebb8b",
+                        "rootDataFileId": -1,
+                        "md5": "98b683bde52201b34a2257f45df838f9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "98b683bde52201b34a2257f45df838f9"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr13_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497273,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr13_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 542490,
+                        "storageIdentifier": "15e632192b8-4a3e4b8e705f",
+                        "rootDataFileId": -1,
+                        "md5": "0adbaf9bd4e45f894f02bdfdc5e2ebfe",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0adbaf9bd4e45f894f02bdfdc5e2ebfe"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr14_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497289,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr14_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 537322,
+                        "storageIdentifier": "15e6321866d-dbec9b7dd63a",
+                        "rootDataFileId": -1,
+                        "md5": "cf6e7560649f948556c87b2437e996c4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cf6e7560649f948556c87b2437e996c4"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr15_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497161,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr15_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 531482,
+                        "storageIdentifier": "15e63218d41-3f66a87fee80",
+                        "rootDataFileId": -1,
+                        "md5": "61ae57690938871275c670ec44d1a6d2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "61ae57690938871275c670ec44d1a6d2"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr16_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497180,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr16_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 608680,
+                        "storageIdentifier": "15e63219518-13c9b9fce1b6",
+                        "rootDataFileId": -1,
+                        "md5": "30d45f27b6b926080353781a709ce046",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "30d45f27b6b926080353781a709ce046"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr17_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497179,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr17_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 731242,
+                        "storageIdentifier": "15e63219b77-29374c5df191",
+                        "rootDataFileId": -1,
+                        "md5": "abe0dd6d535750223b8babb99d289fbc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "abe0dd6d535750223b8babb99d289fbc"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr18_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497168,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr18_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 816789,
+                        "storageIdentifier": "15e6321b31e-f13fd39cb760",
+                        "rootDataFileId": -1,
+                        "md5": "e847fef8171d379a975835c41e9a65fe",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e847fef8171d379a975835c41e9a65fe"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr19_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497236,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr19_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 865703,
+                        "storageIdentifier": "15e6321b80c-1cfd1910fe94",
+                        "rootDataFileId": -1,
+                        "md5": "1afc8f2cb2f0ee2a040f76ed657d971a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1afc8f2cb2f0ee2a040f76ed657d971a"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr20_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497243,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr20_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 819926,
+                        "storageIdentifier": "15e6321a0a8-ef5f266ddae0",
+                        "rootDataFileId": -1,
+                        "md5": "a7538d953f8708fb58c56e1ef4ea9c78",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a7538d953f8708fb58c56e1ef4ea9c78"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr21_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497229,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr21_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 759472,
+                        "storageIdentifier": "15e6321bee8-4b6ea22a755d",
+                        "rootDataFileId": -1,
+                        "md5": "4ba8f2c6820bcdfe4dbac48f7dae15f6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4ba8f2c6820bcdfe4dbac48f7dae15f6"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr22_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497231,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr22_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 663683,
+                        "storageIdentifier": "15e6321b30e-3b89a3a06c6d",
+                        "rootDataFileId": -1,
+                        "md5": "30442ba95c0ff7cd3c4ebb6002dcd355",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "30442ba95c0ff7cd3c4ebb6002dcd355"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-17_hr23_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497174,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-17_hr23_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 568155,
+                        "storageIdentifier": "15e6321aac2-fa8afa8a9284",
+                        "rootDataFileId": -1,
+                        "md5": "8bd2dd87a93ccf12de25c2992405a0e6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8bd2dd87a93ccf12de25c2992405a0e6"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr00_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497167,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr00_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 456036,
+                        "storageIdentifier": "15e6321b51f-bf30c70e8c83",
+                        "rootDataFileId": -1,
+                        "md5": "5858638bcdfa7565d92dc9b87a02a7c7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5858638bcdfa7565d92dc9b87a02a7c7"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr01_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497211,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr01_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 425373,
+                        "storageIdentifier": "15e6321b813-ed2808759abb",
+                        "rootDataFileId": -1,
+                        "md5": "bb17155f799a52269cc0a4b94885b149",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bb17155f799a52269cc0a4b94885b149"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr02_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497156,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr02_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 382352,
+                        "storageIdentifier": "15e6321c56f-31b616fb9dc0",
+                        "rootDataFileId": -1,
+                        "md5": "41f453fb38338c927fa2544aaaaf5cb8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "41f453fb38338c927fa2544aaaaf5cb8"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr03_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497245,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr03_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 334683,
+                        "storageIdentifier": "15e6321bf5e-1b1ee2f58d5b",
+                        "rootDataFileId": -1,
+                        "md5": "9700c277ff4b82b09339200483c100cb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9700c277ff4b82b09339200483c100cb"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr04_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497201,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr04_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 340576,
+                        "storageIdentifier": "15e6321c0bd-918763128012",
+                        "rootDataFileId": -1,
+                        "md5": "689c11338e110cf657ead88a6b992635",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "689c11338e110cf657ead88a6b992635"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr05_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497228,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr05_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 403104,
+                        "storageIdentifier": "15e6321c1f1-d71ed0d04353",
+                        "rootDataFileId": -1,
+                        "md5": "e837f81753aaabd045e20529ec493a96",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e837f81753aaabd045e20529ec493a96"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr06_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497285,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr06_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 450018,
+                        "storageIdentifier": "15e6321d073-91fdd0abf8be",
+                        "rootDataFileId": -1,
+                        "md5": "ec672a575fdc50334a0e877b6844cbfa",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ec672a575fdc50334a0e877b6844cbfa"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr07_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497274,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr07_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 489592,
+                        "storageIdentifier": "15e6321dd63-95f5c4c33826",
+                        "rootDataFileId": -1,
+                        "md5": "0faa48604f73212f0868b0fb8c8021e2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0faa48604f73212f0868b0fb8c8021e2"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr08_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497184,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr08_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 495828,
+                        "storageIdentifier": "15e6321cd85-f95579d4957e",
+                        "rootDataFileId": -1,
+                        "md5": "c12383e0f7f28a065c5ced4314c0d442",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c12383e0f7f28a065c5ced4314c0d442"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr09_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497162,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr09_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 511869,
+                        "storageIdentifier": "15e6321cf7f-567d204e86bb",
+                        "rootDataFileId": -1,
+                        "md5": "b1c6def54b1d283c23c574c1d2df4988",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b1c6def54b1d283c23c574c1d2df4988"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr10_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497186,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr10_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 477623,
+                        "storageIdentifier": "15e6321d494-32be1de41d33",
+                        "rootDataFileId": -1,
+                        "md5": "d6ff9146edb09e8037c97842b156de06",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d6ff9146edb09e8037c97842b156de06"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr11_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497260,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr11_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 498154,
+                        "storageIdentifier": "15e6321ea4f-d2e2b5b15129",
+                        "rootDataFileId": -1,
+                        "md5": "766ee3ecd87e1be00352ebff8c975faf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "766ee3ecd87e1be00352ebff8c975faf"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr12_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497219,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr12_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 496586,
+                        "storageIdentifier": "15e6321dc4e-c082098af5e3",
+                        "rootDataFileId": -1,
+                        "md5": "3441081ccfe4393e640c0af300c989b3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3441081ccfe4393e640c0af300c989b3"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr13_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497199,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr13_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 485971,
+                        "storageIdentifier": "15e6321db82-ec3aec86d510",
+                        "rootDataFileId": -1,
+                        "md5": "0576f414f693118ca80fa32157f828ad",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0576f414f693118ca80fa32157f828ad"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr14_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497165,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr14_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 498175,
+                        "storageIdentifier": "15e6321ec8b-a2eaf8f45077",
+                        "rootDataFileId": -1,
+                        "md5": "279e97ea0bdae0a0c684b8c42bf0cdd0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "279e97ea0bdae0a0c684b8c42bf0cdd0"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr15_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497226,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr15_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 539646,
+                        "storageIdentifier": "15e6321e547-0094a1d0334c",
+                        "rootDataFileId": -1,
+                        "md5": "4052081bcb3de22d69cbf02293daa916",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4052081bcb3de22d69cbf02293daa916"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr16_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497155,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr16_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 661826,
+                        "storageIdentifier": "15e6321ecc7-4729a9b3b1d0",
+                        "rootDataFileId": -1,
+                        "md5": "d9d2ae72aac6a42db9e4a86dfe7bd0f8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d9d2ae72aac6a42db9e4a86dfe7bd0f8"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr17_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497195,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr17_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 751946,
+                        "storageIdentifier": "15e6321f43f-9a853dde72de",
+                        "rootDataFileId": -1,
+                        "md5": "ccab0ff2fe277c8cd6a14d9f3275b078",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ccab0ff2fe277c8cd6a14d9f3275b078"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr18_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497277,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr18_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 828391,
+                        "storageIdentifier": "15e63220c5a-e26d09ed4fa8",
+                        "rootDataFileId": -1,
+                        "md5": "179be42daeb887cd2fd8847196914a36",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "179be42daeb887cd2fd8847196914a36"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr19_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497203,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr19_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 832240,
+                        "storageIdentifier": "15e6321fc4c-3df98fa58044",
+                        "rootDataFileId": -1,
+                        "md5": "8714e59b0443d3e0f8d0472a023a6d2d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8714e59b0443d3e0f8d0472a023a6d2d"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr20_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497157,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr20_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 851272,
+                        "storageIdentifier": "15e63221d70-0843ac6b5928",
+                        "rootDataFileId": -1,
+                        "md5": "3877dff42276d6defda7aaa411aba5f1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3877dff42276d6defda7aaa411aba5f1"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr21_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497291,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr21_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 822471,
+                        "storageIdentifier": "15e63221fec-a8f57f06727c",
+                        "rootDataFileId": -1,
+                        "md5": "dbdad354213f73388b3ef9b7a7438a16",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dbdad354213f73388b3ef9b7a7438a16"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr22_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497154,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr22_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 714411,
+                        "storageIdentifier": "15e632200be-c1b1d0e1dca3",
+                        "rootDataFileId": -1,
+                        "md5": "c68a93afff02a5559083f542a121e347",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c68a93afff02a5559083f542a121e347"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-18_hr23_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497207,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-18_hr23_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 637653,
+                        "storageIdentifier": "15e6322115d-0e741890a5e4",
+                        "rootDataFileId": -1,
+                        "md5": "5613493d8d0825b40ceeabeb8d8cf369",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5613493d8d0825b40ceeabeb8d8cf369"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr00_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497257,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr00_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 563298,
+                        "storageIdentifier": "15e63220c94-db87203f2c4d",
+                        "rootDataFileId": -1,
+                        "md5": "4ac7165a638106fba81be43c5b8e9d05",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4ac7165a638106fba81be43c5b8e9d05"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr01_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497248,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr01_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 512452,
+                        "storageIdentifier": "15e632210d1-e1f5d284f4f6",
+                        "rootDataFileId": -1,
+                        "md5": "86118d8dcdf0daca37e799dbb4f26778",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "86118d8dcdf0daca37e799dbb4f26778"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr02_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497283,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr02_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 461674,
+                        "storageIdentifier": "15e63222595-7f29b11e5d2f",
+                        "rootDataFileId": -1,
+                        "md5": "eda30a19c7449c2a94be8ac084882373",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "eda30a19c7449c2a94be8ac084882373"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr03_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497293,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr03_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 428032,
+                        "storageIdentifier": "15e63221770-646b83082f72",
+                        "rootDataFileId": -1,
+                        "md5": "5ad0ee5289f6533ead61f77f37568daf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5ad0ee5289f6533ead61f77f37568daf"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr04_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497253,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr04_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 424482,
+                        "storageIdentifier": "15e63221de6-b2dd7ef6b4d8",
+                        "rootDataFileId": -1,
+                        "md5": "6eb7b09b1ef13a5bbb3f4656e02a9f25",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6eb7b09b1ef13a5bbb3f4656e02a9f25"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr05_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497269,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr05_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 426182,
+                        "storageIdentifier": "15e632227e0-ef61c11b7a64",
+                        "rootDataFileId": -1,
+                        "md5": "cfc588906557676f92f44c04199a976a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cfc588906557676f92f44c04199a976a"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr06_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497296,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr06_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 447914,
+                        "storageIdentifier": "15e63222253-ff56ad486618",
+                        "rootDataFileId": -1,
+                        "md5": "3408fb247f16bc0b50192ab73bf1cdaa",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3408fb247f16bc0b50192ab73bf1cdaa"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr07_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497230,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr07_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 448403,
+                        "storageIdentifier": "15e63223aff-57c3496a6e7b",
+                        "rootDataFileId": -1,
+                        "md5": "c0ffdb777365c8018f70ee7f7004481e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c0ffdb777365c8018f70ee7f7004481e"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr08_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497158,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr08_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 497690,
+                        "storageIdentifier": "15e63222bee-f15939d81644",
+                        "rootDataFileId": -1,
+                        "md5": "000603ae56b36fc11ffc7a607fd8160e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "000603ae56b36fc11ffc7a607fd8160e"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr09_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497159,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr09_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 519867,
+                        "storageIdentifier": "15e63224ad1-1d90579c90cd",
+                        "rootDataFileId": -1,
+                        "md5": "5289846f959d392463acae5c9cd85902",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5289846f959d392463acae5c9cd85902"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr10_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497239,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr10_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 559746,
+                        "storageIdentifier": "15e6322315c-42694c477f42",
+                        "rootDataFileId": -1,
+                        "md5": "d376f861a6fd0a0e562cdbb64c8b9f19",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d376f861a6fd0a0e562cdbb64c8b9f19"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr11_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497181,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr11_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 613415,
+                        "storageIdentifier": "15e63224bb7-f2a0a80dfec8",
+                        "rootDataFileId": -1,
+                        "md5": "7343839fc203b24a60993d7af2e8592c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7343839fc203b24a60993d7af2e8592c"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr12_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497208,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr12_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 609213,
+                        "storageIdentifier": "15e632237ce-a0e9600f21b0",
+                        "rootDataFileId": -1,
+                        "md5": "f106bc06d17a4674ce417a3d1ecda4a5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f106bc06d17a4674ce417a3d1ecda4a5"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr13_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497172,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr13_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 580412,
+                        "storageIdentifier": "15e63223d84-eda656e17321",
+                        "rootDataFileId": -1,
+                        "md5": "5fab3981254e39db3a43baeb0932e020",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5fab3981254e39db3a43baeb0932e020"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr14_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497204,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr14_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 553133,
+                        "storageIdentifier": "15e63224552-329a20142f62",
+                        "rootDataFileId": -1,
+                        "md5": "e3beaa9fdc7c862cd9bc93111f111b68",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e3beaa9fdc7c862cd9bc93111f111b68"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr15_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497194,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr15_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 549103,
+                        "storageIdentifier": "15e63224ad5-a4a2560b5525",
+                        "rootDataFileId": -1,
+                        "md5": "0c59eb306a92e1e3bb254f8e780a3513",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0c59eb306a92e1e3bb254f8e780a3513"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr16_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497249,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr16_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 617962,
+                        "storageIdentifier": "15e63226039-1bbead4a7c3c",
+                        "rootDataFileId": -1,
+                        "md5": "c4259f6927370764e233920e4302d416",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c4259f6927370764e233920e4302d416"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr17_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497294,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr17_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 752708,
+                        "storageIdentifier": "15e632252c8-a74bb10449ae",
+                        "rootDataFileId": -1,
+                        "md5": "e4a6192ba779895463cc6f3155d4b59d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e4a6192ba779895463cc6f3155d4b59d"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr18_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497227,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr18_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 847815,
+                        "storageIdentifier": "15e63225b39-11f378b788e5",
+                        "rootDataFileId": -1,
+                        "md5": "e32992b2a8bfe5a21397f7c38f183fc0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e32992b2a8bfe5a21397f7c38f183fc0"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr19_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497218,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr19_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 874133,
+                        "storageIdentifier": "15e63227765-f90192759796",
+                        "rootDataFileId": -1,
+                        "md5": "8c727a4a5cbad35149f9304ccbfa5610",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8c727a4a5cbad35149f9304ccbfa5610"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr20_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497240,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr20_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 871486,
+                        "storageIdentifier": "15e63226d4e-68888c2f2eb6",
+                        "rootDataFileId": -1,
+                        "md5": "42f83dcbcf429097cc2046b0c9e5a4ec",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "42f83dcbcf429097cc2046b0c9e5a4ec"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr21_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497256,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr21_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 836356,
+                        "storageIdentifier": "15e63228bc0-bba85c995fc5",
+                        "rootDataFileId": -1,
+                        "md5": "6aa4f3b6b80cd2972f78612c5b4cf623",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6aa4f3b6b80cd2972f78612c5b4cf623"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr22_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497164,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr22_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 775086,
+                        "storageIdentifier": "15e63226c92-4fa3650de9bb",
+                        "rootDataFileId": -1,
+                        "md5": "4920d71c47d56b7d941dba39e19f494c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4920d71c47d56b7d941dba39e19f494c"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-19_hr23_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497242,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-19_hr23_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 745519,
+                        "storageIdentifier": "15e63226e6f-24f806e1ce6e",
+                        "rootDataFileId": -1,
+                        "md5": "67e154065020a2b5933eb719df1b88cb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "67e154065020a2b5933eb719df1b88cb"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr00_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497209,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr00_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 714259,
+                        "storageIdentifier": "15e6322a55e-30a84f9ed5cc",
+                        "rootDataFileId": -1,
+                        "md5": "bab88bec1420bcc110470c22fe469d64",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bab88bec1420bcc110470c22fe469d64"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr01_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497163,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr01_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 689769,
+                        "storageIdentifier": "15e63227f7b-3232843da008",
+                        "rootDataFileId": -1,
+                        "md5": "27d7332f0c8b0cb8cb106271e6e10440",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "27d7332f0c8b0cb8cb106271e6e10440"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr02_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497292,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr02_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 634255,
+                        "storageIdentifier": "15e632281b5-8552ec542561",
+                        "rootDataFileId": -1,
+                        "md5": "ae69ed663297f8d3d495474c3e27484f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ae69ed663297f8d3d495474c3e27484f"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr03_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497266,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr03_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 621291,
+                        "storageIdentifier": "15e6322802d-23c371c6a90e",
+                        "rootDataFileId": -1,
+                        "md5": "788302ef6a5fd1af3fef9fb108c262d2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "788302ef6a5fd1af3fef9fb108c262d2"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr04_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497176,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr04_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 562181,
+                        "storageIdentifier": "15e632298d7-e7b36922a639",
+                        "rootDataFileId": -1,
+                        "md5": "d1c8e7aba2550a030e64a43707673388",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d1c8e7aba2550a030e64a43707673388"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr05_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497192,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr05_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 637414,
+                        "storageIdentifier": "15e63229105-0b8f2c31fce6",
+                        "rootDataFileId": -1,
+                        "md5": "b8d109cb0990b02d594eb237400b901e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b8d109cb0990b02d594eb237400b901e"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr06_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497215,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr06_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 645688,
+                        "storageIdentifier": "15e6322920c-73bf3b1485cf",
+                        "rootDataFileId": -1,
+                        "md5": "b6b68c13f03c522ed1bcd7a989af9e9b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b6b68c13f03c522ed1bcd7a989af9e9b"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr07_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497216,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr07_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 630908,
+                        "storageIdentifier": "15e63229cac-6c7e6b6df1af",
+                        "rootDataFileId": -1,
+                        "md5": "633389cb9ad30b3b75029dc42779b6a1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "633389cb9ad30b3b75029dc42779b6a1"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr08_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497244,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr08_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 618767,
+                        "storageIdentifier": "15e6322ae1a-d438e7540f9f",
+                        "rootDataFileId": -1,
+                        "md5": "065bd666366771d1c9afeababf9f0fb4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "065bd666366771d1c9afeababf9f0fb4"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr09_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497250,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr09_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 635831,
+                        "storageIdentifier": "15e6322a4e3-a2ff340743c7",
+                        "rootDataFileId": -1,
+                        "md5": "80810aaaaae6bb4c6b0262b7df65cf2f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "80810aaaaae6bb4c6b0262b7df65cf2f"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr10_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497223,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr10_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 610944,
+                        "storageIdentifier": "15e6322a32b-a168666e8041",
+                        "rootDataFileId": -1,
+                        "md5": "a54ae9cb5f7129f3872e57b2b9dfe49f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a54ae9cb5f7129f3872e57b2b9dfe49f"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr11_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497200,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr11_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 565162,
+                        "storageIdentifier": "15e6322b6b0-4cfb9140de7e",
+                        "rootDataFileId": -1,
+                        "md5": "ffefcfabd391cda87aef88b78d8a1bfe",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ffefcfabd391cda87aef88b78d8a1bfe"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr12_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497275,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr12_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 594730,
+                        "storageIdentifier": "15e6322b64f-0d9559dd4399",
+                        "rootDataFileId": -1,
+                        "md5": "5b04c3d98b6dbeba5de06a1b38eb6aaf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5b04c3d98b6dbeba5de06a1b38eb6aaf"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr13_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497254,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr13_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 600060,
+                        "storageIdentifier": "15e6322b685-f04db9ae69fc",
+                        "rootDataFileId": -1,
+                        "md5": "8cede239126bbbdc439d7d0de0f972e0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8cede239126bbbdc439d7d0de0f972e0"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr14_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497206,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr14_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 585319,
+                        "storageIdentifier": "15e6322b689-37ca6b8db4bc",
+                        "rootDataFileId": -1,
+                        "md5": "623d5e2b5273c459457516100b79efac",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "623d5e2b5273c459457516100b79efac"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr15_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497255,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr15_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 556951,
+                        "storageIdentifier": "15e6322cbb1-083817333af8",
+                        "rootDataFileId": -1,
+                        "md5": "26aad1465a4d8ac7cecbb9c6790d19b4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "26aad1465a4d8ac7cecbb9c6790d19b4"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr16_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497288,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr16_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 541446,
+                        "storageIdentifier": "15e6322d0ab-c5d70d51a740",
+                        "rootDataFileId": -1,
+                        "md5": "8f50442d834f6389c326db588b75c5a2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8f50442d834f6389c326db588b75c5a2"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr17_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497259,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr17_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 581917,
+                        "storageIdentifier": "15e6322c922-db00bb219832",
+                        "rootDataFileId": -1,
+                        "md5": "01680605144f0e31f9b0fc210eac919b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "01680605144f0e31f9b0fc210eac919b"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr18_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497222,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr18_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 641656,
+                        "storageIdentifier": "15e6322cc23-209295554696",
+                        "rootDataFileId": -1,
+                        "md5": "da0047e5ab1ab91d067ccd391b1cff6b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "da0047e5ab1ab91d067ccd391b1cff6b"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr19_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497188,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr19_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 656700,
+                        "storageIdentifier": "15e6322cdc5-e7791b4c3e9b",
+                        "rootDataFileId": -1,
+                        "md5": "c29eebbd644369eff3deecb73290eac4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c29eebbd644369eff3deecb73290eac4"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr20_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497241,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr20_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 649240,
+                        "storageIdentifier": "15e6322e402-af96addc9d3c",
+                        "rootDataFileId": -1,
+                        "md5": "1a11c4651aa2a39214e5c35956e33251",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1a11c4651aa2a39214e5c35956e33251"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr21_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497232,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr21_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 636061,
+                        "storageIdentifier": "15e6322db58-0fd62ad4c474",
+                        "rootDataFileId": -1,
+                        "md5": "9609d353fe66389c72cc69d486cfca8d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9609d353fe66389c72cc69d486cfca8d"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr22_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497282,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr22_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 612448,
+                        "storageIdentifier": "15e6322f329-84423d817dde",
+                        "rootDataFileId": -1,
+                        "md5": "6477fbb41d85d1b5a5f6fb6ce58ffc86",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6477fbb41d85d1b5a5f6fb6ce58ffc86"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-20_hr23_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497205,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-20_hr23_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 531500,
+                        "storageIdentifier": "15e6322dbfe-6f477d442002",
+                        "rootDataFileId": -1,
+                        "md5": "9be7ef25691c835a6e37fa9bbc5d70e6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9be7ef25691c835a6e37fa9bbc5d70e6"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr00_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497276,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr00_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 449213,
+                        "storageIdentifier": "15e6322dd17-485506415b2b",
+                        "rootDataFileId": -1,
+                        "md5": "ec7d99f13e8d7e34cc1d86e4c5102286",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ec7d99f13e8d7e34cc1d86e4c5102286"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr01_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497177,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr01_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 376072,
+                        "storageIdentifier": "15e6322e5d4-5255daa1c2a1",
+                        "rootDataFileId": -1,
+                        "md5": "86f46a3284384b7eb40ddb9c9be94fbe",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "86f46a3284384b7eb40ddb9c9be94fbe"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr02_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497225,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr02_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 356609,
+                        "storageIdentifier": "15e6322e85c-de765bce72ef",
+                        "rootDataFileId": -1,
+                        "md5": "c32162de3dcbd84e6dd212513e575f8c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c32162de3dcbd84e6dd212513e575f8c"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr03_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497247,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr03_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 355098,
+                        "storageIdentifier": "15e6322e863-0c0e494b14eb",
+                        "rootDataFileId": -1,
+                        "md5": "3938e5615a3b0bccbe348af0170c1778",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3938e5615a3b0bccbe348af0170c1778"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr04_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497258,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr04_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 371034,
+                        "storageIdentifier": "15e6322eea2-187e008718f7",
+                        "rootDataFileId": -1,
+                        "md5": "ef6f86d6efa18b27143df0fab803ea49",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ef6f86d6efa18b27143df0fab803ea49"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr05_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497272,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr05_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 422275,
+                        "storageIdentifier": "15e63230045-4374ddb88d38",
+                        "rootDataFileId": -1,
+                        "md5": "334a194a5a1795e739bd19c1b4a6004e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "334a194a5a1795e739bd19c1b4a6004e"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr06_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497221,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr06_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 461184,
+                        "storageIdentifier": "15e632302b6-932902ca5f9c",
+                        "rootDataFileId": -1,
+                        "md5": "2de9f9ac58057279ad71241585e4446a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2de9f9ac58057279ad71241585e4446a"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr07_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497224,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr07_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 492509,
+                        "storageIdentifier": "15e6322f485-a79d073a5f11",
+                        "rootDataFileId": -1,
+                        "md5": "6a40b94c12eefd51e705c5a7c8bcb7ec",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6a40b94c12eefd51e705c5a7c8bcb7ec"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr08_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497284,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr08_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 493213,
+                        "storageIdentifier": "15e6322fbc6-f2ced25f8f42",
+                        "rootDataFileId": -1,
+                        "md5": "3a576bf3275ed2dacb2dead534322610",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3a576bf3275ed2dacb2dead534322610"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr09_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497212,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr09_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 524950,
+                        "storageIdentifier": "15e63230888-06080b67c1f8",
+                        "rootDataFileId": -1,
+                        "md5": "2844d2aa81c0279b820ca733353799cd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2844d2aa81c0279b820ca733353799cd"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr10_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497279,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr10_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 562779,
+                        "storageIdentifier": "15e63231307-362abf7c9530",
+                        "rootDataFileId": -1,
+                        "md5": "9835a0c0720c08470dc5b67430452f1c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9835a0c0720c08470dc5b67430452f1c"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr11_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497233,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr11_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 600421,
+                        "storageIdentifier": "15e63230422-7ae897b4f23a",
+                        "rootDataFileId": -1,
+                        "md5": "170abee31deeb6a963687aef1b0ed3d3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "170abee31deeb6a963687aef1b0ed3d3"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr12_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497160,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr12_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 598889,
+                        "storageIdentifier": "15e63230b07-6e40902827dc",
+                        "rootDataFileId": -1,
+                        "md5": "9d909584118ba0d941471d93536efb7c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9d909584118ba0d941471d93536efb7c"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr13_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497267,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr13_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 664748,
+                        "storageIdentifier": "15e6323226e-a770f0f016b9",
+                        "rootDataFileId": -1,
+                        "md5": "88f89d9589dbb572c72b9f9c14cb2e5f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "88f89d9589dbb572c72b9f9c14cb2e5f"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr14_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497238,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr14_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 646422,
+                        "storageIdentifier": "15e63232820-addd44d6ed76",
+                        "rootDataFileId": -1,
+                        "md5": "98b717661ad353f8a1a6ab9b4dc7297c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "98b717661ad353f8a1a6ab9b4dc7297c"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr15_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497178,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr15_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 654098,
+                        "storageIdentifier": "15e63231d30-34d95cb27abb",
+                        "rootDataFileId": -1,
+                        "md5": "8bc6d10567d2bb998123b6e914f15965",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8bc6d10567d2bb998123b6e914f15965"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr16_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497271,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr16_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 611303,
+                        "storageIdentifier": "15e632325b8-e288e218598d",
+                        "rootDataFileId": -1,
+                        "md5": "bc142f39c088260a1c80b0e268ff63cf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bc142f39c088260a1c80b0e268ff63cf"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr17_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497263,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr17_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 661419,
+                        "storageIdentifier": "15e63231dec-c8876ec5d9d2",
+                        "rootDataFileId": -1,
+                        "md5": "6e2628b10ba74a2123306004891700cb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6e2628b10ba74a2123306004891700cb"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr18_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497196,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr18_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 668540,
+                        "storageIdentifier": "15e6323451f-07a63b61c715",
+                        "rootDataFileId": -1,
+                        "md5": "fb932212a965e59ec3ef6ee5d110f536",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "fb932212a965e59ec3ef6ee5d110f536"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr19_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497270,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr19_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 684957,
+                        "storageIdentifier": "15e632333ab-704bbacbeb70",
+                        "rootDataFileId": -1,
+                        "md5": "06fb21a4891668466f47c416b07ea057",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "06fb21a4891668466f47c416b07ea057"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr20_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497187,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr20_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 705932,
+                        "storageIdentifier": "15e632331ab-6dbc3c1a79d2",
+                        "rootDataFileId": -1,
+                        "md5": "c16aa8769afb437b9c6b0e59da135cf2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c16aa8769afb437b9c6b0e59da135cf2"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr21_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497286,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr21_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 627228,
+                        "storageIdentifier": "15e63233ee1-2d3b2ef1c280",
+                        "rootDataFileId": -1,
+                        "md5": "dfe993d53e116998cce611517091f431",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dfe993d53e116998cce611517091f431"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr22_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497190,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr22_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 581909,
+                        "storageIdentifier": "15e63233998-842fdb6cb5ca",
+                        "rootDataFileId": -1,
+                        "md5": "bf4044689c8d7957d4d31b57ccaffaae",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bf4044689c8d7957d4d31b57ccaffaae"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-21_hr23_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497170,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-21_hr23_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 518780,
+                        "storageIdentifier": "15e632343a0-51c25207dc66",
+                        "rootDataFileId": -1,
+                        "md5": "3102dc496c8b23e4fad00ed723304e4c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3102dc496c8b23e4fad00ed723304e4c"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr00_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497191,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr00_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 422977,
+                        "storageIdentifier": "15e63234076-18261fb4f72c",
+                        "rootDataFileId": -1,
+                        "md5": "bd56b481b53ee348f880f69ef2310f33",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bd56b481b53ee348f880f69ef2310f33"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr01_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497213,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr01_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 378560,
+                        "storageIdentifier": "15e632341b5-31be275b2147",
+                        "rootDataFileId": -1,
+                        "md5": "2586b46aeb3d81fa2f386ce376cb5f6b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2586b46aeb3d81fa2f386ce376cb5f6b"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr02_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497182,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr02_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 391070,
+                        "storageIdentifier": "15e632350c6-e51f8d1ac45f",
+                        "rootDataFileId": -1,
+                        "md5": "be6aa9699a61e8939d1e65955b91c422",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "be6aa9699a61e8939d1e65955b91c422"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr03_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497202,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr03_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 390559,
+                        "storageIdentifier": "15e63235126-e250c2b35381",
+                        "rootDataFileId": -1,
+                        "md5": "8fe663abc8e836dcc94c2cccd23aae0d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8fe663abc8e836dcc94c2cccd23aae0d"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr04_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497252,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr04_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 423642,
+                        "storageIdentifier": "15e6323508b-5aaaaf9ecbcd",
+                        "rootDataFileId": -1,
+                        "md5": "baf1b49e61a9c7682f0c2eeca003a013",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "baf1b49e61a9c7682f0c2eeca003a013"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr05_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497166,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr05_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 493587,
+                        "storageIdentifier": "15e63235304-19187df7a303",
+                        "rootDataFileId": -1,
+                        "md5": "388b4c79fd76a81ef7fbb1aa732afeb2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "388b4c79fd76a81ef7fbb1aa732afeb2"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr06_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497193,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr06_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 539045,
+                        "storageIdentifier": "15e63236d24-8b0031320834",
+                        "rootDataFileId": -1,
+                        "md5": "40abf151b3834cad65adee71e4a79438",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "40abf151b3834cad65adee71e4a79438"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr07_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497235,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr07_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 605217,
+                        "storageIdentifier": "15e63236971-11adb50ab0e8",
+                        "rootDataFileId": -1,
+                        "md5": "e21d1d6036d09c4075cd37cb985ff492",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e21d1d6036d09c4075cd37cb985ff492"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr08_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497234,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr08_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 633424,
+                        "storageIdentifier": "15e6323660d-bf23f106e842",
+                        "rootDataFileId": -1,
+                        "md5": "1837f3223c5dd10cb1ec81663cb55f64",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1837f3223c5dd10cb1ec81663cb55f64"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr09_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497183,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr09_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 671034,
+                        "storageIdentifier": "15e63236b87-f4732dd4a827",
+                        "rootDataFileId": -1,
+                        "md5": "a0ed7521e55cde708ea42806cb8e72fb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a0ed7521e55cde708ea42806cb8e72fb"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr10_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497197,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr10_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 716150,
+                        "storageIdentifier": "15e63237fbc-558c0e536d0e",
+                        "rootDataFileId": -1,
+                        "md5": "afbd7ff794552dda714dd9770373e795",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "afbd7ff794552dda714dd9770373e795"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr11_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497175,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr11_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 706051,
+                        "storageIdentifier": "15e63236d45-a0ce12ce11cc",
+                        "rootDataFileId": -1,
+                        "md5": "e50bd4bd48c469e2507df8f2ed0b82c3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e50bd4bd48c469e2507df8f2ed0b82c3"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr12_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497268,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr12_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 685296,
+                        "storageIdentifier": "15e63237bb5-ea02fb9fce0e",
+                        "rootDataFileId": -1,
+                        "md5": "341966985c63282bf91e9690959b9787",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "341966985c63282bf91e9690959b9787"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr13_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497189,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr13_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 672091,
+                        "storageIdentifier": "15e63239420-cd15c380341f",
+                        "rootDataFileId": -1,
+                        "md5": "d07804f22b67a36fabcebb60cc5c7800",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d07804f22b67a36fabcebb60cc5c7800"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr14_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497173,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr14_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 701115,
+                        "storageIdentifier": "15e63238515-7cbc7f61b20d",
+                        "rootDataFileId": -1,
+                        "md5": "a548affac85254d8e69160a6d89ae772",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a548affac85254d8e69160a6d89ae772"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr15_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497198,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr15_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 723043,
+                        "storageIdentifier": "15e6323881e-5faeb6842f20",
+                        "rootDataFileId": -1,
+                        "md5": "d8c388edad9947549455f4d262f81380",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d8c388edad9947549455f4d262f81380"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr16_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497287,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr16_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 738236,
+                        "storageIdentifier": "15e632399f5-b1bcceff4406",
+                        "rootDataFileId": -1,
+                        "md5": "7e93791649a0d184e07d9f30a8a54491",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7e93791649a0d184e07d9f30a8a54491"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr17_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497246,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr17_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 836603,
+                        "storageIdentifier": "15e63238cf9-cc64e0a26927",
+                        "rootDataFileId": -1,
+                        "md5": "a6adc8cea451690b3ee474cea6b24389",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a6adc8cea451690b3ee474cea6b24389"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "case7r00_2010-06-22_hr18_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497171,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr18_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 879530,
+                        "description": "",
+                        "storageIdentifier": "15e6323ba83-079c2f2737de",
+                        "rootDataFileId": -1,
+                        "md5": "a93f6a88187175eba431e423cd4a9879",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a93f6a88187175eba431e423cd4a9879"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr19_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497297,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr19_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 954138,
+                        "storageIdentifier": "15e6323a3d9-3b837533c85f",
+                        "rootDataFileId": -1,
+                        "md5": "f8b0d6efaa3ed8026c1854ee54c4d224",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f8b0d6efaa3ed8026c1854ee54c4d224"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr20_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497185,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr20_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 949835,
+                        "storageIdentifier": "15e6323ab23-52e84a08ac09",
+                        "rootDataFileId": -1,
+                        "md5": "4f26b1d420725acee39ebc1a02a79768",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4f26b1d420725acee39ebc1a02a79768"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr21_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497169,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr21_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 942057,
+                        "storageIdentifier": "15e6323a712-18ba274b5a52",
+                        "rootDataFileId": -1,
+                        "md5": "0ebcee79f89b997afb0fb4c7731c701e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0ebcee79f89b997afb0fb4c7731c701e"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr22_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497278,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr22_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 942530,
+                        "storageIdentifier": "15e6323b778-23a44c6b9bb3",
+                        "rootDataFileId": -1,
+                        "md5": "f8653851d8be4c2244fcde6baa5ed7af",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f8653851d8be4c2244fcde6baa5ed7af"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                },
+                {
+                    "label": "case7r00_2010-06-22_hr23_maps.nc.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 29671,
+                    "dataFile": {
+                        "id": 7497237,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "case7r00_2010-06-22_hr23_maps.nc.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 886518,
+                        "storageIdentifier": "15e6323b8cc-4a3bbbd92bb2",
+                        "rootDataFileId": -1,
+                        "md5": "d563f649e49d860825d8308dc08b1f4d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d563f649e49d860825d8308dc08b1f4d"
+                        },
+                        "creationDate": "2017-09-08"
+                    }
+                }
+            ]
+        }
+    }
+}

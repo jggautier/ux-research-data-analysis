@@ -1,0 +1,691 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-DGDI",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3406,
+            "storageIdentifier": "file://1902.29/CAPS-DGDI",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T19:38:50Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:19:11Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Dyke-Gillette Dissociation Inventory (CAPS-DGDI87 and CAPS-DGDI module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-DGDI"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-DGDI87 CAPS-DGDI"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The DGDI, administered in CAPS/86 contains 134 items which are designed to measure dissociative disorder and probably related psychologic phenomena (anxiety, panic, conversion). Some items derive directly from DSM III criteria for dissociative disorders, some from the professional literature, and some from the clinical experience of the authors. Items are presented in a fixed order derived from a computerized random sort. Subscales developed from the items include the following: Amnesia (AM)\nScale Trance (TR) Scale Derealization (DR) Scale Depersonalization (DP) Scale Multiple Personality (MP) Scale Intrusive Memories (IM) Scale Panic (PA) Scale Anxiety (AN) Scale Autonomic Symptoms of Anxiety/Panic (AU) Scale Conversion Motor Symptoms (CM) Scale Conversion Sensory Symptoms (CS) Scale\n</p><p>DGDI87 is a revised version of the Dyck-Gillette Dissociative Symptom Inventory run in CAPS/86. DGDI87 contains 70 items from the original 134. It is designed to measure dissociative disorder and probably related psychologic phenomena such as anxiety, panic and conversion. Some items derive directly from DSM III criteria for dissociative disorders, some from the professional literature, and some from the clinical experience of the authors. Items are presented in a fixed order derived from\na computerized random sort.</p><p>Subscales developed from the DGDI87 items include the following: Amnesia (AM) Scale Trance (TR) Scale Derealization (DR) Scale Depersonalization (DP) Scale Multiple Personality (MP) Scale Intrusive Memories (IM) Scale Panic (PA) Scale Anxiety (AN) Scale ?? (CN) Scale</p><p>Source file contains scoring information for DGDI87. See freqjcl file for scoring info for DGDI.</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dissociative disorders"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Psychologic disorders"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Amnesia"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Trance"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Derealization"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Depersonalization"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Multiple personality"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Intrusive memories"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Panic"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Anxiety"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Autonomic symptoms of anxiety and panic"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Conversion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Motor symptoms"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Conversion sensory symptoms"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Copyright (c) 1985 Peter B. Dyck MD and Gregory M. Gillette MD See: Dyck, P. B. and Gillette, G. M. (1985). Dissociation and Multiple Personality, University of North Carolina Department of Psychiatry Grand Rounds, Chapel Hill, NC."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_dgdi_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8021,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_dgdi_data",
+                        "contentType": "text/plain",
+                        "filesize": 132990,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_dgdi_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_dgdi_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8023,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_dgdi_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 34568,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_dgdi_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_dgdi_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8020,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_dgdi_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 292480,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_dgdi_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_dgdi_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8028,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_dgdi_source",
+                        "contentType": "text/plain",
+                        "filesize": 54920,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_dgdi_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_dgdi_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8029,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_dgdi_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 94956,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_dgdi_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_dgdi_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "Data File 1 (caps_1986_dgdi_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8025,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_dgdi_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 76561,
+                        "storageIdentifier": "caps_1986_dgdi_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:lYY9YK/3ylQMiY+pkTToog==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_dgdi87_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8030,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_dgdi87_data",
+                        "contentType": "text/plain",
+                        "filesize": 61100,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_dgdi87_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_dgdi87_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8031,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_dgdi87_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 20295,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_dgdi87_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_dgdi87_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8027,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_dgdi87_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 164880,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_dgdi87_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_dgdi87_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8026,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_dgdi87_source",
+                        "contentType": "text/plain",
+                        "filesize": 33573,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_dgdi87_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_dgdi87_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8024,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_dgdi87_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 56662,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_dgdi87_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_dgdi87_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3406,
+                    "categories": [
+                        "Data File 2 (caps_1987_dgdi87_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8022,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_dgdi87_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 44216,
+                        "storageIdentifier": "caps_1987_dgdi87_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:FDIeYq3yg5hr9R8Ov3nnjw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

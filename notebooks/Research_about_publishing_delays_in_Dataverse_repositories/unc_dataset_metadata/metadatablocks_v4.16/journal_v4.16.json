@@ -1,0 +1,76 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 6,
+        "name": "journal",
+        "displayName": "Journal Metadata",
+        "fields": {
+            "journalVolumeIssue": {
+                "name": "journalVolumeIssue",
+                "displayName": "Journal",
+                "title": "Journal",
+                "type": "NONE",
+                "watermark": "",
+                "description": "Indicates the volume, issue and date of a journal, which this Dataset is associated with.",
+                "childFields": {
+                    "journalVolume": {
+                        "name": "journalVolume",
+                        "displayName": "Journal Volume",
+                        "title": "Volume",
+                        "type": "TEXT",
+                        "watermark": "",
+                        "description": "The journal volume which this Dataset is associated with (e.g., Volume 4)."
+                    },
+                    "journalIssue": {
+                        "name": "journalIssue",
+                        "displayName": "Journal Issue",
+                        "title": "Issue",
+                        "type": "TEXT",
+                        "watermark": "",
+                        "description": "The journal issue number which this Dataset is associated with (e.g., Number 2, Autumn)."
+                    },
+                    "journalPubDate": {
+                        "name": "journalPubDate",
+                        "displayName": "Journal Publication Date",
+                        "title": "Publication Date",
+                        "type": "DATE",
+                        "watermark": "YYYY or YYYY-MM or YYYY-MM-DD",
+                        "description": "The publication date for this journal volume/issue, which this Dataset is associated with (e.g., 1999)."
+                    }
+                }
+            },
+            "journalVolume": {
+                "name": "journalVolume",
+                "displayName": "Journal Volume",
+                "title": "Volume",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The journal volume which this Dataset is associated with (e.g., Volume 4)."
+            },
+            "journalIssue": {
+                "name": "journalIssue",
+                "displayName": "Journal Issue",
+                "title": "Issue",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The journal issue number which this Dataset is associated with (e.g., Number 2, Autumn)."
+            },
+            "journalPubDate": {
+                "name": "journalPubDate",
+                "displayName": "Journal Publication Date",
+                "title": "Publication Date",
+                "type": "DATE",
+                "watermark": "YYYY or YYYY-MM or YYYY-MM-DD",
+                "description": "The publication date for this journal volume/issue, which this Dataset is associated with (e.g., 1999)."
+            },
+            "journalArticleType": {
+                "name": "journalArticleType",
+                "displayName": "Type of Article",
+                "title": "Type of Article",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "Indicates what kind of article this is, for example, a research article, a commentary, a book or product review, a case report, a calendar, etc (based on JATS). "
+            }
+        }
+    }
+}

@@ -1,0 +1,510 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-31363",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2010-02-24",
+        "datasetVersion": {
+            "id": 2148,
+            "storageIdentifier": "file://1902.29/D-31363",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2010-02-24T15:02:04Z",
+            "releaseTime": "2010-02-24T00:00:00Z",
+            "createTime": "2007-08-28T16:03:41Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1996 Fall Georgia Poll"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-31363"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "NNSP-GA-027"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Survey Research Center, University of Georgia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This file contains the 1996 edition in a series of biennial polls that probes Georgian's attitudes toward national and local issues. This study examines issues such as politics, elections, mental illness, nutrition, landscape plants, and transportation.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Transportation"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Politics"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Elections"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Mental illness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Nutrition"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Residents of Georgia over 18 years of age in households with telephones were sampled.;Type: ODUM:ACCESS.CATEGORY Notes: II;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Survey Research Center, University of Georgia"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.src.uga.edu/surveys/GA-Poll/index.html"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.ors.uga.edu/src/assets/images/header/header2.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1996"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Athens, GA"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "nnsp_georgia_fall96_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2148,
+                    "categories": [
+                        "Data, Card-Image"
+                    ],
+                    "dataFile": {
+                        "id": 18691,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_georgia_fall96_data",
+                        "contentType": "text/plain",
+                        "filesize": 65448,
+                        "description": "",
+                        "storageIdentifier": "nnsp_georgia_fall96_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_georgia_fall96_deposit.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2148,
+                    "categories": [
+                        "Deposit Form, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4345849,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_georgia_fall96_deposit.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 26538,
+                        "description": "",
+                        "storageIdentifier": "3330",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_georgia_fall96_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2148,
+                    "categories": [
+                        "Questionnaire, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 18688,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_georgia_fall96_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 674799,
+                        "description": "",
+                        "storageIdentifier": "nnsp_georgia_fall96_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_georgia_fall96_sascrds",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2148,
+                    "categories": [
+                        "SAS Data Definitions"
+                    ],
+                    "dataFile": {
+                        "id": 18693,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_georgia_fall96_sascrds",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 18306,
+                        "description": "",
+                        "storageIdentifier": "nnsp_georgia_fall96_sascrds",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_georgia_fall96_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2148,
+                    "categories": [
+                        "SAS Export File"
+                    ],
+                    "dataFile": {
+                        "id": 18690,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_georgia_fall96_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 262080,
+                        "description": "",
+                        "storageIdentifier": "nnsp_georgia_fall96_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_georgia_fall96_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2148,
+                    "categories": [
+                        "SPSS Portable File"
+                    ],
+                    "dataFile": {
+                        "id": 18689,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_georgia_fall96_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 64476,
+                        "description": "",
+                        "storageIdentifier": "nnsp_georgia_fall96_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "nnsp_georgia_fall96_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2148,
+                    "categories": [
+                        "Data File 1 (nnsp_georgia_fall96_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 18692,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_georgia_fall96_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 53850,
+                        "storageIdentifier": "nnsp_georgia_fall96_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:YQIDYqOWnGC6isSpymkkFQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

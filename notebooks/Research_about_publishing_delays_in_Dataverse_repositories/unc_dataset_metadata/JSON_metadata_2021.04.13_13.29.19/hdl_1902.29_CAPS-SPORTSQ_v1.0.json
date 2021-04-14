@@ -1,0 +1,673 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-SPORTSQ",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-21",
+        "datasetVersion": {
+            "id": 3531,
+            "storageIdentifier": "file://1902.29/CAPS-SPORTSQ",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-21T17:03:42Z",
+            "releaseTime": "2009-04-21T00:00:00Z",
+            "createTime": "2007-08-28T15:25:27Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Sports Quiz (CAPS-SPORTSQ module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-SPORTSQ"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-SPORTSQ"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This unit is a measure of Rs knowledge of sports. Respondents were asked to answer 33 multiple-choice questions (6 answers including don't know) pertaining to sports. Three 11-item subscales were compiled reflecting the total items correctly answered: 1) knowledge of sports rules 2) knowledge of UNC sports personalities, teams and records 3) knowledge of professional sports personalities, teams and records. A total composite score was compiled by adding the three subscale scores.</p><p>Items\n1-11 Sports rules Items 12-22 UNC personalities, teams, records Items 23-33 Professional personalities, teams, records\n</p><p>Correct answers are: SPORT1 E SPORT2 D SPORT3 2 SPORT4 C SPORT5 D SPORT6 1 SPORT7 C SPORT8 3 SPORT9 4 SPORT10 B SPORT11 5 SPORT12 5 SPORT13 B SPORT14 2 SPORT15 5 SPORT16 3 SPORT17 3 SPORT18 1 SPORT19 4 (in CAPS/85 the correct answer was 2) SPORT20 5 SPORT21 2 SPORT22 3 SPORT23 1 SPORT24 5 SPORT25 3 SPORT26 2 SPORT27 5 SPORT28 E SPORT29 1 SPORT30 4 SPORT31 1 (in CAPS/85 the correct answer was 5) SPORT32 3 SPORT33 4</p><p>%%%%%%%%SCORING CODE TOTALQ=0 RULESQ=0 NATIONQ=0 UNCQ=0 IF SPORT1='E'\nTHEN RULESQ=RULESQ+1 IF SPORT2='D' THEN RULESQ=RULESQ+1 IF SPORT3=2 THEN RULESQ=RULESQ+1 IF SPORT4='C' THEN RULESQ=RULESQ+1 IF SPORT5='D' THEN RULESQ=RULESQ+1 IF SPORT6=1 THEN RULESQ=RULESQ+1 IF SPORT7='C' THEN RULESQ=RULESQ+1 IF SPORT8=3 THEN RULESQ=RULESQ+1 IF SPORT9=4 THEN RULESQ=RULESQ+1 IF SPORT10='B' THEN RULESQ=RULESQ+1 IF SPORT11=5 THEN RULESQ=RULESQ+1 IF SPORT12=5 THEN UNCQ=UNCQ+1 IF SPORT13='B' THEN UNCQ=UNCQ+1 IF SPORT14=2 THEN UNCQ=UNCQ+1 IF SPORT15=5 THEN UNCQ=UNCQ+1 IF SPORT16=3 THEN UNCQ=UNCQ+1 IF SPORT17=3 THEN UNCQ=UNCQ+1 IF SPORT18=1 THEN UNCQ=UNCQ+1 IF SPORT19=4 THEN UNCQ=UNCQ+1 IF SPORT20=5 THEN UNCQ=UNCQ+1 IF SPORT21=2 THEN UNCQ=UNCQ+1 IF SPORT22=3 THEN UNCQ=UNCQ+1 IF SPORT23=1 THEN NATIONQ=NATIONQ+1 IF SPORT24=5 THEN NATIONQ=NATIONQ+1 IF SPORT25=3 THEN NATIONQ=NATIONQ+1 IF SPORT26=2 THEN NATIONQ=NATIONQ+1 IF SPORT27=5 THEN NATIONQ=NATIONQ+1 IF SPORT28=5 THEN NATIONQ=NATIONQ+1 IF SPORT29=1 THEN NATIONQ=NATIONQ+1 IF SPORT30=4 THEN NATIONQ=NATIONQ+1 IF SPORT31=1 THEN NATIONQ=NATIONQ+1 IF SPORT32=3 THEN NATIONQ=NATIONQ+1 IF SPORT33=4 THEN NATIONQ=NATIONQ+1 TOTALQ=RULESQ+UNCQ+NATIONQ %%%% RANGE FOR EACH OF RULESQ, UNCQ, AND NATIONQ IS 0-11 %%%% RANGE FOR TOTALQ IS 0-33\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sports"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sports knowledge"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sports trivia"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published reports."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_sportsq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11511,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sportsq_data",
+                        "contentType": "text/plain",
+                        "filesize": 52000,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_sportsq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_sportsq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11521,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sportsq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 48800,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_sportsq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_sportsq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11520,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sportsq_source",
+                        "contentType": "text/plain",
+                        "filesize": 75852,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_sportsq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_sportsq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11524,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sportsq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 23780,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_sportsq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_sportsq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "Data File 1 (caps_1985_sportsq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11513,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sportsq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20000,
+                        "storageIdentifier": "caps_1985_sportsq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:x0yXnAcQhcf1OiArZ2CgLw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sportsq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11523,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sportsq_data",
+                        "contentType": "text/plain",
+                        "filesize": 51480,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sportsq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sportsq_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11517,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sportsq_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5188,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sportsq_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sportsq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11525,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sportsq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 51040,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sportsq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sportsq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11522,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sportsq_source",
+                        "contentType": "text/plain",
+                        "filesize": 10072,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sportsq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sportsq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11515,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sportsq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 27798,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sportsq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_sportsq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "Data File 2 (caps_1986_sportsq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11509,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sportsq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20825,
+                        "storageIdentifier": "caps_1986_sportsq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Rts+0h97jfm0puSZy6pBDA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sportsq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11514,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sportsq_data",
+                        "contentType": "text/plain",
+                        "filesize": 26130,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sportsq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sportsq_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "SAS Programming Code (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11516,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sportsq_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 9777,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sportsq_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sportsq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11519,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sportsq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 37360,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sportsq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sportsq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11510,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sportsq_source",
+                        "contentType": "text/plain",
+                        "filesize": 25324,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sportsq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sportsq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11512,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sportsq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17794,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sportsq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_sportsq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3531,
+                    "categories": [
+                        "Data File 3 (caps_1987_sportsq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11518,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sportsq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14090,
+                        "storageIdentifier": "caps_1987_sportsq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:IJgNlrgtTQ2MhcKRlEzxOg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

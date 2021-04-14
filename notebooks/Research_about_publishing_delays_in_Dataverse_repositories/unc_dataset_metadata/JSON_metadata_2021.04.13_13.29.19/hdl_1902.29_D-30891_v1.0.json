@@ -1,0 +1,647 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-30891",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 1672,
+            "storageIdentifier": "file://1902.29/D-30891",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T15:53:22Z",
+            "license": "NONE",
+            "termsOfUse": "Citation requirements: <br /><br /> Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data. <br /><br /> Data Disclaimer: <br /><br /> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of the\nse files.",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Integrated Public Use Microdata Series"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-30891"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Ruggles, Steven"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sobek, Matthew"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Integrated Public Use Microdata Series (IPUMS) consists of twenty-three high-precision samples of American population drawn from eleven censuses. The time range extends from 1850 to 1990. The population characteristics include fertility, nuptiality, life-course transitions, immigration, internal migration, labor-force participation, occupational structure, education, ethnicity, and household composition.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Historical censuses"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Population characteristics"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Microdata"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Universe: IPUMS consists of a series of compatible-format individual-level representative samples of the US for the years 1850, 1880, 1900, 1910, 1920, 1940, 1950, 1960, 1970, 1980, and 1990.;Type: ODUM:ACCESS.CATEGORY Notes: II;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social History Research Laboratory, University of Minnesota"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1995"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Minneapolis, MN"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1850"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1990"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Aggregate data)"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "census_ipums_codebook.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Codebook, PDF Format"
+                    ],
+                    "dataFile": {
+                        "id": 17730,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_codebook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 36843892,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_codebook.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip18501",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1850 PUMS"
+                    ],
+                    "dataFile": {
+                        "id": 17726,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip18501",
+                        "contentType": "text/plain",
+                        "filesize": 78887088,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip18501",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip18801",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1880 PUMS"
+                    ],
+                    "dataFile": {
+                        "id": 17722,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip18801",
+                        "contentType": "text/plain",
+                        "filesize": 204961008,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip18801",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19001",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1900 PUMS"
+                    ],
+                    "dataFile": {
+                        "id": 17721,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19001",
+                        "contentType": "text/plain",
+                        "filesize": 42909888,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19001",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19101",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1910 PUMS"
+                    ],
+                    "dataFile": {
+                        "id": 17729,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19101",
+                        "contentType": "text/plain",
+                        "filesize": 152897808,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19101",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19201",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1920 PUMS (Preliminary Version)"
+                    ],
+                    "dataFile": {
+                        "id": 17731,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19201",
+                        "contentType": "text/plain",
+                        "filesize": 130221168,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19201",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19401",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1940 PUMS"
+                    ],
+                    "dataFile": {
+                        "id": 17725,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19401",
+                        "contentType": "text/plain",
+                        "filesize": 585569376,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19401",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19501",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1950 PUMS"
+                    ],
+                    "dataFile": {
+                        "id": 17727,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19501",
+                        "contentType": "text/plain",
+                        "filesize": 800798208,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19501",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19601",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1960 PUMS"
+                    ],
+                    "dataFile": {
+                        "id": 17732,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19601",
+                        "contentType": "text/plain",
+                        "filesize": 799449840,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19601",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19701",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1970 PUMS 5% State Sample"
+                    ],
+                    "dataFile": {
+                        "id": 17733,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19701",
+                        "contentType": "text/plain",
+                        "filesize": 932530032,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19701",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19702",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1970 PUMS 115% State Sample"
+                    ],
+                    "dataFile": {
+                        "id": 17728,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19702",
+                        "contentType": "text/plain",
+                        "filesize": 932084832,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19702",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19802",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1980 PUMS B Sample"
+                    ],
+                    "dataFile": {
+                        "id": 17724,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19802",
+                        "contentType": "text/plain",
+                        "filesize": 1078403424,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19802",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_ipums_ip19902",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1672,
+                    "categories": [
+                        "Data, 1990 PUMS 1% Sample"
+                    ],
+                    "dataFile": {
+                        "id": 17723,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_ipums_ip19902",
+                        "contentType": "text/plain",
+                        "filesize": 1211493360,
+                        "description": "",
+                        "storageIdentifier": "census_ipums_ip19902",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

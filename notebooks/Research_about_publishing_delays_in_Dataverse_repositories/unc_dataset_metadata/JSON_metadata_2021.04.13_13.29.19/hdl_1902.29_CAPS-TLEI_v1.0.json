@@ -1,0 +1,565 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-TLEI",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-20",
+        "datasetVersion": {
+            "id": 3546,
+            "storageIdentifier": "file://1902.29/CAPS-TLEI",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-20T14:44:35Z",
+            "releaseTime": "2009-04-20T00:00:00Z",
+            "createTime": "2007-08-28T15:25:44Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Traumatic Life Events Inventory (CAPS-TLEI module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-TLEI"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-TLEI"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>\"The traumatic life events inventory was designed to measure the difficult and upsetting events a respondent may have experienced. It covers separation from loved-ones; illness and death of loved-ones; abortions, miscarriages and stillbirths; natural disasters, accidents, combat; kidnappings, physical assaults, severe physical punishment or abuse of self and others; and sexual abuse of self and others.\"</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Life events"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Traumatic life events"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Death of loved ones"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Abuse"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sexual abuse"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published reference: Copyright (c) 1986 Peter B. Dyck, M.D., Gregory M. Gillette, M.D., and Eleanor R. Ilgen, M.S.W. All Rights Reserved. No part of this inventory may be duplicated or reproduced in any manner without permission from the authors."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1987_tlei_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11730,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_tlei_data",
+                        "contentType": "text/plain",
+                        "filesize": 427700,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_tlei_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_tlei_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11729,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_tlei_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 26272,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_tlei_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_tlei_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11737,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_tlei_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 336640,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_tlei_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_tlei_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11727,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_tlei_source",
+                        "contentType": "text/plain",
+                        "filesize": 45232,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_tlei_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_tlei_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11735,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_tlei_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 110536,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_tlei_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_tlei_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "Data File 1 (caps_1987_tlei_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11732,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_tlei_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 93596,
+                        "storageIdentifier": "caps_1987_tlei_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:tXMDa3v5jz/4xJJuQk8ndQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_tlei_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11728,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_tlei_data",
+                        "contentType": "text/plain",
+                        "filesize": 432250,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_tlei_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_tlei_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11733,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_tlei_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 23858,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_tlei_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_tlei_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11726,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_tlei_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 370400,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_tlei_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_tlei_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11734,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_tlei_source",
+                        "contentType": "text/plain",
+                        "filesize": 45446,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_tlei_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_tlei_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11731,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_tlei_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 119802,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_tlei_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_tlei_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3546,
+                    "categories": [
+                        "Data File 2 (caps_1988_tlei_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11736,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_tlei_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 102858,
+                        "storageIdentifier": "caps_1988_tlei_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:vG23xwuUy4SrN4B2zM3RCQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

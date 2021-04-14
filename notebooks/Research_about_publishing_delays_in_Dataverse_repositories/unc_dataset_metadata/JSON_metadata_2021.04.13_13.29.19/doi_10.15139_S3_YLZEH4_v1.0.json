@@ -1,0 +1,153 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/YLZEH4",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2020-07-04",
+        "datasetVersion": {
+            "id": 31471,
+            "storageIdentifier": "file://10.15139/S3/YLZEH4",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:BmAC3KEl1QznCMhgSUKpfA==",
+            "lastUpdateTime": "2020-07-04T20:39:42Z",
+            "releaseTime": "2020-07-04T20:39:42Z",
+            "createTime": "2020-07-04T20:35:49Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Different compactness indices for 2011 urban form derived from National Land Cover Dataset"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kaza, Nikhil"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    },
+                                    "authorIdentifier": {
+                                        "typeName": "authorIdentifier",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "0000-0002-9536-7643"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kaza, Nikhil"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "nkaza@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The dataset contains (Index of Moment of Inertia) IMI adjusted and unadjusted for 2011 urban form for contiguous US Counties. The urban form is derived from National Landcover dataset. The dataset also contains comparison indices such as Exchange Index (EI) and Dispersion Index (DI)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Kaza, Nikhil"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2020-07-04"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "IMI_DI_EI.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 31471,
+                    "dataFile": {
+                        "id": 7510716,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "IMI_DI_EI.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 265134574,
+                        "storageIdentifier": "1731b8aaad8-5ae66ce43219",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 265153362,
+                        "UNF": "UNF:6:BmAC3KEl1QznCMhgSUKpfA==",
+                        "rootDataFileId": -1,
+                        "md5": "3c55a7a17cde774d28eb252f3b7aad26",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3c55a7a17cde774d28eb252f3b7aad26"
+                        },
+                        "creationDate": "2020-07-04"
+                    }
+                }
+            ]
+        }
+    }
+}

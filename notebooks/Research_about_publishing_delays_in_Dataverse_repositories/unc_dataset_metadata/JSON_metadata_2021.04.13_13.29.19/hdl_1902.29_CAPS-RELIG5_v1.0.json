@@ -1,0 +1,906 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-RELIG5",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-01",
+        "datasetVersion": {
+            "id": 3503,
+            "storageIdentifier": "file://1902.29/CAPS-RELIG5",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-01T14:30:31Z",
+            "releaseTime": "2009-05-01T00:00:00Z",
+            "createTime": "2007-08-28T15:23:54Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Traditional Religious Beliefs (CAPS-RELIG5 and CAPS-RELIG2 module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-RELIG5"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-RELIG5 CAPS-RELIG2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This 8-item scale covers traditional religious beliefs. Included are whether respondent thinks of self as born-again, thinks Jesus Christ will return, thinks the family is sacred, thinks Bible is actual word of God, thinks it is possible to know what God wants him/her to do. Also included are how often attend religious services, self-rated degree of religiosity, how religious was the family that he/she grew up in. Items were taken from the 1978 IRSS Survey of North Carolina Women.</p><p>This\nunit was also administered in CAPS/85 under the file name RELIGQ2. Data files are under RELIG2.\n</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religiosity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religious denomination"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religious attendance"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religious fundamentalism"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family--Religiosity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religious beliefs"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religiosity--Self-rated"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "IRSS Survey of North Carolina Women, 1978."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_relig2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10970,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_relig2_data",
+                        "contentType": "text/plain",
+                        "filesize": 62790,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_relig2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_relig2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10966,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_relig2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 25600,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_relig2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_relig2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10982,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_relig2_source",
+                        "contentType": "text/plain",
+                        "filesize": 17673,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_relig2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_relig2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10968,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_relig2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16236,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_relig2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_relig2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Data File 1 (caps_1985_relig2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10985,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_relig2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14657,
+                        "storageIdentifier": "caps_1985_relig2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Uu4G3QvxE+Qpg7wLpA8bsQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_relig5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10975,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relig5_data",
+                        "contentType": "text/plain",
+                        "filesize": 60970,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relig5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_relig5_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10983,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relig5_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3055,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relig5_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_relig5_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10981,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relig5_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 23920,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relig5_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_relig5_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10977,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relig5_source",
+                        "contentType": "text/plain",
+                        "filesize": 2915,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relig5_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_relig5_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10979,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relig5_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16318,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_relig5_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_relig5_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Data File 2 (caps_1986_relig5_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10976,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_relig5_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14390,
+                        "storageIdentifier": "caps_1986_relig5_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:eodwMG4rRwIw8F+jpyxMVg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relig5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10986,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relig5_data",
+                        "contentType": "text/plain",
+                        "filesize": 39000,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relig5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relig5_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10964,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relig5_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3086,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relig5_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relig5_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10973,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relig5_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 25120,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relig5_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relig5_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10965,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relig5_source",
+                        "contentType": "text/plain",
+                        "filesize": 6438,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relig5_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_relig5_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10980,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relig5_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17302,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_relig5_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_relig5_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Data File 3 (caps_1987_relig5_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10978,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_relig5_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15319,
+                        "storageIdentifier": "caps_1987_relig5_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:2flSGwuUocFv59oqWNC8RA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relig5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10971,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relig5_data",
+                        "contentType": "text/plain",
+                        "filesize": 37830,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relig5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relig5_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10972,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relig5_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3086,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relig5_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relig5_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10967,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relig5_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 24560,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relig5_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relig5_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10984,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relig5_source",
+                        "contentType": "text/plain",
+                        "filesize": 6758,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relig5_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_relig5_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10969,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relig5_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16810,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_relig5_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_relig5_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3503,
+                    "categories": [
+                        "Data File 4 (caps_1988_relig5_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10974,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_relig5_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14851,
+                        "storageIdentifier": "caps_1988_relig5_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:IP35Lrg+5IiWYgaTZIt8ng==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12309",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-02-02",
+        "datasetVersion": {
+            "id": 160,
+            "storageIdentifier": "file://10.15139/S3/12309",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "5/2/2016 dmg Initial set-up",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-02-02T20:53:37Z",
+            "releaseTime": "2017-02-02T20:53:37Z",
+            "createTime": "2016-05-02T21:14:34Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "[Exp 06] Matthew MCMURRAY's Post-Natal Day 3 & 5 Vocalization Experiment"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "McMurray, Matthew"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thu-Mai Christian"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odumarchive@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Experimental Procedure:  . The ultrasonic vocalizations of cocaine exposed, saline exposed, and unexposed rodent pups on the third and fifth post-natal days are recorded over a 3-hour period.  To control for sex differences, each dam contributes four pups: a male and female on Day 3 and a different male and female on Day 5.  The recorded calls were analyzed by Avisoft software and hand-analyzed by Dr Sandy Zeskind.    This data was collected concurrently with the thermal data found in: \\Johns\\Project1\\McMurray\\Thermal\\Data"
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2012-05-18"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-05-02"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Rat pup vocalization data on Post-Natal Day 3 and 5:  Time, duration, amplitude and frequency of each cry from a pup. Cry-level data (each observation describes one cry).   Starting time, duration, amplitude and frequencies.",
+                    "label": "rva_02.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 160,
+                    "dataFile": {
+                        "id": 7185825,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "rva_02.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5807979,
+                        "description": "Rat pup vocalization data on Post-Natal Day 3 and 5:  Time, duration, amplitude and frequency of each cry from a pup. Cry-level data (each observation describes one cry).   Starting time, duration, amplitude and frequencies.",
+                        "storageIdentifier": "19538",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:Ldvjl/tiQEDa5OxXUcGQgw==",
+                        "rootDataFileId": -1,
+                        "md5": "f15475b00e737875f0296168fdfa222b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f15475b00e737875f0296168fdfa222b"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                },
+                {
+                    "description": "Guide to the data file used in this experiment.",
+                    "label": "Vocalization Codebook.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 160,
+                    "dataFile": {
+                        "id": 7375054,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Vocalization Codebook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 55749,
+                        "description": "Guide to the data file used in this experiment.",
+                        "storageIdentifier": "157d2c38eda-7c8228717abb",
+                        "rootDataFileId": -1,
+                        "md5": "5bff55e7d9771c7f13b5f2d890da650c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5bff55e7d9771c7f13b5f2d890da650c"
+                        },
+                        "creationDate": "2016-10-17"
+                    }
+                }
+            ]
+        }
+    }
+}

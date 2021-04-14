@@ -1,0 +1,200 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/AUN5OR",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2018-04-27",
+        "datasetVersion": {
+            "id": 30511,
+            "storageIdentifier": "file://10.15139/S3/AUN5OR",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:i9pJpx+ZibYdVlj8t8qwPg==",
+            "lastUpdateTime": "2018-04-27T16:00:13Z",
+            "releaseTime": "2018-04-27T16:00:13Z",
+            "createTime": "2018-04-26T20:23:44Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "DCR Replication Project Spring 2018"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Case-Ruchala, Devin"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "devincr@live.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Replication project for POLI 784 Spring 2018. Includes the original data and corresponding journal article for which I replicated results, my replication and extension paper, and a .rmd file for replicating my results."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Case-Ruchala, Marya"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2018-04-26"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "la porta 2002 data.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30511,
+                    "dataFile": {
+                        "id": 7503064,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "la porta 2002 data.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 76712,
+                        "storageIdentifier": "163039b34e4-ece0280c077c",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:i9pJpx+ZibYdVlj8t8qwPg==",
+                        "rootDataFileId": -1,
+                        "md5": "053491c3173c7eca8119764fdd0aed72",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "053491c3173c7eca8119764fdd0aed72"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "La Porta et al 2002.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30511,
+                    "dataFile": {
+                        "id": 7503063,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "La Porta et al 2002.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 655622,
+                        "storageIdentifier": "163039be0d7-b29a0a0488b5",
+                        "rootDataFileId": -1,
+                        "md5": "c528ee96099d335a8a5872cbb4d22e33",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c528ee96099d335a8a5872cbb4d22e33"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "Replication project_GOBs_DCR_code.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30511,
+                    "dataFile": {
+                        "id": 7503065,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Replication project_GOBs_DCR_code.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 49255,
+                        "storageIdentifier": "163039b3794-dc63a5090b6e",
+                        "rootDataFileId": -1,
+                        "md5": "8c31e0b9531c0b165f056fd9937813fa",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8c31e0b9531c0b165f056fd9937813fa"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "Replication_project_GOBs_DCR.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30511,
+                    "dataFile": {
+                        "id": 7503066,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Replication_project_GOBs_DCR.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 374576,
+                        "storageIdentifier": "163039b39b3-c0208a9e2d99",
+                        "rootDataFileId": -1,
+                        "md5": "568385c7224c3cb4a0a95f6572c39103",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "568385c7224c3cb4a0a95f6572c39103"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                }
+            ]
+        }
+    }
+}

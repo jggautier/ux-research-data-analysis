@@ -1,0 +1,132 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 7,
+        "name": "LCPsyc",
+        "displayName": "The Love Consortium Metadata",
+        "fields": {
+            "constructLove": {
+                "name": "constructLove",
+                "displayName": "Commonly Used Love Assessment",
+                "title": "Commonly Used Love Assessment",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "Specify any of these commonly used love assessments present in the current Dataset to facilitate searchability as well as collaboration on love."
+            },
+            "constructCommon": {
+                "name": "constructCommon",
+                "displayName": "Commonly Studied Constructs",
+                "title": "Commonly Studied Constructs",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "Specify any of these commonly studied constructs present in the current Dataset to facilitate searchability as well as collaboration."
+            },
+            "populationUnit": {
+                "name": "populationUnit",
+                "displayName": "Population Unit",
+                "title": "Population Unit",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The population unit from whom data in the Dataset were collected."
+            },
+            "populationRelation": {
+                "name": "populationRelation",
+                "displayName": "Focal Relationship Type",
+                "title": "Focal Relationship Type",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The type of relationship people were required to be in for study eligibility, if any.  Multiple selections are permitted."
+            },
+            "ageGroup": {
+                "name": "ageGroup",
+                "displayName": "Age Group",
+                "title": "Age Group",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "Standardized categories for age ranges of human populations; apply the most specific age group(s) relevant to participants in the Dataset.  Multiple selections are permitted."
+            },
+            "lcSampleRace": {
+                "name": "lcSampleRace",
+                "displayName": "Sample Racial/Ethnic Composition",
+                "title": "Sample Racial/Ethnic Composition",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "Data on racial and ethnic identification of participants in the Dataset, when available."
+            },
+            "lcSampleSize": {
+                "name": "lcSampleSize",
+                "displayName": "Sample Size",
+                "title": "Sample Size",
+                "type": "TEXT",
+                "watermark": "Enter total number of participants.",
+                "description": "The number of individual participants in the study sample.  If these participants were recruited in units, adding that number and unit is permitted (e.g., 300 participants from 150 roommate pairs)."
+            },
+            "method": {
+                "name": "method",
+                "displayName": "Methodology",
+                "title": "Methodology",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "Commonly used methods for studying social behavior and relationships.  Multiple selections are permitted."
+            },
+            "longitudinal": {
+                "name": "longitudinal",
+                "displayName": "Longitudinal Component",
+                "title": "Longitudinal Component",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The number of follow-up assessments, if any, and how long each was assessed after baseline (e.g., days, weeks, months, years)."
+            },
+            "clinicalTrial": {
+                "name": "clinicalTrial",
+                "displayName": "Clinical Trial",
+                "title": "Clinical Trial",
+                "type": "NONE",
+                "watermark": "",
+                "description": "The specific clinical trial that produced the Dataset, if any.",
+                "childFields": {
+                    "clinicalTrialID": {
+                        "name": "clinicalTrialID",
+                        "displayName": "Clinical Trial Clinical Trial Number",
+                        "title": "Clinical Trial Number",
+                        "type": "TEXT",
+                        "watermark": "",
+                        "description": "Unique identifier assigned to the Clinical Trial associated with the Dataset."
+                    },
+                    "clinicalTrialURL": {
+                        "name": "clinicalTrialURL",
+                        "displayName": "Clinical Trial Clinical Trial URL",
+                        "title": "Clinical Trial URL",
+                        "type": "URL",
+                        "watermark": "Enter full URL, starting with http://",
+                        "description": "Specify the URL that points to the web presence that describes the Clinical Trial. "
+                    }
+                }
+            },
+            "clinicalTrialID": {
+                "name": "clinicalTrialID",
+                "displayName": "Clinical Trial Clinical Trial Number",
+                "title": "Clinical Trial Number",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "Unique identifier assigned to the Clinical Trial associated with the Dataset."
+            },
+            "clinicalTrialURL": {
+                "name": "clinicalTrialURL",
+                "displayName": "Clinical Trial Clinical Trial URL",
+                "title": "Clinical Trial URL",
+                "type": "URL",
+                "watermark": "Enter full URL, starting with http://",
+                "description": "Specify the URL that points to the web presence that describes the Clinical Trial. "
+            },
+            "notesCollab": {
+                "name": "notesCollab",
+                "displayName": "Collaboration Notes",
+                "title": "Collaboration Notes",
+                "type": "TEXTBOX",
+                "watermark": "",
+                "description": "Information about guidelines and expectations for collaboration with this Dataset."
+            }
+        }
+    }
+}

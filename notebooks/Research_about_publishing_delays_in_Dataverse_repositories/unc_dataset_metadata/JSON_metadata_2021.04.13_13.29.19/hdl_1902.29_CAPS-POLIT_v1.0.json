@@ -1,0 +1,686 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-POLIT",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-22",
+        "datasetVersion": {
+            "id": 3478,
+            "storageIdentifier": "file://1902.29/CAPS-POLIT",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-22T15:20:19Z",
+            "releaseTime": "2009-05-22T00:00:00Z",
+            "createTime": "2007-08-28T15:23:22Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Political Opinion Scale I (CAPS-POLIT module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-POLIT"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-POLIT"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The POLIT unit is intended to measure political opinions and ability to identify politically relevant groups/personalities. Opinion measures include approval of Reagan's job as president, approval of Reagan's handling of foreign affairs, approval of US using force to prevent the spread of Communism in Central America, importance of cooperation with Russia, whether defense spending should be increased/decreased/same, and approval of Helms' job as senator from NC.</p><p>A political knowledge sc\nale involving the identification of politically relevant groups/personalities is also included.\n</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Political opinions"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Political knowledge"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Pamela Johnston Conover and Stanley Feldman 'Studying Patriotism - Prepilot Results', a report submitted to the Board of Overseers - National Election Study."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_polit_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10606,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polit_data",
+                        "contentType": "text/plain",
+                        "filesize": 120900,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polit_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_polit_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10593,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polit_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5262,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polit_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_polit_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10603,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polit_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 83440,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polit_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_polit_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10598,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polit_source",
+                        "contentType": "text/plain",
+                        "filesize": 10308,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polit_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_polit_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10604,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polit_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 40180,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polit_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_polit_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "Data File 1 (caps_1986_polit_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10597,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polit_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 37123,
+                        "storageIdentifier": "caps_1986_polit_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:7czpA/DR7rPt52JrsqGIuA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polit_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10594,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polit_data",
+                        "contentType": "text/plain",
+                        "filesize": 115700,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polit_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polit_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10596,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polit_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4908,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polit_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polit_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10592,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polit_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 80160,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polit_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polit_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10589,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polit_source",
+                        "contentType": "text/plain",
+                        "filesize": 10304,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polit_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polit_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10590,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polit_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 38376,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polit_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_polit_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "Data File 2 (caps_1987_polit_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10605,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polit_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 35406,
+                        "storageIdentifier": "caps_1987_polit_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:rVBYEgjTBXgXhNMqn3vHMw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polit_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10600,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polit_data",
+                        "contentType": "text/plain",
+                        "filesize": 123500,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polit_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polit_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10602,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polit_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3530,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polit_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polit_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10595,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polit_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 91360,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polit_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polit_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10601,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polit_source",
+                        "contentType": "text/plain",
+                        "filesize": 10489,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polit_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polit_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10591,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polit_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 42968,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polit_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_polit_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3478,
+                    "categories": [
+                        "Data File 3 (caps_1988_polit_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10599,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polit_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 38785,
+                        "storageIdentifier": "caps_1988_polit_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:sYlVSCTsYRS7PsmIt/+pWQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

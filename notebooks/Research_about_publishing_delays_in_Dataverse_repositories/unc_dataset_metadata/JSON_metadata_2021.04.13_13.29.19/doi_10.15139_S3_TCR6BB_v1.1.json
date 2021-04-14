@@ -1,0 +1,146 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/TCR6BB",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2020-12-14",
+        "datasetVersion": {
+            "id": 31642,
+            "storageIdentifier": "file://10.15139/S3/TCR6BB",
+            "versionNumber": 1,
+            "versionMinorNumber": 1,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2020-12-14T20:12:10Z",
+            "releaseTime": "2020-12-14T20:12:10Z",
+            "createTime": "2020-12-14T16:04:33Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2017 v1 NEI Emissions Modeling Platform (Premerged CMAQ-ready Emissions)"
+                        },
+                        {
+                            "typeName": "subtitle",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "CMAQ-ready Emissions Files -- 2017 CONUS_12km (US1) prepared as pre-merged CMAQ Ready Input Data"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Adams, Elizabeth"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Adams, Elizabeth"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "lizadams@email.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h2>Introduction</h2>\r\n The 2017 Emission Modeling Platform is primarily based on the 2017gb emissions case prepared by EPA, but there are differences between this package and the EPA emissions case:\r\n- This package includes a newer airports inventory from 2017 NEI than was used in the \r\n  original 2017gb emissions case. This newer version, which was not available until after the 2017gb emissions case was completed in May 2020, corrects an overestimation of emissions from airports.\r\n- This package includes average speed distributions (SPDIST) from 2017. The original 2017gb emissions case used average speed distributions from 2016. This is an input to SMOKE-MOVES and affects the \"RPD\" category of onroad emissions.\r\n\r\n<h2>Data Summary:</h2>\r\nU.S. EPA National Emissions Inventory 2017 Modeling Platform SMOKE Output Data\r\n<ul><li>\r\n<strong>Note:The datasets are on a Google Drive. The metadata associated with this DOI contain the link to the Google Drive folder and instructions for downloading the data.</strong></li>\r\n<li>\r\nThese packages contain the CMAQ-ready, premerged and merged, gridded, speciated hourly emissions files for 2017 including 15 days of spinup days.</li></ul>\r\n\r\n<h2>File Location and Download Instructions:</h2>\r\n<ul><li><strong><a href=\"https://drive.google.com/drive/folders/1eBUwz72XbbUJa1BkUywxCbynVRAiShn6?\">Link to SMOKE Output Files</a></li><li><a href=\"https://docs.google.com/document/d/1e7B94zFkbKygVWfrhGwEZL51jF4fGXGXZbvi6KzXYQ4\">Download instructions</a></strong></li></ul> \r\n\r\n<h2>File Format:</h2>The case name for these SMOKE output files is \"12US1_cmaq_cb6ae7_2017gb_17j\", which serves as the basis of EPA's 2017gb_17j platform for air quality modeling. CMAQ model-ready emissions generated using these packages with SMOKE v4.5 should be identical to those used in EPA's 2017 platform. The detail information regarding to all the inventories, ancillary files and run scripts from the NEIv2 Platform package is available from EPA's Clearinghouse of for Inventories and Emission Factors (CHIEF) site.\r\n\r\n<ul><li><a href=\"https://www.epa.gov/air-emissions-modeling/2017-emissions-modeling-platform\">EPA NEI 2017 Modeling Platform Website</a></li>\r\n\r\n<li><a href=\"https://www.epa.gov/air-emissions-modeling/2017-emissions-modeling-platform-supporting-documentation\">Supporting documentation is available</a></li></ul>"
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2020-12-10"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Earth and Environmental Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emissions, SMOKE, 2017"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Adams, Elizabeth"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2020-12-10"
+                        }
+                    ]
+                }
+            },
+            "files": []
+        }
+    }
+}

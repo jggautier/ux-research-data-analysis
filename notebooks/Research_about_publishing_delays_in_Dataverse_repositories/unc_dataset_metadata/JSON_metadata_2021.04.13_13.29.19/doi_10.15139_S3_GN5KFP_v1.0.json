@@ -1,0 +1,274 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/GN5KFP",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2018-04-01",
+        "datasetVersion": {
+            "id": 30346,
+            "storageIdentifier": "file://10.15139/S3/GN5KFP",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:bO0yzxi3JOyNuYlBihYQFA==",
+            "lastUpdateTime": "2018-04-02T01:51:35Z",
+            "releaseTime": "2018-04-02T01:51:35Z",
+            "createTime": "2018-04-02T01:47:37Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "You Want To Spend My Money How?: Framing Effects on Tax Increases via Ballot Propositions."
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Braidwood, Travis"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Texas A&M University--Kingsville"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Braidwood, Travis"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Texas A&M University--Kingsville"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "travisbraidwood@gmail.com"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "replication data for full text and appendix for \"You Want To Spend My Money How?: Framing Effects on Tax Increases via Ballot Propositions.\" "
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2018-04-01"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ballot measure"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "replication data will also be made available at travisbraidwood.com"
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Braidwood, Travis"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2018-04-01"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Fall 2012 experiment data",
+                    "label": "Fall_2012_Survey3.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30346,
+                    "dataFile": {
+                        "id": 7502015,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Fall_2012_Survey3.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 605531,
+                        "description": "Fall 2012 experiment data",
+                        "storageIdentifier": "1628408866d-e8b68e2058cf",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:AGgytZ+2NN3zkLdgppik2w==",
+                        "rootDataFileId": -1,
+                        "md5": "0911c0b75abaa0e0cff5b7789e539b6b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0911c0b75abaa0e0cff5b7789e539b6b"
+                        },
+                        "creationDate": "2018-04-01"
+                    }
+                },
+                {
+                    "description": "appendix replication .do (STATA) file",
+                    "label": "Framing Ballot Measures Experiment_vSPPQ_APPENDX.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30346,
+                    "dataFile": {
+                        "id": 7502013,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Framing Ballot Measures Experiment_vSPPQ_APPENDX.do",
+                        "contentType": "application/x-stata-syntax",
+                        "filesize": 4322,
+                        "description": "appendix replication .do (STATA) file",
+                        "storageIdentifier": "16284088f69-d4ddf398488d",
+                        "rootDataFileId": -1,
+                        "md5": "b6044b86683bb2f23bd35d83147de8bd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b6044b86683bb2f23bd35d83147de8bd"
+                        },
+                        "creationDate": "2018-04-01"
+                    }
+                },
+                {
+                    "description": "main text replication .do (STATA) file",
+                    "label": "Framing Ballot Measures Experiment_vSPPQ.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30346,
+                    "dataFile": {
+                        "id": 7502017,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Framing Ballot Measures Experiment_vSPPQ.do",
+                        "contentType": "application/x-stata-syntax",
+                        "filesize": 8753,
+                        "description": "main text replication .do (STATA) file",
+                        "storageIdentifier": "16284088b25-89997521b2da",
+                        "rootDataFileId": -1,
+                        "md5": "ffd04b079d743eccef53536053afdd6c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ffd04b079d743eccef53536053afdd6c"
+                        },
+                        "creationDate": "2018-04-01"
+                    }
+                },
+                {
+                    "description": "Read Me file",
+                    "label": "readme.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30346,
+                    "dataFile": {
+                        "id": 7502016,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "readme.txt",
+                        "contentType": "text/plain",
+                        "filesize": 786,
+                        "description": "Read Me file",
+                        "storageIdentifier": "1628409a031-57924c3fca84",
+                        "rootDataFileId": -1,
+                        "md5": "ed3a1e07a36b09e9a59f60ce0ea5371c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ed3a1e07a36b09e9a59f60ce0ea5371c"
+                        },
+                        "creationDate": "2018-04-01"
+                    }
+                },
+                {
+                    "description": "Spring 2013 experiment replication data",
+                    "label": "Spring_2013_Survey.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30346,
+                    "dataFile": {
+                        "id": 7502014,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Spring_2013_Survey.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 93309,
+                        "description": "Spring 2013 experiment replication data",
+                        "storageIdentifier": "1628408ab17-aa270533e779",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:CpZzwMrltJsmZzPNEvoRoQ==",
+                        "rootDataFileId": -1,
+                        "md5": "58eb316fa1f84df1e74b5974d8b18e99",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "58eb316fa1f84df1e74b5974d8b18e99"
+                        },
+                        "creationDate": "2018-04-01"
+                    }
+                }
+            ]
+        }
+    }
+}

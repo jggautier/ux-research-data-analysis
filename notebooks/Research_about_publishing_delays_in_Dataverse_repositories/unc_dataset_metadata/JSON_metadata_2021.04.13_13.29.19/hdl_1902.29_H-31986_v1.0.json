@@ -1,0 +1,396 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-31986",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2014-01-17",
+        "datasetVersion": {
+            "id": 3290,
+            "storageIdentifier": "file://1902.29/H-31986",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Edited dataset uploaded. -99.99 values were recoded to -99 and value labels adjusted accordingly to accommodate DVN system parameters (DVN does not read decimal values as discrete values).",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2013-09-09T18:55:04Z",
+            "releaseTime": "2014-01-17T00:00:00Z",
+            "createTime": "2013-04-04T17:44:53Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the Un\niversity be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 2007 Public Opinion Survey, study no. 31986"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-31986"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 31986"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris Interactive, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>Topics addressed in this survey include leisure activities, feelings of alienation, attitudes toward the Roe v. Wade decision, understanding of the phrase \u201cmargin of error,\u201d and the environment. Demographic variables include respondent's gender, age, educational status, origin or descent (Spanish, Hispanic, or Latino), race, self-identified political party, political philosophy; number of individuals age 18 or over, between the ages of 13 and 17, and under age 13 who live in the household; pr\nesence of a disabled individual in the household, household income, and number of voice telephone lines available at home.\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Work and leisure"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Alienation index"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Abortion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Environment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Margin of Error"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Contributor Provided"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: National sample of persons 18 years of age or older interviewed by telephone.;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: H-31986;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris Interactive, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2007-10"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2013-04-04"
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2007-10-16"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2007-10-22"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        },
+                        {
+                            "typeName": "relatedMaterial",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "<p><a href=\"http://www.harrisinteractive.com/vault/Harris-Interactive-Poll-Research-Work-Leisure-2007-11.pdf\">Reading and TV Watching Still Favorite Activities, But Both Have Seen Drops</a><b>;</b> <a href=\"http://www.harrisinteractive.com/vault/Harris-Interactive-Poll-Research-Margin-of-Error-2007-11.pdf\"> Margin of Error\u201d, When Used by Pollsters, Is Widely Misunderstood and Confuses Most People</a><b>;</b> <a href=\"http://www.harrisinteractive.com/vault/Harris-Interactive-Poll-Research-Abortio\nn-2007-11.pdf\"> Support for Roe v. Wade Increases Significantly, Reaches Highest Level in Nine Years\n</a><b>;</b> <a href=\"http://www.harrisinteractive.com/vault/Harris-Interactive-Poll-Research-Alienation-Index-2007-11.pdf\"> The Harris Poll\u2019s \u201cAlienation Index\u201d Rises Slightly to Highest Level in Presidency of George W. Bush</a><b>;</b> <a href=\"http://www.harrisinteractive.com/vault/Harris-Interactive-Poll-Research-Global-Warming-2007-11.pdf\"> Global Warming Seen as a Problem That Needs to be Addressed Globally, But Most People Want U.S. to Take the Lead</a><b>;</b> <a href=\"http://www.harrisi\nnteractive.com/vault/Harris-Interactive-Poll-Research-Internet-track-2007-11.pdf\"> Four in Five of All U.S. Adults \u2013 An Estimated 178 million \u2013 Go Online\n</a> </p>"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_31986_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3290,
+                    "categories": [
+                        "Questionnaire"
+                    ],
+                    "dataFile": {
+                        "id": 7067848,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_31986_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 155147,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "4489",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-04"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File",
+                    "label": "Oct_2007_99.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3290,
+                    "categories": [
+                        "Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 7076137,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Oct_2007_99.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 300646,
+                        "description": "Subsettable Dataset File",
+                        "storageIdentifier": "11492",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 202727,
+                        "UNF": "UNF:5:IpwxJi9qIq3GdIQCtWa07w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-09-09"
+                    }
+                }
+            ]
+        }
+    }
+}

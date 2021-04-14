@@ -1,0 +1,946 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-1990",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 2492,
+            "storageIdentifier": "file://1902.29/H-1990",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T16:43:12Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 1970 Washington and Oregon Environmental Survey, study no. 1990"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-1990"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 1990"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This study focused on environmental problems and solutions as viewed by adults living in the states of Washington and Oregon in 1970.</p><p>In addition to demographic data, information was collected on all levels of community satisfaction and participation.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Environmental policy"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Recreation"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Oregon"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Washington (State)"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Pollution"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Environmental policy--Washington--Public opinion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Environmental policy--Oregon--Public opinion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion--Washington"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion--Oregon"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Environment, Energy"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Harris obtained a cross-section sample of Oregon and Washington residents 21 years of age and over. Attitudes on various topics were collected by questionnaire in a face-to-face interview; Oregon and Washington residents 21 years of age and over;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: h-1990;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1970-01"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris Data Center, University of North Carolina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Washington, Oregon"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_s1990_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "Column Binary File"
+                    ],
+                    "dataFile": {
+                        "id": 23160,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 544320,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_eoregon_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "Questionnaire, PDF File -- East Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 23143,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_eoregon_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 854736,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_eoregon_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_eoregon_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SAS Code -- East Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 23150,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_eoregon_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 57958,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_eoregon_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_eoregon_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SAS Export Library -- East Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 23151,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_eoregon_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 555840,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_eoregon_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_eoregon_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SPSS Portable File -- East Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 23144,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_eoregon_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 143828,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_eoregon_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s1990_eoregon_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "Data File 1 (harris_s1990_eoregon_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 23146,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_eoregon_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 131485,
+                        "storageIdentifier": "harris_s1990_eoregon_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 143828,
+                        "UNF": "UNF:3:sesRm4Dpeb+mILSrzFKnnQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_noregon_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "Questionnaire, PDF File -- North Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 23163,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_noregon_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 899641,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_noregon_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_noregon_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SAS Code -- North Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 23159,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_noregon_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 59591,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_noregon_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_noregon_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SAS Export Library -- North Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 23154,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_noregon_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 792080,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_noregon_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_noregon_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SPSS Portable File -- North Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 23147,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_noregon_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 204590,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_noregon_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s1990_noregon_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "Data File 2 (harris_s1990_noregon_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 23152,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_noregon_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 195218,
+                        "storageIdentifier": "harris_s1990_noregon_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 204590,
+                        "UNF": "UNF:3:IWclnaCzM+EWZ7jjROIB4A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_nwashing_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "Questionnaire, PDF File -- North Washington"
+                    ],
+                    "dataFile": {
+                        "id": 23145,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_nwashing_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 853703,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_nwashing_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_nwashing_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SAS Code -- North Washington"
+                    ],
+                    "dataFile": {
+                        "id": 23158,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_nwashing_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 59456,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_nwashing_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_nwashing_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SAS Export Library -- North Washington"
+                    ],
+                    "dataFile": {
+                        "id": 23157,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_nwashing_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 940880,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_nwashing_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_nwashing_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SPSS Portable File -- North Washington"
+                    ],
+                    "dataFile": {
+                        "id": 23148,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_nwashing_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 242556,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_nwashing_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s1990_nwashing_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "Data File 3 (harris_s1990_nwashing_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 23149,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_nwashing_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 235344,
+                        "storageIdentifier": "harris_s1990_nwashing_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 242556,
+                        "UNF": "UNF:3:Fqgscb0aVG7Jp8o77c9Ftw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_seattle_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "Questionnaire, PDF File -- Seattle"
+                    ],
+                    "dataFile": {
+                        "id": 23162,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_seattle_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 836163,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_seattle_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_seattle_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SAS Code -- Seattle"
+                    ],
+                    "dataFile": {
+                        "id": 23153,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_seattle_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 58916,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_seattle_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_seattle_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SAS Export Library -- Seattle"
+                    ],
+                    "dataFile": {
+                        "id": 23155,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_seattle_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 373760,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_seattle_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s1990_seattle_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "SPSS Portable File -- Seattle"
+                    ],
+                    "dataFile": {
+                        "id": 23161,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_seattle_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 97006,
+                        "description": "",
+                        "storageIdentifier": "harris_s1990_seattle_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s1990_seattle_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2492,
+                    "categories": [
+                        "Data File 4 (harris_s1990_seattle_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 23156,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s1990_seattle_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 81448,
+                        "storageIdentifier": "harris_s1990_seattle_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 97006,
+                        "UNF": "UNF:3:QN3AHBw2DN1sm2V5Uep1ww==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

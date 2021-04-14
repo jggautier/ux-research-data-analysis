@@ -1,0 +1,534 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/10331",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2008-11-12",
+        "datasetVersion": {
+            "id": 1144,
+            "storageIdentifier": "file://1902.29/10331",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "distributionDate": "2008-10",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2008-11-12T14:54:37Z",
+            "releaseTime": "2008-11-12T00:00:00Z",
+            "createTime": "2008-10-16T13:26:47Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give\nan appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Arkansas Poll, 2004"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "NNSP-AR-006"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Survey Research Center, University of Arkansas"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>\"Topics in this survey include public figure approval ratings, trust in the Arkansas government, the most important issues facing people in Arkansas, 2004 ballot issues including financing K-12 Arkansas schools increasing the statewide minimum property tax rate from 25 mills to 28 mills, definition of marriage and banning marriages between same-sex couples, using state resources to try to bring new businesses to Arkansas, and changing the state representative's term length. The survey also in\ncludes opinions on current issues such as gun control, abortion, and the use of marijuana for medicinal purposes. Demographic information includes educational attainment, race, political party affiliation, household income, marital status, number of people who live in the household, intent to vote in the 2004 elections, and gender.\"\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Politics"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Policy"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public service evaluation"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Education"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health insurance"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Presidents--United States--Elections"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Water quality"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: The data were collected by computer-assisted telephone interviews.; Arkansas residents age 18 or older.;Subject: STANDARD DEPOSIT TERMS 1.0 Type: DATAPASS:TERMS:STANDARDDATAPASS:TERMS:STANDARD Notes: This study was deposited under the terms of the Data-PASS standard deposit terms. A copy of the usage agreement is included in the file section of this study.;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Survey Research Center, University of Arkansas"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://survey.uark.edu/"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://survey.uark.edu/src1.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2004"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Fayetteville, AR"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science, University of North Carolina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2008-10"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2004"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2004"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2004-10-05"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2004-10-20"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Arkansas Poll"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Arkansas"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "nnsp_arkansas_y2004_deposit.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1144,
+                    "categories": [
+                        "Deposit Form, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 3689358,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_arkansas_y2004_deposit.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 220194,
+                        "description": "",
+                        "storageIdentifier": "2848",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_arkansas_y2004_quest.pdf ",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1144,
+                    "categories": [
+                        "Questionnaire, PDF Format"
+                    ],
+                    "dataFile": {
+                        "id": 3681422,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_arkansas_y2004_quest.pdf ",
+                        "contentType": "application/pdf",
+                        "filesize": 257100,
+                        "description": "",
+                        "storageIdentifier": "2798",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_arkansas_y2004_report.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1144,
+                    "categories": [
+                        "Report, PDF Format"
+                    ],
+                    "dataFile": {
+                        "id": 3681420,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_arkansas_y2004_report.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 216289,
+                        "description": "",
+                        "storageIdentifier": "2799",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_arkansas_y2004_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1144,
+                    "categories": [
+                        "SAS Export Library"
+                    ],
+                    "dataFile": {
+                        "id": 3681421,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_arkansas_y2004_sas.export",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 854080,
+                        "description": "",
+                        "storageIdentifier": "2797",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_arkansas_y2004_spss.tab ",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1144,
+                    "categories": [
+                        "SPSS Portable File"
+                    ],
+                    "dataFile": {
+                        "id": 3681423,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_arkansas_y2004_spss.tab ",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 184760,
+                        "description": "",
+                        "storageIdentifier": "2796",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:KnUIxk+iGOsf44U3OCbRlQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

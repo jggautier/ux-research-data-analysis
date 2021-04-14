@@ -1,0 +1,293 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/1234",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-10-06",
+        "datasetVersion": {
+            "id": 5126,
+            "storageIdentifier": "file://10.15139/S3/1234",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "",
+            "distributionDate": "2016",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-10-06T16:54:09Z",
+            "releaseTime": "2017-10-06T16:54:09Z",
+            "createTime": "2016-09-27T21:45:41Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication data for: Weighted Community Detection Graphs"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Gates, Kathleen"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina - Chapel Hill"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Henry, Teague"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina - Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Gates, Kathleen"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina - Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "gateskm@email.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The data contained here were used in the simulated study reported in, \"A Monte Carlo Evaluation of Weighted Community Detection Algorithms\".  The \"FortTrueComm\" folder contins the true or ground truth community structure for each corresponding condition and sample number. These can be compared to the community structure obtained using a given algorithm to identify the extent to which the algorithm returned the correct community identifications."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2016-09"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "network"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "simulation study"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "community detection"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "simulation study"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Gates, K.M., Henry, T. R., Steinley, D., & Fair, D. A. (2016). A Monte Carlo Evaluation of Community Detection Algorithms. Frontiers in Neuroinformatics."
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5102890/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Henry, Teague"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina - Chapel Hill"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "TRH"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015"
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-09-27"
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Simulated data"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Sparse, weighted matrices generated with the LFR program. The first number of the file indicates the simulation number as described in the Gates, Henry, Steinley, & Fair, 2016. The second number is the iteration number, with each simulation condition having 100. ",
+                    "label": "Sparse Count.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5126,
+                    "dataFile": {
+                        "id": 7497752,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Sparse Count.zip",
+                        "contentType": "application/zip",
+                        "filesize": 58610629,
+                        "description": "Sparse, weighted matrices generated with the LFR program. The first number of the file indicates the simulation number as described in the Gates, Henry, Steinley, & Fair, 2016. The second number is the iteration number, with each simulation condition having 100. ",
+                        "storageIdentifier": "15ede89d97a-7fac6e9ece7f",
+                        "rootDataFileId": -1,
+                        "md5": "50d9ebbf9d24b27aa33b312307940378",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "50d9ebbf9d24b27aa33b312307940378"
+                        },
+                        "creationDate": "2017-10-02"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,716 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-RATE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-20",
+        "datasetVersion": {
+            "id": 3494,
+            "storageIdentifier": "file://1902.29/CAPS-RATE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-20T14:22:17Z",
+            "releaseTime": "2009-05-20T00:00:00Z",
+            "createTime": "2007-08-28T15:23:40Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Restaurant Rating Task (CAPS-RATE86 CAPS-RATE CAPS-RATE1 and CAPS-RATE2 modules)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-RATE"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-RATE86 CAPS-RATE CAPS-RATE1 CAPS-RATE2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>Rs rate 4 sets of 27 restaurants which are described on 4 dimensions: price, quality, location, and service. The number of persons sharing in, and affected by the decision is varied by set. Source code is the only available documentation.</p><p>In RATE86 inferences about the Rs decision process will be based on the regression indices best predicting the Rs decision in decision task. A compensatory model would be indicated if the variance explained by the linear model exceeds that of the log t\nransformation model. A compensatory model implies the use of a constant number of cues (a low score on another dimension cannot be compensated for by a high score on another dimension, causing the alternative to be eliminated). It is hypothesized that Rs will be more likely to use compensatory models and to spend less time on the task when they believe they are working alone.\n</p><p>The task is adapted from one used by Robert S. Billings and Stephen A. Marcus in Measures of Compensatory and Noncompensatory Models of Decision Behavior: Process Tracing versus Policy Capturing, Organizational Behavior and Human Performance 31,331-352. The Billings and Marcus design did not employ the group/alone condition and their task was not administered by the computer.</p><p>Task Description: In each unit of the task, Rs will rate one set of 27 restaurants. Each restaurant will be\ndescribed on four dimensions, each dimension having three possible values. They will be told to rate each restaurant individually on a 100-point desirability scale. They will rate one restaurant at a time and will not be allowed to see or change their previous answers.\n</p><p>Experimental Conditions: As in the REST2 task, Rs will work under either a 4 or 16 affected and 1 or 4 deciding condition. The condition assigned to them in RATE86 will be the same as the condition assigned to them in REST2. Each rating list will contain the same 27 restaurant profiles but these will be presented in random order.</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Ratings"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Decision making"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Choice"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social loafing"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Restaurant choice"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Diffusion of responsibility"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Information use"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Information processing"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published reference."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_rate1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "Data File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 10848,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate1_data",
+                        "contentType": "text/plain",
+                        "filesize": 1513200,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_rate1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_rate1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10852,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 691120,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_rate1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_rate1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10859,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate1_source",
+                        "contentType": "text/plain",
+                        "filesize": 51213,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_rate1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_rate1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10850,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 395978,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_rate1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_rate1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "Data File 1 (caps_1985_rate1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10860,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 385261,
+                        "storageIdentifier": "caps_1985_rate1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:oUaNVEzuvuHz6jXDfEhEkA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_rate2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "Data File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 10846,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate2_data",
+                        "contentType": "text/plain",
+                        "filesize": 1466400,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_rate2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_rate2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10856,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 674160,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_rate2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_rate2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10858,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate2_source",
+                        "contentType": "text/plain",
+                        "filesize": 53019,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_rate2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_rate2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10851,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 385728,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_rate2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_rate2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "Data File 2 (caps_1985_rate2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10861,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_rate2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 373571,
+                        "storageIdentifier": "caps_1985_rate2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:YEMLeFhPqKwJz1MOeZPPPQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_rate86_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10857,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_rate86_data",
+                        "contentType": "text/plain",
+                        "filesize": 382720,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_rate86_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_rate86_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "SAS Programming Code (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10854,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_rate86_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 8747,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_rate86_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_rate86_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10847,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_rate86_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 205120,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_rate86_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_rate86_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10853,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_rate86_source",
+                        "contentType": "text/plain",
+                        "filesize": 10825,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_rate86_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_rate86_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10855,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_rate86_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 94136,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_rate86_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_rate86_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3494,
+                    "categories": [
+                        "Data File 3 (caps_1986_rate86_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10849,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_rate86_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 91508,
+                        "storageIdentifier": "caps_1986_rate86_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:LxIR5dmg4jzJalsDw50VzQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

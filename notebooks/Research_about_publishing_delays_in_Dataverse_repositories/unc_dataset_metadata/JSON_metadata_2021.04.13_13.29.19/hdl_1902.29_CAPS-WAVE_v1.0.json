@@ -1,0 +1,1403 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-WAVE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-14",
+        "datasetVersion": {
+            "id": 3562,
+            "storageIdentifier": "file://1902.29/CAPS-WAVE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-14T19:02:22Z",
+            "releaseTime": "2009-04-14T00:00:00Z",
+            "createTime": "2007-08-28T15:26:32Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1983-84 Primary Election Study (CAPS-WAVE1 CAPS-WAVE2 CAPS-WAVE4 CAPS-WAVE5 and CAPS-WAVE6 also CAPS-E1B CAPS-E2B CAPS-E3 CAPS-E3A CAPS-E3B CAPS-E4A CAPS E5A and CAPS-E6B module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-WAVE"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-WAVE1 CAPS-WAVE2 CAPS-WAVE4 CAPS-WAVE5 CAPS-WAVE6 also CAPS-E1B CAPS-E2B CAPS-E3 CAPS-E3A CAPS-E3B CAPS-E4A CAPS-E5A CAPS-E6B"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The purpose of this unit is to help understand the kind of learning about candidates that occurs during a primary campaign. Special attention is directed at differences in Rs answers before and after the caucuses and primaries in the 1984 presidential campaign and associated media coverage.</p><p>In WAVE1 measures of the Rs general political knowledge, knowledge of current events, and information about the campaign, as well as standard measures of political interests, ideology, media attentio\nn and partisanship were obtained.</p><p>in all WAVE datasets, the following measures were obtained: Rs affect ratings of relevant candidates and their first reaction to seeing the candidate's name. On later studies, Rs were asked open ended questions to elicit the types of information Rs had about candidates, as well as the standard ICPSR likes and dislikes open-ended question. Later waves also included semantic differential evaluations of candidate personalities and asked the Rs to predict like\nly outcomes of the presidential election. Some basic background information on the partisanship of R's parents were also obtained.\n</p><p>Here is the content of the individual datasets: WAVE1 contains political knowledge questions and personal background and media information, as well as candidate familiarity, liking and liberal conservative ratings. Twelve candidates are asked about.</p><p>E1B was run prior to WAVE1 units, same session. It asked Rs to list all the Democratic candidates for president they could think of.</p><p>WAVE2 replicates personal background info and revises media info. Replicates candidate familiarity\n, liking, and lib/con ratings of candidates and first thing think of about each candidate from ELECT1\n</p><p>E2B was run prior to WAVE2 units, same session. Asked R to list everything you can think of about several candidates.</p><p>E3 replicates candidate familiarity, liking and lib/con ratings, as well as first thing think of about each question. E3A asks R who he/she would pick for president. E3B replicates E2B: everything can think of.</p><p>WAVE4 replicates candidate familiarity and liking ratings and first thing you can think of, same as E1. Does not repeat lib/con ratings. Also contains s\nemantic differential ratings on a number of candidates, who R thinks will win the Democratic presidential nomination and R's recall of winners of various caucuses and primaries.\n</p><p>E4A Replicates who would pick and why, same as E3A. Run prior to WAVE4 same session.</p><p>WAVE5 replicates candidate familiarity, liking and lib/con ratings on a reduced number (seven) of candidates. also replicates first thing you think of question on these seven candidates. Asks about most likely Democratic nominee, conversations about the election, policy positions and candidates favored.</p><p>E5A replicates who would pick and why, same as E3A. Run prior to WAVE5, same session.</p><p\n>WAVE6 replicates candidate familiarity and liking questions on 7 candidates. Also first thing think of question. Adds R's ratings of self, mother and father on lib/con scale. Also includes Rs approval of Reagan's handling of several situations, replication of WAVE2 media questions and WAVE4 semantic differential questions, candidate preferences, parents' political ideology, party id and past voting behavior.\n</p><p>E6B asks Rs to list any positive and negative points about Reagan and Mondale that might influence them to vote for or against these candidates. Run in same session as WAVE6.</p><p>No standard scoring.</p><p>See codebook for more information.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Political opinions"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Political knowledge"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Political learning"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Political socialization"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Affective evaluation of candidate"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Media attentiveness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Ideological awareness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Election outcomes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Candidate--Ratings"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Candidate images"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Party identification"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Parental party identification"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Contact George Rabinowitz and Stuart Macdonald, Department of Political Science, UNC-CH."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1984_e1b_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12104,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e1b_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 75840,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e1b_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e1b_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12088,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e1b_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 24436,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e1b_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_e1b_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 1 (caps_1984_e1b_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12100,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e1b_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 26655,
+                        "storageIdentifier": "caps_1984_e1b_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:nP5bvagQYO02pxKlanS11w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e2b_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12094,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e2b_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 413760,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e2b_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e2b_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12096,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e2b_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 188108,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e2b_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_e2b_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 2 (caps_1984_e2b_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12067,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e2b_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 177043,
+                        "storageIdentifier": "caps_1984_e2b_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:aXlzsQU2D9JRe+O8FgwxdA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e3a_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12072,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e3a_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 82640,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e3a_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e3a_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12103,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e3a_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22714,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e3a_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_e3a_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 3 (caps_1984_e3a_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12102,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e3a_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20339,
+                        "storageIdentifier": "caps_1984_e3a_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:viNAZW+eswcuY+DdIAxpAQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e3b_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12105,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e3b_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 453520,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e3b_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e3b_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12097,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e3b_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 210002,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e3b_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_e3b_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 4 (caps_1984_e3b_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12085,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e3b_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 198285,
+                        "storageIdentifier": "caps_1984_e3b_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:esiMRPr4ddM9tggaIoDQrA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12071,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 182320,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12068,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 62320,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_e3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 5 (caps_1984_e3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12091,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 58906,
+                        "storageIdentifier": "caps_1984_e3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Q5jEHNYngDS9RYboPtY0zQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e4a_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12082,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e4a_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 67760,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e4a_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e4a_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12075,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e4a_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 19188,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e4a_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_e4a_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 6 (caps_1984_e4a_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12087,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e4a_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17030,
+                        "storageIdentifier": "caps_1984_e4a_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:IaMrW+7Y2vuS1n0sPWIokw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e5a_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12093,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e5a_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 61680,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e5a_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e5a_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12090,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e5a_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17466,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e5a_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_e5a_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 7 (caps_1984_e5a_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12084,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e5a_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15426,
+                        "storageIdentifier": "caps_1984_e5a_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:/c4yDYMYlVS6lKfHO9h84g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e6b_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12076,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e6b_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 181360,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e6b_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_e6b_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12081,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e6b_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 84296,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_e6b_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_e6b_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 13 (CAPS-WAVE/caps_1984_e6b_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12098,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_e6b_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 78683,
+                        "storageIdentifier": "caps_1984_e6b_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:/m5MHT5wWuEUAW0CuFDT0g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12077,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 264160,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12083,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75932,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_wave1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 8 (caps_1984_wave1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12078,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 72633,
+                        "storageIdentifier": "caps_1984_wave1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:BXWEAHY4j3RtpIZbC2ks9w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12073,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 208160,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12074,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 66502,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_wave2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 9 (caps_1984_wave2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12080,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 63601,
+                        "storageIdentifier": "caps_1984_wave2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:3trGlvIsK2mpdB0+JTon9g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12069,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 166080,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12089,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 52152,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_wave4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 10 (caps_1984_wave4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12101,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 47789,
+                        "storageIdentifier": "caps_1984_wave4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:yNfoYMYnBqN9D08TDgKY8g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave5_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12095,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave5_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 215760,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave5_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave5_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12070,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave5_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 61582,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave5_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_wave5_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 11 (caps_1984_wave5_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12079,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave5_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 58394,
+                        "storageIdentifier": "caps_1984_wave5_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:RMS80qLu0z/arhXfMZUQAQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave6_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12092,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave6_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 174000,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave6_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_wave6_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 12099,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave6_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 55186,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_wave6_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_wave6_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3562,
+                    "categories": [
+                        "Data File 12 (caps_1984_wave6_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 12086,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_wave6_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 50617,
+                        "storageIdentifier": "caps_1984_wave6_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Jrk447ewVF9mg5G8HuhOgw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

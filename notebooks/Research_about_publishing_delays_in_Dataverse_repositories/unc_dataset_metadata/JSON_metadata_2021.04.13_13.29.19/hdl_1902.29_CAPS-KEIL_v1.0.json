@@ -1,0 +1,716 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-KEIL",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3393,
+            "storageIdentifier": "file://1902.29/CAPS-KEIL",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T18:28:43Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:21:41Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Effects of Success/Failure Feedback on Performance Evaluation (CAPS-KEIL module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-KEIL"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-KEIL"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This unit was developed by Linda Keil (Psychology) to test the impact of feedback regarding success or failure on the Rs evaluations of his/her own subsequent performance. Manipulations include whether the feedback indicates improvement or decline in performance, inferiority or superiority to another who has performed the task, and whether the feedback is public (known to others) or private (known to self only).</p><p>In KEIL1 Rs are administered an easy or difficult version of a word associa\ntion task. Rs actual responses, whether correct or not, and total score are stored in this dataset along with condition information.\n</p><p>In KEIL2 Rs actual responses and scores on a word association test are in this dataset, along with information about (1) whether the R worked under an improve or decline performance condition, (2) whether the R worked under a socially inferior or superior condition, and (3) the Rs answers to a series of questions about his/her performance.</p><p>Merged data are in KEILM</p><p>No scoring procedures had been developed at the time of administration.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social comparison"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Personal comparison"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Temporal comparison"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Interpersonal comparison"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Performance"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Evaluation"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Success"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Failure"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published reference."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_keil1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9515,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil1_data",
+                        "contentType": "text/plain",
+                        "filesize": 172900,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keil1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "SAS Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9511,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 10692,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keil1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9505,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 134240,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keil1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9508,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil1_source",
+                        "contentType": "text/plain",
+                        "filesize": 11745,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keil1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9513,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 46822,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_keil1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "Data File 1 (caps_1986_keil1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9507,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 41758,
+                        "storageIdentifier": "caps_1986_keil1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:3Lpqrn3toLSVAqX1NI6RXQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keil2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9502,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil2_data",
+                        "contentType": "text/plain",
+                        "filesize": 182130,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keil2_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "SAS Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9503,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil2_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 11886,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil2_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keil2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9500,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 151760,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keil2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9510,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil2_source",
+                        "contentType": "text/plain",
+                        "filesize": 25456,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keil2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9509,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 51004,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keil2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_keil2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "Data File 2 (caps_1986_keil2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9501,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keil2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 44968,
+                        "storageIdentifier": "caps_1986_keil2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:XciblaB4ikXMmBbOMlmA2Q==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keilm_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "SAS Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9512,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keilm_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 1876,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keilm_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keilm_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9506,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keilm_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 141680,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keilm_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_keilm_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9504,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keilm_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 59860,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_keilm_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_keilm_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3393,
+                    "categories": [
+                        "Data File 3 (caps_1986_keilm_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9514,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_keilm_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 50763,
+                        "storageIdentifier": "caps_1986_keilm_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:JsqwLdS5ITLn0WtCkeD9Ow==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

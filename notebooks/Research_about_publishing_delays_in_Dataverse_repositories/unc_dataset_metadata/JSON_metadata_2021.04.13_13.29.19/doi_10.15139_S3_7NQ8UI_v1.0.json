@@ -1,0 +1,187 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/7NQ8UI",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2018-02-12",
+        "datasetVersion": {
+            "id": 30227,
+            "storageIdentifier": "file://10.15139/S3/7NQ8UI",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2018-02-12T05:57:24Z",
+            "releaseTime": "2018-02-12T05:57:24Z",
+            "createTime": "2018-02-12T05:57:12Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "JJU R Workshop 1"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thompson, Daniel"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thompson, Daniel"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "daniel.thompson@emory.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Files for JJU Data management, analysis and GIS workshop, February 2018"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Computer and Information Science",
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Thompson, Daniel"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2018-02-12"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": ".Rhistory",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30227,
+                    "dataFile": {
+                        "id": 7501204,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": ".Rhistory",
+                        "contentType": "application/octet-stream",
+                        "filesize": 6913,
+                        "storageIdentifier": "1618896519d-ef23d95c1d6d",
+                        "rootDataFileId": -1,
+                        "md5": "527f213a6aa4dc959b5ad7a0fd62f97e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "527f213a6aa4dc959b5ad7a0fd62f97e"
+                        },
+                        "creationDate": "2018-02-12"
+                    }
+                },
+                {
+                    "label": "Workshop1.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30227,
+                    "dataFile": {
+                        "id": 7501202,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Workshop1.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 11318,
+                        "storageIdentifier": "161889654d5-773a943b1901",
+                        "rootDataFileId": -1,
+                        "md5": "2fd77bf046cd8b81a9bffe1d13d61f8c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2fd77bf046cd8b81a9bffe1d13d61f8c"
+                        },
+                        "creationDate": "2018-02-12"
+                    }
+                },
+                {
+                    "label": "World_population.csv",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30227,
+                    "dataFile": {
+                        "id": 7501203,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "World_population.csv",
+                        "contentType": "text/csv",
+                        "filesize": 137657,
+                        "storageIdentifier": "16188965919-41ec6c13d745",
+                        "rootDataFileId": -1,
+                        "md5": "5a85fd247b77298f99c6225d429b6cae",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5a85fd247b77298f99c6225d429b6cae"
+                        },
+                        "creationDate": "2018-02-12"
+                    }
+                }
+            ]
+        }
+    }
+}

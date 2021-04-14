@@ -1,0 +1,184 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/FQO7IS",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-03-06",
+        "datasetVersion": {
+            "id": 30771,
+            "storageIdentifier": "file://10.15139/S3/FQO7IS",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2019-03-06T14:40:38Z",
+            "releaseTime": "2019-03-06T14:40:38Z",
+            "createTime": "2019-02-22T20:51:53Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "CMAQ Model Version 5.1 Output Data -- 2013 CONUS_12km "
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "US EPA"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ORD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kristen Foley"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "foley.kristen@epa.gov"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h1>Data Summary:</h1>Community Multiscale Air Quality (CMAQ) Model Version 5.1  output data from a 01/01/2013 - 12/31/2013 CONUS simulation.  <strong>Note:The datasets are on a Google Drive. The metadata associated with this DOI contain the link to the Google Drive folder and instructions for downloading the data.</strong>\r\n\r\n<h2>File Location and Download Instructions:</h2>\r\nThe 2013 model output are available in two forms.  The hourly datasets are a set of monthly files with surface-layer hourly concentrations for a model domain that encompasses the contiguous U.S. with a horizontal grid resolution of 12km x 12km.  The daily average dataset is a single file with a year of daily average data for the same domain. \r\n<br>\r\n<br>\r\n<ul> <li><strong><a href=\"https://drive.google.com/drive/folders/1aKz3BtwjfsqY-vdvMk-bGrzI3qSOjk3b\">Link to hourly data</a></strong> </li>\r\n<li> <strong><a href=\"https://drive.google.com/open?id=1yoNt3D5gFU3WuI6E_Q3uDivgzlDB6AK-\">Link to daily average data</a></strong> </li> \r\n<li> <strong><a href=\"https://docs.google.com/document/d/148IsOJ_eOdApEmvNpvd8VwWg626-v8bTsssLVyy0xMs/edit\">Download instructions </a></strong> </li> </ul>\r\n\r\n<h2>File Format:</h2>The 2013 model output are stored as netcdf formatted files using I/O API data structures <a href=\"https://www.cmascenter.org/ioapi/\">(https://www.cmascenter.org/ioapi/)</a>. Information on the model projection and grid structure is contained in the header information of the netcdf file.  The output files can be opened and manipulated using I/O API utilities (e.g. M3XTRACT, M3WNDW) or other software programs that can read and write netcdf formatted files (e.g. Fortran, R, Python).<br> \r\n"
+                                    }
+                                },
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h2>Model Variables</h2>\r\n<h3>Variable names in hourly data files:</h3>\r\n<strong>Variable Name</strong>, <strong>Units</strong>, <strong>Variable Description</strong><br>\r\nCO, ppb, carbon monoxide<br>\r\nNO, ppb, nitric oxide<br>\r\nNO2, ppb, nitrogen dioxide<br>\r\nO3, ppb, ozone<br>\r\nSO2, ppb, sulfur dioxide<br>\r\nSO2_UGM3, micrograms/m^3, sulfur dioxide<br>\r\nAECIJ, micrograms/m^3, aerosol elemental carbon (sum of i-mode and j-mode)<strong>*</strong><br>\r\nAOCIJ, micrograms/m^3, aerosol organic carbon (sum of i-mode and j-mode)<strong>*</strong><br>\r\nANO3IJ, micrograms/m^3, aerosol nitrate (sum of i-mode and j-mode)<strong>*</strong><br>\r\nTNO3, micrograms/m^3, total nitrate= NO3 (ANO3IJ)+ nitric acid (HNO3)<br>\r\nANH4IJ,micrograms/m^3, aerosol ammonium (sum of i-mode and j-mode)<strong>*</strong><br>\r\nASO4IJ,micrograms/m^3, aerosol sulfate (sum of i-mode and j-mode)<strong>*</strong><br>\r\nPMIJ<strong>**</strong>, micrograms/m^3, total fine particulate matter (sum of i-mode and j-mode)<strong>*</strong><br>\r\nPM10<strong>**</strong>, micrograms/m^3, total particulate matter (sum of i-mode, j-mode, k-mode)<strong>*</strong><br>\r\n\r\n<h3>Variable names in daily data files:</h3>\r\nNote: All daily averages are computed using Local Standard Time (LST) <br>\r\n<strong>Variable Name</strong>, <strong>Units</strong>, <strong>Variable Description</strong><br>\r\nCO_AVG, ppb, 24-hr average carbon monoxide<br>\r\nNO_AVG, ppb, 24-hr average nitric oxide<br>\r\nNO2_AVG, ppb, 24-hr average nitrogen dioxide<br>\r\nO3_AVG, ppb, 24-hr average ozone<br>\r\nO3_MDA8, ppb, Maximum daily 8-hr average ozone <strong>+</strong> <br>\r\nSO2_AVG, ppb, 24-hr average sulfur dioxide<br>\r\nSO2_UGM3_AVG, micrograms/m^3, 24-hr average sulfur dioxide<br>\r\nAECIJ_AVG, micrograms/m^3, 24-hr average aerosol elemental carbon (sum of i-mode and j-mode)<strong>*</strong><br>\r\nAOCIJ_AVG, micrograms/m^3, 24-hr average aerosol organic carbon (sum of i-mode and j-mode)<strong>*</strong><br>\r\nANO3IJ_AVG, micrograms/m^3, 24-hr average aerosol nitrate (sum of i-mode and j-mode)<strong>*</strong><br>\r\nTNO3_AVG, micrograms/m^3, 24-hr average total nitrate= NO3 (ANO3IJ)+ nitric acid (HNO3)<br>\r\nANH4IJ_AVG,micrograms/m^3, 24-hr average aerosol  ammonium (sum of i-mode and j-mode)<strong>*</strong><br>\r\nASO4IJ_AVG,micrograms/m^3, 24-hr average aerosol sulfate (sum of i-mode and j-mode)<strong>*</strong><br>\r\nPMIJ_AVG<strong>**</strong>, micrograms/m^3, 24-hr average total fine particulate matter (sum of i-mode and j-mode)<strong>*</strong><br>\r\nPM10_AVG<strong>**</strong>, micrograms/m^3, 24-hr average total particulate matter (sum of i-mode, j-mode, k-mode)<strong>*</strong><br>\r\n<br>\r\n<strong>+</strong>The calculation of the MDA8 O3 variable is based on the current ozone NAAQS and is derived from the highest of the 17 consecutive 8-hr averages beginning with the 8-hr period from 7:00am to 3:00pm LST and ending with the 8-hr period from 11pm to 7am the following day. <br>\r\n<br>\r\n<strong>*</strong>CMAQ represents PM using three interacting lognormal distributions, or modes.  Two modes, Aitken (i-mode) and accumulation (j-mode) are generally less than 2.5 microns in diameter while the coarse mode (k-mode) contains significant amounts of mass above 2.5 microns.<br>\r\n<br>\r\n  <strong>**</strong>Note that modeled size distributions can also be used to output PM species that represent the aerosol mass that falls below a specific diameter, e.g. 2.5 um or 10um. The output variables that are based on the sharp cut-off method are typically very similar to the aggregate PMIJ (i+j mode) and PM10 (i+j+k mode) variables included in these files. Further information on particle size-composition distributions in CMAQv5.0 can be found in Nolte et al. (2015), <a href=\"https://doi.org/10.5194/gmd-8-2877-2015\"> https://doi.org/10.5194/gmd-8-2877-2015</a>.\r\n "
+                                    }
+                                },
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h2>Simulation Settings and Inputs:</h2>\r\n\r\n<h3>CMAQ Model </h3>\r\n<ul> <li>Model version: 5.1</li></ul><ul><li>Bi-directional NH3 air-surface exchange: Massad formulation</li></ul><ul><li>Chemical mechanism: CB05e51</li></ul><ul><li>Aerosol module: aero6</li></ul>\r\n<ul><li>Domain: Continental U.S. (CONUS) using a 12 km grid size and a Lambert Conformal projection assuming a spherical earth with radius 6370.0 km.</li></ul>  \r\n<ul><li>Vertical Resolution: 35 layers from the surface to the top of the free troposphere with layer 1 nominally 19 m tall.</li></ul>   \r\n\r\n\r\n<h3>Boundary Condition Inputs</h3>\r\n<ul><li>Hourly values from 2013 simulation of GEOS-Chem v9-01-02 with GEOS-5 meteorology inputs.</li></ul>\r\n\r\n<h3>Emissions Inputs</h3>\r\n<ul><li>Anthropogenic emissions:  Emissions inventory label 2013ej.  2011 modeling platform version 6.2 with 2013 updates for fires, mobile sources, and mobile source (link to modeling platform:  <a href= \"https://www.epa.gov/air-emissions-modeling/2011-version-62-technical-support-document\"> https://www.epa.gov/air-emissions-modeling/2011-version-62-technical-support-document</a>)</li></ul>\r\n<ul><li>Lightning NOx: adjusted to year-specific lightning strike data calculated online in CMAQ v5.1.</li></ul>\r\n<ul><li>Chemical fertilizer application: calculated with the Economic Policy Integrated Climate (EPIC). Schedule is year specific with chemical specification of form applied.</li></ul>\r\n<ul><li>Ammonia Emissions: calculated with new Confined Animal Feeding Operations (CAFO) resistance and thermodynamics-based diurnal profile.</li></ul>\r\n<ul><li>Vegetation Distribution: Biogenic Emissions Landuse Database version 4 (BELD4.1) crop distributions informs EPIC, online biogenic emissions, and deposition velocities.</li></ul>\r\n<ul><li>Fire emissions: developed using the US Forest Service\u2019s BlueSky modeling framework with the following components: Area Burned = SmartFirev2 | Fuels = FCCS fuelbeds | Consumption Efficiency = CONSUMEv3 | Emission Factors = FEPS (flaming to smoldering ratio). Additional details can be found here <a href= \"https://www.airfire.org/wp-content/uploads/2012/08/EIC2012-05-EmissionsProcessingComparisons.pdf\">https://www.airfire.org/wp-content/uploads/2012/08/EIC2012-05-EmissionsProcessingComparisons.pdf</a></li></ul>\r\n\r\n<h3>Meterology Inputs</h3>\r\n<ul><li>Model: Weather Research Forecast model, version 3.7.1 (WRF v3.7.1) simulated meteorology for 2013</li></ul>\r\n<ul><li>Land Cover: 2011 National Land Cover Database (NLCD)</li></ul> \r\n<ul><li>Data assimilation: based on version-2 four-dimensional data assimilation (FDDA) with no nudging in the planetary boundary layer and used blended 3-hourly reanalysis fields (combination of 6-hour Meteorological Assimilation Data Ingest System (MADIS) data and intermediate North American Mesoscale Model (NAM) 3-hour forecast) organized into 12km NAM Data Assimilation System (NDAS) fields up to 50 hPa.</li></ul> \r\n<ul><li>WRF v3.7.1 parameters: Kain-Fritsch Ma and Tan (2009) trigger; NLCD woody wetlands land use category recognized (wetlands-100); and Pleim-Xiu land-surface model.</li></ul>\r\n<ul><li>Vertical Resolution: 35 layers from the surface to the top of the free troposphere with layer 1 nominally 19 m tall.</li></ul>   \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Earth and Environmental Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CMAQv5.1"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.epa.gov/cmaq"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Simulation Year"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CMAQ"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Community Multiscale Air Quality Modeling System"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.epa.gov/cmaq"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Boykin, Randa"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-02-22"
+                        }
+                    ]
+                }
+            },
+            "files": []
+        }
+    }
+}

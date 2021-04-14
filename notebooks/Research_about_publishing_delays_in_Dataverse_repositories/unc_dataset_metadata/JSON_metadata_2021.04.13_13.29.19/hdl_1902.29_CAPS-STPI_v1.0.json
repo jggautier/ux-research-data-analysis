@@ -1,0 +1,575 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-STPI",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-20",
+        "datasetVersion": {
+            "id": 3536,
+            "storageIdentifier": "file://1902.29/CAPS-STPI",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-20T18:10:54Z",
+            "releaseTime": "2009-04-20T00:00:00Z",
+            "createTime": "2007-08-28T15:25:38Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "State-Trait Personality Inventory (CAPS-STPI module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-STPI"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-STPI"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The State-Trait Personality Inventory (STPI) consists of six subscales: state and trait anxiety, state and trait curiosity, and state and trait anger. The three STPI state subscales are referred to as: S-Anxiety, S-Curiosity and S-Anger, each subscale consists of 10 items. Similarly, the three 10-item STPI trait subscales are referred to as: T-Anxiety, T-Curiosity and T-Anger.</p><p>Scoring information: Reversed scored items are: STPI1,STPI7,STPI19,STPI23,STPI25,STPI29, STPI31,STPI34,STPI49,S\nTPI53,STPI59</p><p>Subscale total scores are obtained by summing all items (scores can range from 10 to 40). High ratings indicate the presence of high levels of that emotion.</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "State anxiety"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "State curiosity"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "State anger"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Trait anxiety"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Trait curiosity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Trait anger"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Spielberger, Charles D. et al. Preliminary Manual for the State-Trait Personality Inventory (STPI)."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1987_stpi_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11636,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_stpi_data",
+                        "contentType": "text/plain",
+                        "filesize": 49920,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_stpi_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_stpi_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11634,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_stpi_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 6763,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_stpi_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_stpi_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11643,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_stpi_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 77040,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_stpi_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_stpi_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11641,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_stpi_source",
+                        "contentType": "text/plain",
+                        "filesize": 12600,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_stpi_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_stpi_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11644,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_stpi_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 31078,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_stpi_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_stpi_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "Data File 1 (caps_1987_stpi_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11640,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_stpi_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 26697,
+                        "storageIdentifier": "caps_1987_stpi_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 31078,
+                        "UNF": "UNF:3:coLFmcQcmCOh/7m3IArLtQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_stpi_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11645,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_stpi_data",
+                        "contentType": "text/plain",
+                        "filesize": 49920,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_stpi_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_stpi_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11635,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_stpi_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4334,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_stpi_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_stpi_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11639,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_stpi_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 73360,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_stpi_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_stpi_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11642,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_stpi_source",
+                        "contentType": "text/plain",
+                        "filesize": 12751,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_stpi_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_stpi_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11637,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_stpi_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 29684,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_stpi_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_stpi_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3536,
+                    "categories": [
+                        "Data File 2 (caps_1988_stpi_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11638,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_stpi_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 24960,
+                        "storageIdentifier": "caps_1988_stpi_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 29684,
+                        "UNF": "UNF:3:cUYd282kOM/DRUw4ghCdeg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

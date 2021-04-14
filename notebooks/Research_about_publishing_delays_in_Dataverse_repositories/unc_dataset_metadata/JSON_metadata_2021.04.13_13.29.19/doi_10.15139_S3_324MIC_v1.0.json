@@ -1,0 +1,212 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/324MIC",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-04-26",
+        "datasetVersion": {
+            "id": 30860,
+            "storageIdentifier": "file://10.15139/S3/324MIC",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:XqIYOPutxAdUo0cHkl23Xw==",
+            "lastUpdateTime": "2019-04-26T15:52:15Z",
+            "releaseTime": "2019-04-26T15:52:15Z",
+            "createTime": "2019-04-26T15:51:09Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Robinson Replication Data for: Uzonyi 2015"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Robinson, Kellan"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Robinson, Kellan"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "kellan@live.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Replication Project"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Robinson, Kellan"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-04-26"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "Refugees and Peacekeeping.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30860,
+                    "dataFile": {
+                        "id": 7505826,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Refugees and Peacekeeping.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5245626,
+                        "storageIdentifier": "16a5a23d721-843a98c61e59",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:6:XqIYOPutxAdUo0cHkl23Xw==",
+                        "rootDataFileId": -1,
+                        "md5": "18b82b656123c35b4b0d998c8e152168",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "18b82b656123c35b4b0d998c8e152168"
+                        },
+                        "creationDate": "2019-04-26"
+                    }
+                },
+                {
+                    "label": "Replication File .R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30860,
+                    "dataFile": {
+                        "id": 7505827,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Replication File .R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 7399,
+                        "storageIdentifier": "16a5a575b44-5bd90b669914",
+                        "rootDataFileId": -1,
+                        "md5": "c23596b21a36f895c0eab82836d3fcc8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c23596b21a36f895c0eab82836d3fcc8"
+                        },
+                        "creationDate": "2019-04-26"
+                    }
+                },
+                {
+                    "label": "Robinson Replication Project.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30860,
+                    "dataFile": {
+                        "id": 7505829,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Robinson Replication Project.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 199948,
+                        "storageIdentifier": "16a5a23d923-da65c1811333",
+                        "rootDataFileId": -1,
+                        "md5": "b6a55be97d021534a6198f293b2a7844",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b6a55be97d021534a6198f293b2a7844"
+                        },
+                        "creationDate": "2019-04-26"
+                    }
+                },
+                {
+                    "label": "Uzonyi 2015.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30860,
+                    "dataFile": {
+                        "id": 7505828,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Uzonyi 2015.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 183298,
+                        "storageIdentifier": "16a5a24a6c2-172dfe6ed672",
+                        "rootDataFileId": -1,
+                        "md5": "652e24cfcb75836247b584c665f5d37a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "652e24cfcb75836247b584c665f5d37a"
+                        },
+                        "creationDate": "2019-04-26"
+                    }
+                }
+            ]
+        }
+    }
+}

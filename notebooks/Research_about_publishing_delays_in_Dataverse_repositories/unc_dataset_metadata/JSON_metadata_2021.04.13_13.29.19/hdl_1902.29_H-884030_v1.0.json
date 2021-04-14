@@ -1,0 +1,587 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-884030",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2008-03-06",
+        "datasetVersion": {
+            "id": 3009,
+            "storageIdentifier": "file://1902.29/H-884030",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "distributionDate": "1997",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2008-03-06T17:43:59Z",
+            "releaseTime": "2008-03-06T00:00:00Z",
+            "createTime": "2007-08-29T14:57:07Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 1989 National Issues Survey, study no. 884030"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-884030"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 884030"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This survey focuses on Americans opinion about work, job opportunities, retirement, qualifications and skills, free time, health, finances, and reasons for stopping working .</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Employment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Job opportunities"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Retirement"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Economy"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Unemployment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: National cross-section RRD telephone survey of Americans age 18 or older.;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: H-884030;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1989-09"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1997"
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_s884030_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3009,
+                    "categories": [
+                        "Data, Column Binary - Working and Not Working Respondents"
+                    ],
+                    "dataFile": {
+                        "id": 27181,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884030_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 5052960,
+                        "description": "",
+                        "storageIdentifier": "harris_s884030_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884030_notwork_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3009,
+                    "categories": [
+                        "Questionnaire, PDF File -- Not Working Respondents"
+                    ],
+                    "dataFile": {
+                        "id": 27185,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884030_notwork_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 803807,
+                        "description": "",
+                        "storageIdentifier": "harris_s884030_notwork_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884030_notwork_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3009,
+                    "categories": [
+                        "SAS Control Cards- Not Working Respondents"
+                    ],
+                    "dataFile": {
+                        "id": 27186,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884030_notwork_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 64651,
+                        "description": "",
+                        "storageIdentifier": "harris_s884030_notwork_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884030_notwork_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3009,
+                    "categories": [
+                        "SAS Export Library -- Not Working Respondents"
+                    ],
+                    "dataFile": {
+                        "id": 59013,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884030_notwork_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 2590320,
+                        "description": "",
+                        "storageIdentifier": "1206",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884030_notwork_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3009,
+                    "categories": [
+                        "Data File -- Not Working Respondents (harris_s884030_notwork_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 59014,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884030_notwork_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 765642,
+                        "description": "",
+                        "storageIdentifier": "1207",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 683798,
+                        "UNF": "UNF:3:5yhmKUG+KctwDuoBb7gdjg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884030_working_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3009,
+                    "categories": [
+                        "Questionnaire, PDF File -- Working Respondents"
+                    ],
+                    "dataFile": {
+                        "id": 27180,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884030_working_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 662671,
+                        "description": "",
+                        "storageIdentifier": "harris_s884030_working_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884030_working_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3009,
+                    "categories": [
+                        "SAS Control Cards - Working Respondents"
+                    ],
+                    "dataFile": {
+                        "id": 27187,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884030_working_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 45401,
+                        "description": "",
+                        "storageIdentifier": "harris_s884030_working_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884030_working_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3009,
+                    "categories": [
+                        "SAS Export Library -- Working Respondents"
+                    ],
+                    "dataFile": {
+                        "id": 59015,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884030_working_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 2475920,
+                        "description": "",
+                        "storageIdentifier": "1208",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884030_working_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3009,
+                    "categories": [
+                        "Data File -- Working Respondents (harris_s884030_working_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 59016,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884030_working_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 689747,
+                        "description": "",
+                        "storageIdentifier": "1209",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 661822,
+                        "UNF": "UNF:3:yS+rgiPp+ZKM6WMeWkPNXQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

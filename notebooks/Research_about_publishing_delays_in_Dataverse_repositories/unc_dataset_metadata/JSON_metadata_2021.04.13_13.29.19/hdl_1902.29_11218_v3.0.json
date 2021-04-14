@@ -1,0 +1,902 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/11218",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2013-04-09",
+        "datasetVersion": {
+            "id": 484,
+            "storageIdentifier": "file://1902.29/11218",
+            "versionNumber": 3,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2013-06-06T18:23:01Z",
+            "releaseTime": "2013-06-06T00:00:00Z",
+            "createTime": "2013-06-06T18:23:01Z",
+            "license": "NONE",
+            "termsOfUse": "<p><b>DATAVERSE NETWORK TERMS OF USE</b></p> <p>Files downloaded from the Dataverse Network may not be redistributed in any form (electronic, electro-magnetic or printed) without prior permission from the distributor of the data.  </p> <p>By clicking the \"I agree\" checkbox, I confirm that I have read and understood each and every term set forth in the terms and conditions for the use of data and other materials found above, and I agree to be bound by all of such terms and conditions.</p>  <p>If\nI do not understand or agree to all of the terms and conditions, I must not use or download any data or other materials.\n</p>  <p>--------</p>  <p><b>Rules and Conduct</b></p>  <p>As a condition of use, you promise not to use the Service for any purpose that is prohibited by the Terms of Use. For purposes of the Terms of Use, \"Content\" includes, without limitation, any information, data, text, software, scripts, graphics, and interactive features generated, provided, or otherwise made accessible by ODUM or its partners on or through the Service. By way of example, and not as a limitation, you shall not (or permit\nothers to) either (a) take any action or (b) upload, download, post, submit or otherwise distribute or facilitate distribution of any content using any communications service or other service available on or through the Service, that:\n</p> <ul><li>infringes any patent, trademark, trade secret, copyright, right of publicity or other right of any other person or entity;</li> <li>is unlawful, threatening, abusive, harassing, defamatory, libelous, deceptive, fraudulent, invasive of another's privacy, tortious, obscene, offensive, or profane;</li> <li>constitutes unauthorized or unsolicited advertising, junk or bulk e-mail (\"spamming\");</li> <li>contains software viruses or any other computer codes, files, or programs that are des\nigned or intended to disrupt, damage, limit or interfere with the proper function of any software, hardware, or telecommunications equipment or to damage or obtain unauthorized access to any system, data or other information of ODUM or any third party; or Additionally, you shall not: (i) take any action that imposes or may impose (as determined by ODUM in its sole discretion) an unreasonable or disproportionately large load on ODUM's (or its third party providers') infrastructure; (ii) interfere or attempt to interfere with the proper working of the Service or any activities conduc\nted on the Service; or (iii) bypass any measures ODUM may use to prevent or restrict access to the Service (or other accounts, computer systems or networks connected to the Service).\n</li></ul>  <p>You shall abide by all applicable local, state, national and international laws and regulations.</p>  <p><b><i>Data for this article was supplied by MEASURE Evaluation, a project of the United States Agency for International Development.</i></b></p>",
+            "citationRequirements": "<b>CITATION REQUIREMENTS</b> <p>The Requestor shall follow internationally recognized authorship criteria and acknowledge MEASURE Evaluation researchers and the international researcher/s involved in the data analysis.   Any publications, presentations or reports resulting from Requestor\u2019s analysis of the data should acknowledge MEASURE Evaluation using the following text: </p> <p><blockquote>Data for this research was provided by MEASURE Evaluation, funded by the United States Agency for Intern\national Development (USAID). Views expressed do not necessarily reflect those of USAID, the US government, or MEASURE Evaluation.\n</blockquote></p>",
+            "conditions": "<b>CONDITIONS</b> <p><ul><li>The data files have been made publicly accessible. Staff at MEASURE Evaluation and the Odum Institute are not available to assist with accessing and using these files.</li>  <li>Requestor agrees that he/she will use these data only for analysis purposes and not take any actions to identify or contact individuals, communities, or specific service providers.  Individuals, health facilities and/or health care providers shall not be identified in publications, reports, o\nr presentations, either directly or indirectly.</li>  <li>Requestor agrees to use appropriate safeguards to protect the data from misuse and shall promptly notify MEASURE Evaluation of any unauthorized or impermissible use or disclosure of the data of which he/she becomes aware.</li></ul></p>",
+            "disclaimer": "<b>DISCLAIMER</b> <p>Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental, or consequential damages arising from use of these files.</p>",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "India PERFORM 1995"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "measure@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The files in this directory are the public-use PERFORM data collected from a sample of 28 districts in the state of Uttar Pradesh in June to September, 1995. The survey was designed to provide representative estimates of the levels and patterns of contraceptive practice and service delivery for districts, divisions, regions, and the state. The survey is one component of an overall monitoring and evaluation effort for the Innovations in Family Planning Services Project situated in the state. The 1995 survey was designed to provide baseline estimates for performance benchmarks related to access to, quality of, and demand for family planning services. The PERFORM project was executed by the State Innovations in Family Planning Services Project Agency with financial assistance from the United Stated Agency for International Development and technical assistance from The EVALUATION Project at the University of North Carolina at Chapel Hill."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Contraceptive Practice"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family Planning Services"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "State Innovations in Family Planning Services Project Agency"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1995"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/measure"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2013-04-03"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1995-06"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1995-09"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1995-06"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1995-09"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Survey"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "India"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Individual Service Delivery Agents in the Women's Areas",
+                    "label": "agent.html",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7067862,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "agent.html",
+                        "contentType": "text/html",
+                        "filesize": 32361,
+                        "description": "Individual Service Delivery Agents in the Women's Areas",
+                        "storageIdentifier": "4512",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Individual Service Delivery Agents in the Women's Areas",
+                    "label": "agent.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067878,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "agent.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 6896010,
+                        "description": "Individual Service Delivery Agents in the Women's Areas",
+                        "storageIdentifier": "4515",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:+VrauAOg0vqeh3ChsPp2lQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Facility PSU 1",
+                    "label": "f1psu.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067879,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "f1psu.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 3705739,
+                        "description": "Facility PSU 1",
+                        "storageIdentifier": "4516",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:2A7BOFpJ/pEN29DGlf1BNg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Facility PSU 2",
+                    "label": "f2psu.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067872,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "f2psu.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5427086,
+                        "description": "Facility PSU 2",
+                        "storageIdentifier": "4517",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:Z2hVmPDf36JXR6wjrnXRpA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Fixed Service Delivery Point Providers",
+                    "label": "fixed.html",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7067860,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fixed.html",
+                        "contentType": "text/html",
+                        "filesize": 64269,
+                        "description": "Fixed Service Delivery Point Providers",
+                        "storageIdentifier": "4503",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Fixed Service Delivery Point Providers 1",
+                    "label": "fsdp1.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067880,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fsdp1.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 952102,
+                        "description": "Fixed Service Delivery Point Providers 1",
+                        "storageIdentifier": "4518",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:GQNyRr5DZk0oh1w9iyk8og==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Fixed Service Delivery Point Providers 2",
+                    "label": "fsdp2.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067877,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fsdp2.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1367493,
+                        "description": "Fixed Service Delivery Point Providers 2",
+                        "storageIdentifier": "4519",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:3L8c0EMGVN2RfwoCroGjbw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Women's Households",
+                    "label": "hhold.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067874,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hhold.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 31559138,
+                        "description": "Women's Households",
+                        "storageIdentifier": "4520",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:1Su5PpSA/F4607Va/48/Cg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Women's Households",
+                    "label": "household.html",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7067867,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "household.html",
+                        "contentType": "text/html",
+                        "filesize": 30458,
+                        "description": "Women's Households",
+                        "storageIdentifier": "4504",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Men in the Households of 5 Districts",
+                    "label": "men.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7067864,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "men.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 8331692,
+                        "description": "Men in the Households of 5 Districts",
+                        "storageIdentifier": "4506",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Men in the Household of 5 Districts",
+                    "label": "men.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067881,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "men.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5267952,
+                        "description": "Men in the Household of 5 Districts",
+                        "storageIdentifier": "4521",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:+rRxki685Rm3ywbtemQayQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Readme.docx",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7067861,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Readme.docx",
+                        "contentType": "application/octet-stream",
+                        "filesize": 15999,
+                        "description": "",
+                        "storageIdentifier": "4507",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Family Planning Staff at the FSDP",
+                    "label": "staffperson.html",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7067868,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "staffperson.html",
+                        "contentType": "text/html",
+                        "filesize": 30331,
+                        "description": "Family Planning Staff at the FSDP",
+                        "storageIdentifier": "4508",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Family Planning Staff at the FSDPs",
+                    "label": "staff.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067876,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "staff.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1261786,
+                        "description": "Family Planning Staff at the FSDPs",
+                        "storageIdentifier": "4522",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:Q57RkD5MNmNTmvczWryWkg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Staff PSU",
+                    "label": "stpsu.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067882,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "stpsu.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 8092632,
+                        "description": "Staff PSU",
+                        "storageIdentifier": "4523",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:pI84R3sbLxptiDe2IL3ZAQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Urban Areas",
+                    "label": "urbanblock.html",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7067863,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "urbanblock.html",
+                        "contentType": "text/html",
+                        "filesize": 18415,
+                        "description": "Urban Areas",
+                        "storageIdentifier": "4509",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Urban Areas",
+                    "label": "urban.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067873,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "urban.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 95466,
+                        "description": "Urban Areas",
+                        "storageIdentifier": "4524",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:raUrmhkvHlTwCNwAxO+wHg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Rural Areas",
+                    "label": "village.html",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7067866,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "village.html",
+                        "contentType": "text/html",
+                        "filesize": 23807,
+                        "description": "Rural Areas",
+                        "storageIdentifier": "4510",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Rural Areas ",
+                    "label": "village.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067875,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "village.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 308786,
+                        "description": "Rural Areas ",
+                        "storageIdentifier": "4525",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:8QZcgm9fYkh0JRvvUggWdw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Women Ages 13-49",
+                    "label": "woman1a.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067883,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "woman1a.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19698141,
+                        "description": "Women Ages 13-49",
+                        "storageIdentifier": "4528",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:Lab4lS5ublCl8aWZHNbxJw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Women Ages 13-49",
+                    "label": "woman2a.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067885,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "woman2a.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 22282356,
+                        "description": "Women Ages 13-49",
+                        "storageIdentifier": "4529",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:NhtMR5QhpRyW54b1topmLA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Women Ages 13-49",
+                    "label": "woman3a.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7067884,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "woman3a.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 36066389,
+                        "description": "Women Ages 13-49",
+                        "storageIdentifier": "4530",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:18Pb9bQO2uEW0BxF3A4hhQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                },
+                {
+                    "description": "Women Ages 13-49",
+                    "label": "women.html",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 484,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7067865,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "women.html",
+                        "contentType": "text/html",
+                        "filesize": 141587,
+                        "description": "Women Ages 13-49",
+                        "storageIdentifier": "4513",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-05"
+                    }
+                }
+            ]
+        }
+    }
+}

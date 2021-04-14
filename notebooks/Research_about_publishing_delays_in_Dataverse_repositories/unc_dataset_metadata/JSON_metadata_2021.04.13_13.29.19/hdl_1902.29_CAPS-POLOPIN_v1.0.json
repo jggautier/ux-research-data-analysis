@@ -1,0 +1,798 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-POLOPIN",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-22",
+        "datasetVersion": {
+            "id": 3480,
+            "storageIdentifier": "file://1902.29/CAPS-POLOPIN",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-22T15:30:10Z",
+            "releaseTime": "2009-05-22T00:00:00Z",
+            "createTime": "2007-08-28T15:23:24Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Political Opinion Scale II (CAPS-POLOPIN module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-POLOPIN"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-POLOPIN"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The POLOPIN unit is intended to measure political opinions. Opinion measures include approval of Reagan's job as president, approval of Reagan's handling of the economy, attitudes about busing, government guarantee of jobs, restriction of abortion, death penalty. A number of questions deal with whether spending should be increased/decreased/same for the following: older people, blacks, crime, women, social security, cities, medicare, welfare, working women, farmers. Party id and liberal/conse\nrvative self-rating are included. The questions were developed or adapted by Pamela Conover.\n</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Political opinions"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Political knowledge"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Federal budget"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Economy"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Party identification"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Liberal-conservative identification"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Busing"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Abortion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Death penalty"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Reagan, Ratings of jobs, Government role"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Pamela Johnston Conover and Stanley Feldman 'Studying Patriotism - Prepilot Results', a report submitted to the Board of Overseers - National Election Study."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_polopin_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10634,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polopin_data",
+                        "contentType": "text/plain",
+                        "filesize": 49400,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polopin_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_polopin_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10637,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polopin_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5059,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polopin_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_polopin_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10633,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polopin_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 36800,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polopin_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_polopin_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10636,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polopin_source",
+                        "contentType": "text/plain",
+                        "filesize": 11191,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polopin_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_polopin_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10640,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polopin_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 20418,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_polopin_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_polopin_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "Data File 1 (caps_1986_polopin_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10641,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_polopin_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18618,
+                        "storageIdentifier": "caps_1986_polopin_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:zyZWVPEl0+OsC1I1HagzQQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polopin_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10638,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polopin_data",
+                        "contentType": "text/plain",
+                        "filesize": 42120,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polopin_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polopin_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10643,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polopin_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4902,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polopin_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polopin_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10628,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polopin_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 32320,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polopin_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polopin_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10632,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polopin_source",
+                        "contentType": "text/plain",
+                        "filesize": 11187,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polopin_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_polopin_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10635,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polopin_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17794,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_polopin_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_polopin_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "Data File 2 (caps_1987_polopin_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10642,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_polopin_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15872,
+                        "storageIdentifier": "caps_1987_polopin_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:awuNIIgPuGD9nfnJQWzsSA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polopin_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10631,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polopin_data",
+                        "contentType": "text/plain",
+                        "filesize": 47840,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polopin_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polopin_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10629,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polopin_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4064,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polopin_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polopin_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10639,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polopin_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 37520,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polopin_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polopin_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10630,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polopin_source",
+                        "contentType": "text/plain",
+                        "filesize": 12387,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polopin_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_polopin_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10627,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polopin_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 19598,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_polopin_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_polopin_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3480,
+                    "categories": [
+                        "Data File 3 (caps_1988_polopin_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10644,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_polopin_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17020,
+                        "storageIdentifier": "caps_1988_polopin_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:WaFsnGvtdD9nNx/c40WZtw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

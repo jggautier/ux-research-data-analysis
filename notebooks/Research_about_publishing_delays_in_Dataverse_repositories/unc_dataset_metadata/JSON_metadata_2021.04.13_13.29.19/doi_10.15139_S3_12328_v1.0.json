@@ -1,0 +1,234 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12328",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-02-02",
+        "datasetVersion": {
+            "id": 169,
+            "storageIdentifier": "file://10.15139/S3/12328",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "06/14/2016 Initial",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-02-02T20:49:58Z",
+            "releaseTime": "2017-02-02T20:49:58Z",
+            "createTime": "2016-06-14T13:44:39Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "[Exp 15] Abigail JAMIESON-DRAKE's Day 1 Vocalization Experiment"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Jamieson-Drake, Abby"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thu-Mai Christian"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odumarchive@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This experiment characterized the vocalizations (cries) of rat pups on Post Partem Day 1 only.    During each trial, one male pup and one female pup were randomly selected from among the dam\u2019s litter and monitored for two minutes (120 seconds).   Only dams with more than 10 pups were used in this experiment.  Immediately after delivery, the dam was weighed, the pups were sexed, and exactly five male pups and five female pups were returned to the dam for the rest of the experiment.  The selected male and female pups were put on a heating pad for five minutes, and then removed to the thermochamber.  The thermochamber has a room-temperature metal plate whose temperature is recorded in dataset WTS_xx.    NOTE: Relationship to Other Experiments:  The dams used in this experiment might be used in Sarah\u2019s or Matt\u2019s studies (if the PD_DAM are the same)."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013-05-13"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "cocaine"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-06-14"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Guide to the data files in this experiment.",
+                    "label": "Dr. John's P1 Vocalization Experiment.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 169,
+                    "dataFile": {
+                        "id": 7375048,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Dr. John's P1 Vocalization Experiment.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 42625,
+                        "description": "Guide to the data files in this experiment.",
+                        "storageIdentifier": "157d2bc44b9-54ccaf63f76c",
+                        "rootDataFileId": -1,
+                        "md5": "a5d09718066238d38d21c4673939a369",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a5d09718066238d38d21c4673939a369"
+                        },
+                        "creationDate": "2016-10-17"
+                    }
+                },
+                {
+                    "description": "Plate temperatures at one-second intervals.",
+                    "label": "plateraw_01.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 169,
+                    "dataFile": {
+                        "id": 7185926,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "plateraw_01.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 79799,
+                        "description": "Plate temperatures at one-second intervals.",
+                        "storageIdentifier": "19648",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:mPSBAzx4mX5Hgm1iiFEhaw==",
+                        "rootDataFileId": -1,
+                        "md5": "b11815f8f82daa4d7018ebcd7f134a12",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b11815f8f82daa4d7018ebcd7f134a12"
+                        },
+                        "creationDate": "2016-06-14"
+                    }
+                },
+                {
+                    "description": "Pup vocalization data: Each cry in a two-minute period is described by duration, amplitude and frequency in a couple of dimensions. Each observation describes one cry.",
+                    "label": "rvaraw_02.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 169,
+                    "dataFile": {
+                        "id": 7185925,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "rvaraw_02.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 213844,
+                        "description": "Pup vocalization data: Each cry in a two-minute period is described by duration, amplitude and frequency in a couple of dimensions. Each observation describes one cry.",
+                        "storageIdentifier": "19649",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:3UMZXJR5GGVSxpqWtozLlg==",
+                        "rootDataFileId": -1,
+                        "md5": "a95afc89b8d4802aa9a5b0c4ec8a6765",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a95afc89b8d4802aa9a5b0c4ec8a6765"
+                        },
+                        "creationDate": "2016-06-14"
+                    }
+                },
+                {
+                    "description": "Pup weight and pre- and post-test temperature. Also air temperature.",
+                    "label": "wts_02.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 169,
+                    "dataFile": {
+                        "id": 7185927,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "wts_02.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 8012,
+                        "description": "Pup weight and pre- and post-test temperature. Also air temperature.",
+                        "storageIdentifier": "19650",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:eidcmzIa3uu3vwcdYVni3A==",
+                        "rootDataFileId": -1,
+                        "md5": "5bcfbcee15d6d0f8892398752d4577fc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5bcfbcee15d6d0f8892398752d4577fc"
+                        },
+                        "creationDate": "2016-06-14"
+                    }
+                }
+            ]
+        }
+    }
+}

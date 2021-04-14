@@ -1,0 +1,804 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-TYPEA",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-13",
+        "datasetVersion": {
+            "id": 3444,
+            "storageIdentifier": "file://1902.29/CAPS-TYPEA",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-13T17:26:38Z",
+            "releaseTime": "2009-04-13T00:00:00Z",
+            "createTime": "2007-08-28T16:48:24Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any pur\npose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Student Jenkins Activity Survey (CAPS-TYPEA module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-TYPEA"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-TYPEA"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Student Jenkins Activity Survey (JAS) is a 21 item measure of the 'coronary prone behavior pattern' also known as Type A behavior. Type A individuals are characterized by a sense of time urgency, hard driving competitiveness and a preoccupation with deadlines. The Student JAS is a modified version of the 54-item JAS, including the 21 item Type A scale, designed for administration to working adults. For use in a college population, items were altered to reflect aspects relevant to student\nlife. For example, the item 'Do you ever set deadlines or quotas for yourself at work or at home?' was changed to 'Do you ever set deadlines or quotas for yourself in courses or other things?'\n</p><p>Scoring information: The items are scored as follows: TYPEA1, TYPEA3, TYPEA8, TYPEA9, TYPEA10, TYPEA12 responses '1' and '2' were coded 1. Responses '3' and '4' were coded 0. TYPEA2, TYPEA4, TYPEA5, TYPEA6, TYPEA13, TYPEA16, TYPEA20, TYPEA21 response '1' was coded 1. All other responses were coded 0. For TYPEA11, responses 4 is recoded 1. All other responses are coded 0. For all of the recodes, create new variables RTYPEA1 - RTYPEA21. Total score, TYPASCORE, is calculated by adding the sc\naled values of all the variables, RTYPEA1 - RTYPEA21. In administration of the student version of the JAS to an undergraduate college population, Krantz et al obtained a mean of 7.23 and a standard deviation of 3.69. For the purposes of that study Type A was assigned to those who scored above the median (6.7 in this case) for the entire sample, Type B individuals were those who scored below the median.\n</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Type A"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Jenkins Type A Measure"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Stress"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Personality"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "See Krantz, David S., David C Glass and Melvin L. Snyder. 'Helplessness, Stress Level and the Coronary-Prone Behavior Pattern.' Journal of Experimental Social Psychology, 1974, 10: 284-300."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1984_typea_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 23432,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_typea_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 25280,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_typea_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_typea_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 23433,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_typea_source",
+                        "contentType": "text/plain",
+                        "filesize": 44634,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_typea_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_typea_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 23442,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_typea_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 9922,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_typea_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_typea_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Data File -- 1984 (caps_1984_typea_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 87186,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_typea_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 7060,
+                        "description": "",
+                        "storageIdentifier": "1406",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:tDAXnh81Dg/xw061WRbNXQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_typea_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 23440,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_typea_data",
+                        "contentType": "text/plain",
+                        "filesize": 54600,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_typea_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_typea_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 23428,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_typea_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 40080,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_typea_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_typea_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 23427,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_typea_source",
+                        "contentType": "text/plain",
+                        "filesize": 34314,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_typea_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_typea_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 23425,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_typea_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21156,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_typea_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_typea_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Data File -- 1985 (caps_1985_typea_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 87185,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_typea_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18725,
+                        "description": "",
+                        "storageIdentifier": "1407",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:CIlKFsayui/lO6UQ9oA0cw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_typea_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 23430,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_typea_data",
+                        "contentType": "text/plain",
+                        "filesize": 39390,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_typea_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_typea_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 23444,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_typea_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5418,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_typea_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_typea_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 23426,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_typea_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 37680,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_typea_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_typea_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 23436,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_typea_source",
+                        "contentType": "text/plain",
+                        "filesize": 10227,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_typea_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_typea_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 23434,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_typea_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 20992,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_typea_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_typea_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Data File -- 1987 (caps_1987_typea_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 87184,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_typea_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18217,
+                        "description": "",
+                        "storageIdentifier": "1408",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Fy8TLlsI7Q27y4Df8xlKRA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_typea_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 23439,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_typea_data",
+                        "contentType": "text/plain",
+                        "filesize": 37830,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_typea_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_typea_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 23437,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_typea_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4292,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_typea_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_typea_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 23429,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_typea_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 49920,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_typea_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_typea_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 23441,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_typea_source",
+                        "contentType": "text/plain",
+                        "filesize": 12467,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_typea_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_typea_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 23431,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_typea_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21074,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_typea_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_typea_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3444,
+                    "categories": [
+                        "Data File -- 1988 (caps_1988_typea_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 87187,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_typea_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15521,
+                        "description": "",
+                        "storageIdentifier": "1409",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:r7FmkYHzwI4J4ncznrLfLQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

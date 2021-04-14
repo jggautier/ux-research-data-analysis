@@ -1,0 +1,717 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-17275",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 1847,
+            "storageIdentifier": "file://1902.29/D-17275",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T15:37:39Z",
+            "license": "NONE",
+            "termsOfUse": "Citation requirements: <br /><br /> Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data. <br /><br /> Data Disclaimer: <br /><br /> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of the\nse files.",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "TRINET"
+                        },
+                        {
+                            "typeName": "subtitle",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Establishment Record"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-17275"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:study"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "30-01-TRINET-UNC-84"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "TRINET"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>TRINET provides information that can be used to focus sales and marketing efforts to improve efficiency, control costs, and stimulate growth. TRINET is made up of 3 data files: Large Company file, Large Establishment file, and Small Business file. Data sources include industrial and commercial directories, newspaper clippings, annual reports, 10-K's, publication subscription and credit listings for new company information. The Odum Institute has only the Customer Layout from the Establishment\nRecord</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Economic"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Type: ODUM:CODEBOOK.NUMBER Notes: 30-083;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "TRINET"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1986"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Persippany, NJ"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "trinet_cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "Codebook, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 14641,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1504849,
+                        "description": "",
+                        "storageIdentifier": "trinet_cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_estab_t1979",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14638,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_estab_t1979",
+                        "contentType": "text/plain",
+                        "filesize": 67774003,
+                        "description": "",
+                        "storageIdentifier": "trinet_estab_t1979",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_estab_t1981",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14635,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_estab_t1981",
+                        "contentType": "text/plain",
+                        "filesize": 103935516,
+                        "description": "",
+                        "storageIdentifier": "trinet_estab_t1981",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_estab_t1983",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14640,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_estab_t1983",
+                        "contentType": "text/plain",
+                        "filesize": 105957270,
+                        "description": "",
+                        "storageIdentifier": "trinet_estab_t1983",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_estab_t1985",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14633,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_estab_t1985",
+                        "contentType": "text/plain",
+                        "filesize": 98765286,
+                        "description": "",
+                        "storageIdentifier": "trinet_estab_t1985",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_estab_t1987",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14644,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_estab_t1987",
+                        "contentType": "text/plain",
+                        "filesize": 82982608,
+                        "description": "",
+                        "storageIdentifier": "trinet_estab_t1987",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_estab_t1989",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "DATA FILE"
+                    ],
+                    "dataFile": {
+                        "id": 14629,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_estab_t1989",
+                        "contentType": "text/plain",
+                        "filesize": 242871581,
+                        "description": "",
+                        "storageIdentifier": "trinet_estab_t1989",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_tr1981.sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "SAS Export File, 1981"
+                    ],
+                    "dataFile": {
+                        "id": 14645,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1981.sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 108621440,
+                        "description": "",
+                        "storageIdentifier": "trinet_tr1981.sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_tr1981.spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "SPSS Portable File, 1981"
+                    ],
+                    "dataFile": {
+                        "id": 14630,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1981.spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 94079830,
+                        "description": "",
+                        "storageIdentifier": "trinet_tr1981.spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "trinet_tr1981.spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "Data File 1 (D-17275/trinet_tr1981.spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 14634,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1981.spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 83207716,
+                        "storageIdentifier": "trinet_tr1981.spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 94079830,
+                        "UNF": "UNF:3:tQJsv19t4Qo9utTz4530cQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_tr1983a.sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "SAS Export File, 1983"
+                    ],
+                    "dataFile": {
+                        "id": 14631,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1983a.sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 102911760,
+                        "description": "",
+                        "storageIdentifier": "trinet_tr1983a.sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_tr1983a.spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "SPSS Portable File, 1983"
+                    ],
+                    "dataFile": {
+                        "id": 14637,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1983a.spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 92677220,
+                        "description": "",
+                        "storageIdentifier": "trinet_tr1983a.spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "trinet_tr1983a.spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "Data File 2 (D-17275/trinet_tr1983a.spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 14632,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1983a.spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 84412413,
+                        "storageIdentifier": "trinet_tr1983a.spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 92677220,
+                        "UNF": "UNF:3:94usiOf25TYRCBTq/3jTjg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_tr1985.sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "SAS Export File, 1985"
+                    ],
+                    "dataFile": {
+                        "id": 14628,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1985.sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 103236720,
+                        "description": "",
+                        "storageIdentifier": "trinet_tr1985.sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_tr1985.spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "SPSS Portable File, 1985"
+                    ],
+                    "dataFile": {
+                        "id": 14627,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1985.spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 90202050,
+                        "description": "",
+                        "storageIdentifier": "trinet_tr1985.spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "trinet_tr1985.spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "Data File 3 (D-17275/trinet_tr1985.spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 14643,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1985.spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 79690892,
+                        "storageIdentifier": "trinet_tr1985.spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 90202050,
+                        "UNF": "UNF:3:b2011BnbNRS/U6rf4MtNTQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_tr1987a.sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "SAS Export File, 1987"
+                    ],
+                    "dataFile": {
+                        "id": 14642,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1987a.sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 77150720,
+                        "description": "",
+                        "storageIdentifier": "trinet_tr1987a.sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "trinet_tr1987a.spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "SPSS Portable File, 1987"
+                    ],
+                    "dataFile": {
+                        "id": 14639,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1987a.spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 70149606,
+                        "description": "",
+                        "storageIdentifier": "trinet_tr1987a.spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "trinet_tr1987a.spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1847,
+                    "categories": [
+                        "Data File 4 (D-17275/trinet_tr1987a.spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 14636,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trinet_tr1987a.spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 64060318,
+                        "storageIdentifier": "trinet_tr1987a.spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 70149606,
+                        "UNF": "UNF:3:xR9MOKY7Xh+ehHKgnMe6fQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

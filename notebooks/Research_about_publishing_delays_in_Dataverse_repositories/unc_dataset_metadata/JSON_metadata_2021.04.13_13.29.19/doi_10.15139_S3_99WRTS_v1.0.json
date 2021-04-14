@@ -1,0 +1,786 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/99WRTS",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2018-05-31",
+        "datasetVersion": {
+            "id": 30594,
+            "storageIdentifier": "file://10.15139/S3/99WRTS",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:WeySHszQGjC9hi6UZGM49w==",
+            "lastUpdateTime": "2018-05-31T18:33:11Z",
+            "releaseTime": "2018-05-31T18:33:11Z",
+            "createTime": "2018-05-09T19:05:16Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "citationRequirements": "<b>CITATION REQUIREMENTS</b> <p>The Requestor shall follow internationally recognized authorship criteria and acknowledge MEASURE Evaluation researchers and the international researcher/s involved in the data analysis.   Any publications, presentations or reports resulting from Requestor\u2019s analysis of the data should acknowledge MEASURE Evaluation using the following text: </p> <p><blockquote>Data for this research was provided by MEASURE Evaluation, funded by the United States Agency for Intern\r\national Development (USAID). Views expressed do not necessarily reflect those of USAID, the US government, or MEASURE Evaluation.\r\n</blockquote></p>",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Guatemala Western Highlands Integrated Program (WHIP) Baseline Evaluation Survey: 2013"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE_Data@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The 2013 WHIP Baseline Evaluation Survey is a household survey designed to: 1) provide representative estimates of key indicators for the population living in the 30 municipalities of Guatemala that constitute the WHIP Zone of Influence (ZOI); 2) provide a demographic, socio-economic and health/nutrition profile of the WHIP population at the start of the program, in the second half of 2013; and, 3) provide a comparison group for the WHIP population for the planned impact evaluation of the WHIP. The baseline survey is based on a representative sample of the WHIP ZOI population and on a sample of households from matched comparison municipalities. A total of 6,301 households located in 260 clusters were surveyed. "
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences",
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Guatemala"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "WHIP"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Feed the Future"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "nutrition"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "poverty"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "baseline"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "evaluation"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Please see the README document for details pertinent to each data file. "
+                        },
+                        {
+                            "typeName": "language",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Spanish, Castilian"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Benson, Aimee"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2018-05-09"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013-07"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013-11"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "survey data"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "Guatemala"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "socialscience": {
+                    "displayName": "Social Science and Humanities Metadata",
+                    "fields": [
+                        {
+                            "typeName": "unitOfAnalysis",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "households, women of reproductive age, communities, health facilities"
+                            ]
+                        },
+                        {
+                            "typeName": "universe",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Households in the WHIP Zone of Influence (ZOI)"
+                            ]
+                        },
+                        {
+                            "typeName": "timeMethod",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Baseline cross-section for longitudinal survey"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Child and woman anthropometry data collection tool with variable names",
+                    "label": "C. ANTROPOMETRIA CON VARIABLES.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7503587,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "C. ANTROPOMETRIA CON VARIABLES.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1821824,
+                        "description": "Child and woman anthropometry data collection tool with variable names",
+                        "storageIdentifier": "1634643ef46-df5c04c5394e",
+                        "rootDataFileId": -1,
+                        "md5": "0d354617867beee759f71e8476ab3437",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0d354617867beee759f71e8476ab3437"
+                        },
+                        "creationDate": "2018-05-09"
+                    }
+                },
+                {
+                    "description": "Community questionnaire with variable names",
+                    "label": "C. COMUNIDAD CON VARIABLES.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7503578,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "C. COMUNIDAD CON VARIABLES.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 904918,
+                        "description": "Community questionnaire with variable names",
+                        "storageIdentifier": "16346439cee-883a73d29844",
+                        "rootDataFileId": -1,
+                        "md5": "978f70f5c0f8f307619edbb58360e55d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "978f70f5c0f8f307619edbb58360e55d"
+                        },
+                        "creationDate": "2018-05-09"
+                    }
+                },
+                {
+                    "description": "Couple's empowerment questionnaire with variable names",
+                    "label": "C. EMPODERAMIENTO CON VARIABLES.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7503586,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "C. EMPODERAMIENTO CON VARIABLES.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 812917,
+                        "description": "Couple's empowerment questionnaire with variable names",
+                        "storageIdentifier": "1634643b01f-7ed2caa6eee9",
+                        "rootDataFileId": -1,
+                        "md5": "f506dde887c9709f656bfa73b35fc376",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f506dde887c9709f656bfa73b35fc376"
+                        },
+                        "creationDate": "2018-05-09"
+                    }
+                },
+                {
+                    "description": "Household expenditure and consumption questionnaire with variable names",
+                    "label": "C. GASTOS Y CONSUMO CON VARIABLES.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7503581,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "C. GASTOS Y CONSUMO CON VARIABLES.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 15450574,
+                        "description": "Household expenditure and consumption questionnaire with variable names",
+                        "storageIdentifier": "1634643c10c-28997bfed838",
+                        "rootDataFileId": -1,
+                        "md5": "22e7f6635afe1a89d1c9dfae806ab4c0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "22e7f6635afe1a89d1c9dfae806ab4c0"
+                        },
+                        "creationDate": "2018-05-09"
+                    }
+                },
+                {
+                    "description": "Household questionnaire with variable names",
+                    "label": "C. HOGAR CON VARIABLES.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7503580,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "C. HOGAR CON VARIABLES.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2012402,
+                        "description": "Household questionnaire with variable names",
+                        "storageIdentifier": "1634643ce68-42da6208f8d5",
+                        "rootDataFileId": -1,
+                        "md5": "f7625870fd55770d9b9f8350e01929c1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f7625870fd55770d9b9f8350e01929c1"
+                        },
+                        "creationDate": "2018-05-09"
+                    }
+                },
+                {
+                    "description": "Woman questionnaire with variable names",
+                    "label": "C. PARA LA MUJER CON VARIABLES.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7503585,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "C. PARA LA MUJER CON VARIABLES.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1515903,
+                        "description": "Woman questionnaire with variable names",
+                        "storageIdentifier": "1634643ddcf-96090992b4bf",
+                        "rootDataFileId": -1,
+                        "md5": "445c3bdc2b409a5a2b2ba5f9ebe9137b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "445c3bdc2b409a5a2b2ba5f9ebe9137b"
+                        },
+                        "creationDate": "2018-05-09"
+                    }
+                },
+                {
+                    "description": "Health facility questionnaire with variable names",
+                    "label": "C. SERVICIOS FINAL CON VARIABLES.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7503583,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "C. SERVICIOS FINAL CON VARIABLES.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 887376,
+                        "description": "Health facility questionnaire with variable names",
+                        "storageIdentifier": "1634643e7e6-e14b36323bc0",
+                        "rootDataFileId": -1,
+                        "md5": "cc608c981df6b31687162c43a58c145f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cc608c981df6b31687162c43a58c145f"
+                        },
+                        "creationDate": "2018-05-09"
+                    }
+                },
+                {
+                    "description": "Aggregated household consumption per capita measures",
+                    "label": "GTM_base_agg_consumption_20180522.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7503651,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GTM_base_agg_consumption_20180522.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 716486,
+                        "description": "Aggregated household consumption per capita measures",
+                        "storageIdentifier": "1638932c99b-75b64bcd641c",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "originalFileSize": 365461,
+                        "UNF": "UNF:6:3fxu+tUOIkPVhjMG/ZMFEg==",
+                        "rootDataFileId": -1,
+                        "md5": "7c4384be92834cc259da39118f179171",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7c4384be92834cc259da39118f179171"
+                        },
+                        "creationDate": "2018-05-22"
+                    }
+                },
+                {
+                    "description": "Multiple observation per household; Data from household roster, child's measurements, and data from women's birth history",
+                    "label": "GTM_base_child_20180517.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7503620,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GTM_base_child_20180517.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16157215,
+                        "description": "Multiple observation per household; Data from household roster, child's measurements, and data from women's birth history",
+                        "storageIdentifier": "1636f744d36-bd5643136037",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "originalFileSize": 12371681,
+                        "UNF": "UNF:6:8Y1vDTBAwB9/x/yIJj303g==",
+                        "rootDataFileId": -1,
+                        "md5": "0029547f5e1d9500f84346e6f51ec3fb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0029547f5e1d9500f84346e6f51ec3fb"
+                        },
+                        "creationDate": "2018-05-17"
+                    }
+                },
+                {
+                    "description": "Community level data file",
+                    "label": "GTM_base_community_20180517.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7503614,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GTM_base_community_20180517.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1395476,
+                        "description": "Community level data file",
+                        "storageIdentifier": "1636f744f0c-08a8b6fb723e",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "originalFileSize": 1162070,
+                        "UNF": "UNF:6:1jATdFlUyn72zsUtqGnq3w==",
+                        "rootDataFileId": -1,
+                        "md5": "3f77a2024fe074ec56380d29f67df604",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3f77a2024fe074ec56380d29f67df604"
+                        },
+                        "creationDate": "2018-05-17"
+                    }
+                },
+                {
+                    "description": "Household expenditure and consumption data file",
+                    "label": "GTM_base_consumption_20180517.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7503618,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GTM_base_consumption_20180517.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 41607777,
+                        "description": "Household expenditure and consumption data file",
+                        "storageIdentifier": "1636f748a8d-cc3fbca0decc",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "originalFileSize": 53677129,
+                        "UNF": "UNF:6:3zN6ke6iB4iTUtRK04Y4FQ==",
+                        "rootDataFileId": -1,
+                        "md5": "b5891683e8a32ab0d5d3361bdcc25b6e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b5891683e8a32ab0d5d3361bdcc25b6e"
+                        },
+                        "creationDate": "2018-05-17"
+                    }
+                },
+                {
+                    "description": "Health facility data file",
+                    "label": "GTM_base_facility_20180517.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7503616,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GTM_base_facility_20180517.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 330504,
+                        "description": "Health facility data file",
+                        "storageIdentifier": "1636f748c47-da121e86820c",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "originalFileSize": 370655,
+                        "UNF": "UNF:6:EVw+AZ5YmUj1iyWN9MYrug==",
+                        "rootDataFileId": -1,
+                        "md5": "210f611b2cfbfffcf07fecf7270e6825",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "210f611b2cfbfffcf07fecf7270e6825"
+                        },
+                        "creationDate": "2018-05-17"
+                    }
+                },
+                {
+                    "description": "Household level data file",
+                    "label": "GTM_base_hh_20180517.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7503652,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GTM_base_hh_20180517.dta",
+                        "contentType": "application/x-stata-13",
+                        "filesize": 7250135,
+                        "description": "Household level data file",
+                        "storageIdentifier": "16389358d23-4718d0e2a047",
+                        "rootDataFileId": -1,
+                        "md5": "f61e01bc72947337823fe60813fcc9f1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f61e01bc72947337823fe60813fcc9f1"
+                        },
+                        "creationDate": "2018-05-22"
+                    }
+                },
+                {
+                    "description": "Multiple observation per household; Data from household roster of members",
+                    "label": "GTM_base_hhmember_20180517.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7503622,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GTM_base_hhmember_20180517.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5380570,
+                        "description": "Multiple observation per household; Data from household roster of members",
+                        "storageIdentifier": "1636f7425e8-65db84aea0da",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "originalFileSize": 3896911,
+                        "UNF": "UNF:6:jv+zRbWMoUUTXK0m5rd6OA==",
+                        "rootDataFileId": -1,
+                        "md5": "71651b2dd07c3152e0052270701213bc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "71651b2dd07c3152e0052270701213bc"
+                        },
+                        "creationDate": "2018-05-17"
+                    }
+                },
+                {
+                    "label": "GTM_base_wmn_20180517.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7503630,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GTM_base_wmn_20180517.dta",
+                        "contentType": "application/x-stata-13",
+                        "filesize": 27300034,
+                        "storageIdentifier": "1638431bfd8-97bd7c4651c1",
+                        "rootDataFileId": -1,
+                        "md5": "759f9d67e82a3be4d2af7b673a94351b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "759f9d67e82a3be4d2af7b673a94351b"
+                        },
+                        "creationDate": "2018-05-21"
+                    }
+                },
+                {
+                    "description": "Couple's empowerment data",
+                    "label": "GTM_base_wmn_empower_20180517.tab",
+                    "restricted": false,
+                    "version": 3,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7503615,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GTM_base_wmn_empower_20180517.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2532911,
+                        "description": "Couple's empowerment data",
+                        "storageIdentifier": "1636f743f6e-28a109ffdd0c",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "originalFileSize": 5604965,
+                        "UNF": "UNF:6:DjFc7NqsI0cJUCQxMC6JCw==",
+                        "rootDataFileId": -1,
+                        "md5": "8d99fcbaf37b374ebbc59daf9ca63642",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8d99fcbaf37b374ebbc59daf9ca63642"
+                        },
+                        "creationDate": "2018-05-17"
+                    }
+                },
+                {
+                    "label": "README_English.docx",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7503669,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "README_English.docx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                        "filesize": 26451,
+                        "storageIdentifier": "163b778eca2-8994c13f1ae8",
+                        "rootDataFileId": -1,
+                        "md5": "efdbce4579ee0e63bbb33e92ab135003",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "efdbce4579ee0e63bbb33e92ab135003"
+                        },
+                        "creationDate": "2018-05-31"
+                    }
+                },
+                {
+                    "description": "Final baseline report",
+                    "label": "TR-14-100.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30594,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7503621,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "TR-14-100.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1891098,
+                        "description": "Final baseline report",
+                        "storageIdentifier": "1636f744178-2165b1f5793f",
+                        "rootDataFileId": -1,
+                        "md5": "3239500fc0188f3a382ab0c6bf2e462e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3239500fc0188f3a382ab0c6bf2e462e"
+                        },
+                        "creationDate": "2018-05-17"
+                    }
+                }
+            ]
+        }
+    }
+}

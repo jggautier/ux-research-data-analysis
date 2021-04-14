@@ -1,0 +1,537 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-GSSNET",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3337,
+            "storageIdentifier": "file://1902.29/CAPS-GSSNET",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T16:09:21Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:20:58Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "General Social Survey Question Set on Social Networks (CAPS-GSSNET module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-GSSNET"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-GSSNET"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>\"This unit is a replication of a 1985 General Social Survey question set on social networks. It asks Rs to list the persons with whom they have 'discussed important matters' over the past six months. A series of questions is then asked about each of the first five persons mentioned. Questions include information about if/how the alters are related to each other; their sex, race, religious preference, and education; how long R has known them; R's closeness to each; how often R talks to each. A\ndded to the GSS questions is a question which asks what R talks about with each alter. Wording for this question was adapted from Ronald Burt, Social Networks, 1984, vol. 6, pp. 293-339.\"\n</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social networks"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Friendship"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Communication"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "General Social Survey Cumulative File: 1972-1986"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1987_gssnet_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8999,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_gssnet_data",
+                        "contentType": "text/plain",
+                        "filesize": 109980,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_gssnet_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_gssnet_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8998,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_gssnet_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 15427,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_gssnet_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_gssnet_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8997,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_gssnet_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 203600,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_gssnet_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_gssnet_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9001,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_gssnet_source",
+                        "contentType": "text/plain",
+                        "filesize": 39256,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_gssnet_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_gssnet_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8994,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_gssnet_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 65846,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_gssnet_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_gssnet_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "Data File 1 (caps_1987_gssnet_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9000,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_gssnet_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 54196,
+                        "storageIdentifier": "caps_1987_gssnet_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:AS25kLy0NXb1g1SoRXT0kg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_gssnet_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8991,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_gssnet_data",
+                        "contentType": "text/plain",
+                        "filesize": 112320,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_gssnet_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_gssnet_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8995,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_gssnet_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14429,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_gssnet_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_gssnet_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8996,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_gssnet_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 214480,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_gssnet_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_gssnet_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9002,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_gssnet_source",
+                        "contentType": "text/plain",
+                        "filesize": 41323,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_gssnet_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_gssnet_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8993,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_gssnet_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 68716,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_gssnet_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_gssnet_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3337,
+                    "categories": [
+                        "Data File 2 (caps_1988_gssnet_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8992,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_gssnet_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 57430,
+                        "storageIdentifier": "caps_1988_gssnet_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:6z7kQCEl2ffOJ1wrq47Yig==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

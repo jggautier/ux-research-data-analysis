@@ -1,0 +1,293 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/F39E9V",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2018-04-26",
+        "datasetVersion": {
+            "id": 30509,
+            "storageIdentifier": "file://10.15139/S3/F39E9V",
+            "versionNumber": 2,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:pTDFAERrV3K27UO1srew8Q==",
+            "lastUpdateTime": "2018-04-26T13:36:27Z",
+            "releaseTime": "2018-04-26T13:36:27Z",
+            "createTime": "2018-04-26T13:35:38Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication Data for: McDonald Replication + Project Spring 2018"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "McDonald, Maura"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "McDonald, Maura"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "mgm92@live.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This file contains the data and RMD file needed to replicate Margolis (2018) and my extension as well as my replication + paper and the original article. "
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2018-04-26"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "McDonald, Maura"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2018-04-26"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "anes00-02-04.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30509,
+                    "dataFile": {
+                        "id": 7503024,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "anes00-02-04.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 209380,
+                        "storageIdentifier": "16302276c81-ccba8942a900",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:6:CjgLttr9NsvF3RLKcF6yUw==",
+                        "rootDataFileId": -1,
+                        "md5": "3953dc5f2d384d42d91c49066e38a294",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3953dc5f2d384d42d91c49066e38a294"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "Margolis 2018.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30509,
+                    "dataFile": {
+                        "id": 7503025,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Margolis 2018.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1434617,
+                        "storageIdentifier": "16302279e5d-fb8ea44a14dd",
+                        "rootDataFileId": -1,
+                        "md5": "de2ef092d47e1d036639704814e273e1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "de2ef092d47e1d036639704814e273e1"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "McDonald Replication Final.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30509,
+                    "dataFile": {
+                        "id": 7503027,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "McDonald Replication Final.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 128249,
+                        "storageIdentifier": "1630225e4a3-b2734853b86b",
+                        "rootDataFileId": -1,
+                        "md5": "9b0ec5cde7df26bb2ecb117a781b3c22",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9b0ec5cde7df26bb2ecb117a781b3c22"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "McDonald Replication + R Script.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30509,
+                    "dataFile": {
+                        "id": 7503030,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "McDonald Replication + R Script.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 38817,
+                        "storageIdentifier": "1630229b215-76ab7fdd2f36",
+                        "rootDataFileId": -1,
+                        "md5": "83324c22b6a6020a4277f35bb85ee7f6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "83324c22b6a6020a4277f35bb85ee7f6"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "parent data.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30509,
+                    "dataFile": {
+                        "id": 7503028,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "parent data.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 113230,
+                        "storageIdentifier": "16302274ec7-5cc794767d54",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:6:y0Yb+C4Bv9Fu/BShEmR1Gw==",
+                        "rootDataFileId": -1,
+                        "md5": "b91ce8d1dd85375490c05aa06daaa5eb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b91ce8d1dd85375490c05aa06daaa5eb"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "priming partisanship data.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30509,
+                    "dataFile": {
+                        "id": 7503029,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "priming partisanship data.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 259104,
+                        "storageIdentifier": "16302270fab-dcfe4d9c4060",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:6:kU6BI2SGGdrmSMPY7POGFQ==",
+                        "rootDataFileId": -1,
+                        "md5": "454e1ad1170170a1ea710b059eeee428",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "454e1ad1170170a1ea710b059eeee428"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                },
+                {
+                    "label": "student data.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30509,
+                    "dataFile": {
+                        "id": 7503026,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "student data.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 314382,
+                        "storageIdentifier": "16302273385-678227e25915",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:6:jNnrQ03x/dXW2ryrzLzr+g==",
+                        "rootDataFileId": -1,
+                        "md5": "93a1b0944c22721760e5ac0fd4f18432",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "93a1b0944c22721760e5ac0fd4f18432"
+                        },
+                        "creationDate": "2018-04-26"
+                    }
+                }
+            ]
+        }
+    }
+}

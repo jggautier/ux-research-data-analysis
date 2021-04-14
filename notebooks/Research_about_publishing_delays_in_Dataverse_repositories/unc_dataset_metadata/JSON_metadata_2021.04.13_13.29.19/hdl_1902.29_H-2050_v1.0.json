@@ -1,0 +1,779 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-2050",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 3274,
+            "storageIdentifier": "file://1902.29/H-2050",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-29T15:04:05Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 1970 Virginia Slims American Women's Opinion Survey, study no. 2050"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-2050"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 2050"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Virginia Slims"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Liggett and Meyers"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This is an in-depth survey on the attitudes of American men and women and how they perceive the woman's role in contemporary society. A subset of this survey is available as an SPSS file.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Women--Status"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Working women"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Marriage"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Pollution"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Federal spending"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cost of living"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "War--Attitudes toward"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Race relations"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sex"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Women's rights"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sex role"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Women's liberation movement"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Women's studies"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The 1970 Virginia Slims American Women's Opinion Poll: A Survey of the Attitudes of women on Their Role in American Society. -- New York: Louis Harris and Associates, 1971."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Harris used a random multi-stage cluster sampling design to obtain a national cross-section sample of the U.S. population 18 years and over. Attitudes on various topics were collected by questionnaire in a face-to-face interview; U.S. adults 18 years and over;Type: ODUM:CODEBOOK.NUMBER Notes: H-2050;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1970-08"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris Data Center, University of North Carolina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_s2050_men_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "Column Binary File -- Men"
+                    ],
+                    "dataFile": {
+                        "id": 30989,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_men_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 485760,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_men_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_men_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "Questionnaire, PDF File -- Men"
+                    ],
+                    "dataFile": {
+                        "id": 30992,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_men_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 654683,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_men_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_men_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "SAS Code -- Men"
+                    ],
+                    "dataFile": {
+                        "id": 30986,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_men_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 99579,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_men_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_men_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "SAS Export Library -- Men"
+                    ],
+                    "dataFile": {
+                        "id": 30985,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_men_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 2592240,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_men_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_men_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "SPSS Portable File -- Men"
+                    ],
+                    "dataFile": {
+                        "id": 30993,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_men_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 668792,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_men_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s2050_men_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "Data File 1 (harris_s2050_men_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 30988,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_men_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 635067,
+                        "storageIdentifier": "harris_s2050_men_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 668792,
+                        "UNF": "UNF:3:btDvWqWE6E0XQpZaDtCtMA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_report.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "Report, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 30995,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_report.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2477427,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_report.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_women_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "Column Binary File -- Women"
+                    ],
+                    "dataFile": {
+                        "id": 30987,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_women_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 1426560,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_women_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_women_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "Questionnaire, PDF File -- Women"
+                    ],
+                    "dataFile": {
+                        "id": 30994,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_women_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 838882,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_women_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_women_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "SAS Code -- Women"
+                    ],
+                    "dataFile": {
+                        "id": 30984,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_women_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 124169,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_women_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_women_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "SAS Export Library -- Women"
+                    ],
+                    "dataFile": {
+                        "id": 30996,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_women_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 9095200,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_women_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s2050_women_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "SPSS Portable File -- Women"
+                    ],
+                    "dataFile": {
+                        "id": 30990,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_women_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 2334622,
+                        "description": "",
+                        "storageIdentifier": "harris_s2050_women_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "harris_s2050_women_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3274,
+                    "categories": [
+                        "Data File 2 (harris_s2050_women_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 30991,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s2050_women_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2338384,
+                        "storageIdentifier": "harris_s2050_women_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 2334622,
+                        "UNF": "UNF:3:5u8EXnizMegt3yG632EJ0g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

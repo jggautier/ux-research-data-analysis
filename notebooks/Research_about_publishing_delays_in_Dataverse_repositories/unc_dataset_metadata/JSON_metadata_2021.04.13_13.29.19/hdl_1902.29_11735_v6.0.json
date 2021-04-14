@@ -1,0 +1,3397 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/11735",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2015-08-31",
+        "datasetVersion": {
+            "id": 25344,
+            "storageIdentifier": "file://1902.29/11735",
+            "versionNumber": 6,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "distributionDate": "2015-08-31",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:xLCWKb8thpYsIBlo2Sr0eQ==",
+            "lastUpdateTime": "2016-10-07T20:33:44Z",
+            "releaseTime": "2016-10-07T20:33:44Z",
+            "createTime": "2016-10-07T14:56:04Z",
+            "license": "NONE",
+            "termsOfUse": "<b>Conditions</b> <br></br> The data files have been made publicly accessible. Staff at the Carolina Population Center and the Odum Institute are not available to assist with accessing and using these files. <br></br> Requestor agrees that he/she will use these data only for analysis purposes and not take any actions to identify or contact individuals, communities, or specific service providers. Individuals, health facilities and/or health care providers shall not be identified in publications, reports, or presentations, either directly or indirectly. <br></br> Requestor agrees to use appropriate safeguards to protect the data from misuse and shall promptly notify the Carolina Population Center of any unauthorized or impermissible use or disclosure of the data of which he/she becomes aware. <br></br> <b>Disclaimer</b> <br></br> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files. <br></br>",
+            "citationRequirements": "All publications (book, book chapter, refereed journal article or presentation) using the RLMS-HSE data are required to include the following acknowledgement of the institutions that now support and manage the survey.\r\n<br/><br/> <i>Source: \u201cRussia Longitudinal Monitoring survey, RLMS-HSE\u201d, conducted by the National Research University Higher School of Economics and ZAO \u201cDemoscope\u201d together with Carolina Population Center, University of North Carolina at Chapel Hill and the Institute of Sociology RAS.</i>",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "RLMS-HSE Household and Individual Data"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Popkin, Barry"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Phil Bardsley"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "phil@email.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Russia Longitudinal Monitoring Survey (RLMS) is a series of nationally representative surveys designed to monitor the effects of Russian reforms on the health and economic welfare of households and individuals in the Russian Federation. These effects are measured by a variety of means: detailed monitoring of individuals' health status and dietary intake, precise measurement of household-level expenditures and service utilization, and collection of relevant community-level data, including\r\nregion-specific prices and community infrastructure data. Phase II data have been collected annually (with two exceptions) since 1994. The project has been run jointly by the Carolina Population Center at the University of North Carolina at Chapel Hill, headed by Barry M. Popkin, and the Demoscope team in Russia, headed by Polina Kozyreva and Mikhail Kosolapov.\r\n</p>  <b>Please note</b> <p>The sample size in 2014 was cut by about 20%, because the cost of the project increased due to inflation, but financial support remained the same. The original 1994 sample remained the same, and all cuts applied only to the part of the sample which was added in 2010. It should be stated that the implemented procedure of cutting the sample size guarantees that the smaller sample is still representative at the national level. To lower the cost it was also decided to dro\r\np the Educational Expenses section from the HH questionnaire, which was added back in 2010.\r\n</p>   <b>Household Data</b> <p>For the household interview, a single member of the household was asked questions that pertained to the entire family. The respondent was usually the oldest living woman in the home since she was available to be interviewed during the daytime. Any attempt to identify one person as the \"household head\" is as problematic in Russia as it is in the United States. Thus, the interviewer was instructed to speak with \"the person who knows the most about this family's shop\r\nping and health.\"</p>  <b>Individual Data</b> <p>In theory, the individual questionnaire is administered to every person living in the household. In practice, however, some individuals, such as very young children and elderly people, did not receive an individual interview. Individual-level information is the primary source of information pertaining to a person's health, employment status, demographic characteristics, and anthropometry. It can also be used to supplement household-level income an\r\nd expenditure information.</p>  <p>To safeguard the confidentiality of RLMS respondents, individual-level data sets omit text variables (designated char on questionnaires). Please note that almost all text variables exist in Russian only. English translations exist for only a few of these variables. Please contact us to check on the availability of English translations of specific variables of interest.</p>"
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2015-08-31"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Welfare services"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cost of living"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "language",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Russian"
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Russia Longitudinal Monitoring Survey-Higher School of Economics"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina at Chapel Hill"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "RLMS-HSE"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/projects/rlms-hse"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/projects/rlms-hse/rlms_hse_map.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015-08-31"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.odum.unc.edu/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015-08-31"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015-08-31"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1994"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2014"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "relatedMaterial",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "<a href=\"http://hdl.handle.net/1902.29/11731\">RLMS-HSE Questionnaires</a> <br/> <a href=\"http://hdl.handle.net/1902.29/11733\">RLMS-HSE Supplemental Materials</a>"
+                            ]
+                        },
+                        {
+                            "typeName": "relatedDatasets",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "<a href=\"https://dataverse.unc.edu/dataverse/rlms-hse\">RLMS-HSE Dataverse</a>"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "Russian Federation"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "1994 Household/Individual Files for SPSS (3 Files)",
+                    "label": "1994_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184615,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "1994_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4269445,
+                        "description": "1994 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18044",
+                        "rootDataFileId": -1,
+                        "md5": "2276367b3a3484a90c2af6a13380f7ee",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2276367b3a3484a90c2af6a13380f7ee"
+                        },
+                        "creationDate": "2015-08-21"
+                    }
+                },
+                {
+                    "description": "1994 Household/Individual Files for Stata (3 Files)",
+                    "label": "1994_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184614,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "1994_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 3272238,
+                        "description": "1994 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18045",
+                        "rootDataFileId": -1,
+                        "md5": "2610b7420e23b8e4434bb73bfc1de26f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2610b7420e23b8e4434bb73bfc1de26f"
+                        },
+                        "creationDate": "2015-08-21"
+                    }
+                },
+                {
+                    "description": "1995 Household/Individual Files for SPSS (3 Files)",
+                    "label": "1995_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1995 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184620,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "1995_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4233399,
+                        "description": "1995 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18049",
+                        "rootDataFileId": -1,
+                        "md5": "f982f13d19cb93b94ff62b7132d3f51e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f982f13d19cb93b94ff62b7132d3f51e"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1995 Household/Individual Files for Stata (3 Files)",
+                    "label": "1995_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1995 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184619,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "1995_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 3533518,
+                        "description": "1995 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18050",
+                        "rootDataFileId": -1,
+                        "md5": "c0054c1ff6e553f731eb0b07060a9d91",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c0054c1ff6e553f731eb0b07060a9d91"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1996 Household/Individual Files for SPSS (3 Files)",
+                    "label": "1996_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1996 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184624,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "1996_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4327451,
+                        "description": "1996 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18055",
+                        "rootDataFileId": -1,
+                        "md5": "9d01a423f9540d1964d05d01a7034276",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9d01a423f9540d1964d05d01a7034276"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1996 Household/Individual Files for Stata (3 Files)",
+                    "label": "1996_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1996 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184625,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "1996_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 3569991,
+                        "description": "1996 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18056",
+                        "rootDataFileId": -1,
+                        "md5": "e57f88dcc0148f481a09b6772d0a22b9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e57f88dcc0148f481a09b6772d0a22b9"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1998 Household/Individual Files for SPSS (3 Files)",
+                    "label": "1998_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1998 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184650,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "1998_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4739557,
+                        "description": "1998 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18072",
+                        "rootDataFileId": -1,
+                        "md5": "21e337185f4017b462d125766de7d2d8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "21e337185f4017b462d125766de7d2d8"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1998 Household/Individual Files for SPSS (3 Files)",
+                    "label": "1998_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1998 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184643,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "1998_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4078136,
+                        "description": "1998 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18073",
+                        "rootDataFileId": -1,
+                        "md5": "7c67dc657e364761d287b264123756a1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7c67dc657e364761d287b264123756a1"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2000 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2000_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2000 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184648,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2000_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4996927,
+                        "description": "2000 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18074",
+                        "rootDataFileId": -1,
+                        "md5": "9085ffe05bce54fa613eefbdc99848da",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9085ffe05bce54fa613eefbdc99848da"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2000 Household/Individual Files for Stata (3 Files)",
+                    "label": "2000_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2000 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184649,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2000_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4356154,
+                        "description": "2000 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18075",
+                        "rootDataFileId": -1,
+                        "md5": "175ca12107de71a98f580aab0fcc0e53",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "175ca12107de71a98f580aab0fcc0e53"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2001 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2001_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2001 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184645,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2001_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 5536003,
+                        "description": "2001 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18076",
+                        "rootDataFileId": -1,
+                        "md5": "23a307476fec20157ea171d216d913e5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "23a307476fec20157ea171d216d913e5"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2001 Household/Individual Files for Stata (3 Files)",
+                    "label": "2001_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2001 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184644,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2001_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4839229,
+                        "description": "2001 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18077",
+                        "rootDataFileId": -1,
+                        "md5": "51af691ac3826369c0a6daff914f0fd7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "51af691ac3826369c0a6daff914f0fd7"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2002 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2002_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2002 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184646,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2002_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 6359138,
+                        "description": "2002 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18078",
+                        "rootDataFileId": -1,
+                        "md5": "a670c8cde8946c3fb851f3f238ddfce6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a670c8cde8946c3fb851f3f238ddfce6"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2002 Household/Individual Files for Stata (3 Files)",
+                    "label": "2002_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2002 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184642,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2002_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4722296,
+                        "description": "2002 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18079",
+                        "rootDataFileId": -1,
+                        "md5": "8ba326087f6ae983d4e7ed74853517d3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8ba326087f6ae983d4e7ed74853517d3"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2003 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2003_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2003 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184641,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2003_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 5867158,
+                        "description": "2003 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18080",
+                        "rootDataFileId": -1,
+                        "md5": "d203bcf813a8f85100d72d15645c62a2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d203bcf813a8f85100d72d15645c62a2"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2003 Household/Individual Files for Stata (3 Files)",
+                    "label": "2003_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2003 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184647,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2003_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 5090671,
+                        "description": "2003 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18081",
+                        "rootDataFileId": -1,
+                        "md5": "b4fb1e1e59b293534d7bbd71946c46c5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b4fb1e1e59b293534d7bbd71946c46c5"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2004 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2004_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2004 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184673,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2004_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 5620532,
+                        "description": "2004 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18103",
+                        "rootDataFileId": -1,
+                        "md5": "03105c7b38dd3ae222cb2de399f45d19",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "03105c7b38dd3ae222cb2de399f45d19"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2004 Household/Individual Files for Stata (3 Files)",
+                    "label": "2004_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2004 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184674,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2004_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4791157,
+                        "description": "2004 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18104",
+                        "rootDataFileId": -1,
+                        "md5": "43fda733b5fd993094e20fd2673c45ae",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "43fda733b5fd993094e20fd2673c45ae"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2005 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2005_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2005 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184672,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2005_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 6047428,
+                        "description": "2005 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18105",
+                        "rootDataFileId": -1,
+                        "md5": "1a57f916e1900af450bd5feddf8818e1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1a57f916e1900af450bd5feddf8818e1"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2005 Household/Individual Files for Stata (3 Files)",
+                    "label": "2005_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2005 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184683,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2005_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4456014,
+                        "description": "2005 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18106",
+                        "rootDataFileId": -1,
+                        "md5": "eaf5a5f4be7104709480e51291ebd354",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "eaf5a5f4be7104709480e51291ebd354"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2006 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2006_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2006 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184682,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2006_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 7859692,
+                        "description": "2006 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18107",
+                        "rootDataFileId": -1,
+                        "md5": "a2e0843ab692b2fc186bf7d1e385b9ae",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a2e0843ab692b2fc186bf7d1e385b9ae"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2006 Household/Individual Files for Stata (3 Files)",
+                    "label": "2006_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2006 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184677,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2006_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 5897754,
+                        "description": "2006 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18108",
+                        "rootDataFileId": -1,
+                        "md5": "65505f4f4b84cfdf5e80ab0774ae8a9a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "65505f4f4b84cfdf5e80ab0774ae8a9a"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2007 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2007_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2007 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184685,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2007_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 6439137,
+                        "description": "2007 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18109",
+                        "rootDataFileId": -1,
+                        "md5": "be1d49b8ddcca4917bad3ca511dece4a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "be1d49b8ddcca4917bad3ca511dece4a"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2007 Household/Individual Files for Stata (3 Files)",
+                    "label": "2007_Stata.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2007 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184684,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2007_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4979542,
+                        "description": "2007 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18110",
+                        "rootDataFileId": -1,
+                        "md5": "f3664fdd3c5072c5e9a2b9bf2a0ca7a3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f3664fdd3c5072c5e9a2b9bf2a0ca7a3"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2008 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2008_SPSS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2008 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184679,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2008_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 5662505,
+                        "description": "2008 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18111",
+                        "rootDataFileId": -1,
+                        "md5": "3bcd105e124a0cb1d4fc21edfd5a86e8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3bcd105e124a0cb1d4fc21edfd5a86e8"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2008 Household/Individual Files for Stata (3 Files)",
+                    "label": "2008_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2008 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184681,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2008_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 4604056,
+                        "description": "2008 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18112",
+                        "rootDataFileId": -1,
+                        "md5": "44812fdb8a35f417f5f98d4492cf5068",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "44812fdb8a35f417f5f98d4492cf5068"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2009 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2009_SPSS.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2009 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184680,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2009_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 6663858,
+                        "description": "2009 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18113",
+                        "rootDataFileId": -1,
+                        "md5": "09803070d033471ed498a5e474f2e926",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "09803070d033471ed498a5e474f2e926"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2009 Household/Individual Files for Stata (3 Files)",
+                    "label": "2009_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2009 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184676,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2009_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 5556452,
+                        "description": "2009 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18114",
+                        "rootDataFileId": -1,
+                        "md5": "2742c57a527f0c8800124b4f69845bcd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2742c57a527f0c8800124b4f69845bcd"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2010 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2010_SPSS.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2010 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184678,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2010_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 9743866,
+                        "description": "2010 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18115",
+                        "rootDataFileId": -1,
+                        "md5": "bda8e38bc98adcc43b8a40f31700651a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bda8e38bc98adcc43b8a40f31700651a"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2010 Household/Individual Files for Stata (3 Files)",
+                    "label": "2010_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2010 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184675,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2010_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 8570357,
+                        "description": "2010 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18116",
+                        "rootDataFileId": -1,
+                        "md5": "a85036f5ccaf93226c256f854c703e40",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a85036f5ccaf93226c256f854c703e40"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2011 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2011_SPSS.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2011 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184688,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2011_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 10825914,
+                        "description": "2011 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18126",
+                        "rootDataFileId": -1,
+                        "md5": "22d16f9eb80094af7e7e4235276ad0a8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "22d16f9eb80094af7e7e4235276ad0a8"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2011 Household/Individual Files for Stata (3 Files)",
+                    "label": "2011_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2011 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184690,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2011_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 9275630,
+                        "description": "2011 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18127",
+                        "rootDataFileId": -1,
+                        "md5": "9c8bec33294d42c2e21cc7b96378d6cb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9c8bec33294d42c2e21cc7b96378d6cb"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2012 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2012_SPSS.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2012 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184686,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2012_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 10477860,
+                        "description": "2012 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18128",
+                        "rootDataFileId": -1,
+                        "md5": "e576e31f522791335da3d7b7f4af834e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e576e31f522791335da3d7b7f4af834e"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2012 Household/Individual Files for Stata (3 Files)",
+                    "label": "2012_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2012 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184691,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2012_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 9224649,
+                        "description": "2012 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18129",
+                        "rootDataFileId": -1,
+                        "md5": "1021f4d03aa7e581356241b996f56b76",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1021f4d03aa7e581356241b996f56b76"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2013 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2013_SPSS.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2013 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184687,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2013_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 10046801,
+                        "description": "2013 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18130",
+                        "rootDataFileId": -1,
+                        "md5": "ec8bd575e45e0cbb59dc7e22722dc142",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ec8bd575e45e0cbb59dc7e22722dc142"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2013 Household/Individual Files for Stata (3 Files)",
+                    "label": "2013_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2013 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184689,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2013_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 8988338,
+                        "description": "2013 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18131",
+                        "rootDataFileId": -1,
+                        "md5": "c78b4de5d01256a032aa178cf566d46d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c78b4de5d01256a032aa178cf566d46d"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2014 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2014_SPSS.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2014 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184766,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2014_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 8302582,
+                        "description": "2014 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "18242",
+                        "rootDataFileId": -1,
+                        "md5": "bffc0aeec967143f541b7e397a466823",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bffc0aeec967143f541b7e397a466823"
+                        },
+                        "creationDate": "2015-08-27"
+                    }
+                },
+                {
+                    "description": "2014 Household/Individual Files for Stata (3 Files)",
+                    "label": "2014_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2014 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7184771,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2014_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 6910901,
+                        "description": "2014 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "18243",
+                        "rootDataFileId": -1,
+                        "md5": "77cc659d2a08283df5884bdb5b7e9e9d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "77cc659d2a08283df5884bdb5b7e9e9d"
+                        },
+                        "creationDate": "2015-08-27"
+                    }
+                },
+                {
+                    "description": "2015 Household/Individual Files for SPSS (3 Files)",
+                    "label": "2015_SPSS.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2015 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7186193,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2015_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 6880865,
+                        "description": "2015 Household/Individual Files for SPSS (3 Files)",
+                        "storageIdentifier": "19934",
+                        "rootDataFileId": -1,
+                        "md5": "5f7a7bf3cb6c7c223e568bed6add7997",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5f7a7bf3cb6c7c223e568bed6add7997"
+                        },
+                        "creationDate": "2016-08-28"
+                    }
+                },
+                {
+                    "description": "2015 Household/Individual Files for Stata (3 Files)",
+                    "label": "2015_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2015 ZIPPED Files"
+                    ],
+                    "dataFile": {
+                        "id": 7186194,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "2015_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 7031637,
+                        "description": "2015 Household/Individual Files for Stata (3 Files)",
+                        "storageIdentifier": "19935",
+                        "rootDataFileId": -1,
+                        "md5": "a5fb13f5000e5d74594c1a01b04286cf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a5fb13f5000e5d74594c1a01b04286cf"
+                        },
+                        "creationDate": "2016-08-28"
+                    }
+                },
+                {
+                    "description": "1994 RLMS Adult Survey Data",
+                    "label": "adult1994e.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184612,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult1994e.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 7529237,
+                        "description": "1994 RLMS Adult Survey Data",
+                        "storageIdentifier": "18041",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 6351679,
+                        "UNF": "UNF:5:lOMCeQQT6/3MXAmU0L+32w==",
+                        "rootDataFileId": -1,
+                        "md5": "980bfee5d0f3b492a11c88e07a6e39e5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "980bfee5d0f3b492a11c88e07a6e39e5"
+                        },
+                        "creationDate": "2015-08-21"
+                    }
+                },
+                {
+                    "description": "1995 RLMS Adult Survey Data",
+                    "label": "adult1995f.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1995 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184618,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult1995f.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 8486806,
+                        "description": "1995 RLMS Adult Survey Data",
+                        "storageIdentifier": "18046",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 8208139,
+                        "UNF": "UNF:5:aBLa6f8SreJhGQdYJG36Zg==",
+                        "rootDataFileId": -1,
+                        "md5": "ee4bbc0062c1df12163c1fd3ae1b43aa",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ee4bbc0062c1df12163c1fd3ae1b43aa"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1996 RLMS Adult Survey Data",
+                    "label": "adult1996g.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1996 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184622,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult1996g.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 8818328,
+                        "description": "1996 RLMS Adult Survey Data",
+                        "storageIdentifier": "18051",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 8081653,
+                        "UNF": "UNF:5:HJEC7BtOA42RehSRdEF4ZA==",
+                        "rootDataFileId": -1,
+                        "md5": "28260b3872cc0daaa2d4fedf50617d61",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "28260b3872cc0daaa2d4fedf50617d61"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1998 RLMS Adult Survey Data",
+                    "label": "adult1998h.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1998 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184639,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult1998h.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 10396071,
+                        "description": "1998 RLMS Adult Survey Data",
+                        "storageIdentifier": "18057",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 10125956,
+                        "UNF": "UNF:5:pwKexPF4sbe6787Rr76y5A==",
+                        "rootDataFileId": -1,
+                        "md5": "4203f9a3ac9fbe19c68673c659141fb8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4203f9a3ac9fbe19c68673c659141fb8"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2000 RLMS Adult Survey Data",
+                    "label": "adult2000i.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2000 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184629,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2000i.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 10689858,
+                        "description": "2000 RLMS Adult Survey Data",
+                        "storageIdentifier": "18058",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 10256218,
+                        "UNF": "UNF:5:k0aGI0T0j6K7d9w+u0JjBg==",
+                        "rootDataFileId": -1,
+                        "md5": "8c2ccc6446f2ecfde18c77cc1ff1c00e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8c2ccc6446f2ecfde18c77cc1ff1c00e"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2001 RLMS Adult Survey Data",
+                    "label": "adult2001j.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2001 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184637,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2001j.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 11437728,
+                        "description": "2001 RLMS Adult Survey Data",
+                        "storageIdentifier": "18059",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 11058774,
+                        "UNF": "UNF:5:LGcB7tv1IhqKx3sUwDez8A==",
+                        "rootDataFileId": -1,
+                        "md5": "47243a99f8a03f00df94cb30ecef9478",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "47243a99f8a03f00df94cb30ecef9478"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2002 RLMS Adult Survey Data",
+                    "label": "adult2002k.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2002 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184640,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2002k.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 12782387,
+                        "description": "2002 RLMS Adult Survey Data",
+                        "storageIdentifier": "18060",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 11033733,
+                        "UNF": "UNF:5:h9bpfz4EsOMeToDviARqXg==",
+                        "rootDataFileId": -1,
+                        "md5": "0d675b611a86c0786111ceecc010c02e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0d675b611a86c0786111ceecc010c02e"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2003 RLMS Adult Survey Data",
+                    "label": "adult2003l.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2003 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184634,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2003l.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 12618873,
+                        "description": "2003 RLMS Adult Survey Data",
+                        "storageIdentifier": "18061",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 11386223,
+                        "UNF": "UNF:5:JJrNfaczw9IAvN13RMsiyA==",
+                        "rootDataFileId": -1,
+                        "md5": "de186583f102eb741b94e0db8cf8888e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "de186583f102eb741b94e0db8cf8888e"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2004 RLMS Adult Survey Data",
+                    "label": "adult2004m.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2004 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184657,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2004m.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 11617131,
+                        "description": "2004 RLMS Adult Survey Data",
+                        "storageIdentifier": "18082",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 10931100,
+                        "UNF": "UNF:5:aSAawWcSp2q+jqcuvgfT8Q==",
+                        "rootDataFileId": -1,
+                        "md5": "1e2e03a60900c000c5f3d9f4d4081c6a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1e2e03a60900c000c5f3d9f4d4081c6a"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2005 RLMS Adult Survey Data",
+                    "label": "adult2005n.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2005 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184651,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2005n.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 11844498,
+                        "description": "2005 RLMS Adult Survey Data",
+                        "storageIdentifier": "18083",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 10274145,
+                        "UNF": "UNF:5:4ukPCnpKG+17ekV3jhh2hQ==",
+                        "rootDataFileId": -1,
+                        "md5": "8adc8c48a5d96fe83c282e8ead147fbc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8adc8c48a5d96fe83c282e8ead147fbc"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2006 RLMS Adult Survey Data",
+                    "label": "adult2006o.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2006 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184653,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2006o.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18211309,
+                        "description": "2006 RLMS Adult Survey Data",
+                        "storageIdentifier": "18084",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 15978674,
+                        "UNF": "UNF:5:374H/0+/wtimUAPPLgvmSQ==",
+                        "rootDataFileId": -1,
+                        "md5": "58bbc24f5353ce27a735d6916a31b94c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "58bbc24f5353ce27a735d6916a31b94c"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2007 RLMS Adult Survey Data",
+                    "label": "adult2007p.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2007 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184671,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2007p.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 12934469,
+                        "description": "2007 RLMS Adult Survey Data",
+                        "storageIdentifier": "18085",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 11716698,
+                        "UNF": "UNF:5:3bo6OQUfkRCUFhF5VGxHWw==",
+                        "rootDataFileId": -1,
+                        "md5": "033888bc3e8b30c40bb62fcdb797e309",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "033888bc3e8b30c40bb62fcdb797e309"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2008 RLMS Adult Survey Data",
+                    "label": "adult2008q.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2008 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184669,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2008q.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 10766882,
+                        "description": "2008 RLMS Adult Survey Data",
+                        "storageIdentifier": "18086",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 9704844,
+                        "UNF": "UNF:5:lYOF5I6Wg7ObrYIBs5BjNA==",
+                        "rootDataFileId": -1,
+                        "md5": "8b7b2ded7fcd882ec76be38e1f127381",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8b7b2ded7fcd882ec76be38e1f127381"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2009 RLMS Adult Survey Data",
+                    "label": "adult2009r.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2009 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184659,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2009r.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14634935,
+                        "description": "2009 RLMS Adult Survey Data",
+                        "storageIdentifier": "18087",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 13315463,
+                        "UNF": "UNF:5:5z+ZIXj74apW5nEPYueiqQ==",
+                        "rootDataFileId": -1,
+                        "md5": "ac36e1cf301c055340118a1cea870bd1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ac36e1cf301c055340118a1cea870bd1"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2010 RLMS Adult Survey Data",
+                    "label": "adult2010s.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2010 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184655,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2010s.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18935199,
+                        "description": "2010 RLMS Adult Survey Data",
+                        "storageIdentifier": "18088",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 17633600,
+                        "UNF": "UNF:5:ejN0TGTqBCDZPWzBvPibQg==",
+                        "rootDataFileId": -1,
+                        "md5": "acfbdb4eec65af8c211b1f305ca8ea7a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "acfbdb4eec65af8c211b1f305ca8ea7a"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2011 RLMS Adult Survey Data",
+                    "label": "adult2011t.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2011 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184699,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2011t.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21326874,
+                        "description": "2011 RLMS Adult Survey Data",
+                        "storageIdentifier": "18117",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 19837630,
+                        "UNF": "UNF:5:Fu/3pOOl/UbVgMrh8VK2/Q==",
+                        "rootDataFileId": -1,
+                        "md5": "08811a2fe8224f93f37378acc59618e2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "08811a2fe8224f93f37378acc59618e2"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2012 RLMS Adult Survey Data",
+                    "label": "adult2012u.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2012 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184694,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2012u.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19679184,
+                        "description": "2012 RLMS Adult Survey Data",
+                        "storageIdentifier": "18118",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 20233781,
+                        "UNF": "UNF:5:PvJXA6zofmf25SvbwbPPgg==",
+                        "rootDataFileId": -1,
+                        "md5": "a8401d12aad2cd466bd241acd54954ea",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a8401d12aad2cd466bd241acd54954ea"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2013 RLMS Adult Survey Data",
+                    "label": "adult2013v.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2013 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184700,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2013v.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18721137,
+                        "description": "2013 RLMS Adult Survey Data",
+                        "storageIdentifier": "18119",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 20705786,
+                        "UNF": "UNF:5:pX4QCIBlItIlyjJpko7wGA==",
+                        "rootDataFileId": -1,
+                        "md5": "6e9c52f26958da865528d3d47ab0668f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6e9c52f26958da865528d3d47ab0668f"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2014 RLMS Adult Survey Data",
+                    "label": "adult2014w.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2014 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7185904,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2014w.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17182339,
+                        "description": "2014 RLMS Adult Survey Data",
+                        "storageIdentifier": "19623",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 18321951,
+                        "UNF": "UNF:5:SADG/xI9qcSiBTWE5Ahq7Q==",
+                        "rootDataFileId": -1,
+                        "md5": "d652b6e8e475486857e566e9ed05596d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d652b6e8e475486857e566e9ed05596d"
+                        },
+                        "creationDate": "2016-05-31"
+                    }
+                },
+                {
+                    "description": "2015 RLMS Adult Survey Data",
+                    "label": "adult2015x.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2015 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7186196,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "adult2015x.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17401874,
+                        "description": "2015 RLMS Adult Survey Data",
+                        "storageIdentifier": "19931",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 18384412,
+                        "UNF": "UNF:5:IJSJcmOnd0KTBBeTKvVTPw==",
+                        "rootDataFileId": -1,
+                        "md5": "ae404d71258ae4905b86847d9feba255",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ae404d71258ae4905b86847d9feba255"
+                        },
+                        "creationDate": "2016-08-28"
+                    }
+                },
+                {
+                    "description": "1994 RLMS Child Survey Data",
+                    "label": "child1994e.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184613,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child1994e.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1302872,
+                        "description": "1994 RLMS Child Survey Data",
+                        "storageIdentifier": "18042",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1089019,
+                        "UNF": "UNF:5:EF/DLQdIRRLobPqXDALVpA==",
+                        "rootDataFileId": -1,
+                        "md5": "5016f1a22334518c9acfd63e6345297b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5016f1a22334518c9acfd63e6345297b"
+                        },
+                        "creationDate": "2015-08-21"
+                    }
+                },
+                {
+                    "description": "1995 RLMS Child Survey Data",
+                    "label": "child1995f.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1995 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184616,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child1995f.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1424339,
+                        "description": "1995 RLMS Child Survey Data",
+                        "storageIdentifier": "18047",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1539702,
+                        "UNF": "UNF:5:+XWR1y+K2H8G3R/x2IyYBA==",
+                        "rootDataFileId": -1,
+                        "md5": "abef6a8d2b8aa02ddf7d18597b46386f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "abef6a8d2b8aa02ddf7d18597b46386f"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1996 RLMS Child Survey Data",
+                    "label": "child1996g.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1996 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184623,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child1996g.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1435698,
+                        "description": "1996 RLMS Child Survey Data",
+                        "storageIdentifier": "18052",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1525104,
+                        "UNF": "UNF:5:VhHiiGhi9ttJtWaCj//UWQ==",
+                        "rootDataFileId": -1,
+                        "md5": "8a2906c90067975b68438409b256140d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8a2906c90067975b68438409b256140d"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1998 RLMS Child Survey Data",
+                    "label": "child1998h.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1998 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184627,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child1998h.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1306422,
+                        "description": "1998 RLMS Child Survey Data",
+                        "storageIdentifier": "18062",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1436251,
+                        "UNF": "UNF:5:RKLDDV7WrhAm376bPUpXOQ==",
+                        "rootDataFileId": -1,
+                        "md5": "a0cf592ca54919ea16b6e4a83c866fe0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a0cf592ca54919ea16b6e4a83c866fe0"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2000 RLMS Child Survey Data",
+                    "label": "child2000i.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2000 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184628,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2000i.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1232949,
+                        "description": "2000 RLMS Child Survey Data",
+                        "storageIdentifier": "18063",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1330835,
+                        "UNF": "UNF:5:TxwMwJmYe1vB8xaZ0uWfng==",
+                        "rootDataFileId": -1,
+                        "md5": "f7583f87d8c6f84bdda485d5d8415c0a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f7583f87d8c6f84bdda485d5d8415c0a"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2001 RLMS Child Survey Data",
+                    "label": "child2001j.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2001 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184635,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2001j.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1359369,
+                        "description": "2001 RLMS Child Survey Data",
+                        "storageIdentifier": "18064",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1199086,
+                        "UNF": "UNF:5:4Mi2q65esFbzPRb1qyQ9MA==",
+                        "rootDataFileId": -1,
+                        "md5": "dcc3f46e1a4da970ccbbb36b97449faa",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dcc3f46e1a4da970ccbbb36b97449faa"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2002 RLMS Child Survey Data",
+                    "label": "child2002k.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2002 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184630,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2002k.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1334127,
+                        "description": "2002 RLMS Child Survey Data",
+                        "storageIdentifier": "18065",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1090547,
+                        "UNF": "UNF:5:kjgBdnFKIZ/lw7mpCbRhmw==",
+                        "rootDataFileId": -1,
+                        "md5": "ba2c2f4c857cb48ae0f2fac471ffb850",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ba2c2f4c857cb48ae0f2fac471ffb850"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2003 RLMS Child Survey Data",
+                    "label": "child2003l.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2003 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184638,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2003l.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1317774,
+                        "description": "2003 RLMS Child Survey Data",
+                        "storageIdentifier": "18066",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1172207,
+                        "UNF": "UNF:5:Qj0MsE92QNvpgein9YPBNg==",
+                        "rootDataFileId": -1,
+                        "md5": "6e131e8101bdff5d008f0452b1b7c2b7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6e131e8101bdff5d008f0452b1b7c2b7"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2004 RLMS Child Survey Data",
+                    "label": "child2004m.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2004 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184670,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2004m.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1359859,
+                        "description": "2004 RLMS Child Survey Data",
+                        "storageIdentifier": "18089",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1225781,
+                        "UNF": "UNF:5:pQecPiwg3A3FYvF4HJADSA==",
+                        "rootDataFileId": -1,
+                        "md5": "8661f3564304e4c1cd026b188c6e10a0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8661f3564304e4c1cd026b188c6e10a0"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2005 RLMS Child Survey Data",
+                    "label": "child2005n.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2005 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184656,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2005n.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1323894,
+                        "description": "2005 RLMS Child Survey Data",
+                        "storageIdentifier": "18090",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1100431,
+                        "UNF": "UNF:5:DCbynpiS1RhxE0Pr3QaUCA==",
+                        "rootDataFileId": -1,
+                        "md5": "fd77e9c0587424bc7de791e9f60448a8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "fd77e9c0587424bc7de791e9f60448a8"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2006 RLMS Child Survey Data",
+                    "label": "child2006o.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2006 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184664,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2006o.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1281827,
+                        "description": "2006 RLMS Child Survey Data",
+                        "storageIdentifier": "18091",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1106598,
+                        "UNF": "UNF:5:q5rdAzEBFs4IfoEhR327GA==",
+                        "rootDataFileId": -1,
+                        "md5": "51440ccc043560095bd21aeb69a38ef6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "51440ccc043560095bd21aeb69a38ef6"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2007 RLMS Child Survey Data",
+                    "label": "child2007p.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2007 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184665,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2007p.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1282664,
+                        "description": "2007 RLMS Child Survey Data",
+                        "storageIdentifier": "18092",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1103458,
+                        "UNF": "UNF:5:ZT9lkUcbEiIyd2xrMFDsqA==",
+                        "rootDataFileId": -1,
+                        "md5": "d2a9d48678f7f55514790994e8ae4689",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d2a9d48678f7f55514790994e8ae4689"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2008 RLMS Child Survey Data",
+                    "label": "child2008q.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2008 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184666,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2008q.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1041094,
+                        "description": "2008 RLMS Child Survey Data",
+                        "storageIdentifier": "18093",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 845908,
+                        "UNF": "UNF:5:KdARK4jWrotLlqFYh5VNTQ==",
+                        "rootDataFileId": -1,
+                        "md5": "e2b74d14600d249998da71d453363a44",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e2b74d14600d249998da71d453363a44"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2009 RLMS Child Survey Data",
+                    "label": "child2009r.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2009 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184663,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2009r.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1308722,
+                        "description": "2009 RLMS Child Survey Data",
+                        "storageIdentifier": "18094",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1198082,
+                        "UNF": "UNF:5:qtjhLzNNFa5+K3ixY+dgfQ==",
+                        "rootDataFileId": -1,
+                        "md5": "e34b53b3e0a35b737d45e67cdf9eb181",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e34b53b3e0a35b737d45e67cdf9eb181"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2010 RLMS Child Survey Data",
+                    "label": "child2010s.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2010 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184668,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2010s.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2349592,
+                        "description": "2010 RLMS Child Survey Data",
+                        "storageIdentifier": "18095",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 2448457,
+                        "UNF": "UNF:5:ic1xa1vL/c6O9PxHa/q6OA==",
+                        "rootDataFileId": -1,
+                        "md5": "6e230456aa573e9b1942bc61f29adcf0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6e230456aa573e9b1942bc61f29adcf0"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2011 RLMS Child Survey Data",
+                    "label": "child2011t.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2011 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184695,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2011t.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2555833,
+                        "description": "2011 RLMS Child Survey Data",
+                        "storageIdentifier": "18120",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 2299379,
+                        "UNF": "UNF:5:k5ywd3HDUcJLqzMDeD5JaQ==",
+                        "rootDataFileId": -1,
+                        "md5": "9a2584d247b049de26c08bd372130d9a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9a2584d247b049de26c08bd372130d9a"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2012 RLMS Child Survey Data",
+                    "label": "child2012u.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2012 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184692,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2012u.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2510222,
+                        "description": "2012 RLMS Child Survey Data",
+                        "storageIdentifier": "18121",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 2234588,
+                        "UNF": "UNF:5:wRUi57zvPtXhRP/B91MicA==",
+                        "rootDataFileId": -1,
+                        "md5": "a0897708c418c0978cdf2745e1f768d6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a0897708c418c0978cdf2745e1f768d6"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2013 RLMS Child Survey Data",
+                    "label": "child2013v.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2013 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184696,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2013v.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2484153,
+                        "description": "2013 RLMS Child Survey Data",
+                        "storageIdentifier": "18122",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 2417227,
+                        "UNF": "UNF:5:SdhImBLF6jIE+Q1u5bhDQg==",
+                        "rootDataFileId": -1,
+                        "md5": "71815bc217c2a4ea76bfdc561bc8c069",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "71815bc217c2a4ea76bfdc561bc8c069"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2014 RLMS Child Survey Data",
+                    "label": "child2014w.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2014 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7185905,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2014w.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2155187,
+                        "description": "2014 RLMS Child Survey Data",
+                        "storageIdentifier": "19624",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1995035,
+                        "UNF": "UNF:5:PNItyMjnuDVkNhIS2P513Q==",
+                        "rootDataFileId": -1,
+                        "md5": "2cd883f1263bfb8e3c5bc10109c50533",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2cd883f1263bfb8e3c5bc10109c50533"
+                        },
+                        "creationDate": "2016-05-31"
+                    }
+                },
+                {
+                    "description": "2015 RLMS Child Survey Data",
+                    "label": "child2015x.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2015 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7186197,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2015x.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2259469,
+                        "description": "2015 RLMS Child Survey Data",
+                        "storageIdentifier": "19932",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 2181158,
+                        "UNF": "UNF:5:wMAb3YvA3JAmA2294WDwJw==",
+                        "rootDataFileId": -1,
+                        "md5": "d99efae5f1800c10f372e5e3c83e3833",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d99efae5f1800c10f372e5e3c83e3833"
+                        },
+                        "creationDate": "2016-08-28"
+                    }
+                },
+                {
+                    "description": "1994-2015 Longitudinal HH Data - SPSS Zipped",
+                    "label": "HH_1994_2015_v1_SPSS.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994-2015 Longitudinal Data"
+                    ],
+                    "dataFile": {
+                        "id": 7186190,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "HH_1994_2015_v1_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 39153002,
+                        "description": "1994-2015 Longitudinal HH Data - SPSS Zipped",
+                        "storageIdentifier": "19927",
+                        "rootDataFileId": -1,
+                        "md5": "90fd8c0867dd98f750ab9757c919ad3a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "90fd8c0867dd98f750ab9757c919ad3a"
+                        },
+                        "creationDate": "2016-08-28"
+                    }
+                },
+                {
+                    "description": "1994-2015 Longitudinal HH Data - Stata Zipped",
+                    "label": "HH_1994_2015_v1_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994-2015 Longitudinal Data"
+                    ],
+                    "dataFile": {
+                        "id": 7186192,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "HH_1994_2015_v1_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 79062689,
+                        "description": "1994-2015 Longitudinal HH Data - Stata Zipped",
+                        "storageIdentifier": "19928",
+                        "rootDataFileId": -1,
+                        "md5": "c4fb53b7f9d351535f7cb7c4eba01163",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c4fb53b7f9d351535f7cb7c4eba01163"
+                        },
+                        "creationDate": "2016-08-28"
+                    }
+                },
+                {
+                    "description": "1994-2015 Longitudinal HH Data",
+                    "label": "HH_1994_2015_v1.tab",
+                    "restricted": false,
+                    "version": 3,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994-2015 Longitudinal Data"
+                    ],
+                    "dataFile": {
+                        "id": 7374997,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "HH_1994_2015_v1.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 280694174,
+                        "description": "1994-2015 Longitudinal HH Data",
+                        "storageIdentifier": "157a0a029f7-a412c3a8cb70",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:6:pk8SJD2tzobtGs/Gkp+TSw==",
+                        "rootDataFileId": -1,
+                        "md5": "dfaf02df28a78171f957b1c0fdd006f4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dfaf02df28a78171f957b1c0fdd006f4"
+                        },
+                        "creationDate": "2016-10-07"
+                    }
+                },
+                {
+                    "description": "1994 RLMS Household Survey Data",
+                    "label": "hh1994e.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184611,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh1994e.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 6513185,
+                        "description": "1994 RLMS Household Survey Data",
+                        "storageIdentifier": "18043",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 9185236,
+                        "UNF": "UNF:5:2AjrvThtGDbGugddTJwsYQ==",
+                        "rootDataFileId": -1,
+                        "md5": "0f00c93e1c0d2dcc08df3e4887572ec6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0f00c93e1c0d2dcc08df3e4887572ec6"
+                        },
+                        "creationDate": "2015-08-21"
+                    }
+                },
+                {
+                    "description": "1995 RLMS Household Survey Data",
+                    "label": "hh1995f.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1995 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184617,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh1995f.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 6117441,
+                        "description": "1995 RLMS Household Survey Data",
+                        "storageIdentifier": "18048",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 10762749,
+                        "UNF": "UNF:5:CshLGxN3a0L7Z3eYGdjeFg==",
+                        "rootDataFileId": -1,
+                        "md5": "d95ad23f37fb495fb6d6f19311356484",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d95ad23f37fb495fb6d6f19311356484"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1996 RLMS Household Survey Data",
+                    "label": "hh1996g.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1996 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184621,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh1996g.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 6398552,
+                        "description": "1996 RLMS Household Survey Data",
+                        "storageIdentifier": "18053",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 10957034,
+                        "UNF": "UNF:5:jVIyDDuoRvLAVjQl+FL4xQ==",
+                        "rootDataFileId": -1,
+                        "md5": "46053b90d876d62863d9751309c51fe7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "46053b90d876d62863d9751309c51fe7"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "1998 RLMS Household Survey Data",
+                    "label": "hh1998h.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1998 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184626,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh1998h.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 6723827,
+                        "description": "1998 RLMS Household Survey Data",
+                        "storageIdentifier": "18067",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 13342671,
+                        "UNF": "UNF:5:0kYYe50YaSvbpIN71gU23g==",
+                        "rootDataFileId": -1,
+                        "md5": "dd5b7ccbff3440c1409f66a68c81f455",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dd5b7ccbff3440c1409f66a68c81f455"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2000 RLMS Household Survey Data",
+                    "label": "hh2000i.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2000 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184633,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2000i.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 7472978,
+                        "description": "2000 RLMS Household Survey Data",
+                        "storageIdentifier": "18068",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 14221121,
+                        "UNF": "UNF:5:hFXuokZJAWvEtLxzZylXCw==",
+                        "rootDataFileId": -1,
+                        "md5": "7fd6bfc8a41089533a6dd18d9cdaa765",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7fd6bfc8a41089533a6dd18d9cdaa765"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2001 RLMS Household Survey Data",
+                    "label": "hh2001j.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2001 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184632,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2001j.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 8651911,
+                        "description": "2001 RLMS Household Survey Data",
+                        "storageIdentifier": "18069",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 16265142,
+                        "UNF": "UNF:5:tKYmtj3J70euuc0mkaCsNQ==",
+                        "rootDataFileId": -1,
+                        "md5": "5fd75df55f324c5d4e1abd09978a7fbc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5fd75df55f324c5d4e1abd09978a7fbc"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2002 RLMS Household Survey Data",
+                    "label": "hh2002k.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2002 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184636,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2002k.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 9924443,
+                        "description": "2002 RLMS Household Survey Data",
+                        "storageIdentifier": "18070",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 11721454,
+                        "UNF": "UNF:5:7eI5L9b8Bbwnir6F5JWvGA==",
+                        "rootDataFileId": -1,
+                        "md5": "b01f0d428082c8790bf75d3b6f680adf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b01f0d428082c8790bf75d3b6f680adf"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2003 RLMS Household Survey Data",
+                    "label": "hh2003l.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2003 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184631,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2003l.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 9116568,
+                        "description": "2003 RLMS Household Survey Data",
+                        "storageIdentifier": "18071",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 16937764,
+                        "UNF": "UNF:5:9pw7e+SWmvIkgyQ32mlGUA==",
+                        "rootDataFileId": -1,
+                        "md5": "10f5ed4aad209f67479259990dca05c3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "10f5ed4aad209f67479259990dca05c3"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2004 RLMS Household Survey Data",
+                    "label": "hh2004m.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2004 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184661,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2004m.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 8851962,
+                        "description": "2004 RLMS Household Survey Data",
+                        "storageIdentifier": "18096",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 15874772,
+                        "UNF": "UNF:5:8EwJ4318wF0d2IEugI7fnw==",
+                        "rootDataFileId": -1,
+                        "md5": "3d54ee062d7de4689ffbe3504fb942d0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3d54ee062d7de4689ffbe3504fb942d0"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2005 RLMS Household Survey Data",
+                    "label": "hh2005n.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2005 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184658,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2005n.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 9720163,
+                        "description": "2005 RLMS Household Survey Data",
+                        "storageIdentifier": "18097",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 11367431,
+                        "UNF": "UNF:5:fRlK8hQm4bkppsl2MfXHdw==",
+                        "rootDataFileId": -1,
+                        "md5": "83e7913524f39b634a7a913d22289bb9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "83e7913524f39b634a7a913d22289bb9"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2006 RLMS Household Survey Data",
+                    "label": "hh2006o.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2006 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184667,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2006o.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 12284539,
+                        "description": "2006 RLMS Household Survey Data",
+                        "storageIdentifier": "18098",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 14471427,
+                        "UNF": "UNF:5:UI6oRsgwrzD5iWGnpUwPOQ==",
+                        "rootDataFileId": -1,
+                        "md5": "9e76101bf84a7d3afeb0a8db97add9df",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9e76101bf84a7d3afeb0a8db97add9df"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2007 RLMS Household Survey Data",
+                    "label": "hh2007p.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2007 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184654,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2007p.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 12439093,
+                        "description": "2007 RLMS Household Survey Data",
+                        "storageIdentifier": "18099",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 14453005,
+                        "UNF": "UNF:5:eNIJh41A4zWkbY2sVCm2PQ==",
+                        "rootDataFileId": -1,
+                        "md5": "e20dfcb85044efd3ebabd79088df2a1c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e20dfcb85044efd3ebabd79088df2a1c"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2008 RLMS Household Survey Data",
+                    "label": "hh2008q.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2008 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184660,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2008q.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 11226718,
+                        "description": "2008 RLMS Household Survey Data",
+                        "storageIdentifier": "18100",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 15553038,
+                        "UNF": "UNF:5:i41WrSxfEUeQ5mNNgDuxvw==",
+                        "rootDataFileId": -1,
+                        "md5": "fe215ca69262bff11ac9a0874a5d8259",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "fe215ca69262bff11ac9a0874a5d8259"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2009 RLMS Household Survey Data",
+                    "label": "hh2009r.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2009 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184652,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2009r.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 11284629,
+                        "description": "2009 RLMS Household Survey Data",
+                        "storageIdentifier": "18101",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 18645554,
+                        "UNF": "UNF:5:08VkG4W/nCYajuC6IU2uFg==",
+                        "rootDataFileId": -1,
+                        "md5": "8e8215c1039bc39328ca5d526a572d15",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8e8215c1039bc39328ca5d526a572d15"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2010 RLMS Household Survey Data",
+                    "label": "hh2010s.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2010 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184662,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2010s.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21540290,
+                        "description": "2010 RLMS Household Survey Data",
+                        "storageIdentifier": "18102",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 38042594,
+                        "UNF": "UNF:5:12YnY7RXIPw48wWSegd4JQ==",
+                        "rootDataFileId": -1,
+                        "md5": "d2b080d88336d448bf1b06bd0bf6f69f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d2b080d88336d448bf1b06bd0bf6f69f"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2011 RLMS Household Survey Data",
+                    "label": "hh2011t.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2011 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184698,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2011t.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20358590,
+                        "description": "2011 RLMS Household Survey Data",
+                        "storageIdentifier": "18123",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 33774882,
+                        "UNF": "UNF:5:B3y4JxskbPnoYV+4PqjKfQ==",
+                        "rootDataFileId": -1,
+                        "md5": "e3a76b31b2109d946ddd9c86d9c1fc5c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e3a76b31b2109d946ddd9c86d9c1fc5c"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2012 RLMS Household Survey Data",
+                    "label": "hh2012u.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2012 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184693,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2012u.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21472483,
+                        "description": "2012 RLMS Household Survey Data",
+                        "storageIdentifier": "18124",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 35650633,
+                        "UNF": "UNF:5:BvrWlm1+9jVPvq5iu+r37A==",
+                        "rootDataFileId": -1,
+                        "md5": "616d918a6824bc908eaace8fc1204f5a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "616d918a6824bc908eaace8fc1204f5a"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2013 RLMS Household Survey Data",
+                    "label": "hh2013v.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2013 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184697,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2013v.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21323523,
+                        "description": "2013 RLMS Household Survey Data",
+                        "storageIdentifier": "18125",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 34841443,
+                        "UNF": "UNF:5:9JH/fXDSXPBLg4DUUyq+FQ==",
+                        "rootDataFileId": -1,
+                        "md5": "1012cabd3454f8b4182cdf521bc65faf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1012cabd3454f8b4182cdf521bc65faf"
+                        },
+                        "creationDate": "2015-08-24"
+                    }
+                },
+                {
+                    "description": "2014 RLMS Household Survey Data",
+                    "label": "hh2014w.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2014 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7184769,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2014w.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14324769,
+                        "description": "2014 RLMS Household Survey Data",
+                        "storageIdentifier": "18237",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 24320074,
+                        "UNF": "UNF:5:xvB5jZWWbQSg1ECE7f7r0w==",
+                        "rootDataFileId": -1,
+                        "md5": "cfb52dd2f8a4cdb283d97a5a7035366c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cfb52dd2f8a4cdb283d97a5a7035366c"
+                        },
+                        "creationDate": "2015-08-27"
+                    }
+                },
+                {
+                    "description": "2015 RLMS Household Survey Data",
+                    "label": "hh2015x.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "2015 Survey"
+                    ],
+                    "dataFile": {
+                        "id": 7186195,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hh2015x.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14479956,
+                        "description": "2015 RLMS Household Survey Data",
+                        "storageIdentifier": "19933",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 24897438,
+                        "UNF": "UNF:5:Aue2d0t1k3KFCIf1a3xWSQ==",
+                        "rootDataFileId": -1,
+                        "md5": "432b123fae2f0f824035fa5bc7660bcb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "432b123fae2f0f824035fa5bc7660bcb"
+                        },
+                        "creationDate": "2016-08-28"
+                    }
+                },
+                {
+                    "description": "1994-2015 Longitudinal Individual Data - SPSS Zipped",
+                    "label": "IND_1994_2015_v1_SPSS.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994-2015 Longitudinal Data"
+                    ],
+                    "dataFile": {
+                        "id": 7186189,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "IND_1994_2015_v1_SPSS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 84476166,
+                        "description": "1994-2015 Longitudinal Individual Data - SPSS Zipped",
+                        "storageIdentifier": "19929",
+                        "rootDataFileId": -1,
+                        "md5": "9a40bff31460f3d76b9a7e6dc2120a44",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9a40bff31460f3d76b9a7e6dc2120a44"
+                        },
+                        "creationDate": "2016-08-28"
+                    }
+                },
+                {
+                    "description": "1994-2015 Longitudinal Individual Data - Stata Zipped",
+                    "label": "IND_1994_2015_v1_Stata.zip",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994-2015 Longitudinal Data"
+                    ],
+                    "dataFile": {
+                        "id": 7186191,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "IND_1994_2015_v1_Stata.zip",
+                        "contentType": "application/zip",
+                        "filesize": 166070243,
+                        "description": "1994-2015 Longitudinal Individual Data - Stata Zipped",
+                        "storageIdentifier": "19930",
+                        "rootDataFileId": -1,
+                        "md5": "a4894ef84fcf9b2bdb8767ce0de3ec58",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a4894ef84fcf9b2bdb8767ce0de3ec58"
+                        },
+                        "creationDate": "2016-08-28"
+                    }
+                },
+                {
+                    "description": "1994-2015 Longitudinal Individual Data",
+                    "label": "IND_1994_2015_v1.tab",
+                    "restricted": false,
+                    "version": 3,
+                    "datasetVersionId": 25344,
+                    "categories": [
+                        "1994-2015 Longitudinal Data"
+                    ],
+                    "dataFile": {
+                        "id": 7374996,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "IND_1994_2015_v1.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 919659022,
+                        "description": "1994-2015 Longitudinal Individual Data",
+                        "storageIdentifier": "157a0401a83-4361ee7c9277",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:6:Cd1rGSlp2KmX3l66NXI56Q==",
+                        "rootDataFileId": -1,
+                        "md5": "868e7c6c0cdd8b9439e460cba39d461f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "868e7c6c0cdd8b9439e460cba39d461f"
+                        },
+                        "creationDate": "2016-10-07"
+                    }
+                }
+            ]
+        }
+    }
+}

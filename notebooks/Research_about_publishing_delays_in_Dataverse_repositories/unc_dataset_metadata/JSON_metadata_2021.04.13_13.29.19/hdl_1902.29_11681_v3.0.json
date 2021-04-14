@@ -1,0 +1,685 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/11681",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2014-04-28",
+        "datasetVersion": {
+            "id": 1220,
+            "storageIdentifier": "file://1902.29/11681",
+            "versionNumber": 3,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "ZIP File Addition",
+            "distributionDate": "2014",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2014-07-07T11:18:32Z",
+            "releaseTime": "2014-07-07T00:00:00Z",
+            "createTime": "2014-07-07T11:18:32Z",
+            "license": "NONE",
+            "termsOfUse": "<b>Conditions</b> <br></br> User agrees that he/she will use these data only for analysis purposes and not take any actions to identify or contact individuals, communities, or specific service providers. Individuals, health facilities and/or health care providers shall not be identified in publications, reports, or presentations, either directly or indirectly. <br></br> User agrees to use appropriate safeguards to protect the data from misuse and shall promptly notify the Carolina Population Cen\nter of any unauthorized or impermissible use or disclosure of the data of which he/she becomes aware.\n<br></br> <b>Disclaimer</b> <br></br> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Cebu Child Follow-up Survey, 1991"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Phil Bardsley"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "phil@email.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Index children have now been followed through adolescence and into young adulthood, and the CHLNS is tracking their offspring as they begin to have children themselves. The objective is to have a high quality, longitudinal intergenerational study of health. For the mothers, the objective is to follow mothers to the end of their reproductive careers to understand the effects of reproductive cycles on maternal health and nutritional status and to track the development of chronic disease risk factors and aging-related disabilities.\n<br/><br/>\r The 1991-92 follow-up study included 2,399 women who had answered the baseline and birth information surveys of the original CLHNS. They provided reproductive histories, health histories, information on dietary intake and nutritional status, and related demographic and socioeconomic data. For each index child, information on diet, health history, nutritional status, schooling, and anthropometry was collected. In addition, anthropometric data for all younger siblings of the index ch\nildren were collected. A total of 2,260 children, with an average age of 8.5 years, were surveyed in this follow up study. The 1991-92 study also added a focus on entry into school, and administered a non-verbal intelligence test developed for use in the Philippines by George Guthrie. For a detailed description of the data available from this survey, see the Introduction to 1991 document."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Maternal and infant welfare"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Library of Congress Subject Headings"
+                                    },
+                                    "topicClassVocabURI": {
+                                        "typeName": "topicClassVocabURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects/sh85082098"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Nutrition"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Library of Congress Subject Headings"
+                                    },
+                                    "topicClassVocabURI": {
+                                        "typeName": "topicClassVocabURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects/sh85093451"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Library of Congress Subject Headings"
+                                    },
+                                    "topicClassVocabURI": {
+                                        "typeName": "topicClassVocabURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects/sh85059518"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Adair, L., Popkin, B., Akin, J., Guilkey, D., Gultiano, S., Borja, J., \u2026 Hindin, M. (2011). Cohort profile: The Cebu Longitudinal Health and Nutrition Survey. <i>International Journal of Epidemiology, 40</i>(3), 619\u2013625."
+                                    },
+                                    "publicationIDType": {
+                                        "typeName": "publicationIDType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "doi"
+                                    },
+                                    "publicationIDNumber": {
+                                        "typeName": "publicationIDNumber",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "10.1093/ije/dyq085"
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://dx.doi.org/10.1093/ije/dyq085"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cebu Longitudinal Health and Nutrition Survey"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina at Chapel Hill"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CLHNS"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/projects/cebu"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/theme-images/cebu/cebu.gif"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.odum.unc.edu/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2014"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2014-04-28"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1991"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1992"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1991"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1992"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Survey"
+                            ]
+                        },
+                        {
+                            "typeName": "relatedMaterial",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "<a href=\"http://hdl.handle.net/1902.29/11710\">Supplemental files</a> for the Cebu National Longitudinal Health and Nutrition Surveys"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "Philippines"
+                                    }
+                                },
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Metropolitan Cebu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "geographicUnit",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Bangaray"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "1991 Child's Diet Data",
+                    "label": "chdiet91.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7084669,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "chdiet91.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5185731,
+                        "description": "1991 Child's Diet Data",
+                        "storageIdentifier": "13303",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 3576825,
+                        "UNF": "UNF:5:C7QtOAOcmn4tAgo463N+aA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "1991 Child's Diet Codebook",
+                    "label": "chdiet.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7084662,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "chdiet.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 20163,
+                        "description": "1991 Child's Diet Codebook",
+                        "storageIdentifier": "13302",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "1991 Child's Characteristics Data",
+                    "label": "child191.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7084666,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child191.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 522972,
+                        "description": "1991 Child's Characteristics Data",
+                        "storageIdentifier": "13305",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 367178,
+                        "UNF": "UNF:5:jG9QsBLWG88EiIxuS3oRQg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "1991 Child's Characteristics Codebook",
+                    "label": "child1.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7084664,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 51468,
+                        "description": "1991 Child's Characteristics Codebook",
+                        "storageIdentifier": "13304",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "1991 Child's Anthropometry Data",
+                    "label": "child291.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7084668,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child291.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 702834,
+                        "description": "1991 Child's Anthropometry Data",
+                        "storageIdentifier": "13307",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1248545,
+                        "UNF": "UNF:5:mxPKpQy0M5hfaJiv9sVtfw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "1991 Child's Anthropometry Codebook",
+                    "label": "child2.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7084665,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "child2.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 33707,
+                        "description": "1991 Child's Anthropometry Codebook",
+                        "storageIdentifier": "13306",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "1991 Child's IQ Data",
+                    "label": "iq91.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7084670,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "iq91.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 567851,
+                        "description": "1991 Child's IQ Data",
+                        "storageIdentifier": "13309",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 310872,
+                        "UNF": "UNF:5:8VKyD7+bhMzoCTBtCuUQAg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "1991 Child's IQ Codebook",
+                    "label": "iq.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7084661,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "iq.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 41267,
+                        "description": "1991 Child's IQ Codebook",
+                        "storageIdentifier": "13308",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "1991 Child's Migration Codebook",
+                    "label": "migrat91.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7084667,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "migrat91.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 245980,
+                        "description": "1991 Child's Migration Codebook",
+                        "storageIdentifier": "13310",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 210284,
+                        "UNF": "UNF:5:YhZixlfU/JbwsHcRzjpGTQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "1991 Child's Migration Data",
+                    "label": "migrate.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7084663,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "migrate.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 24005,
+                        "description": "1991 Child's Migration Data",
+                        "storageIdentifier": "13311",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-01"
+                    }
+                },
+                {
+                    "description": "All 1991 Child Follow-up Stata and Other Files (10 Files)",
+                    "label": "zip_child.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1220,
+                    "categories": [
+                        "All Files"
+                    ],
+                    "dataFile": {
+                        "id": 7086712,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "zip_child.zip",
+                        "contentType": "application/zip",
+                        "filesize": 895403,
+                        "description": "All 1991 Child Follow-up Stata and Other Files (10 Files)",
+                        "storageIdentifier": "14776",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-07-07"
+                    }
+                }
+            ]
+        }
+    }
+}

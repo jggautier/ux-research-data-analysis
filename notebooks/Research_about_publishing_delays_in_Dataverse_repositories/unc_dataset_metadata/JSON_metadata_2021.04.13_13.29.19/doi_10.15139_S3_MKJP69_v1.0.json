@@ -1,0 +1,1059 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/MKJP69",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-06-10",
+        "datasetVersion": {
+            "id": 30897,
+            "storageIdentifier": "file://10.15139/S3/MKJP69",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:GSdEOntBaFV6wN+yvZdLIw==",
+            "lastUpdateTime": "2019-06-10T17:53:01Z",
+            "releaseTime": "2019-06-10T17:53:01Z",
+            "createTime": "2019-06-05T20:39:00Z",
+            "license": "NONE",
+            "citationRequirements": "In accordance with the norms of the academic and scientific communities, works (publications, presentations or research reports) which use the data from this study should include appropriate citation to the source of the data.",
+            "disclaimer": "Data Disclaimer: Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall Emory University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "termsOfAccess": "Data are available for Emory faculty, staff, and students only and can be used for non-commercial purposes only.",
+            "fileAccessRequest": true,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Area Resource File 2005"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bureau of Health Professions"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health Resources and Services Administration, United States Department of Health and Human Services"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "O'Reilly, Robert"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "roreill@emory.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The Area Resource File is a database of health resources data, measured at the county level for over 6,000 indicators. The information includes measures of employment in various health professions including numbers of professionals registered as M.D., D.O., DDS, R.N., L.P.N., veterinarian, pharmacist, optometrist, podiatrist, and dental hygienist; availability of health facilities including hospital size, type, utilization, staffing and services, and nursing home data; frequency of utilization including utilization rates, inpatient days, outpatient visits and operations data; hospital and Medicare expenditures and demographic and geographic indicators by county. The information is collected from several sources which are noted in the technical documentation and provided by the Bureau of Health Professions, Health Resources and Services Administration of the US Department of Health and Human Services.\r\n\r\n<br><br>\r\n\r\nThe data here are from the 2005 Area Resource File that was purchased by the Woodruff Library in 2006.  The data are available in Stata 13 (.dta) and comma-delimited (.csv) formats and are available for use by Emory students, faculty and staff. They are also provided as a whole, and in smaller datasets that are divided into broad subjects (Professions, Population, Facilities and Expenditures and Utilization). The files are available in both \"wide\" (one row per county) and \"long\" (one row per county-year) formats.  We are also providing lists of variables for both the wide and long data, along with the original data and documentation and SAS code.\r\n\r\n<br><br>\r\n<b>The data cover the years 1940-2004.  Note, however, that the data are not purely annual, as the vast majority of the variables are only available for selected years.</b>\r\n\r\n<br><br>\r\n\r\nFor more recent ARF data, see <u><a href=\"https://data.hrsa.gov/topics/health-workforce/ahrf\" target=\"_blank\">https://data.hrsa.gov/topics/health-workforce/ahrf</a></u>.  County-level, state-level, and national data are <u><a href=\"https://data.hrsa.gov/data/download\" target=\"_blank\">freely available to download</a></u>.  Older ARF data are also available <u><a href=\"https://doi.org/10.3886/ICPSR09075.v2\" target=\"_blank\">via the ICPSR</a></u>.\r\n"
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2018-06-05"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences",
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "health"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "health care"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "physicans"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "health care facilities"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "health care services"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "counties"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public Health"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social Sciences"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory Libraries and Information Technology Services"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.emory.edu/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "O'Reilly, Robert"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-06-05"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1940-01-01"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2004-01-01"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Panel Data",
+                                "Cross-Section Data"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": []
+                },
+                "socialscience": {
+                    "displayName": "Social Science and Humanities Metadata",
+                    "fields": [
+                        {
+                            "typeName": "unitOfAnalysis",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "County",
+                                "County-Year"
+                            ]
+                        },
+                        {
+                            "typeName": "universe",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "All counties in the United States in 2005."
+                            ]
+                        },
+                        {
+                            "typeName": "frequencyOfDataCollection",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Annual"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Data in fixed-width ASCII format.",
+                    "label": "arf2005.asc",
+                    "restricted": true,
+                    "version": 2,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506053,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "arf2005.asc",
+                        "contentType": "text/x-fixed-field",
+                        "filesize": 101919675,
+                        "description": "Data in fixed-width ASCII format.",
+                        "storageIdentifier": "16b2971c042-a8f76f3ccb96",
+                        "rootDataFileId": -1,
+                        "md5": "26a57079bb944404f230e4b73ea536b2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "26a57079bb944404f230e4b73ea536b2"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "SAS syntax to import ASCII data.",
+                    "label": "arf2005_edited.sas",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Code"
+                    ],
+                    "dataFile": {
+                        "id": 7506056,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "arf2005_edited.sas",
+                        "contentType": "application/x-sas",
+                        "filesize": 1070732,
+                        "description": "SAS syntax to import ASCII data.",
+                        "storageIdentifier": "16b2971c2d9-0ef9d2dae1f2",
+                        "rootDataFileId": -1,
+                        "md5": "b700272753e9aacbc2170f01cddd43a4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b700272753e9aacbc2170f01cddd43a4"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Expenditures data in \"long\" CSV format.",
+                    "label": "ARF-2005_expenditures_util_long_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506061,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_expenditures_util_long_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 38514962,
+                        "description": "Expenditures data in \"long\" CSV format.",
+                        "storageIdentifier": "16b2965fc3b-d4c0583e3976",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:4948Zr314If1M9bypDhwOQ==",
+                        "rootDataFileId": -1,
+                        "md5": "ad5b4bde2c9c7dfa86910ea198f5b692",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ad5b4bde2c9c7dfa86910ea198f5b692"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Expenditures data in \"long\" Stata 13 format.",
+                    "label": "ARF-2005_expenditures_util_long.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506044,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_expenditures_util_long.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 37858041,
+                        "description": "Expenditures data in \"long\" Stata 13 format.",
+                        "storageIdentifier": "16b2969039b-416f5fcd2b1c",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:1hkmrQB04dPgO9DkQ48d+A==",
+                        "rootDataFileId": -1,
+                        "md5": "141284b1b95b1aeb27df56d30be54ea2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "141284b1b95b1aeb27df56d30be54ea2"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Expenditures data in \"wide\" CSV format.",
+                    "label": "ARF-2005_expenditures_util_wide_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506040,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_expenditures_util_wide_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5474127,
+                        "description": "Expenditures data in \"wide\" CSV format.",
+                        "storageIdentifier": "16b2965ffd2-79c9d51d2b4e",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:B29KnaLizsE7vZvjbDUOaw==",
+                        "rootDataFileId": -1,
+                        "md5": "6c7cb7067674599b0fde096805865cf6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6c7cb7067674599b0fde096805865cf6"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Expenditures data in \"wide\" Stata 13 format.",
+                    "label": "ARF-2005_expenditures_util_wide.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506050,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_expenditures_util_wide.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5352886,
+                        "description": "Expenditures data in \"wide\" Stata 13 format.",
+                        "storageIdentifier": "16b29690e02-01b147439f38",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:IYXwCcench2e3DSnrdex0Q==",
+                        "rootDataFileId": -1,
+                        "md5": "999cd0c85119e023d6992c1d1825527d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "999cd0c85119e023d6992c1d1825527d"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Facilities data in \"long\" CSV format.",
+                    "label": "ARF-2005_facilities_long_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506059,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_facilities_long_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 67825418,
+                        "description": "Facilities data in \"long\" CSV format.",
+                        "storageIdentifier": "16b29661aa9-d36fd323d592",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:zaedGtn+Krv2L1V67NXx4A==",
+                        "rootDataFileId": -1,
+                        "md5": "ae90f117adcc284c9aabbeffd1ac82f7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ae90f117adcc284c9aabbeffd1ac82f7"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Facilities data in \"long\" Stata 13 format.",
+                    "label": "ARF-2005_facilities_long.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506058,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_facilities_long.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 67302626,
+                        "description": "Facilities data in \"long\" Stata 13 format.",
+                        "storageIdentifier": "16b2969236c-ba6b1d77e314",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:WJp2iBKxonHibeU9ChqxOQ==",
+                        "rootDataFileId": -1,
+                        "md5": "4fdf71d838575502f5c837ce514eb9d4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4fdf71d838575502f5c837ce514eb9d4"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Facilities data in \"wide\" CSV format.",
+                    "label": "ARF-2005_facilities_wide_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506054,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_facilities_wide_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5885358,
+                        "description": "Facilities data in \"wide\" CSV format.",
+                        "storageIdentifier": "16b29661e04-e2ddb0187f8b",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:NiY3K2NMlCZpKF5JESaXqg==",
+                        "rootDataFileId": -1,
+                        "md5": "ed2e804280805c332b46a5ae5fc345c1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ed2e804280805c332b46a5ae5fc345c1"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Facilities data in \"wide\" Stata 13 format.",
+                    "label": "ARF-2005_facilities_wide.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506047,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_facilities_wide.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5898246,
+                        "description": "Facilities data in \"wide\" Stata 13 format.",
+                        "storageIdentifier": "16b29692e34-815da8ff7fa3",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:SwoiFxgnwf+Qrt4z5/1EbA==",
+                        "rootDataFileId": -1,
+                        "md5": "c78eb2cf290076a448b250d06bc79558",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c78eb2cf290076a448b250d06bc79558"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Complete data in \"long\" CSV format.",
+                    "label": "ARF-2005_long_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506048,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_long_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 409467934,
+                        "description": "Complete data in \"long\" CSV format.",
+                        "storageIdentifier": "16b2967bbc2-a2622373233c",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:qLuZcbTyV7vDwAD+BKKj/A==",
+                        "rootDataFileId": -1,
+                        "md5": "be79441201862cfb7e8a280e0bdb665d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "be79441201862cfb7e8a280e0bdb665d"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Complete data in \"long\" Stata 13 format.",
+                    "label": "ARF-2005_long.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506045,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_long.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 407506432,
+                        "description": "Complete data in \"long\" Stata 13 format.",
+                        "storageIdentifier": "16b296993ec-f187ab1cd1c1",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:RUhxtHFvezR5BtT5vgUcMg==",
+                        "rootDataFileId": -1,
+                        "md5": "4a5d4d37a937f22be08db37280524b03",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4a5d4d37a937f22be08db37280524b03"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Variable list for the \"long\"/county-year data.",
+                    "label": "ARF-2005_long_variables.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7506039,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_long_variables.txt",
+                        "contentType": "text/plain",
+                        "filesize": 261327,
+                        "description": "Variable list for the \"long\"/county-year data.",
+                        "storageIdentifier": "16b295b7986-c3350f2fedd7",
+                        "rootDataFileId": -1,
+                        "md5": "52c150cd5b5a1b775751b8c1a4470cdd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "52c150cd5b5a1b775751b8c1a4470cdd"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Population data in \"long\" CSV format.",
+                    "label": "ARF-2005_population_long_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506057,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_population_long_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 190749939,
+                        "description": "Population data in \"long\" CSV format.",
+                        "storageIdentifier": "16b296891b2-a1afcfc0f31f",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:0mSy+1mwg3T7hTDSEBvc9w==",
+                        "rootDataFileId": -1,
+                        "md5": "baef05e9648f4564a4c146c3948ee585",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "baef05e9648f4564a4c146c3948ee585"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Population data in \"long\" Stata 13 format.",
+                    "label": "ARF-2005_population_long.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506046,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_population_long.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 188938978,
+                        "description": "Population data in \"long\" Stata 13 format.",
+                        "storageIdentifier": "16b2969e389-f5972cf86ec2",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:j9O52mrDQC07In+5eGluAA==",
+                        "rootDataFileId": -1,
+                        "md5": "9493085cbfcfa3f94768292faecfc1eb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9493085cbfcfa3f94768292faecfc1eb"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Population data in \"wide\" CSV format.",
+                    "label": "ARF-2005_population_wide_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506060,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_population_wide_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 25071304,
+                        "description": "Population data in \"wide\" CSV format.",
+                        "storageIdentifier": "16b2968af6f-44a362937fbc",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:W7no3gNd3GPuDjoIoKoe3Q==",
+                        "rootDataFileId": -1,
+                        "md5": "b16f289aaa7e6c76d559cd7e3f97b2ad",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b16f289aaa7e6c76d559cd7e3f97b2ad"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Population data in \"wide\" Stata 13 format.",
+                    "label": "ARF-2005_population_wide.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506042,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_population_wide.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 23796023,
+                        "description": "Population data in \"wide\" Stata 13 format.",
+                        "storageIdentifier": "16b2969f6ed-2986542bd495",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:IueDaVzgTXgtKhWRHWHYFQ==",
+                        "rootDataFileId": -1,
+                        "md5": "2412fc3c2845ef5bd32a7a79a909bf33",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2412fc3c2845ef5bd32a7a79a909bf33"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Professions data in \"long\" CSV format.",
+                    "label": "ARF-2005_professions_long_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506041,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_professions_long_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 178597924,
+                        "description": "Professions data in \"long\" CSV format.",
+                        "storageIdentifier": "16b2968d522-70ad87504203",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:p7+KiSIiqNcKFdUuBeG81Q==",
+                        "rootDataFileId": -1,
+                        "md5": "ddaa1b5ccb647e0e64c48379b0ab0c59",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ddaa1b5ccb647e0e64c48379b0ab0c59"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Professions data in \"long\" Stata 13 format.",
+                    "label": "ARF-2005_professions_long.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506051,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_professions_long.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 178083338,
+                        "description": "Professions data in \"long\" Stata 13 format.",
+                        "storageIdentifier": "16b296a82bb-deeb4095028b",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:bS8q4pkTwYOrtUOwjZRnGw==",
+                        "rootDataFileId": -1,
+                        "md5": "ce8f396bce1124ed6be419ca6ccf3dde",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ce8f396bce1124ed6be419ca6ccf3dde"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Professions data in \"wide\" CSV format.",
+                    "label": "ARF-2005_professions_wide_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506055,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_professions_wide_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21807389,
+                        "description": "Professions data in \"wide\" CSV format.",
+                        "storageIdentifier": "16b2968e281-3f181f819ca7",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:zFyNVQjOdy7n2GGFoZL/Rw==",
+                        "rootDataFileId": -1,
+                        "md5": "7973e3af52e385dacfa405dcf0860f34",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7973e3af52e385dacfa405dcf0860f34"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Professions data in \"wide\" Stata 13 format.",
+                    "label": "ARF-2005_professions_wide.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506052,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_professions_wide.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 21828483,
+                        "description": "Professions data in \"wide\" Stata 13 format.",
+                        "storageIdentifier": "16b296a9319-16d43eaf75d7",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:J/midSvP9p+qJT2qa1KvFA==",
+                        "rootDataFileId": -1,
+                        "md5": "7b532b3842049cf394739a2819fabe11",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7b532b3842049cf394739a2819fabe11"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Variable lists and definitions.",
+                    "label": "arf2005.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7506036,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "arf2005.txt",
+                        "contentType": "text/plain",
+                        "filesize": 1074867,
+                        "description": "Variable lists and definitions.",
+                        "storageIdentifier": "16b295609b3-91d9c9dcc4eb",
+                        "rootDataFileId": -1,
+                        "md5": "850ef21d745722d7eae9cc974a005332",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "850ef21d745722d7eae9cc974a005332"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Complete data in \"wide\" CSV format.",
+                    "label": "ARF-2005_wide_csv.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506043,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_wide_csv.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 56365199,
+                        "description": "Complete data in \"wide\" CSV format.",
+                        "storageIdentifier": "16b2968f0cc-89e761e60970",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:zik5ehPyydM1paHDqzJzkA==",
+                        "rootDataFileId": -1,
+                        "md5": "a0c64272ed027e4dca135eac2cabf6b1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a0c64272ed027e4dca135eac2cabf6b1"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Complete data in \"wide\" Stata 13 format.",
+                    "label": "ARF-2005_wide.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7506049,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_wide.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 54939377,
+                        "description": "Complete data in \"wide\" Stata 13 format.",
+                        "storageIdentifier": "16b296aabd8-871d1b5cb05f",
+                        "originalFileFormat": "application/x-stata-13",
+                        "originalFormatLabel": "Stata 13 Binary",
+                        "UNF": "UNF:6:wq61Q6uTnPwuSvZHCKdhJQ==",
+                        "rootDataFileId": -1,
+                        "md5": "34035283068a8061a8c177a6988a25dd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "34035283068a8061a8c177a6988a25dd"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "Variable list for the \"wide\"/county data.",
+                    "label": "ARF-2005_wide_variables.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7506037,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-2005_wide_variables.txt",
+                        "contentType": "text/plain",
+                        "filesize": 654378,
+                        "description": "Variable list for the \"wide\"/county data.",
+                        "storageIdentifier": "16b295c1d43-e419c75c0667",
+                        "rootDataFileId": -1,
+                        "md5": "ec2c5c5e29b8e3377fa112b651f799a9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ec2c5c5e29b8e3377fa112b651f799a9"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                },
+                {
+                    "description": "User's Guide.",
+                    "label": "ARF-USR2005.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30897,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7506038,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ARF-USR2005.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1055421,
+                        "description": "User's Guide.",
+                        "storageIdentifier": "16b2958668c-9048c95d408b",
+                        "rootDataFileId": -1,
+                        "md5": "c262515287e226fedea710ecd8931f03",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c262515287e226fedea710ecd8931f03"
+                        },
+                        "creationDate": "2019-06-05"
+                    }
+                }
+            ]
+        }
+    }
+}

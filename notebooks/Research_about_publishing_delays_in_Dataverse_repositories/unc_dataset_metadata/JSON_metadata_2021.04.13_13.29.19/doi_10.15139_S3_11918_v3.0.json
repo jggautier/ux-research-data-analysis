@@ -1,0 +1,2469 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/11918",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2015-05-26",
+        "datasetVersion": {
+            "id": 1183,
+            "storageIdentifier": "file://10.15139/S3/11918",
+            "versionNumber": 3,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Reordered study files",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2015-09-03T15:11:51Z",
+            "releaseTime": "2015-09-03T00:00:00Z",
+            "createTime": "2015-09-03T15:09:17Z",
+            "license": "NONE",
+            "termsOfUse": "<b>National Longitudinal Study of Adolescent to Adult Health <br/>Data Use Agreement</b> <br/><br/> The National Longitudinal Study of Adolescent to Adult Health (Add Health) collected data for the purpose of providing information on the general health and well-being of adolescents in the United States, including, with respect to such adolescents, information on: (1) the behaviors that promote health and the behaviors that are detrimental to health; and (2) the influence on health of factors par\nticular to the communities in which adolescents reside.  By downloading these data, you agree to use them only for the purpose for which they are obtained; any effort to determine the identify of any reported case, or to use the information for any purpose other than for statistical reporting and analysis, would be in violation of the intended use of these data.  Although Add Health does all it can to assure the identifies of the individuals, households, schools, and communities cannot be ascertained, it may be possible to determine from the dataset the identify of particular individuals, households, schools, and communities.  Considerable harm could ensue if this were done.\n<br/><br/> Therefore, by downloading and using these data you give the following assurances with respect to the Add Health data: <ul> <li>You will not use nor permit others to use the data in the Add Health datasets in any way except for classes, research, and aggregate statistical reporting.  In order to avoid inadvertent disclosure, you agree to abide by the following guidelines in the release of statistics derived from the datasets:<br/><br/> A.  In no table should all cases in any row or col\numn be found in a single cell;<br/> B.  In no case should the total figure of a row or column of a cross-tabulation be fewer than three (3);<br/> C.  In no case should a cell frequency of a cross-tabulation be fewer than three (3) cases;<br/> D.  In no case should a quantity figure be based on fewer than three (3) cases;<br/> E.  Data released should never permit disclosure when used in combination with other known data.</li><br/> <li>You will not release nor permit others to release any informa\ntion that identifies individuals, households, schools, and communities, directly or indirectly.\n</li><br/> <li>You will not release nor permit others to release the dataset or any part of it to any person.</li><br/> <li>You will not attempt to link nor permit others to attempt to link the Add Health dataset with individually identifiable records from any other source.</li><br/> <li>You will not use nor permit others to use the the dataset to learn the identity of any individual, household, school, or community included in any Add Health dataset.</li><br/> <li>You will not use nor permit ot\nhers to use the data concerning individual schools or communities (1) for commercial or competitive purposes involving those individual schools or communities or (2) to report data that could identify, directly or by inference, individual schools or communities.\n</li><br/> <li>If the identity of any individual, household, school, or community be discovered inadvertently by you or by a member of your research team, then (1) no use will be made of this knowledge, (2) Add Health (addhealth@unc.edu) will be advised of the incident, (3) the information that would identify an individual be safe-guarded or destroyed as requested by Add Health, and (4) no one else will be informed of the discovered identity.</li><br/> <li>You will include in all papers and repo\nrts based on these data the following acknowledgement:<br/><br/> This research uses data from Add Health, a program project directed by Kathleen Mullan Harris and designed by J. Richard Udry, Peter S. Bearman, and Kathleen Mullan Harris at the University of North Carolina at Chapel Hill, and funded by grant P01-HD31921 from the Eunice Kennedy Shriver National Institute of Child Health and Human Development, with cooperative funding from 23 other federal agencies and foundations.  Acknowledgement\nis due Ronald R. Rindfuss and Barbara Entwisle for assistance in the original design.  Information on how to obtain the Add Health data files is available on the Add Health website (http://www.cpc.unc.edu/addhealt\nh).  No direct support was received from grant P01-HD31921 for this analysis.\n</li> </ul>",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "National Longitudinal Study of Adolescent to Adult Health (Add Health) Wave III, 2001-2002"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris, Kathleen Mullan"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Udry, Richard J."
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "addhealth@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The National Longitudinal Study of Adolescent to Adult Health (Add Health) is a longitudinal study of a nationally representative sample of adolescents in grades 7-12 in the United States during the 1994-95 school year. The Add Health cohort has been followed into young adulthood with four in-home interviews, the most recent in 2008, when the sample was aged 24-32*. Add Health combines longitudinal survey data on respondents\u2019 social, economic, psychological and physical well-being with contextual data on the family, neighborhood, community, school, friendships, peer groups, and romantic relationships, providing unique opportunities to study how social environments and behaviors in adolescence are linked to health and achievement outcomes in young adulthood. The fourth wave of interviews expanded the collection of biological data in Add Health to understand the social, behavioral, and biological linkages in health trajectories as the Add Health cohort ages through adulthood.\n<br/><br/> <b>Wave III</b> <br/> The Wave III public use data are helpful in analyzing the transition between adolescence and young adulthood. A total of 4,882 of the original Wave I public-use respondent sample were re-interviewed between August 2001 and April 2002. Wave III respondents were between 18 and 26 years old. <br/><br/> The Wave III public use dataset includes the following data files: <ul> <li>Main Respondent File: includes the In-Home Questionnaire data, grand sampling weights, AHP\nVT scores, and biospecimen data for 4,882 respondents</li> <li>Relationship Table File</li> <li>Pregnancy Table File</li> <li>Relationship Detail File</li> <li>Completed Pregnancies File</li> <li>Current Pregnancies File</li> <li>Live Births File</li> <li>Children and Parenting File</li> <li>Education Data</li> </ul> <br/> *17 respondents in the Wave IV public use sample were 33 years old at the time of the interview."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Academic achievement"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Adolescents"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Alcohol consumption"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Biomarkers"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Birth control"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Contraception"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dating (social)"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Diabetes"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Drinking behavior"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Drug use"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Eating habits"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Families"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family planning"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family relationships"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family structure"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Friendships"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health behavior"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health care access"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health status"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Household composition"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Interpersonal relationships"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Living arrangements"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Marriage"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Neighborhood characteristics"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Neighborhoods"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Parent child relationship"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Parental attitudes"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Parental influence"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Physical characteristics"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Physical condition"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Physical fitness"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Physical limitations"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Pregnancy history"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public assistance programs"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religious behavior"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Religious beliefs"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "School attendance"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Self concept"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Self esteem"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sexual attitudes"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sexual behavior"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Smoking"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social environment"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social networks"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Tobacco use"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Violent behavior"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Welfare services"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "National Longitudinal Study of Adolescent to Adult Health"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina at Chapel Hill"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Add Health"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/projects/addhealth"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/projects/addhealth/logo.png"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.odum.unc.edu/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015-01-13"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2001"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2002"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2001-08"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2002-04"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Survey"
+                            ]
+                        },
+                        {
+                            "typeName": "relatedMaterial",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "<a href=\"http://www.cpc.unc.edu/projects/addhealth/publications\" target=\"_blank\">Add Health bibliography</a>"
+                            ]
+                        },
+                        {
+                            "typeName": "relatedDatasets",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "<a href=\"http://dx.doi.org/10.15139/S3/11900\">National Longitudinal Study of Adolescent to Adult Health (Add Health) Wave I, 1994-1995</a> <br/> <a href=\"http://dx.doi.org/10.15139/S3/11917\">National Longitudinal Study of Adolescent to Adult Health (Add Health) Wave II, 1996</a> <br/> <a href=\"http://dx.doi.org/10.15139/S3/11920\">National Longitudinal Study of Adolescent to Adult Health (Add Health) Wave IV, 2008</a>"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "socialscience": {
+                    "displayName": "Social Science and Humanities Metadata",
+                    "fields": [
+                        {
+                            "typeName": "unitOfAnalysis",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Individual"
+                            ]
+                        },
+                        {
+                            "typeName": "universe",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Adolescents in grades 7-12 and their families"
+                            ]
+                        },
+                        {
+                            "typeName": "timeMethod",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Longitudinal"
+                        },
+                        {
+                            "typeName": "collectionMode",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Record abstracts; Computer-assisted personal interivew (CAPI); Computer-assisted self-interview (CASI); Coded on-site observation; Cognitive assessment test; Face-to-face interview; Self-enumerated questionnaire; On-site questionnaire"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Education Data Index",
+                    "label": "pedu.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183832,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "pedu.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 379693,
+                        "description": "Education Data Index",
+                        "storageIdentifier": "17179",
+                        "rootDataFileId": -1,
+                        "md5": "f1e9718cc768e071c395dcc7f433b0ba",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f1e9718cc768e071c395dcc7f433b0ba"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "Education Data Weights Code Book",
+                    "label": "peduwgt.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data Weights [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183842,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "peduwgt.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 124324,
+                        "description": "Education Data Weights Code Book",
+                        "storageIdentifier": "17192",
+                        "rootDataFileId": -1,
+                        "md5": "185e7622744b1b594bb0479b6438c005",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "185e7622744b1b594bb0479b6438c005"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "Graduation Data Code Book",
+                    "label": "pgrad.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Graduation Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183834,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "pgrad.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 57228,
+                        "description": "Graduation Data Code Book",
+                        "storageIdentifier": "17184",
+                        "rootDataFileId": -1,
+                        "md5": "25167e314f8dc760df862db472e0bd91",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "25167e314f8dc760df862db472e0bd91"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "Variables for Correcting Design Effects ",
+                    "label": "public_design1_2_3_4.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Grand Sample Weights"
+                    ],
+                    "dataFile": {
+                        "id": 7183858,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "public_design1_2_3_4.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 8433,
+                        "description": "Variables for Correcting Design Effects ",
+                        "storageIdentifier": "17213",
+                        "rootDataFileId": -1,
+                        "md5": "f0586b7e59094f50d08c712efb7cce3e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f0586b7e59094f50d08c712efb7cce3e"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "Grand Sample Weights Code Book",
+                    "label": "pubwgt3.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Grand Sample Weights"
+                    ],
+                    "dataFile": {
+                        "id": 7183856,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "pubwgt3.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 89011,
+                        "description": "Grand Sample Weights Code Book",
+                        "storageIdentifier": "17214",
+                        "rootDataFileId": -1,
+                        "md5": "1ce3c0183c6ef7d2b9e8b796e910593c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1ce3c0183c6ef7d2b9e8b796e910593c"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "In Home Questionnaire Code Book - Add Health Peabody Picture Vocabulary Test Scores",
+                    "label": "pvt3pub.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Peabody Picture Vocabulary Test Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183869,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "pvt3pub.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 82938,
+                        "description": "In Home Questionnaire Code Book - Add Health Peabody Picture Vocabulary Test Scores",
+                        "storageIdentifier": "17216",
+                        "rootDataFileId": -1,
+                        "md5": "f13df6f781473a58c3f05f6adc40f538",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f13df6f781473a58c3f05f6adc40f538"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "In Home Questionnaire Code Book - Section 17: Compiling a Table of Relationships (short list)",
+                    "label": "s17pub.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 17 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183886,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "s17pub.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 290043,
+                        "description": "In Home Questionnaire Code Book - Section 17: Compiling a Table of Relationships (short list)",
+                        "storageIdentifier": "17233",
+                        "rootDataFileId": -1,
+                        "md5": "68b49917ddeafdc73544a9e4b9ecde64",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "68b49917ddeafdc73544a9e4b9ecde64"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "In Home Questionnaire Code Book - Section 18: Compiling a Table of Pregnancies",
+                    "label": "s18pub.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 18 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183873,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "s18pub.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 169054,
+                        "description": "In Home Questionnaire Code Book - Section 18: Compiling a Table of Pregnancies",
+                        "storageIdentifier": "17234",
+                        "rootDataFileId": -1,
+                        "md5": "4ebe73476a1f916cfecd9452335f5e2b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4ebe73476a1f916cfecd9452335f5e2b"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "In Home Questionnaire Code Book - Section 19: Relationships in Detail",
+                    "label": "s19pub.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 19 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183876,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "s19pub.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1365761,
+                        "description": "In Home Questionnaire Code Book - Section 19: Relationships in Detail",
+                        "storageIdentifier": "17235",
+                        "rootDataFileId": -1,
+                        "md5": "4eba79a3a10ded855b98bc580e0acee3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4eba79a3a10ded855b98bc580e0acee3"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "In Home Questionnaire Code Book - Section 22: Completed Pregnancies",
+                    "label": "s22pub.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 22 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183862,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "s22pub.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2733915,
+                        "description": "In Home Questionnaire Code Book - Section 22: Completed Pregnancies",
+                        "storageIdentifier": "17238",
+                        "rootDataFileId": -1,
+                        "md5": "bb92cfc0dc047e06e4acb575818e0977",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bb92cfc0dc047e06e4acb575818e0977"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "In Home Questionnaire Code Book - Section 23: Current Pregnancies",
+                    "label": "s23pub.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 23 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183885,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "s23pub.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 233146,
+                        "description": "In Home Questionnaire Code Book - Section 23: Current Pregnancies",
+                        "storageIdentifier": "17239",
+                        "rootDataFileId": -1,
+                        "md5": "06981529d689818f3135392f090e4c68",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "06981529d689818f3135392f090e4c68"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "In Home Questionnaire Code Book - Section 24: Live Births",
+                    "label": "s24pub.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 24 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183864,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "s24pub.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 361979,
+                        "description": "In Home Questionnaire Code Book - Section 24: Live Births",
+                        "storageIdentifier": "17240",
+                        "rootDataFileId": -1,
+                        "md5": "186c693fba89de810baaadcf9dd366ab",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "186c693fba89de810baaadcf9dd366ab"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "In Home Questionnaire Code Book - Section 25: Children and Parenting",
+                    "label": "s25pub.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 25 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183863,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "s25pub.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 236146,
+                        "description": "In Home Questionnaire Code Book - Section 25: Children and Parenting",
+                        "storageIdentifier": "17241",
+                        "rootDataFileId": -1,
+                        "md5": "4cf5c30d377a0124135fc5702a0c6fd0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4cf5c30d377a0124135fc5702a0c6fd0"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each live birth reported by the public use respondents. More than one live birth record may be associated with an individual respondent. If a respondent did not report a live birth, the respondent does not have a record in this file.",
+                    "label": "w3birth_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 24 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183901,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3birth_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 76201,
+                        "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each live birth reported by the public use respondents. More than one live birth record may be associated with an individual respondent. If a respondent did not report a live birth, the respondent does not have a record in this file.",
+                        "storageIdentifier": "17256",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 57126,
+                        "UNF": "UNF:5:osvx3khx0d2Fql2pfS9MUA==",
+                        "rootDataFileId": -1,
+                        "md5": "1392bd888bdf18187cafabbb8d3baadb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1392bd888bdf18187cafabbb8d3baadb"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3birth_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 24 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183902,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3birth_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 49152,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17258",
+                        "rootDataFileId": -1,
+                        "md5": "7ef4c9e9d3112b3ff4e8d625945989d7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7ef4c9e9d3112b3ff4e8d625945989d7"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3birth_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 24 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183903,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3birth_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 36864,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17259",
+                        "rootDataFileId": -1,
+                        "md5": "bed613e3e3db3847d17cb3843e222966",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bed613e3e3db3847d17cb3843e222966"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3birth.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 24 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183904,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3birth.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 139264,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17257",
+                        "rootDataFileId": -1,
+                        "md5": "7e03ee7090a5d2638a13eb91bfed69d9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7e03ee7090a5d2638a13eb91bfed69d9"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each live birth reported by the public use respondents. More than one live birth record may be associated with an individual respondent. If a respondent did not report a live birth, the respondent does not have a record in this file.",
+                    "label": "w3child_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 25 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183908,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3child_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 229216,
+                        "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each live birth reported by the public use respondents. More than one live birth record may be associated with an individual respondent. If a respondent did not report a live birth, the respondent does not have a record in this file.",
+                        "storageIdentifier": "17260",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 176744,
+                        "UNF": "UNF:5:Go4pe/Cvb9k9+Tynfkfl+Q==",
+                        "rootDataFileId": -1,
+                        "md5": "7baf116ad431e8e8757d82b04503fd75",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7baf116ad431e8e8757d82b04503fd75"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3child_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 25 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183906,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3child_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 114688,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17262",
+                        "rootDataFileId": -1,
+                        "md5": "72fc8b0e2cd1381af2191a8d9c25ad19",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "72fc8b0e2cd1381af2191a8d9c25ad19"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3child_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 25 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183905,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3child_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 102400,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17263",
+                        "rootDataFileId": -1,
+                        "md5": "dbb5c2108a97ad1811ea23353d6030cd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dbb5c2108a97ad1811ea23353d6030cd"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3child.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 25 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183907,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3child.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 442368,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17261",
+                        "rootDataFileId": -1,
+                        "md5": "5673df9037a99b4e832056c6e4abae97",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5673df9037a99b4e832056c6e4abae97"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each pregnancy reported by the public use sample. More than one pregnancy record may be associated with an individual respondent.",
+                    "label": "w3cmplPreg_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 22 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183912,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3cmplPreg_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 198679,
+                        "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each pregnancy reported by the public use sample. More than one pregnancy record may be associated with an individual respondent.",
+                        "storageIdentifier": "17264",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 121775,
+                        "UNF": "UNF:5:mJ7zabVNK56+f5LjbybOwg==",
+                        "rootDataFileId": -1,
+                        "md5": "f56e86b8e4be5ebca70db67db989aac6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f56e86b8e4be5ebca70db67db989aac6"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3cmplpreg_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 22 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183911,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3cmplpreg_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 98304,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17266",
+                        "rootDataFileId": -1,
+                        "md5": "20e7e24fc7fa7f8a18617af5a7b9fb68",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "20e7e24fc7fa7f8a18617af5a7b9fb68"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3cmplpreg.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 22 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183910,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3cmplpreg.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 376832,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17265",
+                        "rootDataFileId": -1,
+                        "md5": "13826258e6c7d223d2efdafccfd3470a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "13826258e6c7d223d2efdafccfd3470a"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3cmplpreg_sas-spss.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 22 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183909,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3cmplpreg_sas-spss.sps",
+                        "contentType": "text/x-spss-syntax; charset=UTF-8",
+                        "filesize": 199,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17267",
+                        "rootDataFileId": -1,
+                        "md5": "ea2eb36daa2aa96d4de2c983e885b4a9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ea2eb36daa2aa96d4de2c983e885b4a9"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each pregnancy reported by the public use respondents. More than one pregnancy record may be associated with an individual respondent. If a respondent did not report a pregnancy, the respondent does not have a record in this file.",
+                    "label": "w3currPreg_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 23 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183918,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3currPreg_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16418,
+                        "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each pregnancy reported by the public use respondents. More than one pregnancy record may be associated with an individual respondent. If a respondent did not report a pregnancy, the respondent does not have a record in this file.",
+                        "storageIdentifier": "17276",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 22066,
+                        "UNF": "UNF:5:UPhzbp9s94CZc4Y1WRse7A==",
+                        "rootDataFileId": -1,
+                        "md5": "2cd2abd6a8ac210c4e128ba2d0d3f1f1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2cd2abd6a8ac210c4e128ba2d0d3f1f1"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3currpreg_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 23 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183917,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3currpreg_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 81920,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17278",
+                        "rootDataFileId": -1,
+                        "md5": "5de76d0b11e0522337d6bfdbd566512e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5de76d0b11e0522337d6bfdbd566512e"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3currpreg_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 23 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183916,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3currpreg_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 57344,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17279",
+                        "rootDataFileId": -1,
+                        "md5": "c2eae5faba2887f248c4bc9669c4d4ac",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c2eae5faba2887f248c4bc9669c4d4ac"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3currpreg.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 23 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183915,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3currpreg.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 65536,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17277",
+                        "rootDataFileId": -1,
+                        "md5": "a20276c0d625a90b55ed6368ac06b9d5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a20276c0d625a90b55ed6368ac06b9d5"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original)",
+                    "label": "w3educatn_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183828,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3educatn_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1166416,
+                        "description": "Subsettable Dataset File (.sav original)",
+                        "storageIdentifier": "17175",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 1680518,
+                        "UNF": "UNF:5:RIvV6L1qRrYtuSG/iT97/g==",
+                        "rootDataFileId": -1,
+                        "md5": "3a77bd400bb5550fe320a39c7f35a980",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3a77bd400bb5550fe320a39c7f35a980"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3educatn_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183829,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3educatn_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 131072,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17177",
+                        "rootDataFileId": -1,
+                        "md5": "2c005672ee1e03678d78498609697ae0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2c005672ee1e03678d78498609697ae0"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3educatn_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183831,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3educatn_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 118784,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17178",
+                        "rootDataFileId": -1,
+                        "md5": "5c7967c480c33f8d0e52eb4b569a3d6e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5c7967c480c33f8d0e52eb4b569a3d6e"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3educatn.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183830,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3educatn.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 2621440,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17176",
+                        "rootDataFileId": -1,
+                        "md5": "852665b718b88f0525343863fb8edcbd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "852665b718b88f0525343863fb8edcbd"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3eduwgt.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data Weights [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183840,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3eduwgt.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 102400,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17190",
+                        "rootDataFileId": -1,
+                        "md5": "aafa10d42c182c46f072e9dc3c4e2fb4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "aafa10d42c182c46f072e9dc3c4e2fb4"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original)",
+                    "label": "w3eduwgt.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data Weights [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183838,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3eduwgt.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 173339,
+                        "description": "Subsettable Dataset File (.sav original)",
+                        "storageIdentifier": "17188",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 95587,
+                        "UNF": "UNF:5:60xae79tvB8TyGri4AVhNw==",
+                        "rootDataFileId": -1,
+                        "md5": "d53bff167604229ea80f466ad8b2b3a5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d53bff167604229ea80f466ad8b2b3a5"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original)",
+                    "label": "w3graduatn_dvn_3.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Graduation Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183837,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3graduatn_dvn_3.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 100854,
+                        "description": "Subsettable Dataset File (.sav original)",
+                        "storageIdentifier": "17187",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 128193,
+                        "UNF": "UNF:5:/AehVIYZrHEQGtB3at2xuA==",
+                        "rootDataFileId": -1,
+                        "md5": "7df0c8d4072976391de374bd74f43ba5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7df0c8d4072976391de374bd74f43ba5"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3graduatn_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Graduation Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183833,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3graduatn_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 32768,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17182",
+                        "rootDataFileId": -1,
+                        "md5": "c9b2cfddefea52bb1afe73202472014d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c9b2cfddefea52bb1afe73202472014d"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3graduatn_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Graduation Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183835,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3graduatn_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 20480,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17183",
+                        "rootDataFileId": -1,
+                        "md5": "87fdec5b008c52bf92725c8b91bae724",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "87fdec5b008c52bf92725c8b91bae724"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3graduatn.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Graduation Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183836,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3graduatn.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 155648,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17181",
+                        "rootDataFileId": -1,
+                        "md5": "1b644b90dcb4aedbd6bb3e171f5c1843",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1b644b90dcb4aedbd6bb3e171f5c1843"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "In Home Questionnaire Code Book",
+                    "label": "W3inhome_codebook.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:   In Home Questionnaire Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7184607,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "W3inhome_codebook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3533524,
+                        "description": "In Home Questionnaire Code Book",
+                        "storageIdentifier": "18037",
+                        "rootDataFileId": -1,
+                        "md5": "5eaefa9b77e4622ac1051521166d2259",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5eaefa9b77e4622ac1051521166d2259"
+                        },
+                        "creationDate": "2015-08-20"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original)",
+                    "label": "w3inhome_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:   In Home Questionnaire Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183922,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3inhome_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 23594777,
+                        "description": "Subsettable Dataset File (.sav original)",
+                        "storageIdentifier": "17282",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 18078075,
+                        "UNF": "UNF:5:UGwrhXKpOawrC3z+NHG+sg==",
+                        "rootDataFileId": -1,
+                        "md5": "9dfb48b0322984d86a9e7377f7488b78",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9dfb48b0322984d86a9e7377f7488b78"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3inhome_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:   In Home Questionnaire Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183919,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3inhome_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 2490368,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17284",
+                        "rootDataFileId": -1,
+                        "md5": "27231453e25b128e4428f32a50415641",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "27231453e25b128e4428f32a50415641"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3inhome_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:   In Home Questionnaire Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183920,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3inhome_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 2224128,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17285",
+                        "rootDataFileId": -1,
+                        "md5": "a5789cdc9662f9d2d4512906bd7b0f49",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a5789cdc9662f9d2d4512906bd7b0f49"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3inhome.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:   In Home Questionnaire Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183921,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3inhome.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 80265216,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17283",
+                        "rootDataFileId": -1,
+                        "md5": "aebf1b3fadc99c0d408384b007d99a5d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "aebf1b3fadc99c0d408384b007d99a5d"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each relationship reported by the public use respondents. More than one relationship record may be associated with an individual respondent. If a respondent did not report a relationship, the respondent does not have a record in this file.",
+                    "label": "w3partner_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 17 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183926,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3partner_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 673330,
+                        "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each relationship reported by the public use respondents. More than one relationship record may be associated with an individual respondent. If a respondent did not report a relationship, the respondent does not have a record in this file.",
+                        "storageIdentifier": "17286",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 412118,
+                        "UNF": "UNF:5:sLBdSf1N+Y3JEOG0+YPyug==",
+                        "rootDataFileId": -1,
+                        "md5": "b25a4789102c4777b100f9744a8e1219",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b25a4789102c4777b100f9744a8e1219"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3partner_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 17 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183924,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3partner_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 49152,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17288",
+                        "rootDataFileId": -1,
+                        "md5": "682a9f79995e65231aca3bfdbb7acfc0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "682a9f79995e65231aca3bfdbb7acfc0"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3partner_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 17 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183923,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3partner_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 36864,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17289",
+                        "rootDataFileId": -1,
+                        "md5": "59e75c0d7c02de4db28eede5c2c313ba",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "59e75c0d7c02de4db28eede5c2c313ba"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3partner.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 17 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183925,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3partner.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 1155072,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17287",
+                        "rootDataFileId": -1,
+                        "md5": "82902d29292f169c1df15519910470ce",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "82902d29292f169c1df15519910470ce"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each pregnancy reported by the public use respondents. More than one pregnancy record may be associated with an individual respondent. If a respondent did not report a pregnancy, the respondent does not have a record in this file.",
+                    "label": "w3pregnancy_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 18 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183930,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3pregnancy_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 62484,
+                        "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each pregnancy reported by the public use respondents. More than one pregnancy record may be associated with an individual respondent. If a respondent did not report a pregnancy, the respondent does not have a record in this file.",
+                        "storageIdentifier": "17290",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 60473,
+                        "UNF": "UNF:5:J3FIbn0Za/WRa4oUJs9VzA==",
+                        "rootDataFileId": -1,
+                        "md5": "9058968a72376dbb66c809cced4aebb0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9058968a72376dbb66c809cced4aebb0"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3pregnancy_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 18 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183929,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3pregnancy_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 32768,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17292",
+                        "rootDataFileId": -1,
+                        "md5": "6b30b121533e7190d1606acf4a4381ff",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6b30b121533e7190d1606acf4a4381ff"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3pregnancy_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 18 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183927,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3pregnancy_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 20480,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17293",
+                        "rootDataFileId": -1,
+                        "md5": "cf068cf2fd2a5ab800934cf21477c0d6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cf068cf2fd2a5ab800934cf21477c0d6"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3pregnancy.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 18 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183928,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3pregnancy.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 102400,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17291",
+                        "rootDataFileId": -1,
+                        "md5": "0b2c0d3a10b82b5555ccd32d2b4d7d2f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0b2c0d3a10b82b5555ccd32d2b4d7d2f"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each partner reported by the public use respondents. More than one partner record may be associated with an individual respondent. If a respondent did not report a partner, the respondent does not have a record in this file.",
+                    "label": "w3prtnrDtail_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 19 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183934,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3prtnrDtail_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 6394448,
+                        "description": "Subsettable Dataset File (.sav original) - This dataset contains one record for each partner reported by the public use respondents. More than one partner record may be associated with an individual respondent. If a respondent did not report a partner, the respondent does not have a record in this file.",
+                        "storageIdentifier": "17294",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 4393473,
+                        "UNF": "UNF:5:zXPtgMoc4S+tHjk3rao53g==",
+                        "rootDataFileId": -1,
+                        "md5": "39884f79b8f38063fabd8be950804e88",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "39884f79b8f38063fabd8be950804e88"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3prtnrdtail_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 19 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183933,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3prtnrdtail_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 344064,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17296",
+                        "rootDataFileId": -1,
+                        "md5": "b64f131f8f9a66f9d1b5b05f5c5fe58e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b64f131f8f9a66f9d1b5b05f5c5fe58e"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3prtnrdtail_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 19 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183931,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3prtnrdtail_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 299008,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17297",
+                        "rootDataFileId": -1,
+                        "md5": "d42d5963d8b3e13e6d9c7a4e36286232",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d42d5963d8b3e13e6d9c7a4e36286232"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3prtnrdtail.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III:  In Home Questionnaire Data - Section 19 [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183932,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3prtnrdtail.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 23134208,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17295",
+                        "rootDataFileId": -1,
+                        "md5": "3ec7d950f2d6c77e764989b9b381d97e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3ec7d950f2d6c77e764989b9b381d97e"
+                        },
+                        "creationDate": "2015-05-14"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original)",
+                    "label": "w3pvt_dvn.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Peabody Picture Vocabulary Test Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183897,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3pvt_dvn.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 162245,
+                        "description": "Subsettable Dataset File (.sav original)",
+                        "storageIdentifier": "17252",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 94792,
+                        "UNF": "UNF:5:qlIbkMO5AEbyD7V/Jfxkcg==",
+                        "rootDataFileId": -1,
+                        "md5": "352e5246c269183da1e6b814e3e61770",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "352e5246c269183da1e6b814e3e61770"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Format File (.sas7bdat)",
+                    "label": "w3pvt_fmt_data.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Peabody Picture Vocabulary Test Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183899,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3pvt_fmt_data.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 24576,
+                        "description": "SAS Format File (.sas7bdat)",
+                        "storageIdentifier": "17254",
+                        "rootDataFileId": -1,
+                        "md5": "0fa61cbd6ec143dbb166835857ac286b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0fa61cbd6ec143dbb166835857ac286b"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Catalog File (.sas7bcat)",
+                    "label": "w3pvt_format.sas7bcat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Peabody Picture Vocabulary Test Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183898,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3pvt_format.sas7bcat",
+                        "contentType": "application/octet-stream",
+                        "filesize": 20480,
+                        "description": "SAS Catalog File (.sas7bcat)",
+                        "storageIdentifier": "17255",
+                        "rootDataFileId": -1,
+                        "md5": "ea04ca8f5b2332740448d18761d8c0c2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ea04ca8f5b2332740448d18761d8c0c2"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3pvt.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Peabody Picture Vocabulary Test Data [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183900,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3pvt.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 327680,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17253",
+                        "rootDataFileId": -1,
+                        "md5": "b5109e2da9bcda8d0ee56fc8941ede94",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b5109e2da9bcda8d0ee56fc8941ede94"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3schwgt.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data Weights [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183839,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3schwgt.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 8192,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17191",
+                        "rootDataFileId": -1,
+                        "md5": "52eb977654fd4680d87e916a14252a24",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "52eb977654fd4680d87e916a14252a24"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original)",
+                    "label": "w3schwgt.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Education Data Weights [Public Use]"
+                    ],
+                    "dataFile": {
+                        "id": 7183841,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3schwgt.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1533,
+                        "description": "Subsettable Dataset File (.sav original)",
+                        "storageIdentifier": "17189",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 2467,
+                        "UNF": "UNF:5:RNxAx/DzluQGYkumf5Ke2A==",
+                        "rootDataFileId": -1,
+                        "md5": "2c3100ea532b669a0266b123c0491a85",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2c3100ea532b669a0266b123c0491a85"
+                        },
+                        "creationDate": "2015-05-11"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File (.sas7bdat)",
+                    "label": "w3weight.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Grand Sample Weights"
+                    ],
+                    "dataFile": {
+                        "id": 7183857,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3weight.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 167936,
+                        "description": "SAS Dataset File (.sas7bdat)",
+                        "storageIdentifier": "17212",
+                        "rootDataFileId": -1,
+                        "md5": "e5733946a6de04352b1960c95c4bd6a9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e5733946a6de04352b1960c95c4bd6a9"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                },
+                {
+                    "description": "Subsettable Dataset File (.sav original) - Variables needed to correct for design effects and weight the Wave III in-home data, including longitudinal and cross-sectional weights",
+                    "label": "w3weight.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1183,
+                    "categories": [
+                        "Wave III: Grand Sample Weights"
+                    ],
+                    "dataFile": {
+                        "id": 7183859,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "w3weight.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 160383,
+                        "description": "Subsettable Dataset File (.sav original) - Variables needed to correct for design effects and weight the Wave III in-home data, including longitudinal and cross-sectional weights",
+                        "storageIdentifier": "17211",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 156733,
+                        "UNF": "UNF:5:w3zlQfURo0Dfic3xqacXqw==",
+                        "rootDataFileId": -1,
+                        "md5": "2ed63b4cc76edc072fa81142bf06cd74",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2ed63b4cc76edc072fa81142bf06cd74"
+                        },
+                        "creationDate": "2015-05-13"
+                    }
+                }
+            ]
+        }
+    }
+}

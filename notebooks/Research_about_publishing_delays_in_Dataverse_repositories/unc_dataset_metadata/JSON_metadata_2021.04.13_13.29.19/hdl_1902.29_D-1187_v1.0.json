@@ -1,0 +1,627 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-1187",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 1803,
+            "storageIdentifier": "file://1902.29/D-1187",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "distributionDate": "1973",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T15:28:40Z",
+            "license": "NONE",
+            "termsOfUse": "Citation requirements: <br /><br /> Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data. <br /><br /> Data Disclaimer: <br /><br /> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of the\nse files.",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "National crime surveys"
+                        },
+                        {
+                            "typeName": "subtitle",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "national sample"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-1187"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:study"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "24-01-SERIAL-NCS-DUALABS-74"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "U.S. Bureau of the Census"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The National Crime Surveys are conducted for the Law Enforcement Assistance Administration by the Bureau of the Census to obtain current and reliable measures of serious crimes in the United States. The program is unique in that it turns to the public for information about crime rather than relying on law enforcement records.</p><p>The primary impetus for this type of approach was an earlier victim survey which indicated that a considerable number of crimes were not being reported and consequ\nently existing crime measures did not reflect the true rate of crime occurrence. In addition to providing an alternative or supplementary source of data for estimating the amount of crime, the surveys offer a level of descriptive detail about the victims of crime and their victimization experiences not preciously available. Crimes include assault, rape, robbery, burglary, larceny, motor vehicle theft.\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Crime, Criminals"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Crime, Criminal justice system"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Glossary. Arlington, Va.: DUALabs, 1976."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Stratified multi-cluster sample design. The National Crime Surveys used two samples: national and central city. SSDL holdings contain only the national.;Type: ODUM:CODEBOOK.NUMBER Notes: 24-008;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bureau of the Census"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1974"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Washington, DC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "DUALabs"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1973"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1973"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1975"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "ncs_document.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Survey Documentation, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 12852,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_document.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 10904815,
+                        "description": "",
+                        "storageIdentifier": "ncs_document.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_glossary.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Glossary, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 12855,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_glossary.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2014956,
+                        "description": "",
+                        "storageIdentifier": "ncs_glossary.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_handbook.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Handbook & Guide, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 12850,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_handbook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3154272,
+                        "description": "",
+                        "storageIdentifier": "ncs_handbook.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_nat74.cq1",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Data, Logical Record, Quarter 1, 1974"
+                    ],
+                    "dataFile": {
+                        "id": 12856,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_nat74.cq1",
+                        "contentType": "text/plain",
+                        "filesize": 16031672,
+                        "description": "",
+                        "storageIdentifier": "ncs_nat74.cq1",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_nat74.cq2",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Data, Logical Record, Quarter 2, 1974"
+                    ],
+                    "dataFile": {
+                        "id": 12857,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_nat74.cq2",
+                        "contentType": "text/plain",
+                        "filesize": 15996423,
+                        "description": "",
+                        "storageIdentifier": "ncs_nat74.cq2",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_nat74.cq3",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Data, Logical Record, Quarter 3, 1974"
+                    ],
+                    "dataFile": {
+                        "id": 12853,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_nat74.cq3",
+                        "contentType": "text/plain",
+                        "filesize": 15822483,
+                        "description": "",
+                        "storageIdentifier": "ncs_nat74.cq3",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_nat74.cq4",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Data, Logical Record, Quarter 4, 1974"
+                    ],
+                    "dataFile": {
+                        "id": 12858,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_nat74.cq4",
+                        "contentType": "text/plain",
+                        "filesize": 16241232,
+                        "description": "",
+                        "storageIdentifier": "ncs_nat74.cq4",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_nat75.cq1",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Data, Logical Record, Quarter 1, 1975"
+                    ],
+                    "dataFile": {
+                        "id": 12859,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_nat75.cq1",
+                        "contentType": "text/plain",
+                        "filesize": 16359421,
+                        "description": "",
+                        "storageIdentifier": "ncs_nat75.cq1",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_nat75.cq2",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Data, Logical Record, Quarter 2, 1975"
+                    ],
+                    "dataFile": {
+                        "id": 12854,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_nat75.cq2",
+                        "contentType": "text/plain",
+                        "filesize": 16248545,
+                        "description": "",
+                        "storageIdentifier": "ncs_nat75.cq2",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_nat75.cq3",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Data, Logical Record, Quarter 3, 1975"
+                    ],
+                    "dataFile": {
+                        "id": 12849,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_nat75.cq3",
+                        "contentType": "text/plain",
+                        "filesize": 16125821,
+                        "description": "",
+                        "storageIdentifier": "ncs_nat75.cq3",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_nat75.cq4",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Data, Logical Record, Quarter 4, 1975"
+                    ],
+                    "dataFile": {
+                        "id": 12860,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_nat75.cq4",
+                        "contentType": "text/plain",
+                        "filesize": 16385195,
+                        "description": "",
+                        "storageIdentifier": "ncs_nat75.cq4",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_user.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "User Directory, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 12861,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_user.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 6481723,
+                        "description": "",
+                        "storageIdentifier": "ncs_user.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ncs_using.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1803,
+                    "categories": [
+                        "Journal Article, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 12851,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ncs_using.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 622658,
+                        "description": "",
+                        "storageIdentifier": "ncs_using.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

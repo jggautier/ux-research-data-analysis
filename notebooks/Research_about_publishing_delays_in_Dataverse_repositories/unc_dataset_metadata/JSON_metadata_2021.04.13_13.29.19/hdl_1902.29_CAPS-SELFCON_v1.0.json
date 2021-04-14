@@ -1,0 +1,511 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-SELFCON",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-28",
+        "datasetVersion": {
+            "id": 3514,
+            "storageIdentifier": "file://1902.29/CAPS-SELFCON",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-28T15:09:00Z",
+            "releaseTime": "2009-04-28T00:00:00Z",
+            "createTime": "2007-08-28T15:24:54Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "10 Statements Test (CAPS-SELFCON1 and SELFCON2 module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-SELFCON"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-SELFCON1 SELFCON2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>In SELFCON1 the subject is asked to enter, free form, ten important characteristics about him/her self. Respondents are asked to imagine that they are keeping a personal diary which they want to contain personal, but accurate information. They are told: As a beginning, you want to introduce yourself to the diary. What 10 words or short phrases (one line or less) would you use to identify the most important characteristics about yourself?</p><p>SELFCON2 reads in personality characteristics fro\nm the file generated by SELFCON1, and presents them to the respondent, asking what percentage of people with this trait are nondrinkers.\n</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "10 Statements test"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Ten statements test"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Self-concept"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Non-drinkers"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Traits of non-drinkers"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published reference"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_selfcon1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11222,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon1_data",
+                        "contentType": "text/plain",
+                        "filesize": 163930,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_selfcon1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_selfcon1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11223,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 96400,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_selfcon1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_selfcon1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11217,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon1_source",
+                        "contentType": "text/plain",
+                        "filesize": 20898,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_selfcon1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_selfcon1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11219,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 30340,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_selfcon1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_selfcon1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "Data File 1 (caps_1985_selfcon1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11220,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 27264,
+                        "storageIdentifier": "caps_1985_selfcon1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:bd/V1HYn4UU6OHIXIaIYmw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_selfcon2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11225,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon2_data",
+                        "contentType": "text/plain",
+                        "filesize": 161460,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_selfcon2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_selfcon2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11221,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 107280,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_selfcon2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_selfcon2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11224,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon2_source",
+                        "contentType": "text/plain",
+                        "filesize": 33024,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_selfcon2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_selfcon2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11226,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 35424,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_selfcon2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_selfcon2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3514,
+                    "categories": [
+                        "Data File 2 (caps_1985_selfcon2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11218,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_selfcon2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 31425,
+                        "storageIdentifier": "caps_1985_selfcon2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:pItberbyi2oPw5myH8rlqQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

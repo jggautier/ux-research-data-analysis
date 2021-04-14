@@ -1,0 +1,227 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/ZVWRHV",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-04-26",
+        "datasetVersion": {
+            "id": 30862,
+            "storageIdentifier": "file://10.15139/S3/ZVWRHV",
+            "versionNumber": 2,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:S20VIfLS63oZJCWPgHIcgQ==",
+            "lastUpdateTime": "2019-04-26T17:10:55Z",
+            "releaseTime": "2019-04-26T17:10:55Z",
+            "createTime": "2019-04-26T17:10:17Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication and Extension Paper, Dataset, and R Code - POLI 784"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Urgo, Kelsey"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Urgo, Kelsey"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "kurgo@email.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This is a replication and extension of findings from the SWELL Knowledge Work dataset, files include the replication and extension paper, r code, and relevant data."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Computer and Information Science"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "IR, HCI"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Urgo, Kelsey"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-04-26"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "BehavioralFeatures.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30862,
+                    "dataFile": {
+                        "id": 7505837,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "BehavioralFeatures.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 409079,
+                        "storageIdentifier": "16a5a73fd55-9994b771d43b",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:S20VIfLS63oZJCWPgHIcgQ==",
+                        "rootDataFileId": -1,
+                        "md5": "3a0cd1f37dcaa3582d0c91f48941a22c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3a0cd1f37dcaa3582d0c91f48941a22c"
+                        },
+                        "creationDate": "2019-04-26"
+                    }
+                },
+                {
+                    "label": "KnowledgeWork.csv",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30862,
+                    "dataFile": {
+                        "id": 7505836,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "KnowledgeWork.csv",
+                        "contentType": "text/csv",
+                        "filesize": 15223,
+                        "storageIdentifier": "16a5a73ae74-ef291b88acc6",
+                        "rootDataFileId": -1,
+                        "md5": "5ddf3596ffefc0f988fb86d18299bd49",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5ddf3596ffefc0f988fb86d18299bd49"
+                        },
+                        "creationDate": "2019-04-26"
+                    }
+                },
+                {
+                    "label": "Project_Final.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30862,
+                    "dataFile": {
+                        "id": 7505838,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Project_Final.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 13520,
+                        "storageIdentifier": "16a5a742263-bcd1100f6d34",
+                        "rootDataFileId": -1,
+                        "md5": "0de2c88b36b493d053fbb6c2a50f0018",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0de2c88b36b493d053fbb6c2a50f0018"
+                        },
+                        "creationDate": "2019-04-26"
+                    }
+                },
+                {
+                    "label": "ReplExtPOLI784_KelseyUrgo_kurgo.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30862,
+                    "dataFile": {
+                        "id": 7505839,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ReplExtPOLI784_KelseyUrgo_kurgo.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 225005,
+                        "storageIdentifier": "16a5aa0bf0b-4e465319245f",
+                        "rootDataFileId": -1,
+                        "md5": "43b61915e3f1c7d4688145054af32412",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "43b61915e3f1c7d4688145054af32412"
+                        },
+                        "creationDate": "2019-04-26"
+                    }
+                }
+            ]
+        }
+    }
+}

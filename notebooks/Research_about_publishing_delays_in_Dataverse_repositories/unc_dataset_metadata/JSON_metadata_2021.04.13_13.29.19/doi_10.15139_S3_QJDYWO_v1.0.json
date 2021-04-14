@@ -1,0 +1,170 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/QJDYWO",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-07-25",
+        "datasetVersion": {
+            "id": 30912,
+            "storageIdentifier": "file://10.15139/S3/QJDYWO",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2019-07-25T19:40:59Z",
+            "releaseTime": "2019-07-25T19:40:59Z",
+            "createTime": "2019-06-18T17:19:45Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Hemispheric CMAQ Model Version 5.3beta Output Data \u2013 2016 seasonally averaged 108km for N. Hemisphere"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "US EPA"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ORD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kristen Foley"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "foley.kristen@epa.gov"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h3>Data Summary:</h3><p>CMAQv5.3 output data for a 2016 seasonal simulation over the Northern Hemisphere.  <strong>Note:The datasets are on a Google Drive. The metadata associated with this DOI contain the link to the Google Drive folder and instructions for downloading the data.</strong>\r\n\r\n<h2>File Location and Download Instructions:</h2>\r\n<ul><li><strong><a href=\"https://drive.google.com/file/d/15Vt6f5WuyN8RiLRjTlKeQUHjYbZ6QCrA/view?usp=sharing\">Link to output files for HEMIS_cmaq </a></strong> </li>\r\n<li> <strong><a href=\"https://drive.google.com/open?id=1e7B94zFkbKygVWfrhGwEZL51jF4fGXGXZbvi6KzXYQ4\">Download instructions </a></strong> </li> </ul>\r\n\r\n<h2>File Format:</h2>The 2016 model input are stored as netcdf formatted files using I/O API data structures <a href=\"https://www.cmascenter.org/ioapi/\">(https://www.cmascenter.org/ioapi/)</a>. Information on the model projection and grid structure is contained in the header information of the netcdf file.  The output files can be opened and manipulated using I/O API utilities (e.g. M3XTRACT, M3WNDW) or other software programs that can read and write netcdf formatted files (e.g. Fortran, R, Python).<br> "
+                                    }
+                                },
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h3>Boundary Conditions from HCMAQ</h3>\r\n<ul><li>Model version: CMAQv5.3 beta2 (February 2018), including full halogen and DMS chemistry</li><li>Grid spacing: 108 x 108 km on a polar stereographic grid covering the northern hemisphere</li><li>Vertical layers: 44</li><li>Meteorological fields: WRF3.8</li><li>Chemical mechanism: CB6R3M_AE7_KMTBR</li><li>Dry Deposition: M3DRY</li></ul>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Earth and Environmental Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CMAQ"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Community Multiscale Air Quality Modeling System"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.epa.gov/cmaq"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2016"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Simulation Year"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CMAQv5.3 "
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Boykin, Randa"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-06-18"
+                        }
+                    ]
+                }
+            },
+            "files": []
+        }
+    }
+}

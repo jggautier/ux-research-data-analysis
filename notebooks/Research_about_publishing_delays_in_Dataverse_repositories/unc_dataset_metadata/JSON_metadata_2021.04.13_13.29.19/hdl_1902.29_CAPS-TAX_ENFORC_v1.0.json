@@ -1,0 +1,661 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-TAX_ENFORC",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-20",
+        "datasetVersion": {
+            "id": 3542,
+            "storageIdentifier": "file://1902.29/CAPS-TAX_ENFORC",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-20T14:53:56Z",
+            "releaseTime": "2009-04-20T00:00:00Z",
+            "createTime": "2007-08-28T15:25:42Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Noncompliance with Federal Income Tax Laws (CAPS-TAX_ENFORC1 CAPS-TAX_ENFORC2 CAPS-TAX_ENFORC3 CAPS-TAX_ENFORC4 module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-TAX_ENFORC"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-TAX_ENFORC1 CAPS-TAX_ENFORC2 CAPS-TAX_ENFORC3 CAPS-TAX_ENFORC4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This unit scales subjects' responses to the impact of the probability of an audit of their tax returns and the possibility of a penalty on their decisions to evade federal income tax. It also surveys their attitudes regarding reasons for noncompliance with federal income tax laws.</p><p>TAX_ENFORC1 AND TAX_ENFORC2 have Rs estimate honesty of taxpayers at various audit percentages. TAX_ENFORC3 and TAX_ENFORC4 have Rs estimate the honesty of taxpayers at various audit percentages and penalty le\nvels. Two versions of each unit were administered, one to 3/4 of Rs and the other to 1/4. See codebook for more information.\n</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Federal income tax, Taxes, Noncompliance tax audit"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Taxes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Noncompliance"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Tax audit"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published reference"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11696,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 50400,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11694,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc1_source",
+                        "contentType": "text/plain",
+                        "filesize": 47214,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11703,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18696,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_tax_enforc1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "Data File 1 (caps_1984_tax_enforc1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11699,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15056,
+                        "storageIdentifier": "caps_1984_tax_enforc1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:+ARGkNkxox+ahXRdB/kLTg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11706,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 9360,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11697,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc2_source",
+                        "contentType": "text/plain",
+                        "filesize": 36120,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11702,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 4592,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_tax_enforc2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "Data File 2 (caps_1984_tax_enforc2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11705,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2235,
+                        "storageIdentifier": "caps_1984_tax_enforc2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:yUpOuG072XcufxvqSKF6+A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11707,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 37840,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc3_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11704,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc3_source",
+                        "contentType": "text/plain",
+                        "filesize": 20769,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc3_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11698,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 13284,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_tax_enforc3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "Data File 3 (caps_1984_tax_enforc3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11709,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 11444,
+                        "storageIdentifier": "caps_1984_tax_enforc3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:K72poYaZSkVWX7fx7CePIw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11700,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 5040,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc4_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11695,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc4_source",
+                        "contentType": "text/plain",
+                        "filesize": 18576,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc4_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_tax_enforc4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 11708,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 2624,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_tax_enforc4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_tax_enforc4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3542,
+                    "categories": [
+                        "Data File 4 (caps_1984_tax_enforc4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11701,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_tax_enforc4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1298,
+                        "storageIdentifier": "caps_1984_tax_enforc4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:CVl5eYms/ztTi60u6S3vdw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

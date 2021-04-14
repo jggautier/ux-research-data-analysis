@@ -1,0 +1,919 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-COLLCASH",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3372,
+            "storageIdentifier": "file://1902.29/CAPS-COLLCASH",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T17:41:28Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:18:25Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "College Finances and Spending Habits (CAPS-COLLCASH and CAPS-COLLFIN modules)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-COLLCASH"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-COLLCASH CAPS-COLLFIN"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This 33-item questionnaire asks respondents what percentage of their college expenses are paid for by their parents and themselves. For each of the following expenses, it asks whether the respondent, their parent, or someone else pays MOST of the bill: tuition, books and supplies, housing, meals, clothing, transportation. Other questions ask whether the respondent has had a job (other than CAPS) during the academic year, and if so, what kind of work, how much earned per hour, how many hours p\ner week worked, and how much of the money is spending money. The same questions are asked about work the previous summer. The amount of money available per week for spending 'as you like' and the typical ways that the R spends money for nonessential items are recorded. Rs also report parents' total annual income, how they would spend the $1000 CAPS bonus if they won, and amount of free time on weekdays and weekends.\n</p><p>Similar questions were asked in CAPS/85 and CAPS/86 in the unit COLLFIN.</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "College students"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Students"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family income"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "College expenses"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "College student employment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "College student earnings"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Spending habits"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Free time"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Time"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Income"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_collfin_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7611,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_collfin_data",
+                        "contentType": "text/plain",
+                        "filesize": 134290,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_collfin_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_collfin_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7619,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_collfin_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 189280,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_collfin_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_collfin_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7628,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_collfin_source",
+                        "contentType": "text/plain",
+                        "filesize": 32895,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_collfin_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_collfin_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7609,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_collfin_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 46494,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_collfin_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_collfin_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Data File 1 (caps_1985_collfin_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7612,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_collfin_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 42816,
+                        "storageIdentifier": "caps_1985_collfin_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:mS+ohuUdkEozyyTt6DI2xg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_collfin_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7625,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_collfin_data",
+                        "contentType": "text/plain",
+                        "filesize": 121810,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_collfin_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_collfin_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7613,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_collfin_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4086,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_collfin_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_collfin_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7624,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_collfin_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 174480,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_collfin_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_collfin_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7607,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_collfin_source",
+                        "contentType": "text/plain",
+                        "filesize": 5906,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_collfin_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_collfin_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7615,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_collfin_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 42312,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_collfin_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_collfin_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Data File 2 (caps_1986_collfin_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7610,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_collfin_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 38494,
+                        "storageIdentifier": "caps_1986_collfin_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:M7xMWohm/avLV0lx5bLmSw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_collcash_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7614,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_collcash_data",
+                        "contentType": "text/plain",
+                        "filesize": 160550,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_collcash_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_collcash_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7626,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_collcash_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5533,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_collcash_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_collcash_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7608,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_collcash_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 118160,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_collcash_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_collcash_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7623,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_collcash_source",
+                        "contentType": "text/plain",
+                        "filesize": 11518,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_collcash_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_collcash_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7627,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_collcash_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 46576,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_collcash_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_collcash_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Data File 3 (caps_1987_collcash_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7618,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_collcash_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 42129,
+                        "storageIdentifier": "caps_1987_collcash_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:MrFe7pKZRo2N9R/VGz+w5w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_collcash_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7616,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_collcash_data",
+                        "contentType": "text/plain",
+                        "filesize": 157170,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_collcash_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_collcash_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7622,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_collcash_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4121,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_collcash_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_collcash_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7621,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_collcash_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 126480,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_collcash_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_collcash_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7620,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_collcash_source",
+                        "contentType": "text/plain",
+                        "filesize": 11684,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_collcash_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_collcash_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7617,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_collcash_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 43378,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_collcash_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_collcash_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3372,
+                    "categories": [
+                        "Data File 4 (caps_1988_collcash_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7629,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_collcash_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 38939,
+                        "storageIdentifier": "caps_1988_collcash_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:VvTeltUjaUZyCwPM6u9l5A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

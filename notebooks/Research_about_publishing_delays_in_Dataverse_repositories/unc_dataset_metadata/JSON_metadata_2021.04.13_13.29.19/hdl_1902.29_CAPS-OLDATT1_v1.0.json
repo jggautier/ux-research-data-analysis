@@ -1,0 +1,878 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-OLDATT1",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3460,
+            "storageIdentifier": "file://1902.29/CAPS-OLDATT1",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T20:05:55Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:22:50Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Attitudes Towards Old People Questionnaire #1 (CAPS-OLDATT1 module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-OLDATT1"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-OLDATT1"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This instrument was adapted from an original 137 item scale developed by J. Tuckman and I. Lorge, 1953. It assesses negative stereotypes and common misconceptions about old people and attitudes about old people. The original instrument consists of 137 statements about old people, divided into 13 categories: (1) physical, (2) financial, (3) conservatism, (4) family, (5) attitude toward future, (6) insecurity, (7) mental deterioration, (8) activities and interests, (9) personality traits, (10)\nbest time of life, (11) sex, (12) cleanliness, and (13) interference. The current instrument contains 33 of the original items and uses a generally agree, generally disagree answer format. A composite score was created by summing the number of 'generally agree' responses (range= 0-33)\n</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Aging"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Elderly"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Attitudes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Stereotypes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Misconceptions"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Attitudes about old people"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Tuckman, J. and I. Lorge. 'Attitudes Toward Old People.' Journal of Social Psychology, 1953, 37:249-260."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_oldatt1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10283,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_oldatt1_data",
+                        "contentType": "text/plain",
+                        "filesize": 50440,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_oldatt1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_oldatt1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10270,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_oldatt1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 48560,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_oldatt1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_oldatt1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10281,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_oldatt1_source",
+                        "contentType": "text/plain",
+                        "filesize": 31734,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_oldatt1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_oldatt1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10263,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_oldatt1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22632,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_oldatt1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_oldatt1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Data File 1 (caps_1985_oldatt1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10275,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_oldatt1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19589,
+                        "storageIdentifier": "caps_1985_oldatt1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:5p1JjX6fyovweO33ynIsdg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_oldatt1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10264,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_oldatt1_data",
+                        "contentType": "text/plain",
+                        "filesize": 50440,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_oldatt1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_oldatt1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10277,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_oldatt1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3004,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_oldatt1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_oldatt1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10271,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_oldatt1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 47440,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_oldatt1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_oldatt1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10279,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_oldatt1_source",
+                        "contentType": "text/plain",
+                        "filesize": 3629,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_oldatt1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_oldatt1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10265,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_oldatt1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22960,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_oldatt1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_oldatt1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Data File 2 (caps_1986_oldatt1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10268,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_oldatt1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19791,
+                        "storageIdentifier": "caps_1986_oldatt1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:eo1UQh/V1UR8L/Jgx4VSDA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_oldatt1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10278,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_oldatt1_data",
+                        "contentType": "text/plain",
+                        "filesize": 38610,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_oldatt1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_oldatt1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10280,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_oldatt1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3998,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_oldatt1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_oldatt1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10262,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_oldatt1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 48240,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_oldatt1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_oldatt1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10274,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_oldatt1_source",
+                        "contentType": "text/plain",
+                        "filesize": 7883,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_oldatt1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_oldatt1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10276,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_oldatt1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 23534,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_oldatt1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_oldatt1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Data File 3 (caps_1987_oldatt1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10266,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_oldatt1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20253,
+                        "storageIdentifier": "caps_1987_oldatt1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Ru3GyuKru1EdOxBaDC1u9Q==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_oldatt1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10282,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_oldatt1_data",
+                        "contentType": "text/plain",
+                        "filesize": 38610,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_oldatt1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_oldatt1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10261,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_oldatt1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3045,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_oldatt1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_oldatt1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10272,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_oldatt1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 49200,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_oldatt1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_oldatt1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10267,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_oldatt1_source",
+                        "contentType": "text/plain",
+                        "filesize": 8517,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_oldatt1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_oldatt1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10273,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_oldatt1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 23616,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_oldatt1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_oldatt1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3460,
+                    "categories": [
+                        "Data File 4 (caps_1988_oldatt1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10269,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_oldatt1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20196,
+                        "storageIdentifier": "caps_1988_oldatt1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:esf9nVxO9QSChqT9w2S/lw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,241 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/TTAHDA",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2016-12-27",
+        "datasetVersion": {
+            "id": 29255,
+            "storageIdentifier": "file://10.15139/S3/TTAHDA",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:rksHYBKco/c8OQ+rS/M9CA==",
+            "lastUpdateTime": "2016-12-28T00:55:07Z",
+            "releaseTime": "2016-12-28T00:55:07Z",
+            "createTime": "2016-12-28T00:13:26Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "termsOfAccess": "Reviewers and other experts are allowed access to this dataset upon request (contact jkmaccor@unc.edu)",
+            "fileAccessRequest": true,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Study 1: AMP Datasets & Syntax"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MacCormack, Jennifer"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MacCormack, Jennifer"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "jkmaccor@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Hanger AMP Study 1 Long formatted dataset; already cleaned in the Qualtrics to SPSS pipeline"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "MacCormack, Jennifer"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-12-27"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "Hanger AMPs_IAPS Arousal.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 29255,
+                    "dataFile": {
+                        "id": 7490365,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Hanger AMPs_IAPS Arousal.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1730,
+                        "storageIdentifier": "15942c607c5-2aa97bb15049",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "UNF": "UNF:6:4aWlZevbEwzxa1l0+H5JZg==",
+                        "rootDataFileId": -1,
+                        "md5": "33ca1e7a01a50f17cf5c2ada834557c9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "33ca1e7a01a50f17cf5c2ada834557c9"
+                        },
+                        "creationDate": "2016-12-27"
+                    }
+                },
+                {
+                    "label": "Hanger AMP Study 1_LONG.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 29255,
+                    "dataFile": {
+                        "id": 7490368,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Hanger AMP Study 1_LONG.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 539356,
+                        "storageIdentifier": "15942c60a21-db6bc885b5b4",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "UNF": "UNF:6:zvcBnL17CeJ79tAmej7GzQ==",
+                        "rootDataFileId": -1,
+                        "md5": "71e19c337994db9428f0d20a0e4003cd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "71e19c337994db9428f0d20a0e4003cd"
+                        },
+                        "creationDate": "2016-12-27"
+                    }
+                },
+                {
+                    "label": "Hanger AMP Study 1_MLM random intercept.sps",
+                    "restricted": true,
+                    "version": 2,
+                    "datasetVersionId": 29255,
+                    "dataFile": {
+                        "id": 7490366,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Hanger AMP Study 1_MLM random intercept.sps",
+                        "contentType": "application/x-spss-syntax",
+                        "filesize": 923,
+                        "storageIdentifier": "15942c607ce-c3066d10b458",
+                        "rootDataFileId": -1,
+                        "md5": "36dd121b0b896af3da6b7a0406cf9157",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "36dd121b0b896af3da6b7a0406cf9157"
+                        },
+                        "creationDate": "2016-12-27"
+                    }
+                },
+                {
+                    "label": "Hanger AMP Study 1_MLM simple slopes contrasts.sps",
+                    "restricted": true,
+                    "version": 2,
+                    "datasetVersionId": 29255,
+                    "dataFile": {
+                        "id": 7490367,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Hanger AMP Study 1_MLM simple slopes contrasts.sps",
+                        "contentType": "application/x-spss-syntax",
+                        "filesize": 275,
+                        "storageIdentifier": "15942c607cb-74c1baac59af",
+                        "rootDataFileId": -1,
+                        "md5": "ff5b2dc841fe3e50ab7d2f339993de8c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ff5b2dc841fe3e50ab7d2f339993de8c"
+                        },
+                        "creationDate": "2016-12-27"
+                    }
+                },
+                {
+                    "label": "Hanger AMP Study 1_WIDE.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 29255,
+                    "dataFile": {
+                        "id": 7490364,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Hanger AMP Study 1_WIDE.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 7581,
+                        "storageIdentifier": "15942c607d5-10180de88cb0",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "UNF": "UNF:6:13/vroZ6juOIbT+b6k0+pQ==",
+                        "rootDataFileId": -1,
+                        "md5": "f25c5f8c890cd5630ce41fc49f8a0732",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f25c5f8c890cd5630ce41fc49f8a0732"
+                        },
+                        "creationDate": "2016-12-27"
+                    }
+                }
+            ]
+        }
+    }
+}

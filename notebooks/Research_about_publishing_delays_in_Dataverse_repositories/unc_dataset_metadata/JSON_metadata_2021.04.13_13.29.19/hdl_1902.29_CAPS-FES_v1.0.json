@@ -1,0 +1,880 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-FES",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3443,
+            "storageIdentifier": "file://1902.29/CAPS-FES",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T15:45:26Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:20:15Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the Universit\ny be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Family Environment Scale (CAPS-FES module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-FES"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-FES"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Family Environment Scale was developed by Rudolph Moos in 1974 to assess dimensions of normal families. He has used it with families in psychotherapy, as well as other special groups such as families with adolescents, and single parent families. Ten subscales are used: Cohesion, Expressiveness, Conflict, Independence, Achievement, Active-recreational orientation, Moral-religious orientation, Intellectual-cultural orientation, Organization and Control. The test consists of 90 true-false it\nems with 9 items for each subscale. Scoring is based on norms for non-patient volunteer families using t-scores developed by Moos and his colleagues.\n</p><p>Research with the FES shows that families in treatment describe more conflict and less cohesion, less active recreational orientation and more control (coercive control). Differences have been observed between single parent and two-parent families as well (Moos et. al., 1982). Dr. Nancy Warren's research with Ingrid Amara and Rob Grew at UNC, has observed with single parent families, that FES conflict scores are correlated with school and family interaction problems in divorcing families\nwith latency aged children (aged 10-12).</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family environment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family cohesion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family expressiveness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family conflict"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Independence"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Achievement"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Active-recreational orientation"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Moral-religious orientation"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Intellectual-cultural orientation"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family organization"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family control"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family enmeshment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Norms for families are available in the manual by Moos, R., Insel and Humphrey (1974) The Family Environment Scale. Palo Alto, CA: Consulting Psychologist's Press."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_fes_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8637,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_fes_data",
+                        "contentType": "text/plain",
+                        "filesize": 85540,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_fes_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_fes_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8639,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_fes_source",
+                        "contentType": "text/plain",
+                        "filesize": 75594,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_fes_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_fes_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8633,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fes_data",
+                        "contentType": "text/plain",
+                        "filesize": 88270,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fes_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_fes_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8627,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fes_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 12477,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fes_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_fes_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8622,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fes_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 114160,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fes_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_fes_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8624,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fes_source",
+                        "contentType": "text/plain",
+                        "filesize": 19656,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fes_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_fes_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8631,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fes_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 44280,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fes_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_fes_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Data File 1 (caps_1986_fes_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8640,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fes_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 35502,
+                        "storageIdentifier": "caps_1986_fes_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:7Y2FTA4mKlvtVwtRbY8tVw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_fes_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8626,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_fes_data",
+                        "contentType": "text/plain",
+                        "filesize": 74880,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_fes_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_fes_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8638,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_fes_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 12477,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_fes_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_fes_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8636,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_fes_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 115680,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_fes_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_fes_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8630,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_fes_source",
+                        "contentType": "text/plain",
+                        "filesize": 15283,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_fes_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_fes_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8632,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_fes_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 48134,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_fes_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_fes_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Data File 2 (caps_1987_fes_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8635,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_fes_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 40320,
+                        "storageIdentifier": "caps_1987_fes_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Cf9gC1m2f+XXtaWDMMcpCw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fes_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8629,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fes_data",
+                        "contentType": "text/plain",
+                        "filesize": 74100,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fes_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fes_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8623,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fes_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 6992,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fes_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fes_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8641,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fes_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 101600,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fes_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fes_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8625,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fes_source",
+                        "contentType": "text/plain",
+                        "filesize": 24265,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fes_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fes_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8634,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fes_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 38622,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fes_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_fes_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3443,
+                    "categories": [
+                        "Data File 3 (caps_1988_fes_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8628,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fes_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 30780,
+                        "storageIdentifier": "caps_1988_fes_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:eTZLUULlBAu5vftrK5jUqw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

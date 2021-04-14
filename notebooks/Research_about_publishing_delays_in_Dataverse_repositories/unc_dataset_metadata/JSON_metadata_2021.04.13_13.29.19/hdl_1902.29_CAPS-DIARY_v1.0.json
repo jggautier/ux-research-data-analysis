@@ -1,0 +1,3852 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-DIARY",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3408,
+            "storageIdentifier": "file://1902.29/CAPS-DIARY",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T19:44:12Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:19:14Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Time Diary Study (CAPS-DIARY module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-DIARY"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-DIARY"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The purpose of this project is to determine how college students distribute their activities in time (with a particular focus on academic and athletic activities) and to examine the factors that influence such distributions.</p><p>Each R reported once about each of the seven days of the week and an additional time about either Saturday or Sunday. Rs were told the week before they were to report which day was assigned and were given a report form to complete during that day. They entered the i\nnformation from that form when they returned the next week.</p><p>The activity codes included were: 0: Sleeping. 1: Attending classes. 2: Studying or preparing classroom assignments. 3: Working at a jog (including CAPS). 4: Cooking, home chores, laundry, grocery shopping. 5: Errands, non-grocery shopping, gardening, animal care. 6: Eating. 7: Bathing, getting dressed, etc. 8: Sports, exercising, other physical activities. 9: Playing competitive games (cards, darts, videogames, frisbee, chess, Tr\nivial Pursuit, etc.). 10: Participating in UNC-sponsored organizations (student government, band, sorority, etc.). 11: Listening to the radio. 12: Watching TV. 13: Reading for pleasure (not studying or reading for class). 14: Going to a movie. 15: Attending a cultural event (such as a play, concert, or museum). 16: Attending a sports event as a spectator. 17: Partying. 18: Religious activities. 19: Conversation. 20: Travel. 21: Resting. 22: Doing other things\n</p><p>DIARY1-8: These datasets contain a matrix of activities by times for a particular day. Included is time period, activity code (see above), # of friends present, # of others present. (Rs were allowed to report doing two activities at once. In these cases they were also asked to report the % of time during the time period affected which was allocated to the first of the two activities listed.)</p><p>THE DIARY DATASETS ARE STORED IN RAW FORM. SUMMARY FILES, CALLED TIMEREP, CONTAIN MOST SUMMA\nRY INFORMATION WHICH MIGHT BE USED IN ANALYSES. THE DIARY DATASETS CAN BE LISTED TO ALLOW UNIQUE CODING OF THE ORIGINAL DATA.\n</p><p>Each R reported once about each of the seven days of the week and an additional time about either Saturday or Sunday.</p><p>TIMEREP: The TIMEREP dataset is a summary file which gives the amount of time spent on each activity during each of the eight reporting periods and also includes more detailed information about many of the activities from follow-up questions which were asked if the respondent reported having engaged in certain activities. Data from additional questions asked of every\nrespondent after each diary entry are also included: contact with family members, number of alcoholic drinks consumed during the 24 hour period reported on, number of friends and others present while drinking, number of cigarettes smoked on day reported about, and number of classes skipped on day reported about.\n</p><p>Follow-up questions include detail about kind of physical activity or sports participation, kind of university organization, kind of radio program listened to and place of listening, kind of TV program watched and place of watching, kind of reading material read and topic, alcohol consumed while partying and place of partying, conversation topics, kind of travel, activities included in 'other' category.</p><p>Special processing is required to put the dataset into SAS format. See spec for\ndetails.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Student activities"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Student behavior"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Academic attainment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Athletic participation"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Student culture"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Role conflict"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Time"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Time diary studies"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Robinson, John P., How Americans Use Time: A Social-Psychological Analysis of Everyday Behavior. N.Y.:Praeger, 1977."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Robinson, John P., How Americans Use Time: A Social-Psychological Analysis of Everyday Behavior. N.Y.:Praeger, 1977."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Szalai, Alexander (ed.), The Use of Time: Daily Activities of Urban and Suburban Populations in Twelve Countries. Paris, Mouton, 1972."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_diary1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8161,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_diary1_data",
+                        "contentType": "text/plain",
+                        "filesize": 230100,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_diary1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_diary2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8102,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_diary2_data",
+                        "contentType": "text/plain",
+                        "filesize": 234130,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_diary2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_diary3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8071,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_diary3_data",
+                        "contentType": "text/plain",
+                        "filesize": 229450,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_diary3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_diary4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8135,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_diary4_data",
+                        "contentType": "text/plain",
+                        "filesize": 239720,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_diary4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_diary5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8065,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_diary5_data",
+                        "contentType": "text/plain",
+                        "filesize": 231010,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_diary5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_diary6_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8082,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_diary6_data",
+                        "contentType": "text/plain",
+                        "filesize": 217100,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_diary6_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_diary7_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8162,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_diary7_data",
+                        "contentType": "text/plain",
+                        "filesize": 222560,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_diary7_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_diary8_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8158,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_diary8_data",
+                        "contentType": "text/plain",
+                        "filesize": 223990,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_diary8_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_diary_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8047,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_diary_source",
+                        "contentType": "text/plain",
+                        "filesize": 91461,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_diary_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8111,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep1_data",
+                        "contentType": "text/plain",
+                        "filesize": 135850,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8070,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep2_data",
+                        "contentType": "text/plain",
+                        "filesize": 130390,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8138,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep3_data",
+                        "contentType": "text/plain",
+                        "filesize": 133120,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8062,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep4_data",
+                        "contentType": "text/plain",
+                        "filesize": 140140,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8036,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep5_data",
+                        "contentType": "text/plain",
+                        "filesize": 134420,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep6_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8074,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep6_data",
+                        "contentType": "text/plain",
+                        "filesize": 131560,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep6_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep7_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8039,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep7_data",
+                        "contentType": "text/plain",
+                        "filesize": 132990,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep7_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep8_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8035,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep8_data",
+                        "contentType": "text/plain",
+                        "filesize": 134420,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep8_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8136,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 945520,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_timerep_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8055,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 392206,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_timerep_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_timerep_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 17 (CAPS-DIARY/caps_1985_timerep_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8045,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_timerep_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 382593,
+                        "storageIdentifier": "caps_1985_timerep_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:oAeQFKsKY0VQ0d4X5ytwWQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_diary1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8133,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_diary1_data",
+                        "contentType": "text/plain",
+                        "filesize": 248950,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_diary1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_diary2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8033,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_diary2_data",
+                        "contentType": "text/plain",
+                        "filesize": 243880,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_diary2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_diary3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8052,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_diary3_data",
+                        "contentType": "text/plain",
+                        "filesize": 235560,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_diary3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_diary4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8118,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_diary4_data",
+                        "contentType": "text/plain",
+                        "filesize": 227110,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_diary4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_diary5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8100,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_diary5_data",
+                        "contentType": "text/plain",
+                        "filesize": 231010,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_diary5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_diary6_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8160,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_diary6_data",
+                        "contentType": "text/plain",
+                        "filesize": 205790,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_diary6_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_diary7_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8038,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_diary7_data",
+                        "contentType": "text/plain",
+                        "filesize": 218140,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_diary7_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_diary8_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8091,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_diary8_data",
+                        "contentType": "text/plain",
+                        "filesize": 224770,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_diary8_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_diary_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8114,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_diary_source",
+                        "contentType": "text/plain",
+                        "filesize": 29480,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_diary_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8119,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep1_data",
+                        "contentType": "text/plain",
+                        "filesize": 432900,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8054,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep2_data",
+                        "contentType": "text/plain",
+                        "filesize": 442520,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8063,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep3_data",
+                        "contentType": "text/plain",
+                        "filesize": 442520,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8072,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep4_data",
+                        "contentType": "text/plain",
+                        "filesize": 447330,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8127,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep5_data",
+                        "contentType": "text/plain",
+                        "filesize": 452140,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep6_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8105,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep6_data",
+                        "contentType": "text/plain",
+                        "filesize": 432900,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep6_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep7_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8037,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep7_data",
+                        "contentType": "text/plain",
+                        "filesize": 437710,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep7_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep8_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8097,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep8_data",
+                        "contentType": "text/plain",
+                        "filesize": 437710,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep8_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8077,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 1613120,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8068,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep_source",
+                        "contentType": "text/plain",
+                        "filesize": 29480,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_timerep_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8137,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 492492,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_timerep_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_timerep_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 1 (caps_1986_timerep_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8125,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_timerep_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 515401,
+                        "storageIdentifier": "caps_1986_timerep_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:9laE3z8MgWeckOkVUsRqxQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_diary1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8073,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_diary1_data",
+                        "contentType": "text/plain",
+                        "filesize": 246350,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_diary1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_diary2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8085,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_diary2_data",
+                        "contentType": "text/plain",
+                        "filesize": 247000,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_diary2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_diary3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8094,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_diary3_data",
+                        "contentType": "text/plain",
+                        "filesize": 237380,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_diary3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_diary4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8093,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_diary4_data",
+                        "contentType": "text/plain",
+                        "filesize": 229190,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_diary4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_diary5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8108,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_diary5_data",
+                        "contentType": "text/plain",
+                        "filesize": 229190,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_diary5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_diary6_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8126,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_diary6_data",
+                        "contentType": "text/plain",
+                        "filesize": 211510,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_diary6_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_diary7_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8110,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_diary7_data",
+                        "contentType": "text/plain",
+                        "filesize": 198510,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_diary7_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_diary8_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8095,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_diary8_data",
+                        "contentType": "text/plain",
+                        "filesize": 219960,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_diary8_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_diary_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8056,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_diary_source",
+                        "contentType": "text/plain",
+                        "filesize": 72104,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_diary_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8096,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep1_data",
+                        "contentType": "text/plain",
+                        "filesize": 456950,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Programming Code (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8059,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14212,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8083,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 240000,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8116,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 77572,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_timerep1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 2 (caps_1987_timerep1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8088,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 68411,
+                        "storageIdentifier": "caps_1987_timerep1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:JdG6PQxkbEhISh/1i9b1FA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8040,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep2_data",
+                        "contentType": "text/plain",
+                        "filesize": 456950,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep2_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Programming Code (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8123,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep2_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14200,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep2_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8044,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 240000,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8142,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75932,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_timerep2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 3 (caps_1987_timerep2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8078,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 67095,
+                        "storageIdentifier": "caps_1987_timerep2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:gIXfcWZvd2exk5x/EN5ctg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8143,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep3_data",
+                        "contentType": "text/plain",
+                        "filesize": 452140,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep3_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Programming Code (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8129,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep3_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14212,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep3_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8069,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 237840,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8046,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 74702,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_timerep3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 4 (caps_1987_timerep3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8080,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 65759,
+                        "storageIdentifier": "caps_1987_timerep3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:ANFSU/CiY39rY5Ov+8AQ2A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8101,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep4_data",
+                        "contentType": "text/plain",
+                        "filesize": 452140,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep4_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Programming Code (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8150,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep4_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14200,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep4_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8128,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 237840,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8130,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75112,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_timerep4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 5 (caps_1987_timerep4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8132,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66157,
+                        "storageIdentifier": "caps_1987_timerep4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:GFZCIrZdPsTfez8bhlFofA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8152,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep5_data",
+                        "contentType": "text/plain",
+                        "filesize": 461760,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep5_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Programming Code (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8048,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep5_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14213,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep5_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep5_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8151,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep5_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 242160,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep5_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep5_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8146,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep5_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 76506,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep5_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_timerep5_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 6 (caps_1987_timerep5_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8086,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep5_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 67582,
+                        "storageIdentifier": "caps_1987_timerep5_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:nNBub1CzLjgYAv6K9ZWIRg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep6_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8155,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep6_data",
+                        "contentType": "text/plain",
+                        "filesize": 447330,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep6_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep6_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Programming Code (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8154,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep6_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14192,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep6_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep6_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8149,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep6_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 235680,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep6_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep6_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8144,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep6_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 74374,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep6_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_timerep6_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 7 (caps_1987_timerep6_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8041,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep6_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 65479,
+                        "storageIdentifier": "caps_1987_timerep6_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:7er3HJ16X/kx7zv7+wRS/w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep7_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8103,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep7_data",
+                        "contentType": "text/plain",
+                        "filesize": 452140,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep7_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep7_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Programming Code (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8153,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep7_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14213,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep7_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep7_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8084,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep7_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 237840,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep7_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep7_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8057,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep7_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75276,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep7_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_timerep7_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 8 (caps_1987_timerep7_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8134,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep7_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66192,
+                        "storageIdentifier": "caps_1987_timerep7_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:8+IbuuCF6uzauQsIiSFHqg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep8_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8107,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep8_data",
+                        "contentType": "text/plain",
+                        "filesize": 452140,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep8_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep8_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Programming Code (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8064,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep8_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14192,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep8_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep8_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8112,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep8_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 237840,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep8_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_timerep8_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8122,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep8_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75522,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_timerep8_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_timerep8_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 9 (caps_1987_timerep8_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8121,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_timerep8_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66604,
+                        "storageIdentifier": "caps_1987_timerep8_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:h4amTt5POcOg9OhY0NiFig==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_diary1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8124,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_diary1_data",
+                        "contentType": "text/plain",
+                        "filesize": 234390,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_diary1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_diary2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8104,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_diary2_data",
+                        "contentType": "text/plain",
+                        "filesize": 226850,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_diary2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_diary3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8157,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_diary3_data",
+                        "contentType": "text/plain",
+                        "filesize": 220870,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_diary3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_diary4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8139,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_diary4_data",
+                        "contentType": "text/plain",
+                        "filesize": 219050,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_diary4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_diary5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8113,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_diary5_data",
+                        "contentType": "text/plain",
+                        "filesize": 223730,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_diary5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_diary6_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8053,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_diary6_data",
+                        "contentType": "text/plain",
+                        "filesize": 213980,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_diary6_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_diary7_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8066,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_diary7_data",
+                        "contentType": "text/plain",
+                        "filesize": 209820,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_diary7_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_diary8_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8147,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_diary8_data",
+                        "contentType": "text/plain",
+                        "filesize": 210210,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_diary8_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_diary_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8079,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_diary_source",
+                        "contentType": "text/plain",
+                        "filesize": 70468,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_diary_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8106,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep1_data",
+                        "contentType": "text/plain",
+                        "filesize": 447330,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8092,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 235680,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8043,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75768,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_timerep1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 10 (caps_1988_timerep1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8089,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66400,
+                        "storageIdentifier": "caps_1988_timerep1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:nzDHb3JY13qiwi70w6JgOA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8032,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep2_data",
+                        "contentType": "text/plain",
+                        "filesize": 452140,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8109,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 237840,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8145,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75358,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_timerep2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 11 (caps_1988_timerep2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8140,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66085,
+                        "storageIdentifier": "caps_1988_timerep2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:S/g88KNpkFEQrQr2l2OJfA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8090,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep3_data",
+                        "contentType": "text/plain",
+                        "filesize": 456950,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8099,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 240000,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8156,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75358,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_timerep3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 12 (caps_1988_timerep3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8042,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66217,
+                        "storageIdentifier": "caps_1988_timerep3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:rQgBHcmLi0veMkERhbqTIA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8060,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep4_data",
+                        "contentType": "text/plain",
+                        "filesize": 447330,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8098,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 235680,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8049,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 74784,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_timerep4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 18 (CAPS-DIARY/caps_1988_timerep4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8115,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 65433,
+                        "storageIdentifier": "caps_1988_timerep4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:xJde9W4MZZLACpI9DpEHog==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8120,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep5_data",
+                        "contentType": "text/plain",
+                        "filesize": 456950,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep5_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8159,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep5_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 240000,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep5_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep5_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8050,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep5_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75686,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep5_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_timerep5_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 13 (caps_1988_timerep5_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8087,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep5_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66377,
+                        "storageIdentifier": "caps_1988_timerep5_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:w+70Jr6GhO5zbrbaLtMtDw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep6_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8117,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep6_data",
+                        "contentType": "text/plain",
+                        "filesize": 461760,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep6_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep6_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8067,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep6_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 242160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep6_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep6_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8075,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep6_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75850,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep6_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_timerep6_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 14 (caps_1988_timerep6_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8081,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep6_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66745,
+                        "storageIdentifier": "caps_1988_timerep6_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:fVh0DYR6dLCOXvF/nTYkqA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep7_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8141,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep7_data",
+                        "contentType": "text/plain",
+                        "filesize": 461760,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep7_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep7_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8076,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep7_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 242160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep7_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep7_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8058,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep7_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 75522,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep7_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_timerep7_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 15 (caps_1988_timerep7_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8131,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep7_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66338,
+                        "storageIdentifier": "caps_1988_timerep7_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:EWks8FZ9f8oNT//BS/AdSw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep8_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8061,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep8_data",
+                        "contentType": "text/plain",
+                        "filesize": 461760,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep8_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep8_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8051,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep8_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 242160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep8_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_timerep8_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8148,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep8_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 76260,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_timerep8_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_timerep8_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3408,
+                    "categories": [
+                        "Data File 16 (caps_1988_timerep8_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8034,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_timerep8_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 66939,
+                        "storageIdentifier": "caps_1988_timerep8_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:q9Py+mqwROZJW8OGByyOMQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

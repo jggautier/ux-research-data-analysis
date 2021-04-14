@@ -1,0 +1,658 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/10423",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-12-18",
+        "datasetVersion": {
+            "id": 1566,
+            "storageIdentifier": "file://1902.29/10423",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "distributionDate": "2008-01-22",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-12-18T15:57:05Z",
+            "releaseTime": "2009-12-18T00:00:00Z",
+            "createTime": "2009-10-02T13:27:22Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Monmouth University New Jersey Poll, Number 17"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "NNSP-NJ-MUP-017"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Monmouth University Polling Institute"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Monmouth University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This survey was conducted among residents of New Jersey on the 2008 Elections.  Topics include voting intention in Presidential, Gubernatorial, and Senate elections, as well as, approval ratings of state politician, and opinions gas and energy concerns, school bus safety and sex education."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2009"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "New Jersey"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Presidents--United States--Elections"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Elections--United States--Congress"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Gubernatorial candidates"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Schools"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Energy"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sex education"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: STANDARD DEPOSIT TERMS 1.0 Type: DATAPASS:TERMS:STANDARD Notes: This study was deposited under the terms of the Data-PASS standard deposit terms. A copy of the usage agreement is included in the file section of this study.;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Monmouth University Polling Institute"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Monmouth University"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.monmouth.edu/polling/default.asp"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.monmouth.edu/polling/images/MU_Polling_logo.jpg"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2008"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "West Long Branch, NJ"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Univ. of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2008-01-22"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2009-10-02"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2008-07-17"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2008-07-21"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "nnsp_jersey_monmouth_codes.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "Key to Polls 1-31a, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4333333,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_codes.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 42806,
+                        "description": "",
+                        "storageIdentifier": "3234",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "Data-PASS Deposit Agreement",
+                    "label": "nnsp_jersey_monmouth_deposit.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "DataPass Deposit Form, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4309414,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_deposit.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 87254,
+                        "description": "Data-PASS Deposit Agreement",
+                        "storageIdentifier": "3061",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "OBAMA TAKES SUMMER LEAD IN JERSEY",
+                    "label": "nnsp_jersey_monmouth_mup17_press1.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4309412,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup17_press1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 195587,
+                        "description": "OBAMA TAKES SUMMER LEAD IN JERSEY",
+                        "storageIdentifier": "3063",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "CONTRADICTORY VIEWS ON NEW JERSEY SENATE RACE",
+                    "label": "nnsp_jersey_monmouth_mup17_press2.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4309418,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup17_press2.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 176394,
+                        "description": "CONTRADICTORY VIEWS ON NEW JERSEY SENATE RACE",
+                        "storageIdentifier": "3064",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "CORZINE APPROVAL INCHES UP, BUT HE STILL GETS A \"C-MINUS\"",
+                    "label": "nnsp_jersey_monmouth_mup17_press3.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4309411,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup17_press3.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 198328,
+                        "description": "CORZINE APPROVAL INCHES UP, BUT HE STILL GETS A \"C-MINUS\"",
+                        "storageIdentifier": "3065",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "GAS PRICES IMPACT GARDEN STATE",
+                    "label": "nnsp_jersey_monmouth_mup17_press4.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4309413,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup17_press4.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 172461,
+                        "description": "GAS PRICES IMPACT GARDEN STATE",
+                        "storageIdentifier": "3066",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "JERSEY VIEWS ON TEEN PREGNANCY AND SEX ED",
+                    "label": "nnsp_jersey_monmouth_mup17_press5.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4309419,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup17_press5.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 179018,
+                        "description": "JERSEY VIEWS ON TEEN PREGNANCY AND SEX ED",
+                        "storageIdentifier": "3067",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "MIXED VIEWS ON SCHOOL BUS SAFETY",
+                    "label": "nnsp_jersey_monmouth_mup17_press6.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "Press Release, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4309410,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup17_press6.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 168139,
+                        "description": "MIXED VIEWS ON SCHOOL BUS SAFETY",
+                        "storageIdentifier": "3068",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_jersey_monmouth_mup17_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "Questionnaire, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 4309415,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup17_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 39317,
+                        "description": "",
+                        "storageIdentifier": "3069",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_jersey_monmouth_mup17_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "SAS Export Library"
+                    ],
+                    "dataFile": {
+                        "id": 4309416,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup17_sas.export",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 418560,
+                        "description": "",
+                        "storageIdentifier": "3070",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_jersey_monmouth_mup17_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1566,
+                    "categories": [
+                        "Data File (nnsp_jersey_monmouth_mup17_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 4309420,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_jersey_monmouth_mup17_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 253420,
+                        "description": "",
+                        "storageIdentifier": "3071",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Vrb8XkH2sZK7YMRFjqA0Zw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

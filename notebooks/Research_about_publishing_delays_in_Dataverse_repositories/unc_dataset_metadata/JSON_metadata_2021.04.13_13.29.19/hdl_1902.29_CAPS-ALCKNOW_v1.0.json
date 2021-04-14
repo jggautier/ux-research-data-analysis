@@ -1,0 +1,566 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-ALCKNOW",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3575,
+            "storageIdentifier": "file://1902.29/CAPS-ALCKNOW",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T15:15:42Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:17:10Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Knowledge about Alcohol (CAPS-ALCKNOW module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-ALCKNOW"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-ALCKNOW"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This unit asks Rs about beliefs about alcohol use. Items are different in 1985 and 1986.</p><p>In the CAPS85 Alcohol Knowledge Questionnaire all statements are false. Composite scores are obtained as follows: TOTAL SCORE - Total # of False responses. PROALCOHOL BELIEFS - # of False responses for variables SLEEP, COLD, SOBER, DRUGS, SOCIAL. ANTIALCOHOL BELIEFS - # of False responses for variables CRIME, ORGANS, DISORDER, TRAFFIC, ALCOHOL.</p><p>The CAPS86 ALCKNOW unit measures respondents know\nledge about alcohol. All respondents (regardless of own drink type) answer these questions.\n</p><p>Scoring info for CAPS86 unit: TRUE KNOW1 KNOW3 KNOW5 KNOW7 KNOW9 / FALSE KNOW2 KNOW4 KNOW6 KNOW8 KNOW10</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Alcohol"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Drinking"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Alcohol knowledge"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Beliefs about alcohol"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "College student drinking"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Student drinking"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cognitive dissonance"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Information for the development of items from: Hafen, Brent Q., Alcohol, West Pub. Co., St. Paul, Minn., 1983. Department of Health, Education, and Welfare, Third Special Report to the U.S. Congress on Alcohol and Health."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_alcknow_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 6804,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_alcknow_data",
+                        "contentType": "text/plain",
+                        "filesize": 37830,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_alcknow_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_alcknow_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 6799,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_alcknow_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 30240,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_alcknow_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_alcknow_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 6796,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_alcknow_source",
+                        "contentType": "text/plain",
+                        "filesize": 11481,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_alcknow_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_alcknow_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 6797,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_alcknow_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17712,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_alcknow_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_alcknow_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "Data File 1 (caps_1985_alcknow_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 6798,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_alcknow_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15703,
+                        "storageIdentifier": "caps_1985_alcknow_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:ZpNYPafqDtBHbC4Wkq2Umw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_alcknow_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 6795,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_alcknow_data",
+                        "contentType": "text/plain",
+                        "filesize": 37050,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_alcknow_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_alcknow_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "SAS Programming Code (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 6801,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_alcknow_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3215,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_alcknow_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_alcknow_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 6805,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_alcknow_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 26000,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_alcknow_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_alcknow_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 6802,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_alcknow_source",
+                        "contentType": "text/plain",
+                        "filesize": 4949,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_alcknow_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_alcknow_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 6803,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_alcknow_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17056,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_alcknow_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_alcknow_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3575,
+                    "categories": [
+                        "Data File 2 (caps_1986_alcknow_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 6800,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_alcknow_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 14923,
+                        "storageIdentifier": "caps_1986_alcknow_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:DKQCvEovSltiN2DHONMr8A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

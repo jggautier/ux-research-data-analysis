@@ -1,0 +1,808 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/OOYETQ",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2018-03-01",
+        "datasetVersion": {
+            "id": 30357,
+            "storageIdentifier": "file://10.15139/S3/OOYETQ",
+            "versionNumber": 1,
+            "versionMinorNumber": 2,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2018-04-10T17:10:09Z",
+            "releaseTime": "2018-04-10T17:10:09Z",
+            "createTime": "2018-04-10T17:09:24Z",
+            "license": "NONE",
+            "citationRequirements": "In accordance with the norms of the academic and scientific communities, works (publications, presentations or research reports) which use the data from this study should include appropriate citation to the source of the data.",
+            "disclaimer": "Data Disclaimer: Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall Emory University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "FlyHealthyTM study"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Hertzberg, Vicki"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Hertzberg, Vicki"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "vhertzb@emory.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The dataset contains programs and data for contacts between passengers and crew on 1000 simulated flights, to be used to simulate infectious disease transmission on these flights. Two READ ME files describe how to use the other files here."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2017-11-07"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "social networks"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "infectious diseases"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "influenza"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "pandemic"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Vicki Stover Hertzberg, Howard Weiss, Lisa Elon, Wenpei Si, Sharon L. Norris, The FlyHealthy Research Team. Behaviors, movements, and transmission of droplet-mediated respiratory diseases during transcontinental airline flights. Proceedings of the National Academy of Sciences (PNAS), March 19, 2018, 201711611. "
+                                    },
+                                    "publicationIDType": {
+                                        "typeName": "publicationIDType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "doi"
+                                    },
+                                    "publicationIDNumber": {
+                                        "typeName": "publicationIDNumber",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "10.1073/pnas.1711611115"
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://doi.org/10.1073/pnas.1711611115"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory Libraries & Information Technology Services"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.emory.edu/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Hertzberg, Vicki"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2017-11-07"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "SAS data set called by program",
+                    "label": "aisle.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501139,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "aisle.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 5120,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132f0b048-bdf3c3cbb5aa",
+                        "rootDataFileId": -1,
+                        "md5": "23f0afbd59fc1f24bd925237da387d63",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "23f0afbd59fc1f24bd925237da387d63"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "example output",
+                    "label": "Contact probability output 14 C 018 pER 1.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501131,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Contact probability output 14 C 018 pER 1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 237601,
+                        "description": "example output",
+                        "storageIdentifier": "16132ea7d46-4e056fc6c929",
+                        "rootDataFileId": -1,
+                        "md5": "7a8fbdedd4d48dbc876a85a476813023",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7a8fbdedd4d48dbc876a85a476813023"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "crew1.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501128,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "crew1.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 7471104,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132ea1118-b1e05d2fb9e8",
+                        "rootDataFileId": -1,
+                        "md5": "03dad2723140690f972d78c9a20ca252",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "03dad2723140690f972d78c9a20ca252"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "crew2.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501127,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "crew2.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 7733248,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132ea0b28-e7580d57dc72",
+                        "rootDataFileId": -1,
+                        "md5": "a3eb6d238faf672976b0fb8670da4e92",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a3eb6d238faf672976b0fb8670da4e92"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "crew3.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501126,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "crew3.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 9306112,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132ea0503-f535d966f267",
+                        "rootDataFileId": -1,
+                        "md5": "cd099b62c01ff843e6abd6ad1901a8dc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cd099b62c01ff843e6abd6ad1901a8dc"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "crew4.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501125,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "crew4.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 7536640,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132e9fbb8-04a2827427d1",
+                        "rootDataFileId": -1,
+                        "md5": "791dd7cb86647998e29b82739c897ac9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "791dd7cb86647998e29b82739c897ac9"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "crew5.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501124,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "crew5.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 4915200,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132e9f5a5-12fc32ec5866",
+                        "rootDataFileId": -1,
+                        "md5": "f9d2118a37da6100dc1297401d14aac6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f9d2118a37da6100dc1297401d14aac6"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "crew6.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501123,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "crew6.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 1966080,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132e9f16d-d2572cf714d7",
+                        "rootDataFileId": -1,
+                        "md5": "7ee67d5a440aac966adfd54350f73935",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7ee67d5a440aac966adfd54350f73935"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "crew_list1000.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501133,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "crew_list1000.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 196608,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132f099db-0836b9c97e44",
+                        "rootDataFileId": -1,
+                        "md5": "67099c25181e8e44e3787c6ab5908847",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "67099c25181e8e44e3787c6ab5908847"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "emptyseatlist.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501136,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "emptyseatlist.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 102400,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132f0aeba-232bb92b8515",
+                        "rootDataFileId": -1,
+                        "md5": "b552541c5f00e189f6a94468dd245b4d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b552541c5f00e189f6a94468dd245b4d"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "fake.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501138,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fake.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 5120,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132f0afb7-23d39e62bee7",
+                        "rootDataFileId": -1,
+                        "md5": "8a09b3a4b47297c20836593670283c6e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8a09b3a4b47297c20836593670283c6e"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS program to simulate infections when crew is infectious source.",
+                    "label": "Fantasy Flight Infection Simulation Source is CREW 4 .sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501120,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Fantasy Flight Infection Simulation Source is CREW 4 .sas",
+                        "contentType": "application/x-sas-syntax",
+                        "filesize": 14031,
+                        "description": "SAS program to simulate infections when crew is infectious source.",
+                        "storageIdentifier": "16132e40388-8b6b44511766",
+                        "rootDataFileId": -1,
+                        "md5": "2e23af42e33421e559a143d5f00ba142",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2e23af42e33421e559a143d5f00ba142"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS program to simulate infections from a passenger",
+                    "label": "Fantasy Flight Infection Simulation Source is PASS 2.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501119,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Fantasy Flight Infection Simulation Source is PASS 2.sas",
+                        "contentType": "application/x-sas-syntax",
+                        "filesize": 25231,
+                        "description": "SAS program to simulate infections from a passenger",
+                        "storageIdentifier": "16132e32d75-55a72ab92988",
+                        "rootDataFileId": -1,
+                        "md5": "ae5da54c8791ae6c7492f4108d069359",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ae5da54c8791ae6c7492f4108d069359"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS program you must modify to call the simulation when crew is infectious source.",
+                    "label": "Fantasy Flight simulation where a CREW MEMBER  is Source (macro call).sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501122,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Fantasy Flight simulation where a CREW MEMBER  is Source (macro call).sas",
+                        "contentType": "application/x-sas-syntax",
+                        "filesize": 1499,
+                        "description": "SAS program you must modify to call the simulation when crew is infectious source.",
+                        "storageIdentifier": "16132e94652-e6e41f0b7962",
+                        "rootDataFileId": -1,
+                        "md5": "7afa5f105d44e2dd78f6a0eb928c998f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7afa5f105d44e2dd78f6a0eb928c998f"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS program you must modify to call the simulation when passenger is infectious source.",
+                    "label": "Fantasy Flight simulation where Passenger is Source (macro call).sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501121,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Fantasy Flight simulation where Passenger is Source (macro call).sas",
+                        "contentType": "application/x-sas-syntax",
+                        "filesize": 2593,
+                        "description": "SAS program you must modify to call the simulation when passenger is infectious source.",
+                        "storageIdentifier": "16132e892cb-ae8ca40056e0",
+                        "rootDataFileId": -1,
+                        "md5": "bb83a85f5e7991e79877012feba7fe40",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bb83a85f5e7991e79877012feba7fe40"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "fantasyflights_und1m.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501132,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fantasyflights_und1m.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 583467008,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132f08f92-c6ce164d2c8e",
+                        "rootDataFileId": -1,
+                        "md5": "eba1b1110b84bdf66582fcb167ae7dcf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "eba1b1110b84bdf66582fcb167ae7dcf"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "filledseatlist1000.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501134,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "filledseatlist1000.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 11927552,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132f0a3c0-f47f60fcd3d4",
+                        "rootDataFileId": -1,
+                        "md5": "d8b59fbf1258b428673d5ad6e7ec8d21",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d8b59fbf1258b428673d5ad6e7ec8d21"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "Example output",
+                    "label": "Infection Pattern for CREW as source 018 pER 1.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501129,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Infection Pattern for CREW as source 018 pER 1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 242144,
+                        "description": "Example output",
+                        "storageIdentifier": "16132ea745f-76fd6c4f6038",
+                        "rootDataFileId": -1,
+                        "md5": "cbbe7f480e75c90802879cd19029d550",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cbbe7f480e75c90802879cd19029d550"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "Example output",
+                    "label": "INFECTION probability output 14 C 018 pER 1.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501130,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "INFECTION probability output 14 C 018 pER 1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 245315,
+                        "description": "Example output",
+                        "storageIdentifier": "16132ea78ca-510ffebe8b2c",
+                        "rootDataFileId": -1,
+                        "md5": "eadd68d7105f10d1b6a915377fb3bed3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "eadd68d7105f10d1b6a915377fb3bed3"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "This document describes how to make an appropriate grouping of these files into folders once you have downloaded them. You will have to abide by this file structure to some extent to get the programs to run correctly. We have used \"...\" to designate the path to the group of folders.",
+                    "label": "READ ME 1 regarding file and folder structure for DATAVERSE.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501182,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "READ ME 1 regarding file and folder structure for DATAVERSE.txt",
+                        "contentType": "text/plain",
+                        "filesize": 1143,
+                        "description": "This document describes how to make an appropriate grouping of these files into folders once you have downloaded them. You will have to abide by this file structure to some extent to get the programs to run correctly. We have used \"...\" to designate the path to the group of folders.",
+                        "storageIdentifier": "1615901b66f-59a9316da6d7",
+                        "rootDataFileId": -1,
+                        "md5": "48d5368d7564b653c5815fa476e04079",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "48d5368d7564b653c5815fa476e04079"
+                        },
+                        "creationDate": "2018-02-02"
+                    }
+                },
+                {
+                    "description": "This document describes how to set up and run the macro programs to simulate infection transmitted by a crew member or a passenger. The output PDFs that you can download are what results from a crew and from a passenger seated in 14C or 26A, and you can change the seats where you want the infectious passenger to sit.",
+                    "label": "READ ME 2 instructions for running data programs.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501183,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "READ ME 2 instructions for running data programs.txt",
+                        "contentType": "text/plain",
+                        "filesize": 3551,
+                        "description": "This document describes how to set up and run the macro programs to simulate infection transmitted by a crew member or a passenger. The output PDFs that you can download are what results from a crew and from a passenger seated in 14C or 26A, and you can change the seats where you want the infectious passenger to sit.",
+                        "storageIdentifier": "1615901b6ee-0e77492884d7",
+                        "rootDataFileId": -1,
+                        "md5": "596e8b5510b9b8f4b9cb968cf2f6dc7d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "596e8b5510b9b8f4b9cb968cf2f6dc7d"
+                        },
+                        "creationDate": "2018-02-02"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "seatlist1000flights.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501135,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "seatlist1000flights.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 12058624,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132f0adab-a5d9e73cdebc",
+                        "rootDataFileId": -1,
+                        "md5": "2cc16670c8f4a26aceb1ed41ec3413e1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2cc16670c8f4a26aceb1ed41ec3413e1"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "seatlist2.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501137,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "seatlist2.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 9216,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132f0af29-6343a20a1dd8",
+                        "rootDataFileId": -1,
+                        "md5": "8560d30688c733a2bacb017ae476986c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8560d30688c733a2bacb017ae476986c"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                },
+                {
+                    "description": "SAS data set called by program",
+                    "label": "seatlist.sas7bdat",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30357,
+                    "dataFile": {
+                        "id": 7501140,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "seatlist.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 13312,
+                        "description": "SAS data set called by program",
+                        "storageIdentifier": "16132f0b0ea-7c9d00886dcf",
+                        "rootDataFileId": -1,
+                        "md5": "0ca0d71c9a63e7519040be3342a9bd16",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0ca0d71c9a63e7519040be3342a9bd16"
+                        },
+                        "creationDate": "2018-01-26"
+                    }
+                }
+            ]
+        }
+    }
+}

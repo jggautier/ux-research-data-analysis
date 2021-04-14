@@ -1,0 +1,976 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-FACES",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3321,
+            "storageIdentifier": "file://1902.29/CAPS-FACES",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T15:26:46Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:20:08Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Family Adaptability and Cohesion Evaluation Scales (FACES) (CAPS-FACES module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-FACES"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-FACES"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Family Adaptability and Cohesion Evaluation Scales (FACES) were developed by Olson and his associates from a theoretical circumplex model of family structure which focuses on two major dimensions of the family: cohesion and adaptability. Within these two large areas, the researchers have attempted to integrate concepts such as boundaries, closeness, coalitions, decision-making, family power, negotiation style and role relationships. The extent to which a family is adaptable means how flex\nible the family is in areas such as role relationships and power, while cohesion is defined as the emotional bonding of family members for each other. The scale has 30 items which are answered on a scale from 1-5. Two scores are obtained, one for adaptability and one for cohesion. Based on comparisons with the norm groups for a family's score on these two dimensions, the family can be scored on a circumplex model involving 16 different family types. Generally, family members are asked to complete the questionnaires for both real and ideal family, but for the purposes of this CAPS study, only the real family (actual) descriptions were obtained.\n</p><p>Scaling information: %%%%%%%%%%%%%CREATE COHESION SCALE%%%%%%% %%%REVERSE SCORE ITEMS 3,9,15,19,25,29%%%% ARRAY REV1 FACES03 FACES09 FACES15 FACES19 FACES25 FACES29 ARRAY NEG1 NFAC03 NFAC09 NFAC15 NFAC19 NFAC25 NFAC29 DO OVER REV1 IF REV1=1 THEN NEG1=5 IF REV1=2 THEN NEG1=4 IF REV1=3 THEN NEG1=3 IF REV1=4 THEN NEG1=2 IF REV1=5 THEN NEG1=1 END %%%CREATE SUMS FOR POS AND NEG ITEMS%%% SUMNEG1=SUM(NFAC03,NFAC09,NFAC15,NFAC19,NFAC25,NFAC29) SUMPOS1=SUM(FACES01,FACES05,FACES07,FACES11,FACES13,F\nACES17,FACES21, FACES23,FACES27,FACES30) %%%CREATE COHESION SCALE%%% COHESION=(36-SUMNEG1)+SUMPOS1 %%%NOTE: RANGE OF COHESION SCORE SHOULD BE BETWEEN 6-80%%% %%%%CREATE COHESION SUBSCALESa%%%% EMOBOND =FACES01+FACES17 FAMBOUND=NFAC03+NFAC19 COALIT =NFAC09+NFAC29 TIME =FACES07+FACES23 SPACE =FACES05+NFAC25 FRIENDS =FACES11+FACES27 DECISMAK=FACES13+FACES21 INTREC =NFAC15+FACES30 %%%%%%CUTOFF POINTS FOR LEVELS OF COHESION%%%%%%% (FROM FACES MANUAL...THESE ARE ADOLESCENT CUTOFFS) DISENGAGED: 47.9 OR\nBELOW SEPARATED : 48.0-56.0 CONNECTED : 56.1-64.0 ENMESHED : 64.1 AND ABOVE %%%%%%%%%%%%%%%%%% UPDATE ADAPTABILITY SCALE%%%%% %%%%%%%%%%%% %%%REVERSE SCORE ITEMS 24 AND 28 %%%% ARRAY REV2 FACES24 FACES28 ARRAY NEG2 NFAC24 NFAC28 DO OVER REV2 IF REV2=1 THEN NEG2=5 IF REV2=2 THEN NEG2=4 IF REV2=3 THEN NEG2=3 IF REV2=4 THEN NEG2=2 IF REV2=5 THEN NEG2=1 END %%%CREATE SUMS FOR POS AND NEG ITEMS%%% SUMNEG2=SUM(NFAC24,NFAC28) SUMPOS2=SUM(FACES02,FACES04,FACES06,FACES08,FACES10,FACES12,FACES14, FACES16,FACES18,FACES20,FACES22,FACES26) %%%CREATE ADAPTABILITY SCALE%%% ADAPTAB=(12-SUMNEG2)+SUMPOS2 %%%NOTE: RANGE OF ADAPTAB SCORE SHOULD BE BETWEEN 15-70%%% %%%%%CREATE ADAPTABILITY SUBSCALES%%%% ASSERTIV=FACES02+FACES14+NFAC28 LEADERSH=FACES04+FACES16 DISCIPL=FACES06+FACES18 NEGOTIA=FACES08+FACES20+FACES26 ROLES=FACES10+FACES22 RULES=FACES12+NFAC24 %%%%%%%ADAPTABLITY CUTOFF POINTS%%%%%%%%%%%%%%% (THESE ARE FROM FACES MANUAL....ADOLESCENT CUTOFFS) CHAOTIC : 52.1 OR ABOVE FLEXIBLE : 45.1-52.0 STRUCTURED : 38.0-45.0 RIGID : 37.9 OR BELOW %%%%DROP REVERSE SCALED VARIABLES%%%% DROP NFAC03 NFAC09 NFAC15 NFAC19 NFAC25 NFAC29 NFAC24 NFAC28 %%%%%%%LABELS%%%%%%%% LABEL COHESION=COHESION SCALE ADAPTAB =ADAPTABILITY SCALE EMOBOND =EMOTIONAL BONDING SCALE FAMBOUND=FAMILY BOUNDARIES SCALE COALIT =COALITION SCALE TIME =TIME SCALE SPACE =SPACE SCALE FRIENDS =FRIENDS SCALE DECISMAK=DECISION MAKING SCALE INTREC =INTERESTS AND RECREATION SCALE ASSERTIV=ASSERTIVENESS SCALE LEADERSH=LEADERSHIP CONTROL SCALE DISCIPL =DISCIPLINE SCALE NEGOTIA =NEGOTIATION SCALE ROLES =ROLES SCALE RULES =RULES SCALE\n</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family cohesion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family adaptability"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family structure"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family closeness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Conflict resolution"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family enmeshment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family disengagement"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Friendship"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Decision making"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Assertiveness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Discipline"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family adaptability and cohesion evaluation scale"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Conflict adjustment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "See Olson, D. H., Portner, J. and Bell, R. (1984) FACES II Family Adaptability and Cohesion Evaluation Scales. Unpublished manuscript. Available from Nancy J. Warren, Psychiatry, UNC-CH, 966-3377)."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_faces_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8522,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_faces_data",
+                        "contentType": "text/plain",
+                        "filesize": 39520,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_faces_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_faces_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8544,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_faces_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 51760,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_faces_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_faces_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8534,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_faces_source",
+                        "contentType": "text/plain",
+                        "filesize": 41409,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_faces_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_faces_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8523,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_faces_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22140,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_faces_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_faces_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Data File 1 (caps_1985_faces_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8540,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_faces_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18348,
+                        "storageIdentifier": "caps_1985_faces_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Dk07gtOsM/n2QAVLp3I8Fw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_faces_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8539,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_faces_data",
+                        "contentType": "text/plain",
+                        "filesize": 50960,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_faces_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_faces_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8536,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_faces_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5020,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_faces_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_faces_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8531,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_faces_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 58960,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_faces_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_faces_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8542,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_faces_source",
+                        "contentType": "text/plain",
+                        "filesize": 4901,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_faces_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_faces_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8543,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_faces_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 26650,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_faces_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_faces_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Data File 2 (caps_1986_faces_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8533,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_faces_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 22747,
+                        "storageIdentifier": "caps_1986_faces_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:APfehGYytQ+6oI5wqSf+lg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_faces_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8527,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_faces_data",
+                        "contentType": "text/plain",
+                        "filesize": 36660,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_faces_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_faces_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8525,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_faces_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5728,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_faces_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_faces_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8524,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_faces_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 60480,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_faces_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_faces_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8541,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_faces_source",
+                        "contentType": "text/plain",
+                        "filesize": 8827,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_faces_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_faces_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8538,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_faces_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 26978,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_faces_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_faces_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Data File 3 (caps_1987_faces_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8526,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_faces_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 22844,
+                        "storageIdentifier": "caps_1987_faces_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:kBeGiOCI9wMCNobShyoxdw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_faces_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8529,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_faces_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_faces_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_faces_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8532,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_faces_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3321,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_faces_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_faces_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8537,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_faces_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 45200,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_faces_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_faces_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8528,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_faces_source",
+                        "contentType": "text/plain",
+                        "filesize": 12258,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_faces_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_faces_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8535,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_faces_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22550,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_faces_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_faces_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3321,
+                    "categories": [
+                        "Data File 4 (caps_1988_faces_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8530,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_faces_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19008,
+                        "storageIdentifier": "caps_1988_faces_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:IfUnZTRcfZkxSrLU1dSVqw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

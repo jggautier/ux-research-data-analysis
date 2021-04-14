@@ -1,0 +1,1761 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/C-39",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 4067,
+            "storageIdentifier": "file://1902.29/C-39",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T14:56:59Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Census of population and housing, 1970 summary statistic file 3"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "C-39"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:study"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "14-01-SUM3-DUALABS-70"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Data Use and Access Laboratories (DUALabs)"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The data for the third count file consists of 38 tables containing 250 population and housing data cells. Population items that are cross- tabulated include race and sex, age and sex, etc. Housing items cross- tabulated include families by plumbing facilities, population in units with 1.01 or more persons per room by tenure and race of head, etc.</p><p>Summaries are provided for census blocks in urbanized areas and also areas where blocks were identified on a contractual basis. Census tract s\nummaries are provided for that portion containing blocks.</p><p>Data contained in the files pertain to the date of the census, April 1, 1970</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Housing"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:SUBJECT.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census of Housing: 1970, Vol I, Block Statistics, (HC (3), Washington : U.S. Bureau of the Census."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census of Housing: 1970, Vol I, Block Statistics, (HC (3), Washington : U.S. Bureau of the Census."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Index to the 1970 Census Summary Tapes, Washington : U.S.    Government Printing Office."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census of Housing: 1970, Vol I, Block Statistics, (HC (3), Washington : U.S. Bureau of the Census."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Index to the 1970 Census Summary Tapes, Washington : U.S.    Government Printing Office."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Block Statistic Reports"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: The universe is a complete count of all persons and housing units in the United States.;Type: ODUM:ACCESS.CATEGORY Notes: I;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Data Use and Access Laboratories (DUALabs)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1972"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Arlington, VA"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1970-04-01"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Summary statistics)"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Population, Census, 19th, 1970, Blocks, Urbanized Areas, Census Tracts"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "census_c70_pdfdocs_sf3.cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Codebook, PDF Format"
+                    ],
+                    "dataFile": {
+                        "id": 5906,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_pdfdocs_sf3.cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2365283,
+                        "description": "",
+                        "storageIdentifier": "census_c70_pdfdocs_sf3.cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_pdfdocs_user.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "User's Guide to 1970 Census, PDF Format"
+                    ],
+                    "dataFile": {
+                        "id": 5929,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_pdfdocs_user.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 22581458,
+                        "description": "",
+                        "storageIdentifier": "census_c70_pdfdocs_user.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ak",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5939,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ak",
+                        "contentType": "text/plain",
+                        "filesize": 3224557,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ak",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_al",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5918,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_al",
+                        "contentType": "text/plain",
+                        "filesize": 33432952,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_al",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ar",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5949,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ar",
+                        "contentType": "text/plain",
+                        "filesize": 15826771,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ar",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_az",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5908,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_az",
+                        "contentType": "text/plain",
+                        "filesize": 23411714,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_az",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ca",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5933,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ca",
+                        "contentType": "text/plain",
+                        "filesize": 253683998,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ca",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_co",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5940,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_co",
+                        "contentType": "text/plain",
+                        "filesize": 35779445,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_co",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ct",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5907,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ct",
+                        "contentType": "text/plain",
+                        "filesize": 34585411,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ct",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_dc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5914,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_dc",
+                        "contentType": "text/plain",
+                        "filesize": 7164204,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_dc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_de",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5945,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_de",
+                        "contentType": "text/plain",
+                        "filesize": 6485700,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_de",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_fl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5926,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_fl",
+                        "contentType": "text/plain",
+                        "filesize": 124310913,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_fl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ga",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5956,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ga",
+                        "contentType": "text/plain",
+                        "filesize": 34134738,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ga",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_hi",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5919,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_hi",
+                        "contentType": "text/plain",
+                        "filesize": 6379268,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_hi",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ia",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5934,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ia",
+                        "contentType": "text/plain",
+                        "filesize": 23900636,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ia",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_id",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5955,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_id",
+                        "contentType": "text/plain",
+                        "filesize": 2958477,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_id",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_il",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5917,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_il",
+                        "contentType": "text/plain",
+                        "filesize": 122716096,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_il",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_in",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5905,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_in",
+                        "contentType": "text/plain",
+                        "filesize": 56264279,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_in",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ks",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5913,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ks",
+                        "contentType": "text/plain",
+                        "filesize": 40455801,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ks",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ky",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5953,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ky",
+                        "contentType": "text/plain",
+                        "filesize": 16615033,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ky",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_la",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5951,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_la",
+                        "contentType": "text/plain",
+                        "filesize": 36471253,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_la",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ma",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5946,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ma",
+                        "contentType": "text/plain",
+                        "filesize": 84166093,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ma",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_md",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5942,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_md",
+                        "contentType": "text/plain",
+                        "filesize": 38641468,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_md",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_me",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5931,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_me",
+                        "contentType": "text/plain",
+                        "filesize": 5584354,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_me",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_mi",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5920,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_mi",
+                        "contentType": "text/plain",
+                        "filesize": 102364302,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_mi",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_mn",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5948,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_mn",
+                        "contentType": "text/plain",
+                        "filesize": 41746289,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_mn",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_mo",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5941,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_mo",
+                        "contentType": "text/plain",
+                        "filesize": 44676495,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_mo",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ms",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5950,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ms",
+                        "contentType": "text/plain",
+                        "filesize": 9322778,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ms",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_mt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5954,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_mt",
+                        "contentType": "text/plain",
+                        "filesize": 6700227,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_mt",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_nc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5952,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_nc",
+                        "contentType": "text/plain",
+                        "filesize": 30963397,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_nc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_nd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5924,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_nd",
+                        "contentType": "text/plain",
+                        "filesize": 1217316,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_nd",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ne",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5925,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ne",
+                        "contentType": "text/plain",
+                        "filesize": 19985934,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ne",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_nh",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5947,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_nh",
+                        "contentType": "text/plain",
+                        "filesize": 6049994,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_nh",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_nj",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5938,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_nj",
+                        "contentType": "text/plain",
+                        "filesize": 114547440,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_nj",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_nm",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5916,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_nm",
+                        "contentType": "text/plain",
+                        "filesize": 9003482,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_nm",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_nv",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5927,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_nv",
+                        "contentType": "text/plain",
+                        "filesize": 6819963,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_nv",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ny",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5911,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ny",
+                        "contentType": "text/plain",
+                        "filesize": 229552205,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ny",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_oh",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5930,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_oh",
+                        "contentType": "text/plain",
+                        "filesize": 20424984,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_oh",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ok",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5944,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ok",
+                        "contentType": "text/plain",
+                        "filesize": 27572540,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ok",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_or",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5922,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_or",
+                        "contentType": "text/plain",
+                        "filesize": 35287197,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_or",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_pa",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5957,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_pa",
+                        "contentType": "text/plain",
+                        "filesize": 137666466,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_pa",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ri",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5923,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ri",
+                        "contentType": "text/plain",
+                        "filesize": 18928266,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ri",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_sc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5937,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_sc",
+                        "contentType": "text/plain",
+                        "filesize": 23145634,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_sc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_sd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5932,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_sd",
+                        "contentType": "text/plain",
+                        "filesize": 4278899,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_sd",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_tn",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5943,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_tn",
+                        "contentType": "text/plain",
+                        "filesize": 50470387,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_tn",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_tx",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5928,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_tx",
+                        "contentType": "text/plain",
+                        "filesize": 166915310,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_tx",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_ut",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5936,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_ut",
+                        "contentType": "text/plain",
+                        "filesize": 12477489,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_ut",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_va",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5915,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_va",
+                        "contentType": "text/plain",
+                        "filesize": 53006462,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_va",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_vt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5912,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_vt",
+                        "contentType": "text/plain",
+                        "filesize": 277721,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_vt",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_wa",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5921,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_wa",
+                        "contentType": "text/plain",
+                        "filesize": 64386371,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_wa",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_wi",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5909,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_wi",
+                        "contentType": "text/plain",
+                        "filesize": 63125817,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_wi",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_wv",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5910,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_wv",
+                        "contentType": "text/plain",
+                        "filesize": 10400402,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_wv",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c70_sf3_wy",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4067,
+                    "categories": [
+                        "Data, Logical Record"
+                    ],
+                    "dataFile": {
+                        "id": 5935,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c70_sf3_wy",
+                        "contentType": "text/plain",
+                        "filesize": 1666326,
+                        "description": "",
+                        "storageIdentifier": "census_c70_sf3_wy",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

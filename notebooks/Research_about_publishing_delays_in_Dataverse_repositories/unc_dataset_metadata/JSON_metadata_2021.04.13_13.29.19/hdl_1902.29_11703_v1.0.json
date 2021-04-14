@@ -1,0 +1,1262 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/11703",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2014-06-05",
+        "datasetVersion": {
+            "id": 1263,
+            "storageIdentifier": "file://1902.29/11703",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial 2005 CEBU Data Upload",
+            "distributionDate": "2014",
+            "productionDate": "Production Date",
+            "archiveTime": "2014-07-07T12:41:02Z",
+            "lastUpdateTime": "2014-05-16T13:41:56Z",
+            "releaseTime": "2014-06-05T00:00:00Z",
+            "createTime": "2014-05-02T14:50:55Z",
+            "license": "NONE",
+            "termsOfUse": "<b>Conditions</b> <br></br> User agrees that he/she will use these data only for analysis purposes and not take any actions to identify or contact individuals, communities, or specific service providers. Individuals, health facilities and/or health care providers shall not be identified in publications, reports, or presentations, either directly or indirectly. <br></br> User agrees to use appropriate safeguards to protect the data from misuse and shall promptly notify the Carolina Population Cen\nter of any unauthorized or impermissible use or disclosure of the data of which he/she becomes aware.\n<br></br> <b>Disclaimer</b> <br></br> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Cebu Mother Follow-up Survey, 2005"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Phil Bardsley"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "phil@email.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Index children have now been followed through adolescence and into young adulthood, and the CHLNS is tracking their offspring as they begin to have children themselves. The objective is to have a high quality, longitudinal intergenerational study of health. For the mothers, the objective is to follow mothers to the end of their reproductive careers to understand the effects of reproductive cycles on maternal health and nutritional status and to track the development of chronic disease risk factors and aging-related disabilities.\n<br/><br/> In the 2005 survey, the CLHNS added collection of biomarkers in the full sample. After an overnight fast, blood samples were taken for extraction of DNA, and plasma was stored for the analysis of cardiovascular disease risk factors. The study continued to track health and physical functioning of the mothers and schooling, work, and reproductive outcomes in the offspring."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Maternal and infant welfare"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Library of Congress Subject Headings"
+                                    },
+                                    "topicClassVocabURI": {
+                                        "typeName": "topicClassVocabURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects/sh85082098"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Nutrition"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Library of Congress Subject Headings"
+                                    },
+                                    "topicClassVocabURI": {
+                                        "typeName": "topicClassVocabURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects/sh85093451"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Library of Congress Subject Headings"
+                                    },
+                                    "topicClassVocabURI": {
+                                        "typeName": "topicClassVocabURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects/sh85059518"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Adair, L., Popkin, B., Akin, J., Guilkey, D., Gultiano, S., Borja, J., \u2026 Hindin, M. (2011). Cohort profile: The Cebu Longitudinal Health and Nutrition Survey. <i>International Journal of Epidemiology, 40</i>(3), 619\u2013625."
+                                    },
+                                    "publicationIDType": {
+                                        "typeName": "publicationIDType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "doi"
+                                    },
+                                    "publicationIDNumber": {
+                                        "typeName": "publicationIDNumber",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "10.1093/ije/dyq085"
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://dx.doi.org/10.1093/ije/dyq085"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cebu Longitudinal Health and Nutrition Survey"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina at Chapel Hill"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CLHNS"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/projects/cebu"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/theme-images/cebu/cebu.gif"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.odum.unc.edu/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2014"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2014-05-02"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2005"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2005"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2005"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2005"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Survey"
+                            ]
+                        },
+                        {
+                            "typeName": "relatedMaterial",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "<a href=\"http://hdl.handle.net/1902.29/11710\">Supplemental files</a> for the Cebu National Longitudinal Health and Nutrition Surveys"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "Philippines"
+                                    }
+                                },
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Metropolitan Cebu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "geographicUnit",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Bangaray"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "2005 Mother's Activity Codebook",
+                    "label": "ACTIVITY.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085599,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ACTIVITY.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 68982,
+                        "description": "2005 Mother's Activity Codebook",
+                        "storageIdentifier": "13633",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Activity Data",
+                    "label": "activity.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085610,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "activity.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 899178,
+                        "description": "2005 Mother's Activity Data",
+                        "storageIdentifier": "13632",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 458152,
+                        "UNF": "UNF:5:LfJYd8ybK71UPaecWb35AQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Diet and Anthropometry Codebook",
+                    "label": "ANTHDIET.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085592,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ANTHDIET.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 74391,
+                        "description": "2005 Mother's Diet and Anthropometry Codebook",
+                        "storageIdentifier": "13635",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Diet and Anthropometry Data ",
+                    "label": "anthdiet.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085607,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "anthdiet.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 805654,
+                        "description": "2005 Mother's Diet and Anthropometry Data ",
+                        "storageIdentifier": "13634",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 645882,
+                        "UNF": "UNF:5:FCd07s0fZw4nDVTBYbuK7w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Decision Making Codebook",
+                    "label": "DECISION.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085585,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "DECISION.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 94295,
+                        "description": "2005 Mother's Decision Making Codebook",
+                        "storageIdentifier": "13637",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Decision Making Data",
+                    "label": "decision.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085604,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "decision.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 960633,
+                        "description": "2005 Mother's Decision Making Data",
+                        "storageIdentifier": "13636",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 453435,
+                        "UNF": "UNF:5:wITcztUIr6e5BaLMQOM99w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Household Environment, Assets and Expenditure Codebook",
+                    "label": "HHOLD.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085598,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "HHOLD.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 113496,
+                        "description": "2005 Mother's Household Environment, Assets and Expenditure Codebook",
+                        "storageIdentifier": "13639",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Household Environment, Assets and Expenditure Data",
+                    "label": "hhold.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085609,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hhold.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1105985,
+                        "description": "2005 Mother's Household Environment, Assets and Expenditure Data",
+                        "storageIdentifier": "13638",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 957879,
+                        "UNF": "UNF:5:Mf9MUY+/BEOpEW2brEZ0gg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Market Activity and Income Codebook",
+                    "label": "INCOME.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085594,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "INCOME.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 37636,
+                        "description": "2005 Mother's Market Activity and Income Codebook",
+                        "storageIdentifier": "13641",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Market Activity and Income Data",
+                    "label": "income.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085613,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "income.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1322671,
+                        "description": "2005 Mother's Market Activity and Income Data",
+                        "storageIdentifier": "13640",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1238087,
+                        "UNF": "UNF:5:+qo93siBQzCGHtiUCa4b3g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Intimate Partner Violence 1 Codebook",
+                    "label": "IPV1.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085600,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "IPV1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 103000,
+                        "description": "2005 Mother's Intimate Partner Violence 1 Codebook",
+                        "storageIdentifier": "13643",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Intimate Partner Violence 1 Data",
+                    "label": "ipv1.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085608,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ipv1.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1376705,
+                        "description": "2005 Mother's Intimate Partner Violence 1 Data",
+                        "storageIdentifier": "13642",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 561841,
+                        "UNF": "UNF:5:b4wx9+SVRBljvTenZSysxA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Intimate Partner Violence 2 Codebook",
+                    "label": "IPV2.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085586,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "IPV2.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 102416,
+                        "description": "2005 Mother's Intimate Partner Violence 2 Codebook",
+                        "storageIdentifier": "13645",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Intimate Partner Violence 2 Data",
+                    "label": "ipv2.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085601,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ipv2.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1164848,
+                        "description": "2005 Mother's Intimate Partner Violence 2 Data",
+                        "storageIdentifier": "13644",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 473161,
+                        "UNF": "UNF:5:IzhNmgS9Fs+Y1E10J8HZ0A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Diet 1 Codebook",
+                    "label": "MODIET1.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085589,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MODIET1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 11782,
+                        "description": "2005 Mother's Diet 1 Codebook",
+                        "storageIdentifier": "13647",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Diet 1 Data",
+                    "label": "modiet1.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085612,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "modiet1.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1584915,
+                        "description": "2005 Mother's Diet 1 Data",
+                        "storageIdentifier": "13646",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 947675,
+                        "UNF": "UNF:5:u8yZm4kHLcNe1/gohcXxkQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Diet 2 Codebook",
+                    "label": "MODIET2.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085596,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MODIET2.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 11468,
+                        "description": "2005 Mother's Diet 2 Codebook",
+                        "storageIdentifier": "13649",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Diet 2 Data",
+                    "label": "modiet2.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085602,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "modiet2.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1540731,
+                        "description": "2005 Mother's Diet 2 Data",
+                        "storageIdentifier": "13648",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 921647,
+                        "UNF": "UNF:5:QzzoIi3PvjXXsmCmy/mVXA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Questionnaire",
+                    "label": "Mom05.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Questionnaire"
+                    ],
+                    "dataFile": {
+                        "id": 7085590,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Mom05.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 304583,
+                        "description": "2005 Mother's Questionnaire",
+                        "storageIdentifier": "13650",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Morbidity Codebook",
+                    "label": "MORBIDTY.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085588,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MORBIDTY.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 98996,
+                        "description": "2005 Mother's Morbidity Codebook",
+                        "storageIdentifier": "13652",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Morbidity Data",
+                    "label": "morbidty.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085605,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "morbidty.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1096421,
+                        "description": "2005 Mother's Morbidity Data",
+                        "storageIdentifier": "13651",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 513720,
+                        "UNF": "UNF:5:JMVYR3/YM74ErGYoEnDl1A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Codebook",
+                    "label": "MOTHER.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085587,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MOTHER.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 93590,
+                        "description": "2005 Mother's Codebook",
+                        "storageIdentifier": "13654",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Information",
+                    "label": "mother.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085611,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "mother.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 950261,
+                        "description": "2005 Mother's Information",
+                        "storageIdentifier": "13653",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 451682,
+                        "UNF": "UNF:5:LJ/ivYraimR87QMyvJhvvg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Notes Regarding Mother's Survey",
+                    "label": "NOTES.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Other"
+                    ],
+                    "dataFile": {
+                        "id": 7085593,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NOTES.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4013,
+                        "description": "2005 Notes Regarding Mother's Survey",
+                        "storageIdentifier": "13655",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Person Codebook",
+                    "label": "PERSON.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085597,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PERSON.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 19261,
+                        "description": "2005 Mother's Person Codebook",
+                        "storageIdentifier": "13657",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Person Information",
+                    "label": "person.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085603,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "person.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 960969,
+                        "description": "2005 Mother's Person Information",
+                        "storageIdentifier": "13656",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 458889,
+                        "UNF": "UNF:5:i0oucr+7AREImTkc3JCXgQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Reproductive History Questionnaire Insert",
+                    "label": "Repro05.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Questionnaire"
+                    ],
+                    "dataFile": {
+                        "id": 7085595,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Repro05.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 47286,
+                        "description": "2005 Mother's Reproductive History Questionnaire Insert",
+                        "storageIdentifier": "13658",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Reproduction Codebook",
+                    "label": "REPROD.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085591,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "REPROD.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 44473,
+                        "description": "2005 Mother's Reproduction Codebook",
+                        "storageIdentifier": "13660",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Reproduction Data",
+                    "label": "reprod.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085606,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "reprod.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2456951,
+                        "description": "2005 Mother's Reproduction Data",
+                        "storageIdentifier": "13659",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 1363944,
+                        "UNF": "UNF:5:Duqc5UYS2kGV6Hi5HO7tdw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Screening Codebook",
+                    "label": "SCREEN.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7085584,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SCREEN.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 29896,
+                        "description": "2005 Mother's Screening Codebook",
+                        "storageIdentifier": "13662",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                },
+                {
+                    "description": "2005 Mother's Screening Data",
+                    "label": "screen.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1263,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7085614,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "screen.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 222393,
+                        "description": "2005 Mother's Screening Data",
+                        "storageIdentifier": "13661",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 108419,
+                        "UNF": "UNF:5:eQAp3ESBLqYil/72YCm3Iw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-05-09"
+                    }
+                }
+            ]
+        }
+    }
+}

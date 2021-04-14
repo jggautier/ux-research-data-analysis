@@ -1,0 +1,751 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/U50LT8",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-01-24",
+        "datasetVersion": {
+            "id": 30638,
+            "storageIdentifier": "file://10.15139/S3/U50LT8",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2019-01-24T21:18:18Z",
+            "releaseTime": "2019-01-24T21:18:18Z",
+            "createTime": "2018-09-05T16:09:51Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "citationRequirements": "<b>CITATION REQUIREMENTS</b> <p>The Requestor shall follow internationally recognized authorship criteria and acknowledge MEASURE Evaluation researchers and the international researcher/s involved in the data analysis.   Any publications, presentations or reports resulting from Requestor\u2019s analysis of the data should acknowledge MEASURE Evaluation using the following text: </p> <p><blockquote>Data for this research was provided by MEASURE Evaluation, funded by the United States Agency for Intern\r\national Development (USAID). Views expressed do not necessarily reflect those of USAID, the US government, or MEASURE Evaluation.\r\n</blockquote></p>",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "The Uganda Sustainable, Comprehensive Responses for Vulnerable Children and Their Families (SCORE) \u2013 data for program performance evaluation supplement on HIV analysis"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE_Data@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "In 2015, MEASURE Evaluation\u2014funded by USAID and the United States President\u2019s Emergency Plan for AIDS Relief (PEPFAR)\u2014received support from USAID/Uganda to complete a performance evaluation of the SCORE program.  In January 2017, USAID/Uganda asked MEASURE Evaluation to conduct additional analyses related to HIV outcomes. These data were collected by the SCORE program and used by MEASURE Evaluation to conduct these requested analyses. Datasets include data from 2012-2017 household needs assessments (NATs), 2012-2017 household vulnerability assessments (VATs) and 2016-2017 home visits.  "
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "SCORE"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Uganda"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "orphans and vulnerable children"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "HIV"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "HIV testing"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "HIV treatment"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "HIV treatment adherence"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Benson, Aimee"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2018-09-05"
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013-01"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2017-12"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "Uganda"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "socialscience": {
+                    "displayName": "Social Science and Humanities Metadata",
+                    "fields": [
+                        {
+                            "typeName": "universe",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Orphans and vulnerable children"
+                            ]
+                        },
+                        {
+                            "typeName": "timeMethod",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Longitudinal"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "Codebook.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7504310,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Codebook.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 72704,
+                        "storageIdentifier": "165aa7efba9-8fc459f6d902",
+                        "rootDataFileId": -1,
+                        "md5": "84ed18b794646abd2afdd9b9d15c3f49",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "84ed18b794646abd2afdd9b9d15c3f49"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "label": "home_visits_treatment_adherence.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504311,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "home_visits_treatment_adherence.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 283648,
+                        "storageIdentifier": "165aa7eadc3-736e6676ff0b",
+                        "rootDataFileId": -1,
+                        "md5": "6e7c36fd7ff0234d346382cfda2f3939",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6e7c36fd7ff0234d346382cfda2f3939"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "2012 Household Needs Assessment",
+                    "label": "nat1.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504314,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nat1.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 9072128,
+                        "description": "2012 Household Needs Assessment",
+                        "storageIdentifier": "165aae419b3-ecbb187f50dd",
+                        "rootDataFileId": -1,
+                        "md5": "cc880f1c31951a4553d020676264e4c5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cc880f1c31951a4553d020676264e4c5"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "2013 Household Needs Assessment",
+                    "label": "nat2.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504318,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nat2.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 9053696,
+                        "description": "2013 Household Needs Assessment",
+                        "storageIdentifier": "165aae42058-9c98690e2d72",
+                        "rootDataFileId": -1,
+                        "md5": "1b56c39a6a9c5dd850c667939a073b2e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1b56c39a6a9c5dd850c667939a073b2e"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "2014 Household Needs Assessment",
+                    "label": "nat3.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504315,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nat3.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 9076224,
+                        "description": "2014 Household Needs Assessment",
+                        "storageIdentifier": "165aae42ae5-b019ea093e22",
+                        "rootDataFileId": -1,
+                        "md5": "3285387b6f40d2b243e1d38222767279",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3285387b6f40d2b243e1d38222767279"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "2015 Household Needs Assessment",
+                    "label": "nat4.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504319,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nat4.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 9069056,
+                        "description": "2015 Household Needs Assessment",
+                        "storageIdentifier": "165aae43378-6ea8369320fc",
+                        "rootDataFileId": -1,
+                        "md5": "7c893bef67129110eff72d7fb26aef9d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7c893bef67129110eff72d7fb26aef9d"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "2016 Household Needs Assessment",
+                    "label": "nat5.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504323,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nat5.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 5972480,
+                        "description": "2016 Household Needs Assessment",
+                        "storageIdentifier": "165aae44183-33c47c1dcd74",
+                        "rootDataFileId": -1,
+                        "md5": "0c9a9a3593b1692595846b226a1b0813",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0c9a9a3593b1692595846b226a1b0813"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "2017 Household Needs Assessment",
+                    "label": "nat6.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504317,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nat6.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 4158464,
+                        "description": "2017 Household Needs Assessment",
+                        "storageIdentifier": "165aae44603-d64289dc8954",
+                        "rootDataFileId": -1,
+                        "md5": "ed65990241d4d1b90a6472c65e1b8f20",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ed65990241d4d1b90a6472c65e1b8f20"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "label": "Uganda's SCORE Program for Vulnerable Children and Their Families_Evaluation Supplement on Analysis_FINAL_tre-18-012.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7504309,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Uganda's SCORE Program for Vulnerable Children and Their Families_Evaluation Supplement on Analysis_FINAL_tre-18-012.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3425281,
+                        "storageIdentifier": "165aa7efdb4-b70954aeed70",
+                        "rootDataFileId": -1,
+                        "md5": "359bd18c3833ddaab85c68876a9415a3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "359bd18c3833ddaab85c68876a9415a3"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "2012 Household Vulnerability Assessment",
+                    "label": "vat1.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504313,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "vat1.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 3082752,
+                        "description": "2012 Household Vulnerability Assessment",
+                        "storageIdentifier": "165aae447e0-b97601763e86",
+                        "rootDataFileId": -1,
+                        "md5": "712ff33d5f2d5d4cd4b1993344caba9c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "712ff33d5f2d5d4cd4b1993344caba9c"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "2013 Household Vulnerability Assessment",
+                    "label": "vat2.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504320,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "vat2.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 1473024,
+                        "description": "2013 Household Vulnerability Assessment",
+                        "storageIdentifier": "165aae44948-4433240113ef",
+                        "rootDataFileId": -1,
+                        "md5": "6227987424713985789a5d744f37da18",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6227987424713985789a5d744f37da18"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "Household graduation 2014",
+                    "label": "VAT3_graduated.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504756,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "VAT3_graduated.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 243200,
+                        "description": "Household graduation 2014",
+                        "storageIdentifier": "1682e9a30be-1669a7e700d0",
+                        "rootDataFileId": -1,
+                        "md5": "d31d0fa9ea434b63854edd65f097a8c3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d31d0fa9ea434b63854edd65f097a8c3"
+                        },
+                        "creationDate": "2019-01-08"
+                    }
+                },
+                {
+                    "description": "2014 Household Vulnerability Assessment",
+                    "label": "vat3.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504321,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "vat3.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 2182656,
+                        "description": "2014 Household Vulnerability Assessment",
+                        "storageIdentifier": "165aae44b00-1269b862d6f3",
+                        "rootDataFileId": -1,
+                        "md5": "0787751aabf197740f533670978add14",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0787751aabf197740f533670978add14"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "Household graduation 2015",
+                    "label": "VAT4_graduated.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504757,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "VAT4_graduated.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 414720,
+                        "description": "Household graduation 2015",
+                        "storageIdentifier": "1682e9a3151-f5a2bf012fbe",
+                        "rootDataFileId": -1,
+                        "md5": "a3e407d962dae26e70384bb186238488",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a3e407d962dae26e70384bb186238488"
+                        },
+                        "creationDate": "2019-01-08"
+                    }
+                },
+                {
+                    "description": "2015 Household Vulnerability Assessment",
+                    "label": "vat4.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504312,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "vat4.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 2018816,
+                        "description": "2015 Household Vulnerability Assessment",
+                        "storageIdentifier": "165aae44c92-5c7120533e20",
+                        "rootDataFileId": -1,
+                        "md5": "2e8fb44d26aac440138a94a9d6c51b86",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2e8fb44d26aac440138a94a9d6c51b86"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "Household graduation 2016",
+                    "label": "VAT5_graduated.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504758,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "VAT5_graduated.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 230400,
+                        "description": "Household graduation 2016",
+                        "storageIdentifier": "1682e9a31c4-8cc4d4ddee91",
+                        "rootDataFileId": -1,
+                        "md5": "a6f1a31705b41c4a82429c136835ab0d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a6f1a31705b41c4a82429c136835ab0d"
+                        },
+                        "creationDate": "2019-01-08"
+                    }
+                },
+                {
+                    "description": "2016 Household Vulnerability Assessment",
+                    "label": "vat5.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504322,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "vat5.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 813056,
+                        "description": "2016 Household Vulnerability Assessment",
+                        "storageIdentifier": "165aae44d9d-e330b976d46e",
+                        "rootDataFileId": -1,
+                        "md5": "c73a7eb5c5d1f94c8b910f1b9f3618a1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c73a7eb5c5d1f94c8b910f1b9f3618a1"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                },
+                {
+                    "description": "Household graduation 2017",
+                    "label": "VAT6_graduated.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504759,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "VAT6_graduated.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 205312,
+                        "description": "Household graduation 2017",
+                        "storageIdentifier": "1682e9a3234-e2b8b97b795a",
+                        "rootDataFileId": -1,
+                        "md5": "a108ad66d48f68d5a05cd5b069d908de",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a108ad66d48f68d5a05cd5b069d908de"
+                        },
+                        "creationDate": "2019-01-08"
+                    }
+                },
+                {
+                    "description": "2017 Household Vulnerability Assessment",
+                    "label": "vat6.xls",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30638,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7504316,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "vat6.xls",
+                        "contentType": "application/vnd.ms-excel",
+                        "filesize": 530432,
+                        "description": "2017 Household Vulnerability Assessment",
+                        "storageIdentifier": "165aae44e92-7778a64612a4",
+                        "rootDataFileId": -1,
+                        "md5": "08b4028c8222640e8cf17bac0f588651",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "08b4028c8222640e8cf17bac0f588651"
+                        },
+                        "creationDate": "2018-09-05"
+                    }
+                }
+            ]
+        }
+    }
+}

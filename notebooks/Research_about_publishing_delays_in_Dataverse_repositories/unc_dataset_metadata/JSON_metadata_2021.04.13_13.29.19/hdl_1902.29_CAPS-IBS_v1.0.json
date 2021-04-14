@@ -1,0 +1,2728 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-IBS",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3371,
+            "storageIdentifier": "file://1902.29/CAPS-IBS",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T17:14:46Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:21:29Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Interpersonal Behavior Survey (CAPS-IBS module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-IBS"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-IBS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Interpersonal Behavior Survey (IBS) is a self-report questionnaire which is used to assess certain behavioral tendencies, especially assertiveness and aggressiveness. The scales on the test describe how respondents typically behave in interpersonal relationships.</p><p>The validity scales give an indication about the respondent's attitudes about taking the test. Subscales include denial, infrequency, and impression management.</p><p>The aggressiveness subscales include general aggressiven\ness, hostile stance, expression of anger, disregard for rights, verbal aggressiveness, physical aggressiveness, passive aggressiveness.\n</p><p>The assertiveness scales include general assertiveness, self-confidence, initiating assertiveness, defending assertiveness, frankness, praise, requesting help, refusing demands.</p><p>The relationship scales include conflict avoidance, dependency, shyness.</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Interpersonal aggressiveness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Hostility"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Self-assertiveness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Assertiveness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Aggressiveness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Relationships"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Interpersonal relationships"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Denial"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Infrequency"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Impression management"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "General aggressiveness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Hostile stance"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Expression of anger"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Disregard for rights verbal"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Mauger, Paul A., Adkinson, David R., Zoss, Suzanne K., Firestone, Gregory, and Hook, J. David, 'Interpersonal Behavior Survey (IBS) Administration Booklet, Western Psychological Services, 1980."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9334,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs1_data",
+                        "contentType": "text/plain",
+                        "filesize": 52000,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9308,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs1_source",
+                        "contentType": "text/plain",
+                        "filesize": 38442,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9378,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs2_data",
+                        "contentType": "text/plain",
+                        "filesize": 91000,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9383,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs2_source",
+                        "contentType": "text/plain",
+                        "filesize": 93267,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9384,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs3_data",
+                        "contentType": "text/plain",
+                        "filesize": 77220,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs3_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9337,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs3_source",
+                        "contentType": "text/plain",
+                        "filesize": 70047,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs3_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9379,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs4_data",
+                        "contentType": "text/plain",
+                        "filesize": 62400,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs4_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9327,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs4_source",
+                        "contentType": "text/plain",
+                        "filesize": 50181,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs4_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9368,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 309680,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_ibs_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9346,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 97744,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_ibs_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_ibs_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 14 (CAPS-IBS/caps_1985_ibs_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9358,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_ibs_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 77761,
+                        "storageIdentifier": "caps_1985_ibs_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:cvfsix6x11Bw+NUFALrkhA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9354,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs1_data",
+                        "contentType": "text/plain",
+                        "filesize": 48360,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9353,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3312,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9380,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 38800,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9376,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs1_source",
+                        "contentType": "text/plain",
+                        "filesize": 16225,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9310,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 23534,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_ibs1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 1 (caps_1986_ibs1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9326,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19716,
+                        "storageIdentifier": "caps_1986_ibs1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Xp7KMg0rSVp2ElL7/T+paQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9347,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs2_data",
+                        "contentType": "text/plain",
+                        "filesize": 84630,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs2_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9304,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs2_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 6149,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs2_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9321,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 73280,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9311,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs2_source",
+                        "contentType": "text/plain",
+                        "filesize": 19671,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9336,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 38294,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_ibs2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 2 (caps_1986_ibs2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9320,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 30318,
+                        "storageIdentifier": "caps_1986_ibs2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:baKdwX+EtzjcsuiixeZu7w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9377,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs3_data",
+                        "contentType": "text/plain",
+                        "filesize": 72540,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs3_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9370,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs3_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5487,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs3_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9351,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 65360,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs3_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9374,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs3_source",
+                        "contentType": "text/plain",
+                        "filesize": 17013,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs3_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9312,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 34768,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_ibs3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 3 (caps_1986_ibs3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9348,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 27900,
+                        "storageIdentifier": "caps_1986_ibs3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:/H1/1cHvW7ufHYLjtXp5/w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9362,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs4_data",
+                        "contentType": "text/plain",
+                        "filesize": 60450,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs4_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9301,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs4_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4386,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs4_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9330,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 50240,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs4_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9340,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs4_source",
+                        "contentType": "text/plain",
+                        "filesize": 6534,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs4_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibs4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9305,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 28536,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibs4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_ibs4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 4 (caps_1986_ibs4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9322,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibs4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 23250,
+                        "storageIdentifier": "caps_1986_ibs4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:hVPOd6mlnUjVFaXwm8LW9A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibsm_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9343,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibsm_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 162,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibsm_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibsm_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9342,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibsm_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 222720,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibsm_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_ibsm_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9309,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibsm_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 99548,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_ibsm_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_ibsm_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 5 (caps_1986_ibsm_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9338,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_ibsm_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 81933,
+                        "storageIdentifier": "caps_1986_ibsm_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:OGKXCy5jO2SubVmg/NgC3g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9328,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs1_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9325,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4267,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9363,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 50640,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9382,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs1_source",
+                        "contentType": "text/plain",
+                        "filesize": 16365,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9303,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 24190,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_ibs1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 6 (caps_1987_ibs1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9302,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20364,
+                        "storageIdentifier": "caps_1987_ibs1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:PO+UvSu7TlKPEKIBdBdJyw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9344,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs2_data",
+                        "contentType": "text/plain",
+                        "filesize": 63050,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs2_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9315,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs2_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 8094,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs2_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9323,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 103360,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9332,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs2_source",
+                        "contentType": "text/plain",
+                        "filesize": 19316,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9318,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 39606,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_ibs2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 7 (caps_1987_ibs2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9359,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 31635,
+                        "storageIdentifier": "caps_1987_ibs2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:o9kYXqhb/g0fFVJbJZE9TQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9313,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs3_data",
+                        "contentType": "text/plain",
+                        "filesize": 61100,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs3_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9307,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs3_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 7249,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs3_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9345,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 89040,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs3_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9319,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs3_source",
+                        "contentType": "text/plain",
+                        "filesize": 16631,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs3_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9364,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 35096,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_ibs3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 8 (caps_1987_ibs3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9316,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 28212,
+                        "storageIdentifier": "caps_1987_ibs3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Bp+SB5xJdaQSj9e52kKMDg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9314,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs4_data",
+                        "contentType": "text/plain",
+                        "filesize": 48880,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs4_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9386,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs4_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5725,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs4_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9357,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 66720,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs4_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9361,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs4_source",
+                        "contentType": "text/plain",
+                        "filesize": 12949,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs4_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_ibs4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9352,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 28782,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_ibs4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_ibs4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 9 (caps_1987_ibs4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9333,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_ibs4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 23512,
+                        "storageIdentifier": "caps_1987_ibs4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:mpi4A9QGJrUN/CvevUB9AA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9385,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs1_data",
+                        "contentType": "text/plain",
+                        "filesize": 37050,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9300,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3518,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9355,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 52000,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9335,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs1_source",
+                        "contentType": "text/plain",
+                        "filesize": 17043,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9367,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 24272,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_ibs1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 10 (caps_1988_ibs1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9372,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20330,
+                        "storageIdentifier": "caps_1988_ibs1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:i2OKUlc4TWkdJNy8svtq/A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9371,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs2_data",
+                        "contentType": "text/plain",
+                        "filesize": 62400,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs2_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9324,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs2_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 7231,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs2_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9369,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 106080,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9375,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs2_source",
+                        "contentType": "text/plain",
+                        "filesize": 27383,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9349,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 40098,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_ibs2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 11 (caps_1988_ibs2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9350,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 31872,
+                        "storageIdentifier": "caps_1988_ibs2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:5cjZ+v2syxnvi3sZaeG3eQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9331,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs3_data",
+                        "contentType": "text/plain",
+                        "filesize": 62400,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs3_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9360,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs3_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 6376,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs3_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9339,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 94240,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs3_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9329,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs3_source",
+                        "contentType": "text/plain",
+                        "filesize": 24698,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs3_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9365,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 36572,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_ibs3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 12 (caps_1988_ibs3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9317,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 29376,
+                        "storageIdentifier": "caps_1988_ibs3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:mTsSeFnkNBGGh169QDxwmg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9356,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs4_data",
+                        "contentType": "text/plain",
+                        "filesize": 49920,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs4_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9381,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs4_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4875,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs4_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9366,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 70640,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs4_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9373,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs4_source",
+                        "contentType": "text/plain",
+                        "filesize": 21016,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs4_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_ibs4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9341,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 29930,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_ibs4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_ibs4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3371,
+                    "categories": [
+                        "Data File 13 (caps_1988_ibs4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9306,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_ibs4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 24384,
+                        "storageIdentifier": "caps_1988_ibs4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:UfKRijD3Vyzs39m4VUQ2AQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

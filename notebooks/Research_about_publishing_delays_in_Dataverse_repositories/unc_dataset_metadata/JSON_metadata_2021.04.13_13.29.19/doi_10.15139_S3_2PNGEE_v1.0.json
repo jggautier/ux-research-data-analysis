@@ -1,0 +1,791 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/2PNGEE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-04-05",
+        "datasetVersion": {
+            "id": 30811,
+            "storageIdentifier": "file://10.15139/S3/2PNGEE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:t5iZlPvSBkPsqSJox8kh/A==",
+            "lastUpdateTime": "2019-04-05T14:35:45Z",
+            "releaseTime": "2019-04-05T14:35:45Z",
+            "createTime": "2019-04-03T18:31:21Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "citationRequirements": "<b>CITATION REQUIREMENTS</b> <p>The Requestor shall follow internationally recognized authorship criteria and acknowledge MEASURE Evaluation researchers and the international researcher/s involved in the data analysis.   Any publications, presentations or reports resulting from Requestor\u2019s analysis of the data should acknowledge MEASURE Evaluation using the following text: </p> <p><blockquote>Data for this research was provided by MEASURE Evaluation, funded by the United States Agency for International Development (USAID). Views expressed do not necessarily reflect those of USAID, the US government, or MEASURE Evaluation.\r\n</blockquote></p>\r\n",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2014-2017 Impact Evaluation of Interventions to Strengthen the Health Facility Operations and Management Committees in Nepal"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Institute for Social and Environmental Research- Nepal (ISER-N)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE_Data@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "These data are from a quasi-experimental impact evaluation of the \u201cStrengthening HFOMCS\u201d program in Nepal; MEASURE Evaluation led the evaluation. There were three treatment groups: 1) Approach A, or basic gender and social inclusion (GESI) integrated capacity building with health facility and operations management committees (HFMOCs); 2) Approach B, or all of Approach A plus community engagement activities (CEA); and 3) control. The evaluation collected data in Syangja, Baglung, and Parbat districts, which corresponded to Approach A, Approach B, and control, respectively. Baseline data collection took place in mid-2014 and end line data collection in late 2016 and early 2017.  Repeated cross-sectional household surveys were conducted in the same locations at both time points. The women\u2019s survey sample size was 3,845 at baseline and 3,902 at end line."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences",
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Household level"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Maternal health"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "nutrition"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "child health"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "neonatal health"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "family planning"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "household decision-making"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "household spending on healthcare"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Final report"
+                                    },
+                                    "publicationIDType": {
+                                        "typeName": "publicationIDType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "url"
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.measureevaluation.org/resources/publications/tre-17-005"
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Baseline report"
+                                    },
+                                    "publicationIDType": {
+                                        "typeName": "publicationIDType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "url"
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.measureevaluation.org/resources/publications/tr-15-114"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "language",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Nepali"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Benson, Aimee"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-04-03"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2014"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2018"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Survey data"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "Nepal"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "socialscience": {
+                    "displayName": "Social Science and Humanities Metadata",
+                    "fields": [
+                        {
+                            "typeName": "unitOfAnalysis",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Communities, households, women with a child under the age of two"
+                            ]
+                        },
+                        {
+                            "typeName": "universe",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Women with a child under the age of two"
+                            ]
+                        },
+                        {
+                            "typeName": "timeMethod",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Cross-sectional"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Baseline code book for the household roster data file",
+                    "label": "Baseline_Census_Code_Book.xlsx",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7505396,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Baseline_Census_Code_Book.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 18946,
+                        "description": "Baseline code book for the household roster data file",
+                        "storageIdentifier": "169e8ffbcba-c172a734575a",
+                        "rootDataFileId": -1,
+                        "md5": "ecd342061ab09a89669fd9ace9a185bf",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ecd342061ab09a89669fd9ace9a185bf"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Baseline code book for the community data file",
+                    "label": "Baseline_Community_Code_Book.xlsx",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7505394,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Baseline_Community_Code_Book.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 122300,
+                        "description": "Baseline code book for the community data file",
+                        "storageIdentifier": "169e8ffbd37-4ee3eb128c3d",
+                        "rootDataFileId": -1,
+                        "md5": "0c42d0478dfa213d8d194fc0bf7a21b8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0c42d0478dfa213d8d194fc0bf7a21b8"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Baseline code book for the household level data file",
+                    "label": "Baseline_HH_Code_Book.xlsx",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7505395,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Baseline_HH_Code_Book.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 98657,
+                        "description": "Baseline code book for the household level data file",
+                        "storageIdentifier": "169e8ffbdb2-3eda298e4388",
+                        "rootDataFileId": -1,
+                        "md5": "6bbb7cf1383fd882ba012095f288c2b5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6bbb7cf1383fd882ba012095f288c2b5"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Baseline code book for the women's data file",
+                    "label": "Baseline_Women_Code_Book.xlsx",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7505397,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Baseline_Women_Code_Book.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 192081,
+                        "description": "Baseline code book for the women's data file",
+                        "storageIdentifier": "169e8ffbe25-36b115aa5e0e",
+                        "rootDataFileId": -1,
+                        "md5": "5863d2ad834823e3851a2aa30be3a29d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5863d2ad834823e3851a2aa30be3a29d"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Endline code book for household roster data file",
+                    "label": "Endline_Census_Rgrid_Code_Book.xlsx",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7505393,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Endline_Census_Rgrid_Code_Book.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 17202,
+                        "description": "Endline code book for household roster data file",
+                        "storageIdentifier": "169e9000120-08ece605bc6f",
+                        "rootDataFileId": -1,
+                        "md5": "0ca286bd5a8b799959fd73b681517a4b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0ca286bd5a8b799959fd73b681517a4b"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Endline code book for community data file",
+                    "label": "Endline_Community_Code_Book.xlsx",
+                    "restricted": false,
+                    "version": 3,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7505398,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Endline_Community_Code_Book.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 122299,
+                        "description": "Endline code book for community data file",
+                        "storageIdentifier": "169e9000198-6b147b6b7c78",
+                        "rootDataFileId": -1,
+                        "md5": "eb3c67bc70a20ce2ddb579577c90ee36",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "eb3c67bc70a20ce2ddb579577c90ee36"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Endline code book for household level data file",
+                    "label": "Endline_HH_Code_Book.xlsx",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7505399,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Endline_HH_Code_Book.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 127498,
+                        "description": "Endline code book for household level data file",
+                        "storageIdentifier": "169e9000215-52ee97f027b8",
+                        "rootDataFileId": -1,
+                        "md5": "147e04ef1e24aa3f060b0de43eefd0e3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "147e04ef1e24aa3f060b0de43eefd0e3"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Endline code book for woman level data file",
+                    "label": "Endline_Mother_Code_Book.xlsx",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7505400,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Endline_Mother_Code_Book.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 160813,
+                        "description": "Endline code book for woman level data file",
+                        "storageIdentifier": "169e90002a0-6a9fbdbedf93",
+                        "rootDataFileId": -1,
+                        "md5": "4adfb161cc1f6d7655db001700697672",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4adfb161cc1f6d7655db001700697672"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Baseline community data file",
+                    "label": "ne_base_co_Archive.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7505380,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ne_base_co_Archive.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 464761,
+                        "description": "Baseline community data file",
+                        "storageIdentifier": "169e475034c-f90f2cd33128",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "originalFileSize": 1071908,
+                        "UNF": "UNF:6:uhY8BrAIKntzOPNz2uwAKw==",
+                        "rootDataFileId": -1,
+                        "md5": "c7c57aa1b825409f096fac5fa8de7687",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c7c57aa1b825409f096fac5fa8de7687"
+                        },
+                        "creationDate": "2019-04-03"
+                    }
+                },
+                {
+                    "description": "Baseline household level file",
+                    "label": "ne_base_hh_Archive.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7505379,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ne_base_hh_Archive.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 4935443,
+                        "description": "Baseline household level file",
+                        "storageIdentifier": "169e4750a39-70c91641a6d0",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "UNF": "UNF:6:e71JH1sjiNgy0p4a0zmB8w==",
+                        "rootDataFileId": -1,
+                        "md5": "270046b9f98780b1701df3a6151f01c3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "270046b9f98780b1701df3a6151f01c3"
+                        },
+                        "creationDate": "2019-04-03"
+                    }
+                },
+                {
+                    "description": "Baseline household roster file",
+                    "label": "ne_base_hhr_Archive.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7505381,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ne_base_hhr_Archive.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 3184805,
+                        "description": "Baseline household roster file",
+                        "storageIdentifier": "169e4750d2c-af7a6ba9c905",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "originalFileSize": 5003214,
+                        "UNF": "UNF:6:DQJkz0Ipzt5JpF7LiUgDsA==",
+                        "rootDataFileId": -1,
+                        "md5": "90592a59b34b045810cc2cfe5cc365a6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "90592a59b34b045810cc2cfe5cc365a6"
+                        },
+                        "creationDate": "2019-04-03"
+                    }
+                },
+                {
+                    "description": "Baseline women's data file",
+                    "label": "ne_base_wm_Archive.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7505378,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ne_base_wm_Archive.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5536419,
+                        "description": "Baseline women's data file",
+                        "storageIdentifier": "169e4751005-cfa301e6716d",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "UNF": "UNF:6:y/MKAfhnaPHfVIEgI/TmZA==",
+                        "rootDataFileId": -1,
+                        "md5": "0a67cf93981f24c139b038974d4ff07c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0a67cf93981f24c139b038974d4ff07c"
+                        },
+                        "creationDate": "2019-04-03"
+                    }
+                },
+                {
+                    "description": "Endline community data file",
+                    "label": "ne_end_co_Archive.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7505401,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ne_end_co_Archive.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 483340,
+                        "description": "Endline community data file",
+                        "storageIdentifier": "169e90f7956-1dd926c3be2f",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "UNF": "UNF:6:ibRTtogTpLVWBw9ANV6BZw==",
+                        "rootDataFileId": -1,
+                        "md5": "a8c26ac0775bbf82c8364f62d7a3247f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a8c26ac0775bbf82c8364f62d7a3247f"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Endline household level data file",
+                    "label": "ne_end_hh_Archive.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7505402,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ne_end_hh_Archive.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 3805335,
+                        "description": "Endline household level data file",
+                        "storageIdentifier": "169e90f7b0a-e977c24d3617",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "UNF": "UNF:6:/6PhkwUm+1IBS7E/3pGprQ==",
+                        "rootDataFileId": -1,
+                        "md5": "d6eaf3faf7df75a9c614a32afec15c22",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d6eaf3faf7df75a9c614a32afec15c22"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Endline household roster data file",
+                    "label": "ne_end_hhr_Archive.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7505403,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ne_end_hhr_Archive.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 3274187,
+                        "description": "Endline household roster data file",
+                        "storageIdentifier": "169e90f7d82-ba3300059282",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "UNF": "UNF:6:ZYhE9f/9j6suCSdXOPM6gw==",
+                        "rootDataFileId": -1,
+                        "md5": "9343493bff756b139dca31cfa771e234",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9343493bff756b139dca31cfa771e234"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                },
+                {
+                    "description": "Endline woman level data file",
+                    "label": "ne_end_wm_Archive.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30811,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7505404,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ne_end_wm_Archive.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 6184625,
+                        "description": "Endline woman level data file",
+                        "storageIdentifier": "169e90f7fa7-c9ad39d07465",
+                        "originalFileFormat": "application/x-stata-14",
+                        "originalFormatLabel": "Stata 14 Binary",
+                        "UNF": "UNF:6:3l/Gxib29wwduQvD0MO/Wg==",
+                        "rootDataFileId": -1,
+                        "md5": "65502f189db2a62b198010302f4bc6e0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "65502f189db2a62b198010302f4bc6e0"
+                        },
+                        "creationDate": "2019-04-04"
+                    }
+                }
+            ]
+        }
+    }
+}

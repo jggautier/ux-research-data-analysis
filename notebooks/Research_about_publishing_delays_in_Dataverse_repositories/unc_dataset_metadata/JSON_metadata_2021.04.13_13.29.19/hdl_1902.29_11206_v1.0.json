@@ -1,0 +1,1433 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/11206",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2013-06-11",
+        "datasetVersion": {
+            "id": 173,
+            "storageIdentifier": "file://1902.29/11206",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "",
+            "distributionDate": "2010",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2013-06-11T16:53:32Z",
+            "releaseTime": "2013-06-11T00:00:00Z",
+            "createTime": "2013-04-02T16:41:02Z",
+            "license": "NONE",
+            "termsOfUse": "By accessing the Citizen Soldier Support Program (CSSP) Dataverse, you agree that you have been granted permission by CSSP to view, download, and/or print documents included on this website.  You agree to leave documents in their original format and will not alter documents in any manner that includes, but is not limited to, removal of CSSP logos or reference citations, changes to data, and text modifications.    Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University or CSSP be liable for any actual, incidental, or consequential damages arising from use of these files.   This website was prepared under contract with the University of North Carolina with financial support from the Office of Economic Adjustment, Department of Defense. The content reflects the views of the author and does not necessarily reflect the views of the Office of Economic Adjustment, or the Department of Defense.  By clicking the \"I agree\" checkbox below, I confirm that I have read and understood each and every term set forth in the terms and conditions for the use of data and other materials found above, and I agree to be bound by all of such terms and conditions.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Army Reserve Deployments 2009"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Minnotte, Matt"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Citizen Soldier Support Program"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Matt Minnotte"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H.W. Odum Institute"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "minnotte@email.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Defense Manpower Data Center"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Department of Defense"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "DMDC"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2009"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H.W. Odum Institute"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2010"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2013-04-02"
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "GIS, administrative records data"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "socialscience": {
+                    "displayName": "Social Science and Humanities Metadata",
+                    "fields": [
+                        {
+                            "typeName": "universe",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "United States Military"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "Alabama_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068718,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Alabama_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4328860,
+                        "description": "",
+                        "storageIdentifier": "8642",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Alaska_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068706,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Alaska_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3079585,
+                        "description": "",
+                        "storageIdentifier": "8643",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Arizona_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068702,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Arizona_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2460314,
+                        "description": "",
+                        "storageIdentifier": "8644",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Arkansas_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068678,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Arkansas_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3728023,
+                        "description": "",
+                        "storageIdentifier": "8645",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "California_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068695,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "California_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3613179,
+                        "description": "",
+                        "storageIdentifier": "8646",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Colorado_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068699,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Colorado_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3109569,
+                        "description": "",
+                        "storageIdentifier": "8647",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Connecticut_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068694,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Connecticut_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2677602,
+                        "description": "",
+                        "storageIdentifier": "8648",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Delaware_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068717,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Delaware_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2550550,
+                        "description": "",
+                        "storageIdentifier": "8649",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "DistrictofColumbia_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068716,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "DistrictofColumbia_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2048298,
+                        "description": "",
+                        "storageIdentifier": "8650",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Florida_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068714,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Florida_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3316356,
+                        "description": "",
+                        "storageIdentifier": "8651",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Georgia_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068680,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Georgia_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 5377045,
+                        "description": "",
+                        "storageIdentifier": "8652",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Hawaii_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068700,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Hawaii_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1970285,
+                        "description": "",
+                        "storageIdentifier": "8653",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Idaho_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068697,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Idaho_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3224796,
+                        "description": "",
+                        "storageIdentifier": "8654",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Illinois_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068703,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Illinois_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4430291,
+                        "description": "",
+                        "storageIdentifier": "8655",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Indiana_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068690,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Indiana_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3965309,
+                        "description": "",
+                        "storageIdentifier": "8656",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Iowa_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068709,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Iowa_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3592839,
+                        "description": "",
+                        "storageIdentifier": "8657",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Kansas_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068684,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Kansas_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3467892,
+                        "description": "",
+                        "storageIdentifier": "8658",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Kentucky_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068713,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Kentucky_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 5287245,
+                        "description": "",
+                        "storageIdentifier": "8659",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Louisiana_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068693,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Louisiana_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4045361,
+                        "description": "",
+                        "storageIdentifier": "8661",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Maine_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068707,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Maine_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2790230,
+                        "description": "",
+                        "storageIdentifier": "8662",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Maryland_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068681,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Maryland_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3937311,
+                        "description": "",
+                        "storageIdentifier": "8663",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Massachusetts_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068683,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Massachusetts_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2926974,
+                        "description": "",
+                        "storageIdentifier": "8664",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Michigan_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068705,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Michigan_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3797835,
+                        "description": "",
+                        "storageIdentifier": "8665",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Minnesota_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068682,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Minnesota_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3566882,
+                        "description": "",
+                        "storageIdentifier": "8666",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Mississippi_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068701,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Mississippi_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4171904,
+                        "description": "",
+                        "storageIdentifier": "8667",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Missouri_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068712,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Missouri_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4224092,
+                        "description": "",
+                        "storageIdentifier": "8668",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Montana_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068708,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Montana_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3289808,
+                        "description": "",
+                        "storageIdentifier": "8669",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Nebraska_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068710,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Nebraska_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3285694,
+                        "description": "",
+                        "storageIdentifier": "8670",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Nevada_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068686,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Nevada_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2858079,
+                        "description": "",
+                        "storageIdentifier": "8671",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "NewHampshire_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068691,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NewHampshire_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2908320,
+                        "description": "",
+                        "storageIdentifier": "8672",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "NewJersey_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068711,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NewJersey_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3378123,
+                        "description": "",
+                        "storageIdentifier": "8673",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "NewMexico_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068687,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NewMexico_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2710088,
+                        "description": "",
+                        "storageIdentifier": "8674",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "NewYork_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068679,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NewYork_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4150932,
+                        "description": "",
+                        "storageIdentifier": "8675",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "NorthCarolina_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068696,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NorthCarolina_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 5479290,
+                        "description": "",
+                        "storageIdentifier": "8676",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "NorthDakota_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068704,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "NorthDakota_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2869592,
+                        "description": "",
+                        "storageIdentifier": "8677",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Ohio_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068698,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Ohio_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4115353,
+                        "description": "",
+                        "storageIdentifier": "8678",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Oklahoma_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068688,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Oklahoma_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3392263,
+                        "description": "",
+                        "storageIdentifier": "8679",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Oregon_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068685,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Oregon_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2874800,
+                        "description": "",
+                        "storageIdentifier": "8680",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Pennsylvania_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068692,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Pennsylvania_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4633783,
+                        "description": "",
+                        "storageIdentifier": "8681",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "RhodeIsland_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068689,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RhodeIsland_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2286686,
+                        "description": "",
+                        "storageIdentifier": "8682",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "SouthCarolina_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068715,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SouthCarolina_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4071561,
+                        "description": "",
+                        "storageIdentifier": "8683",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "SouthDakota_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068719,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SouthDakota_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3106405,
+                        "description": "",
+                        "storageIdentifier": "8684",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Tennessee_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068723,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Tennessee_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 5365176,
+                        "description": "",
+                        "storageIdentifier": "8685",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Texas_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068725,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Texas_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 5426317,
+                        "description": "",
+                        "storageIdentifier": "8686",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Utah_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068728,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Utah_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2512285,
+                        "description": "",
+                        "storageIdentifier": "8687",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Vermont_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068726,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Vermont_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2693742,
+                        "description": "",
+                        "storageIdentifier": "8688",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Virginia_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068721,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Virginia_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 5866249,
+                        "description": "",
+                        "storageIdentifier": "8689",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Washington_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068724,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Washington_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3191682,
+                        "description": "",
+                        "storageIdentifier": "8690",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "WestVirginia_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068722,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "WestVirginia_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4289675,
+                        "description": "",
+                        "storageIdentifier": "8691",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Wisconsin_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068727,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Wisconsin_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3575147,
+                        "description": "",
+                        "storageIdentifier": "8692",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "Wyoming_ArmyRes_2009.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 173,
+                    "dataFile": {
+                        "id": 7068720,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Wyoming_ArmyRes_2009.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2674431,
+                        "description": "",
+                        "storageIdentifier": "8693",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-11"
+                    }
+                }
+            ]
+        }
+    }
+}

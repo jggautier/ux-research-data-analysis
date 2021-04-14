@@ -1,0 +1,1598 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/XUO3X9",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2021-02-01",
+        "datasetVersion": {
+            "id": 31703,
+            "storageIdentifier": "file://10.15139/S3/XUO3X9",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2021-02-01T14:44:11Z",
+            "releaseTime": "2021-02-01T14:44:11Z",
+            "createTime": "2021-01-19T20:53:41Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Sex-dependent effects of preconception exposure to arsenite on gene transcription in parental germ cells and on transcriptomic profiles and diabetic phenotype of offspring"
+                        },
+                        {
+                            "typeName": "alternativeURL",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "https://link.springer.com/article/10.1007/s00204-020-02941-w"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Venkatratnam, Abhishek"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "UNC"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    },
+                                    "authorIdentifier": {
+                                        "typeName": "authorIdentifier",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "0000-0002-4432-1442"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Venkatratnam, Abhishek"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "UNC"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "abhi@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "RNA sequencing was conducted to evaluate transcriptional status in sperm and oocytes of C57BL/6J mice exposed to 200ppb of sodium arsenite. Gene expression was also evaluated in off spring livers and islets that were exposed to inorganic arsenic prior to conception."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Roell, Kyle"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2021-01-19"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "RNA sequencing counts_islets ",
+                    "label": "Counts_islets.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513695,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Counts_islets.txt",
+                        "contentType": "text/plain",
+                        "filesize": 2450744,
+                        "description": "RNA sequencing counts_islets ",
+                        "storageIdentifier": "1772063c6d9-03cb698bc278",
+                        "rootDataFileId": -1,
+                        "md5": "c396138c90ae2984db2c69ce357b70ea",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c396138c90ae2984db2c69ce357b70ea"
+                        },
+                        "creationDate": "2021-01-20"
+                    }
+                },
+                {
+                    "description": "RNA sequencing counts_liver",
+                    "label": "counts_liver.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513696,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "counts_liver.txt",
+                        "contentType": "text/plain",
+                        "filesize": 1681980,
+                        "description": "RNA sequencing counts_liver",
+                        "storageIdentifier": "1772063cc93-b6d4f83e009d",
+                        "rootDataFileId": -1,
+                        "md5": "db624a385ac6cdf940478c5a47025c47",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "db624a385ac6cdf940478c5a47025c47"
+                        },
+                        "creationDate": "2021-01-20"
+                    }
+                },
+                {
+                    "description": "RNA sequencing counts_germcells",
+                    "label": "Counts_sperm and oocytes.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513697,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Counts_sperm and oocytes.txt",
+                        "contentType": "text/plain",
+                        "filesize": 1469372,
+                        "description": "RNA sequencing counts_germcells",
+                        "storageIdentifier": "1772063d22a-36c7204bb827",
+                        "rootDataFileId": -1,
+                        "md5": "04b61660f01aa2772411887568424dd2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "04b61660f01aa2772411887568424dd2"
+                        },
+                        "creationDate": "2021-01-20"
+                    }
+                },
+                {
+                    "description": "Metadata file",
+                    "label": "GEO_Metadata_sheet_Venkatratnam.xlsx.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513939,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "GEO_Metadata_sheet_Venkatratnam.xlsx.zip",
+                        "contentType": "application/zip",
+                        "filesize": 18789,
+                        "description": "Metadata file",
+                        "storageIdentifier": "1775e0c6f04-e6d3d5a65746",
+                        "rootDataFileId": -1,
+                        "md5": "86ba9984d61c8873c629547cd60a8d82",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "86ba9984d61c8873c629547cd60a8d82"
+                        },
+                        "creationDate": "2021-02-01"
+                    }
+                },
+                {
+                    "label": "V_004_O01_S11_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513662,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O01_S11_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 765997183,
+                        "storageIdentifier": "1771c39a6d8-c281418db2bb",
+                        "rootDataFileId": -1,
+                        "md5": "d3e526fe9f498cd5ab20aafbfbad5fee",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d3e526fe9f498cd5ab20aafbfbad5fee"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_O02_S12_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513678,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O02_S12_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 565724747,
+                        "storageIdentifier": "1771c39e3fd-3c8a2608c31d",
+                        "rootDataFileId": -1,
+                        "md5": "52951a09924ea6f75a8754fedf82056a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "52951a09924ea6f75a8754fedf82056a"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_O03_S13_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513685,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O03_S13_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 679438317,
+                        "storageIdentifier": "1771c3a26e3-9bf559fb352c",
+                        "rootDataFileId": -1,
+                        "md5": "4230a44ca089112fbb531885be9ae838",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4230a44ca089112fbb531885be9ae838"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_O04_S14_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513682,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O04_S14_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 979763148,
+                        "storageIdentifier": "1771c3a85f8-0ea6779d9c65",
+                        "rootDataFileId": -1,
+                        "md5": "fe9eacec1922cff169ac4e1ed5c99dfc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "fe9eacec1922cff169ac4e1ed5c99dfc"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_O05_S15_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513643,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O05_S15_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 683850621,
+                        "storageIdentifier": "1771c3ad04e-c33934721eea",
+                        "rootDataFileId": -1,
+                        "md5": "f3f028e0da59d27abc44d7eefd0642b6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f3f028e0da59d27abc44d7eefd0642b6"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_O06_S16_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513663,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O06_S16_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 851063556,
+                        "storageIdentifier": "1771c3b2454-de281e082a71",
+                        "rootDataFileId": -1,
+                        "md5": "e6e678539cda3aa96d2953fe9f2a3dc6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e6e678539cda3aa96d2953fe9f2a3dc6"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_O07_S17_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513683,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O07_S17_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 592772217,
+                        "storageIdentifier": "1771c3b63bc-57bea1fd9a13",
+                        "rootDataFileId": -1,
+                        "md5": "2b0e87e8c0970a21e8457e61faec48e4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2b0e87e8c0970a21e8457e61faec48e4"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_O08_S18_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513679,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O08_S18_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 581525930,
+                        "storageIdentifier": "1771c3b9ef2-a67f34e1abe2",
+                        "rootDataFileId": -1,
+                        "md5": "df2b7fe14d64d205d7d4197a88796c35",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "df2b7fe14d64d205d7d4197a88796c35"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_O09_S19_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513661,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O09_S19_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 566065684,
+                        "storageIdentifier": "1771c3bd729-f41c0b7c879c",
+                        "rootDataFileId": -1,
+                        "md5": "107b5f3e8a216f31139cd4ab4928699a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "107b5f3e8a216f31139cd4ab4928699a"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_O10_S20_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513650,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_O10_S20_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 664524020,
+                        "storageIdentifier": "1771c3c1b54-c179d9191752",
+                        "rootDataFileId": -1,
+                        "md5": "f6a8130ee2f33ceb12b51410f234864b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f6a8130ee2f33ceb12b51410f234864b"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S01_S1_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513632,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S01_S1_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 827448864,
+                        "storageIdentifier": "1771c3c6d5a-091c17f6d763",
+                        "rootDataFileId": -1,
+                        "md5": "7fc53898095f259d075306353ee76d96",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7fc53898095f259d075306353ee76d96"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S02_S2_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513648,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S02_S2_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 710632840,
+                        "storageIdentifier": "1771c3cb468-b9c431e411a1",
+                        "rootDataFileId": -1,
+                        "md5": "678d4376f4597f677b50e6385069da87",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "678d4376f4597f677b50e6385069da87"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S03_S3_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513641,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S03_S3_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 564987514,
+                        "storageIdentifier": "1771c3cef4e-aeff02db1daa",
+                        "rootDataFileId": -1,
+                        "md5": "cdbbe8da06ff7160e818cdb58075a5b6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cdbbe8da06ff7160e818cdb58075a5b6"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S04_S4_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513652,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S04_S4_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 658608488,
+                        "storageIdentifier": "1771c3d33cf-792dc345a1ad",
+                        "rootDataFileId": -1,
+                        "md5": "36ee5cc34d45b634543851fec77d0a4d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "36ee5cc34d45b634543851fec77d0a4d"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S05_S5_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513631,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S05_S5_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 616920779,
+                        "storageIdentifier": "1771c3d7165-a5565f0b128f",
+                        "rootDataFileId": -1,
+                        "md5": "63ead7fa077c35050e985c08d83d6802",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "63ead7fa077c35050e985c08d83d6802"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S06_S6_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513659,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S06_S6_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 507063407,
+                        "storageIdentifier": "1771c3da956-dba32e0a705e",
+                        "rootDataFileId": -1,
+                        "md5": "0132f58f9ae4d855576ab6e544d0a7ee",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0132f58f9ae4d855576ab6e544d0a7ee"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S07_S7_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513660,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S07_S7_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 589201920,
+                        "storageIdentifier": "1771c3de509-37d66ac39de2",
+                        "rootDataFileId": -1,
+                        "md5": "d5ab035f3fb142a920df1a536c0ad958",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d5ab035f3fb142a920df1a536c0ad958"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S08_S8_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513681,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S08_S8_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 356371496,
+                        "storageIdentifier": "1771c3e0dab-4d329bd7ec3d",
+                        "rootDataFileId": -1,
+                        "md5": "957934bbab64d6d6c4d6d183b776cd79",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "957934bbab64d6d6c4d6d183b776cd79"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S09_S9_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513657,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S09_S9_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 629392806,
+                        "storageIdentifier": "1771c3e491a-8d4686d424e5",
+                        "rootDataFileId": -1,
+                        "md5": "3bea0371d01811aed65cea5b422b5bef",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3bea0371d01811aed65cea5b422b5bef"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_004_S10_S10_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513690,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_004_S10_S10_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 520120764,
+                        "storageIdentifier": "1771c3e7e94-d5374861d42b",
+                        "rootDataFileId": -1,
+                        "md5": "d8d8717e1942a3d57b31cd43efe55133",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d8d8717e1942a3d57b31cd43efe55133"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I01_S1_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513677,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I01_S1_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 186740728,
+                        "storageIdentifier": "1771c3e98f2-8cb87996592f",
+                        "rootDataFileId": -1,
+                        "md5": "532bbeba94f65db0a23dbfac001a48bd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "532bbeba94f65db0a23dbfac001a48bd"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I02_S2_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513673,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I02_S2_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1070444770,
+                        "storageIdentifier": "1771c3ef847-9d159ebd4085",
+                        "rootDataFileId": -1,
+                        "md5": "8e84e32e6cd0ca2cc76420ad5d14fbc7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8e84e32e6cd0ca2cc76420ad5d14fbc7"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I03_S3_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513670,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I03_S3_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 149537772,
+                        "storageIdentifier": "1771c3f18dc-4d6da814cc62",
+                        "rootDataFileId": -1,
+                        "md5": "ce4c98cc45aea5e7e3056c1e1694d654",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ce4c98cc45aea5e7e3056c1e1694d654"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I04_S4_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513667,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I04_S4_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 163058410,
+                        "storageIdentifier": "1771c3f2b98-fbfc788477be",
+                        "rootDataFileId": -1,
+                        "md5": "731b7321591c5392bcaf155198a90d42",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "731b7321591c5392bcaf155198a90d42"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I05_S5_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513680,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I05_S5_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1000591112,
+                        "storageIdentifier": "1771c3f8251-bed54d77adfe",
+                        "rootDataFileId": -1,
+                        "md5": "9bc58bb136332be253e503b6ddeba581",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9bc58bb136332be253e503b6ddeba581"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I06_S6_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513642,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I06_S6_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 216030591,
+                        "storageIdentifier": "1771c3fa5c5-fd87225fc15d",
+                        "rootDataFileId": -1,
+                        "md5": "1c0c09b4eca5b6877e28109d7bdc13f1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1c0c09b4eca5b6877e28109d7bdc13f1"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I07_S7_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513671,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I07_S7_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 919556062,
+                        "storageIdentifier": "1771c3ff9e5-24045e18175d",
+                        "rootDataFileId": -1,
+                        "md5": "16fec407fbdccf1db6669d879498fdb2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "16fec407fbdccf1db6669d879498fdb2"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I08_S8_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513637,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I08_S8_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 186569376,
+                        "storageIdentifier": "1771c4019d5-7bf337f7151f",
+                        "rootDataFileId": -1,
+                        "md5": "b604825dc66c550dfbaff06ba0efe1d8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b604825dc66c550dfbaff06ba0efe1d8"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I09_S9_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513633,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I09_S9_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 833448068,
+                        "storageIdentifier": "1771c4063d6-328809685513",
+                        "rootDataFileId": -1,
+                        "md5": "54203afd153f8c045af52d6f416d0884",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "54203afd153f8c045af52d6f416d0884"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I10_S10_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513684,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I10_S10_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 877704277,
+                        "storageIdentifier": "1771c40bc65-8c3a1020113e",
+                        "rootDataFileId": -1,
+                        "md5": "c922c843d620346d8de0f897b5609feb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c922c843d620346d8de0f897b5609feb"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I11_S1_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513638,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I11_S1_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 140882279,
+                        "storageIdentifier": "1771c40daa8-6586ca1577e2",
+                        "rootDataFileId": -1,
+                        "md5": "dd0d0c2791897ce7873ec3f552b6dff5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dd0d0c2791897ce7873ec3f552b6dff5"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I12_S2_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513636,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I12_S2_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1360186104,
+                        "storageIdentifier": "1771c415502-112ed4da0756",
+                        "rootDataFileId": -1,
+                        "md5": "4632d654165075a3f61eac38b29a4579",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4632d654165075a3f61eac38b29a4579"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I13_S3_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513630,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I13_S3_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 182585035,
+                        "storageIdentifier": "1771c417e94-2ccf588a9466",
+                        "rootDataFileId": -1,
+                        "md5": "0a31c156a796de65ae5c972f9aad8db8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0a31c156a796de65ae5c972f9aad8db8"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I14_S4_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513639,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I14_S4_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 151481135,
+                        "storageIdentifier": "1771c418fdc-31cd435d9ad1",
+                        "rootDataFileId": -1,
+                        "md5": "97d1480cbf1e1b0ee47cf8f68ca6bd9b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "97d1480cbf1e1b0ee47cf8f68ca6bd9b"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I15_S5_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513634,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I15_S5_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 873361994,
+                        "storageIdentifier": "1771c41dfa3-963944d896a4",
+                        "rootDataFileId": -1,
+                        "md5": "4470922c9049d947d470249132df98b2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4470922c9049d947d470249132df98b2"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I16_S6_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513674,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I16_S6_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 155575628,
+                        "storageIdentifier": "1771c41fcea-15e3671a3fee",
+                        "rootDataFileId": -1,
+                        "md5": "58b770a6c9f97029965212c36972ae6e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "58b770a6c9f97029965212c36972ae6e"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I17_S7_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513644,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I17_S7_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 876398445,
+                        "storageIdentifier": "1771c424bf7-cf6d5be7da39",
+                        "rootDataFileId": -1,
+                        "md5": "574e5726367c0dee450aa3b394a9e727",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "574e5726367c0dee450aa3b394a9e727"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I18_S8_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513654,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I18_S8_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 154223147,
+                        "storageIdentifier": "1771c4268e4-2b04bd928f4e",
+                        "rootDataFileId": -1,
+                        "md5": "f5f6cd2fd3426be1af19a344b44f410a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f5f6cd2fd3426be1af19a344b44f410a"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I19_S9_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513687,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I19_S9_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1567583413,
+                        "storageIdentifier": "1771c42ef52-b7234c60ada7",
+                        "rootDataFileId": -1,
+                        "md5": "014253e64dc3f7dbec65c1016b53f536",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "014253e64dc3f7dbec65c1016b53f536"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I20_S10_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513640,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I20_S10_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 149339384,
+                        "storageIdentifier": "1771c431e9b-0f587ef18461",
+                        "rootDataFileId": -1,
+                        "md5": "a65b59f955d42e0e0f8c5ef830a78c4c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a65b59f955d42e0e0f8c5ef830a78c4c"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_008_I21_S11_R2_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513653,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_008_I21_S11_R2_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 139077688,
+                        "storageIdentifier": "1771c432e6a-4e289c0a01ce",
+                        "rootDataFileId": -1,
+                        "md5": "725cbdd443119204f95f382dfb8dffcc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "725cbdd443119204f95f382dfb8dffcc"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L01_S1_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513649,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L01_S1_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1527529600,
+                        "storageIdentifier": "1771c43af86-638d83a47966",
+                        "rootDataFileId": -1,
+                        "md5": "5b97e40a84c4115ce156bce4e53473c5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5b97e40a84c4115ce156bce4e53473c5"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L02_S2_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513645,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L02_S2_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1153145849,
+                        "storageIdentifier": "1771c442a5f-c545b5f2a2a4",
+                        "rootDataFileId": -1,
+                        "md5": "5e1dedb728b6e847a461f49fede061ff",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5e1dedb728b6e847a461f49fede061ff"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L03_S3_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513656,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L03_S3_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1573646553,
+                        "storageIdentifier": "1771c44d594-5fba9bdec1e2",
+                        "rootDataFileId": -1,
+                        "md5": "4fc0e0eb0ef3de81ad92c3803c1fb6f6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4fc0e0eb0ef3de81ad92c3803c1fb6f6"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L04_S4_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513672,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L04_S4_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1151395078,
+                        "storageIdentifier": "1771c455cde-e8b067e667f1",
+                        "rootDataFileId": -1,
+                        "md5": "1dd8bfccdb38838d0e8963626317cf7b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1dd8bfccdb38838d0e8963626317cf7b"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L05_S5_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513655,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L05_S5_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1154408842,
+                        "storageIdentifier": "1771c45d16e-e2c726a9cc34",
+                        "rootDataFileId": -1,
+                        "md5": "b9517d9ddfa5609698aacd004a6e34fd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b9517d9ddfa5609698aacd004a6e34fd"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L06_S6_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513666,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L06_S6_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1409006495,
+                        "storageIdentifier": "1771c466edb-ae7238a9264b",
+                        "rootDataFileId": -1,
+                        "md5": "3dcfea3ebc6c051215d22c5624545fe1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3dcfea3ebc6c051215d22c5624545fe1"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L07_S7_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513651,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L07_S7_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1568213599,
+                        "storageIdentifier": "1771c470c75-f7abd501308e",
+                        "rootDataFileId": -1,
+                        "md5": "62ed6a7890bdd54aa60a523caf2e6f8e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "62ed6a7890bdd54aa60a523caf2e6f8e"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L08_S8_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513689,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L08_S8_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1546209174,
+                        "storageIdentifier": "1771c47b4a2-cbeec37a3138",
+                        "rootDataFileId": -1,
+                        "md5": "58827f00093f8231d5f583860ab582fa",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "58827f00093f8231d5f583860ab582fa"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L09_S9_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513675,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L09_S9_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1349530404,
+                        "storageIdentifier": "1771c4842eb-daf7b0f072b5",
+                        "rootDataFileId": -1,
+                        "md5": "e007f336241d3038cc1b6d69d64bd0c6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e007f336241d3038cc1b6d69d64bd0c6"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L10_S10_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513635,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L10_S10_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1574307615,
+                        "storageIdentifier": "1771c48eb6b-d25d2d95043e",
+                        "rootDataFileId": -1,
+                        "md5": "d4555d032416fa83f3fcfb7dd1e53459",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d4555d032416fa83f3fcfb7dd1e53459"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L11_S11_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513688,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L11_S11_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1388083165,
+                        "storageIdentifier": "1771c497f28-4578ab38c8c6",
+                        "rootDataFileId": -1,
+                        "md5": "dfa7761e7064099fbd264787b6198146",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dfa7761e7064099fbd264787b6198146"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L12_S12_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513669,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L12_S12_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1285003035,
+                        "storageIdentifier": "1771c4a1e25-6b738b163979",
+                        "rootDataFileId": -1,
+                        "md5": "35b2635b645087430744df92a6388a6c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "35b2635b645087430744df92a6388a6c"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L13_S13_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513668,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L13_S13_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1302700242,
+                        "storageIdentifier": "1771c4aa30b-562e719357fd",
+                        "rootDataFileId": -1,
+                        "md5": "52b34f2dc04efe2718058a70a6c8ce37",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "52b34f2dc04efe2718058a70a6c8ce37"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L14_S14_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513629,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L14_S14_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1301597061,
+                        "storageIdentifier": "1771c4b2a16-13952c66bdf6",
+                        "rootDataFileId": -1,
+                        "md5": "c1851b0db28041a9243722daceded656",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c1851b0db28041a9243722daceded656"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L15_S15_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513686,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L15_S15_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1531735184,
+                        "storageIdentifier": "1771c4bd9c7-e0f7c735b7d0",
+                        "rootDataFileId": -1,
+                        "md5": "b99910b02e1b9da60e6b4996b5d0916e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b99910b02e1b9da60e6b4996b5d0916e"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L16_S16_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513646,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L16_S16_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1563881776,
+                        "storageIdentifier": "1771c4cac2c-a535e2e17f9d",
+                        "rootDataFileId": -1,
+                        "md5": "c273b55f18a395847ad6bfde96fdb6ee",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c273b55f18a395847ad6bfde96fdb6ee"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L17_S17_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513664,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L17_S17_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1669959632,
+                        "storageIdentifier": "1771c4d52b1-c7eb54387e63",
+                        "rootDataFileId": -1,
+                        "md5": "b0db291efc25a8e2fc1e8a1c0d823c8f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b0db291efc25a8e2fc1e8a1c0d823c8f"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L18_S18_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513676,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L18_S18_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1605026145,
+                        "storageIdentifier": "1771c4df779-7cf05e1138c0",
+                        "rootDataFileId": -1,
+                        "md5": "703a0c3e423a4525aff4c1b48608d7c7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "703a0c3e423a4525aff4c1b48608d7c7"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L19_S19_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513665,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L19_S19_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1402138222,
+                        "storageIdentifier": "1771c4e9774-705a3e2a5c1e",
+                        "rootDataFileId": -1,
+                        "md5": "33cd7e38bc65b7322b56a104ee19af2d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "33cd7e38bc65b7322b56a104ee19af2d"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L20_S20_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513647,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L20_S20_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1462453934,
+                        "storageIdentifier": "1771c4f2c6c-9e5774794824",
+                        "rootDataFileId": -1,
+                        "md5": "f70e45745563d2a6753b23b5b2e9ff5a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f70e45745563d2a6753b23b5b2e9ff5a"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                },
+                {
+                    "label": "V_010_L21_S21_R1_001.fastq.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31703,
+                    "dataFile": {
+                        "id": 7513658,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "V_010_L21_S21_R1_001.fastq.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1601663181,
+                        "storageIdentifier": "1771c4fd909-6358a24bedfb",
+                        "rootDataFileId": -1,
+                        "md5": "9e43a5b1dd3581e295c7bd08f7eaa928",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9e43a5b1dd3581e295c7bd08f7eaa928"
+                        },
+                        "creationDate": "2021-01-19"
+                    }
+                }
+            ]
+        }
+    }
+}

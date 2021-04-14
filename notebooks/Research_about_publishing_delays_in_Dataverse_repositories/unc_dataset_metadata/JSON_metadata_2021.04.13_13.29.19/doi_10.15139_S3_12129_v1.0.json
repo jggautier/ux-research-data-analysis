@@ -1,0 +1,376 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12129",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2015-12-03",
+        "datasetVersion": {
+            "id": 146,
+            "storageIdentifier": "file://10.15139/S3/12129",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "",
+            "distributionDate": "2015",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2015-12-04T00:43:22Z",
+            "releaseTime": "2015-12-03T00:00:00Z",
+            "createTime": "2015-12-04T00:35:53Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication data for: Voters' Verdicts:  Citizens, Campaigns, and Institutions in State Supreme Court Elections"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bonneau, Chris W."
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of Pittsburgh"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cann, Damon M."
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Utah State University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Replication data for Bonneau and Cann, Voters' Verdicts, University of Virginia Press."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Voters' Verdicts:  Citizens, Campaigns, and Institutions in State Supreme Court Elections"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015"
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015-12-03"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "do file",
+                    "label": "BonneauCannReplicate.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7184992,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "BonneauCannReplicate.do",
+                        "contentType": "text/x-stata-syntax; charset=US-ASCII",
+                        "filesize": 10954,
+                        "description": "do file",
+                        "storageIdentifier": "18582",
+                        "rootDataFileId": -1,
+                        "md5": "b6f480ce3ff10bd96a4925ac40097df0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b6f480ce3ff10bd96a4925ac40097df0"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                },
+                {
+                    "description": "Chapter 3 experiment 1 replication data",
+                    "label": "CH3_exp1.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7184997,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "CH3_exp1.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 26840,
+                        "description": "Chapter 3 experiment 1 replication data",
+                        "storageIdentifier": "18586",
+                        "rootDataFileId": -1,
+                        "md5": "73a0c54088ea47104221841a233a9de6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "73a0c54088ea47104221841a233a9de6"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                },
+                {
+                    "description": "Chapter 3 experiment 2 replication data",
+                    "label": "CH3_exp2.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7185000,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "CH3_exp2.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 12075,
+                        "description": "Chapter 3 experiment 2 replication data",
+                        "storageIdentifier": "18587",
+                        "rootDataFileId": -1,
+                        "md5": "3bdc5a41554fba915bd3499a7dc4c0a8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3bdc5a41554fba915bd3499a7dc4c0a8"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                },
+                {
+                    "description": "Chapter 4 Table 6 replication data",
+                    "label": "Ch4Tab6.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7184998,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Ch4Tab6.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 11891,
+                        "description": "Chapter 4 Table 6 replication data",
+                        "storageIdentifier": "18584",
+                        "rootDataFileId": -1,
+                        "md5": "85084c4595d25ff5f27baf17bec53b8e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "85084c4595d25ff5f27baf17bec53b8e"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                },
+                {
+                    "description": "Chapter 2 2010 data",
+                    "label": "Chap2_2010.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7184994,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Chap2_2010.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 281578,
+                        "description": "Chapter 2 2010 data",
+                        "storageIdentifier": "18588",
+                        "rootDataFileId": -1,
+                        "md5": "dee532ba6275a2c58ddd5220b5f03126",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dee532ba6275a2c58ddd5220b5f03126"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                },
+                {
+                    "description": "Chapter 2 2012 data",
+                    "label": "Chap2_2012.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7184999,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Chap2_2012.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 6346252,
+                        "description": "Chapter 2 2012 data",
+                        "storageIdentifier": "18589",
+                        "rootDataFileId": -1,
+                        "md5": "6645c3a20e01ca7e105180c616e27b49",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6645c3a20e01ca7e105180c616e27b49"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                },
+                {
+                    "description": "Chapter 4 replication data",
+                    "label": "Chap4_IncExp.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7184995,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Chap4_IncExp.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 15569,
+                        "description": "Chapter 4 replication data",
+                        "storageIdentifier": "18585",
+                        "rootDataFileId": -1,
+                        "md5": "fc8ceeb121e296f7c1913d8f065bd75b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "fc8ceeb121e296f7c1913d8f065bd75b"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                },
+                {
+                    "description": "Chapter 5 replication data",
+                    "label": "Chap5replicate.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7184996,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Chap5replicate.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 6780175,
+                        "description": "Chapter 5 replication data",
+                        "storageIdentifier": "18583",
+                        "rootDataFileId": -1,
+                        "md5": "f86f6432d8966141a8d78314ea1379c0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f86f6432d8966141a8d78314ea1379c0"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                },
+                {
+                    "description": "Table 1.1 2010 replication data",
+                    "label": "Table1.1_2010.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7184993,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Table1.1_2010.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 210416,
+                        "description": "Table 1.1 2010 replication data",
+                        "storageIdentifier": "18590",
+                        "rootDataFileId": -1,
+                        "md5": "dac68e90e53b3172a619c6400fe5cc6e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dac68e90e53b3172a619c6400fe5cc6e"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                },
+                {
+                    "description": "Table 1.1 2012 replication data",
+                    "label": "Table1.12012.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 146,
+                    "dataFile": {
+                        "id": 7185001,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Table1.12012.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 1552543,
+                        "description": "Table 1.1 2012 replication data",
+                        "storageIdentifier": "18591",
+                        "rootDataFileId": -1,
+                        "md5": "db0b3e5be3f59f6a4370d6e381348216",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "db0b3e5be3f59f6a4370d6e381348216"
+                        },
+                        "creationDate": "2015-12-03"
+                    }
+                }
+            ]
+        }
+    }
+}

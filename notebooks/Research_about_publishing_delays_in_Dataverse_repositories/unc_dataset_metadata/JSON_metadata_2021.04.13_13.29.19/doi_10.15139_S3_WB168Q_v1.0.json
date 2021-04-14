@@ -1,0 +1,1274 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/WB168Q",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2020-09-24",
+        "datasetVersion": {
+            "id": 31497,
+            "storageIdentifier": "file://10.15139/S3/WB168Q",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:a0v4qYeNUjBkb7N4zo/wSw==",
+            "lastUpdateTime": "2020-09-24T12:51:05Z",
+            "releaseTime": "2020-09-24T12:51:05Z",
+            "createTime": "2020-07-16T18:24:26Z",
+            "license": "NONE",
+            "citationRequirements": "In accordance with the norms of the academic and scientific communities, works (publications, presentations or research reports) which use the data from this study should include appropriate citation to the source of the data.",
+            "disclaimer": "Data Disclaimer: Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall Emory University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Data for: Live-cell super-resolved PAINT imaging of pN cellular traction forces"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Salaita, Khalid"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    },
+                                    "authorIdentifier": {
+                                        "typeName": "authorIdentifier",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://orcid.org/0000-0003-4138-3477"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Su, Hanquan"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Brockman, Joshua"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Blanchard, Aaron"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Duan, Yuxin"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Salaita, Khalid"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "k.salaita@emory.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Source data for the main figures in Nature Methods \"Live-cell super-resolved PAINT imaging of pN cellular traction forces\" by Brockman and Su, et al. 2020\r\nDOI: 10.1038/s41592-020-0929-2"
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2020-07-14"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Chemistry",
+                                "Engineering",
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://doi.org/10.1038/s41592-020-0929-2\r\nhttps://doi.org/10.1038/nprot.2017.024"
+                                    },
+                                    "publicationIDType": {
+                                        "typeName": "publicationIDType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "doi"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory Libraries and Information Technology Services"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.emory.edu/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Salaita, Khalid"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2020-07-16"
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": []
+                }
+            },
+            "files": [
+                {
+                    "label": "Figure 1c 0-200s.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511068,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1c 0-200s.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 8231840,
+                        "storageIdentifier": "17358da75d5-c1bfaa81c9b0",
+                        "rootDataFileId": -1,
+                        "md5": "c61576f4a364531fc721108185a66250",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c61576f4a364531fc721108185a66250"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1c 0-200s.yaml",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511085,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1c 0-200s.yaml",
+                        "contentType": "application/octet-stream",
+                        "filesize": 339,
+                        "storageIdentifier": "17358da75fd-f11a9ba9551e",
+                        "rootDataFileId": -1,
+                        "md5": "b3dc28d809a4c4d6f4079510456ce380",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b3dc28d809a4c4d6f4079510456ce380"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1c 200-400s.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511097,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1c 200-400s.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 9695632,
+                        "storageIdentifier": "17358da768f-d9e802b1ae09",
+                        "rootDataFileId": -1,
+                        "md5": "d837ec23557d9a0a08f5a4b25478283c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d837ec23557d9a0a08f5a4b25478283c"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1c 400-600s.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511103,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1c 400-600s.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 10703232,
+                        "storageIdentifier": "17358da775d-9d9d2125e394",
+                        "rootDataFileId": -1,
+                        "md5": "4bbe47c2770607c04b605e2a96d79f13",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4bbe47c2770607c04b605e2a96d79f13"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1c 600-800s.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511069,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1c 600-800s.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 12007172,
+                        "storageIdentifier": "17358da7843-f803bbff546e",
+                        "rootDataFileId": -1,
+                        "md5": "46f89337e134df3eade74c437fbfabd1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "46f89337e134df3eade74c437fbfabd1"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1c 800-1000s.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511099,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1c 800-1000s.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 11699964,
+                        "storageIdentifier": "17358da7933-fdfd4af78edf",
+                        "rootDataFileId": -1,
+                        "md5": "872deb46a78bb850284112a8791c4d8a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "872deb46a78bb850284112a8791c4d8a"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1c.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511088,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1c.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 860160,
+                        "storageIdentifier": "17358da7977-a788e728ba6d",
+                        "rootDataFileId": -1,
+                        "md5": "36ea22d23f8bf0527109c579374e9d05",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "36ea22d23f8bf0527109c579374e9d05"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1f 0-200s.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511086,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1f 0-200s.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 8831516,
+                        "storageIdentifier": "17358da7a03-488256a2955b",
+                        "rootDataFileId": -1,
+                        "md5": "9cba27acac5ed24bddbba301bbd5062c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9cba27acac5ed24bddbba301bbd5062c"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1f 0-200s.yaml",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511066,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1f 0-200s.yaml",
+                        "contentType": "application/octet-stream",
+                        "filesize": 316,
+                        "storageIdentifier": "17358da7a2d-c1176d511d28",
+                        "rootDataFileId": -1,
+                        "md5": "141f20d3d5e2aade5ad6dc0133233c78",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "141f20d3d5e2aade5ad6dc0133233c78"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1f 200-400s.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511083,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1f 200-400s.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 9956904,
+                        "storageIdentifier": "17358da7ac7-900d1817ac10",
+                        "rootDataFileId": -1,
+                        "md5": "5dee693bfc191e1db987590e16aefda8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5dee693bfc191e1db987590e16aefda8"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1f 400-600s.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511061,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1f 400-600s.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 7496996,
+                        "storageIdentifier": "17358da7b68-9e8c56bbf457",
+                        "rootDataFileId": -1,
+                        "md5": "306818eefc96cc0825695f35168bb31a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "306818eefc96cc0825695f35168bb31a"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 1f.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511090,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 1f.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 1495040,
+                        "storageIdentifier": "17358da7ba4-489f80555e3b",
+                        "rootDataFileId": -1,
+                        "md5": "9c2305df5febdc5a1a9ca48d02783a0f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9c2305df5febdc5a1a9ca48d02783a0f"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure1_linescan_data.tab",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 2,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511098,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure1_linescan_data.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 4181,
+                        "storageIdentifier": "17358da7bae-c0a14fa08f59",
+                        "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "originalFormatLabel": "MS Excel Spreadsheet",
+                        "originalFileSize": 12404,
+                        "UNF": "UNF:6:iGDOPxs3dn0DLfAK7VJCEA==",
+                        "rootDataFileId": -1,
+                        "md5": "420e6e93e97ba872b504cf0c6f3ee7a1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "420e6e93e97ba872b504cf0c6f3ee7a1"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2b.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511067,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2b.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 929792,
+                        "storageIdentifier": "17358d9e708-a6bb94b2a0a3",
+                        "rootDataFileId": -1,
+                        "md5": "a44ed2a9197c966539788c8b94fd41ba",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a44ed2a9197c966539788c8b94fd41ba"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2c.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511100,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2c.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 20426300,
+                        "storageIdentifier": "17358d9e843-51db69013fdc",
+                        "rootDataFileId": -1,
+                        "md5": "ba40e50949dd4c456db9b8c0e74c6b49",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ba40e50949dd4c456db9b8c0e74c6b49"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2c.yaml",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511062,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2c.yaml",
+                        "contentType": "application/octet-stream",
+                        "filesize": 357,
+                        "storageIdentifier": "17358d9e89f-e996cc211ea9",
+                        "rootDataFileId": -1,
+                        "md5": "e46ea5bdd6d9a0acdb41045a8d8c388d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e46ea5bdd6d9a0acdb41045a8d8c388d"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2d.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511079,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2d.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 90756348,
+                        "storageIdentifier": "17358d9edf8-3e56f1c41255",
+                        "rootDataFileId": -1,
+                        "md5": "ece507a7ecbc9e019596461dd6717b02",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ece507a7ecbc9e019596461dd6717b02"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2d.yaml",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511093,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2d.yaml",
+                        "contentType": "application/octet-stream",
+                        "filesize": 641,
+                        "storageIdentifier": "17358d9ef86-3d91d8f51090",
+                        "rootDataFileId": -1,
+                        "md5": "3bf69318092db7053a54bb1ddc66d238",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3bf69318092db7053a54bb1ddc66d238"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2g.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511095,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2g.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 3350524,
+                        "storageIdentifier": "17358d9efe2-1dcdaf155551",
+                        "rootDataFileId": -1,
+                        "md5": "f2926448d591ebc2b4228766de54b7c8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f2926448d591ebc2b4228766de54b7c8"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2g.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511071,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2g.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 950272,
+                        "storageIdentifier": "17358d9effd-a1bb24405f2a",
+                        "rootDataFileId": -1,
+                        "md5": "7e0f9bbecd98799503dcba220b2ba2f8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7e0f9bbecd98799503dcba220b2ba2f8"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2g.yaml",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511092,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2g.yaml",
+                        "contentType": "application/octet-stream",
+                        "filesize": 351,
+                        "storageIdentifier": "17358d9f006-28705d2bd1e6",
+                        "rootDataFileId": -1,
+                        "md5": "0f8796de8643c3a98def7a59a59ef3b5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0f8796de8643c3a98def7a59a59ef3b5"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2h.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511104,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2h.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 3339612,
+                        "storageIdentifier": "17358d9f038-19b13327d3ec",
+                        "rootDataFileId": -1,
+                        "md5": "6bcac921b632533a0573313343a19773",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6bcac921b632533a0573313343a19773"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2h.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511091,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2h.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 950272,
+                        "storageIdentifier": "17358d9f053-fe33de636510",
+                        "rootDataFileId": -1,
+                        "md5": "df10d23ba9c2aebb2847b67898329341",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "df10d23ba9c2aebb2847b67898329341"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2i.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511102,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2i.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 1358600,
+                        "storageIdentifier": "17358d9f07a-bfab02b5d1ac",
+                        "rootDataFileId": -1,
+                        "md5": "0f12da2c7aa287caafd0d2af3161eb3c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0f12da2c7aa287caafd0d2af3161eb3c"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure2i linescan.tab",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 2,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511101,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure2i linescan.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1321,
+                        "storageIdentifier": "17358d9f8ac-ddec6143b107",
+                        "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "originalFormatLabel": "MS Excel Spreadsheet",
+                        "originalFileSize": 10197,
+                        "UNF": "UNF:6:Po704OGrFbhY1egcRvZOOg==",
+                        "rootDataFileId": -1,
+                        "md5": "952aa115ebf663e9f9f558011527a1bc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "952aa115ebf663e9f9f558011527a1bc"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2i.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511080,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2i.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 843776,
+                        "storageIdentifier": "17358d9f08e-eae731a35924",
+                        "rootDataFileId": -1,
+                        "md5": "1d347902ea1c41a3103b7ad753e85d59",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1d347902ea1c41a3103b7ad753e85d59"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2k 14pN.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511073,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2k 14pN.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 8655032,
+                        "storageIdentifier": "17358d9f119-684788808303",
+                        "rootDataFileId": -1,
+                        "md5": "041ce2dcd07f856859ee71729c5188b0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "041ce2dcd07f856859ee71729c5188b0"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2k 14pN.yaml",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511082,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2k 14pN.yaml",
+                        "contentType": "application/octet-stream",
+                        "filesize": 688,
+                        "storageIdentifier": "17358d9f143-b005d5fa3212",
+                        "rootDataFileId": -1,
+                        "md5": "aa390ad126c96437fe15127dae2f8ceb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "aa390ad126c96437fe15127dae2f8ceb"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2k 8_5pN.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511065,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2k 8_5pN.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 14433596,
+                        "storageIdentifier": "17358d9f212-cfb38037c71d",
+                        "rootDataFileId": -1,
+                        "md5": "ffc3f1cd5862b23a37b09c37ef807b8f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ffc3f1cd5862b23a37b09c37ef807b8f"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2k.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511075,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2k.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 851968,
+                        "storageIdentifier": "17358d9f262-290f77d7d292",
+                        "rootDataFileId": -1,
+                        "md5": "24d9a8348ca516393035f8f2cc245b4c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "24d9a8348ca516393035f8f2cc245b4c"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2l 21pN.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511089,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2l 21pN.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 46738132,
+                        "storageIdentifier": "17358d9f514-45027b392633",
+                        "rootDataFileId": -1,
+                        "md5": "cd077e2a48005fec68adc47ecef79392",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cd077e2a48005fec68adc47ecef79392"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2l 21pN.yaml",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511074,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2l 21pN.yaml",
+                        "contentType": "application/octet-stream",
+                        "filesize": 612,
+                        "storageIdentifier": "17358d9f5e2-d3d59de93906",
+                        "rootDataFileId": -1,
+                        "md5": "cd005cf6063f2269dc2a2855baf1823b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cd005cf6063f2269dc2a2855baf1823b"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2l 8_5pN.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511087,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2l 8_5pN.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 36378288,
+                        "storageIdentifier": "17358d9f7f7-3c94dd5a3709",
+                        "rootDataFileId": -1,
+                        "md5": "871a9a0b0d316e23da0afc31f51bf325",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "871a9a0b0d316e23da0afc31f51bf325"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 2l.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511096,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 2l.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 835584,
+                        "storageIdentifier": "17358d9f8a4-d25c40981453",
+                        "rootDataFileId": -1,
+                        "md5": "f57242a61f4e1abd7ae5638b543b1d9f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f57242a61f4e1abd7ae5638b543b1d9f"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 3b.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 3",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511076,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 3b.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 950272,
+                        "storageIdentifier": "17358da35c9-763e7923eb83",
+                        "rootDataFileId": -1,
+                        "md5": "66d2eab2f51b7062231edd80d50a2f9a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "66d2eab2f51b7062231edd80d50a2f9a"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 3c-e.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 3",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511064,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 3c-e.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 32166432,
+                        "storageIdentifier": "17358da37a4-0712fe360304",
+                        "rootDataFileId": -1,
+                        "md5": "e7769589a130da9188f7c18ae4c458de",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e7769589a130da9188f7c18ae4c458de"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 3c-e.yaml",
+                    "restricted": false,
+                    "directoryLabel": "Figure 3",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511077,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 3c-e.yaml",
+                        "contentType": "application/octet-stream",
+                        "filesize": 306,
+                        "storageIdentifier": "17358da3832-42bda07ce6ec",
+                        "rootDataFileId": -1,
+                        "md5": "96b38c9f5549bd15789ef4c99f02d90d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "96b38c9f5549bd15789ef4c99f02d90d"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 3g-h.nd2",
+                    "restricted": false,
+                    "directoryLabel": "Figure 3",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511072,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 3g-h.nd2",
+                        "contentType": "application/octet-stream",
+                        "filesize": 1585152,
+                        "storageIdentifier": "17358da384b-ca65b1109df2",
+                        "rootDataFileId": -1,
+                        "md5": "cab10a6985b1d6a553e995b816fb2ce5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cab10a6985b1d6a553e995b816fb2ce5"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 3i.hdf5",
+                    "restricted": false,
+                    "directoryLabel": "Figure 3",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511063,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 3i.hdf5",
+                        "contentType": "application/x-hdf5",
+                        "filesize": 38712128,
+                        "storageIdentifier": "17358da3a90-09e2d62f4ee1",
+                        "rootDataFileId": -1,
+                        "md5": "f143f487a4d6e08f299a3156290ec03c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f143f487a4d6e08f299a3156290ec03c"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure 3i.yaml",
+                    "restricted": false,
+                    "directoryLabel": "Figure 3",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511081,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure 3i.yaml",
+                        "contentType": "application/octet-stream",
+                        "filesize": 341,
+                        "storageIdentifier": "17358da3b39-ec302eb20ad3",
+                        "rootDataFileId": -1,
+                        "md5": "1b6e4c77648ddb462a82f5d112182aee",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1b6e4c77648ddb462a82f5d112182aee"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "Figure3_linescans.tab",
+                    "restricted": false,
+                    "directoryLabel": "Figure 3",
+                    "version": 2,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511094,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Figure3_linescans.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15469,
+                        "storageIdentifier": "17358da3b3d-301e40c9287f",
+                        "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "originalFormatLabel": "MS Excel Spreadsheet",
+                        "originalFileSize": 21206,
+                        "UNF": "UNF:6:fKeOVBL/mkJKjozmHBVGjw==",
+                        "rootDataFileId": -1,
+                        "md5": "bf6d72adbf31d9355dea6a09ae952ff7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bf6d72adbf31d9355dea6a09ae952ff7"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "readme_Figure1.txt",
+                    "restricted": false,
+                    "directoryLabel": "Figure 1",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511084,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "readme_Figure1.txt",
+                        "contentType": "text/plain",
+                        "filesize": 1196,
+                        "storageIdentifier": "17358da7bb2-3881341914d2",
+                        "rootDataFileId": -1,
+                        "md5": "cb0547ca7ec5dc5915dfc3c03e6e69ac",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cb0547ca7ec5dc5915dfc3c03e6e69ac"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "readme_Figure2.txt",
+                    "restricted": false,
+                    "directoryLabel": "Figure 2",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511070,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "readme_Figure2.txt",
+                        "contentType": "text/plain",
+                        "filesize": 2085,
+                        "storageIdentifier": "17358d9f8b0-3958464887df",
+                        "rootDataFileId": -1,
+                        "md5": "861e8918d63656d9403b6bd298d46548",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "861e8918d63656d9403b6bd298d46548"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                },
+                {
+                    "label": "readme_figure3.txt",
+                    "restricted": false,
+                    "directoryLabel": "Figure 3",
+                    "version": 1,
+                    "datasetVersionId": 31497,
+                    "dataFile": {
+                        "id": 7511078,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "readme_figure3.txt",
+                        "contentType": "text/plain",
+                        "filesize": 1265,
+                        "storageIdentifier": "17358da3b41-00e065fcc109",
+                        "rootDataFileId": -1,
+                        "md5": "cc530c9aed87f7ec0f1e98eba1abe3ff",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cc530c9aed87f7ec0f1e98eba1abe3ff"
+                        },
+                        "creationDate": "2020-07-16"
+                    }
+                }
+            ]
+        }
+    }
+}

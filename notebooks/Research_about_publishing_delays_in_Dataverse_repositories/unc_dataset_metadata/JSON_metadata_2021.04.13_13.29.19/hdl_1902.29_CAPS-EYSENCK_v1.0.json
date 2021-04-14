@@ -1,0 +1,565 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-EYSENCK",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3317,
+            "storageIdentifier": "file://1902.29/CAPS-EYSENCK",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T15:22:53Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:20:07Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Eysenck Personality Inventory Form A (CAPS-EYSENCK module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-EYSENCK"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-EYSENCK"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Eysenck Personality Inventory Form A measures extraversion. It has two subscales: impulsivity and sociability. A total score (not the simple sum of the two subscales) is also created.</p><p>The Eysenck Extraversion scale measures the extent to which an individual tends to be outgoing, impulsive, and socially uninhibited. It is one of three scales included in the Eysenck Personality Inventory (Eysenck and Eysenck, 1968. The extraversion scale has been divided into two subscales by Revelle\nand his colleagues (Revelle, Humphreys, Simon, and Gilliland, 1980). The impulsivity subscale refers to the degree of hesitation or speed (tempo) that characterizes a person's behavior. The sociability factor involves the extent to which a person likes to meet and interact with others as well as a desire for social excitement. Although there is some debate over the propriety of combining these two subscales into one general index of extroversion/introversion, high scores on both factors appear to capture the essence of extraversion.\n</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Eysenck Personality Inventory"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Extraversion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Impulsivity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sociability"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Personality"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Eysenck and Eysenck, 1980."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1987_eysenck_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8520,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_eysenck_data",
+                        "contentType": "text/plain",
+                        "filesize": 48880,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_eysenck_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_eysenck_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8514,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_eysenck_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 6042,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_eysenck_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_eysenck_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8521,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_eysenck_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 69360,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_eysenck_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_eysenck_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8516,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_eysenck_source",
+                        "contentType": "text/plain",
+                        "filesize": 12118,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_eysenck_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_eysenck_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8518,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_eysenck_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 28946,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_eysenck_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_eysenck_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "Data File 1 (caps_1987_eysenck_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8512,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_eysenck_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 24163,
+                        "storageIdentifier": "caps_1987_eysenck_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:KhdTC5snDJyD5rlkVzprjw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_eysenck_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8517,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_eysenck_data",
+                        "contentType": "text/plain",
+                        "filesize": 49400,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_eysenck_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_eysenck_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8510,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_eysenck_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4369,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_eysenck_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_eysenck_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8511,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_eysenck_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 70000,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_eysenck_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_eysenck_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8519,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_eysenck_source",
+                        "contentType": "text/plain",
+                        "filesize": 12118,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_eysenck_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_eysenck_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8513,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_eysenck_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 29110,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_eysenck_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_eysenck_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3317,
+                    "categories": [
+                        "Data File 2 (caps_1988_eysenck_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8515,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_eysenck_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 24130,
+                        "storageIdentifier": "caps_1988_eysenck_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:rGQB+dg4GRDnlcSn1J6oFg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

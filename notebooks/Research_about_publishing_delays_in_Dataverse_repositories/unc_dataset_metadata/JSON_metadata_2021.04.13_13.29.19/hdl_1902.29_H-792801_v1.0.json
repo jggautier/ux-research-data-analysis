@@ -1,0 +1,915 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-792801",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 2692,
+            "storageIdentifier": "file://1902.29/H-792801",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "distributionDate": "1982",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-29T14:49:49Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no even\nt shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 1979 Vietnam War Veterans Survey, study no. 792801"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-792801"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 792801"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>\"This survey probed the feelings and attitudes of Vietnam War veterans and their perceived \"\"alienation.\"\" The survey allows for a comparison of attitudes between the general public and the Vietnam era veterans on such issues as education, family money, health, drugs, employment, and disillusionment with government. The employer sample was questioned on such matters as hiring Vietnam veterans, rating the job performance of the Vietnam veteran, and rating of training the Vietnam veteran receiv\ned as part of the military service. Educators were asked to compare Vietnam veteran students with other students in terms of motivation to learn, grades, study habits, ability to get along with other students, emotional maturity, etc. Questions were also asked concerning the role of television in portraying the life of the Vietnam veteran and how television may have shaped attitudes about these veterans.\"\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Conflict, Aggression, Violence, Wars"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Advance Survey of the General Public's Attitudes Toward Vietnam Era Veterans. Prepared by the Veterans Administration. Washington : The Veterans Administration, 1979."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Advance Survey of the General Public's Attitudes Toward Vietnam Era Veterans. Prepared by the Veterans Administration. Washington : The Veterans Administration, 1979."
+                                    }
+                                },
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Myth and Realities: A Study of Attitudes toward Vietnam Era Veterans. Prepared by the Veterans Administration. Washington : Government Printing Office, 1980. (Order no. 052-070-05377-1) $10.00"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Four samples were included in this survey: (1) cross section of 2,563 adults nationwide; (2) representative sample of 2,464 Vietnam era veterans (including some 1,176 veterans of the Vietnam conflict), (3) 510 educators, and (4) 1,000 employers.;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: H-792801;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1979-11"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris Data Center, University of North Carolina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1982"
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_s792801_advance.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Advance Report, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 24662,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_advance.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3871616,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_advance.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_educator_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Column Binary File -- Educators"
+                    ],
+                    "dataFile": {
+                        "id": 24670,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_educator_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 408000,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_educator_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_educator_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Questionnaire, PDF File -- Educators"
+                    ],
+                    "dataFile": {
+                        "id": 24656,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_educator_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 874274,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_educator_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_educator_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "SAS Code -- Educators"
+                    ],
+                    "dataFile": {
+                        "id": 24671,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_educator_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 59863,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_educator_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_educator_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "SAS Export Library -- Educators"
+                    ],
+                    "dataFile": {
+                        "id": 31893,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_educator_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 887280,
+                        "description": "",
+                        "storageIdentifier": "91",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_educator_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Data Files"
+                    ],
+                    "dataFile": {
+                        "id": 31894,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_educator_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 220229,
+                        "description": "",
+                        "storageIdentifier": "92",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 233700,
+                        "UNF": "UNF:3:GBOYxLPNbV1tkIzmKzrTAA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_employer_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Column Binary File -- Employers"
+                    ],
+                    "dataFile": {
+                        "id": 24676,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_employer_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 1280000,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_employer_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_employer_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Questionnaire, PDF File -- Employers"
+                    ],
+                    "dataFile": {
+                        "id": 24654,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_employer_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 994985,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_employer_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_employer_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "SAS Code -- Employers"
+                    ],
+                    "dataFile": {
+                        "id": 24675,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_employer_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 75673,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_employer_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_employer_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "SAS Export Library -- Employers"
+                    ],
+                    "dataFile": {
+                        "id": 31895,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_employer_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 2154320,
+                        "description": "",
+                        "storageIdentifier": "93",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_employer_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Data Files"
+                    ],
+                    "dataFile": {
+                        "id": 31896,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_employer_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 565850,
+                        "description": "",
+                        "storageIdentifier": "94",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 559732,
+                        "UNF": "UNF:3:qcjzUbJBQTPNtsalC9ufzQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_public_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Column Binary File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 24653,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_public_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 2460480,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_public_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_public_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Questionnaire, PDF File -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 24678,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_public_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1055632,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_public_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_public_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "SAS Code -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 24665,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_public_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 75014,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_public_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_public_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "SAS Export Library -- Public"
+                    ],
+                    "dataFile": {
+                        "id": 31899,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_public_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 5218480,
+                        "description": "",
+                        "storageIdentifier": "97",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_public_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Data Files"
+                    ],
+                    "dataFile": {
+                        "id": 31900,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_public_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1403127,
+                        "description": "",
+                        "storageIdentifier": "98",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 1351114,
+                        "UNF": "UNF:3:2ivjUIlapbRJDOW9dnZwrg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_report.book1.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Report -- Book 1, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 24677,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_report.book1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 7609944,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_report.book1.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_report.book2.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Report -- Book 2, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 24666,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_report.book2.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 8829872,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_report.book2.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_veterans_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Column Binary File -- Veterans"
+                    ],
+                    "dataFile": {
+                        "id": 24655,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_veterans_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 2748480,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_veterans_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_veterans_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Questionnaire, PDF File -- Veterans"
+                    ],
+                    "dataFile": {
+                        "id": 24672,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_veterans_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1696077,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_veterans_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_veterans_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "SAS Code -- Veterans"
+                    ],
+                    "dataFile": {
+                        "id": 24657,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_veterans_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 116185,
+                        "description": "",
+                        "storageIdentifier": "harris_s792801_veterans_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_veterans_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "SAS Export Library -- Veterans"
+                    ],
+                    "dataFile": {
+                        "id": 31909,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_veterans_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 7801600,
+                        "description": "",
+                        "storageIdentifier": "107",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s792801_veterans_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2692,
+                    "categories": [
+                        "Data Files"
+                    ],
+                    "dataFile": {
+                        "id": 31910,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s792801_veterans_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2076185,
+                        "description": "",
+                        "storageIdentifier": "108",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 2022120,
+                        "UNF": "UNF:3:gyOJ7Sw8k3UCR526jfRlfA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

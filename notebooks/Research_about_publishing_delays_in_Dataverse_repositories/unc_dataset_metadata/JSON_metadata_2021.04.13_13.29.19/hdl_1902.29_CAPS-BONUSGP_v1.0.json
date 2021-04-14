@@ -1,0 +1,716 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-BONUSGP",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3338,
+            "storageIdentifier": "file://1902.29/CAPS-BONUSGP",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T17:19:02Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:17:54Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "CAPS Bonus Decisions (CAPS-BONUSGP module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-BONUSGP"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-BONUSGP"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This unit assigned Rs to a partner, team, or department condition and provided choices about taking a bonus for self, or giving a larger one to other member(s) of the group. See source code for more information.</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Decision making"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Reciprocity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Generosity"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Altruism"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Free rider problem"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social dilemma"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bonus group size"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Relative benefit, Ingroup"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published reference."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7274,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp1_data",
+                        "contentType": "text/plain",
+                        "filesize": 72540,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7275,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2551,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7271,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 38000,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7276,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22058,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_bonusgp1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "Data File 1 (caps_1986_bonusgp1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7270,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19370,
+                        "storageIdentifier": "caps_1986_bonusgp1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:OzsqFB81rl8ueL+8bN3y1w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7269,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp2_data",
+                        "contentType": "text/plain",
+                        "filesize": 70980,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp2_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7277,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp2_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2659,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp2_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7279,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 37280,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7268,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 20008,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_bonusgp2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "Data File 2 (caps_1986_bonusgp2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7280,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17461,
+                        "storageIdentifier": "caps_1986_bonusgp2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:wDA52D/WS2q3RQ7xUFRhng==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7278,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp3_data",
+                        "contentType": "text/plain",
+                        "filesize": 71760,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp3_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7272,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp3_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2673,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp3_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7273,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 37600,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7281,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 20008,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_bonusgp3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "Data File 3 (caps_1986_bonusgp3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7266,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17489,
+                        "storageIdentifier": "caps_1986_bonusgp3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:A0y20i19g9oFwQMCOOiWgg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_bonusgp_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3338,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7267,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_bonusgp_source",
+                        "contentType": "text/plain",
+                        "filesize": 17545,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_bonusgp_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

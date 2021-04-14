@@ -1,0 +1,363 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/KJ9TX1",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-10-09",
+        "datasetVersion": {
+            "id": 29749,
+            "storageIdentifier": "file://10.15139/S3/KJ9TX1",
+            "versionNumber": 2,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-10-09T14:20:53Z",
+            "releaseTime": "2017-10-09T14:20:53Z",
+            "createTime": "2017-10-09T14:19:54Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "termsOfAccess": "Not available to the public",
+            "fileAccessRequest": true,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Trivialities Life Events data, 2017"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cohen, Dale"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina Wilmington"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    },
+                                    "authorIdentifier": {
+                                        "typeName": "authorIdentifier",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "0000-0003-3353-3340"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cohen, Dale"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina Wilmington"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "cohend@uncw.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Here is the data from Experiment 2 in which we we create a standardized affect-related life events list with 171 positive, negative and neutral affect-related life events. Please see report for detailed information"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cohen, D. J., Barker, K. A., & White, M. R. (2017). A standardized list of affect-related life events. Behavior Research Methods, 1-10."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Cohen, Dale"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2017-10-09"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "this is all the summarized data from experiment 1 needed for the r code to run correlations",
+                    "label": "ALL.items.affect.txt",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 29749,
+                    "dataFile": {
+                        "id": 7498073,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ALL.items.affect.txt",
+                        "contentType": "text/plain",
+                        "filesize": 16304,
+                        "description": "this is all the summarized data from experiment 1 needed for the r code to run correlations",
+                        "storageIdentifier": "15f01763007-42c32937b792",
+                        "rootDataFileId": -1,
+                        "md5": "80e880f2b6abea21a5a4d5a4dc5d8b98",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "80e880f2b6abea21a5a4d5a4dc5d8b98"
+                        },
+                        "creationDate": "2017-10-09"
+                    }
+                },
+                {
+                    "description": "This is the bdi and demographics",
+                    "label": "bdi.demo.txt",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 29749,
+                    "dataFile": {
+                        "id": 7498076,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "bdi.demo.txt",
+                        "contentType": "text/plain",
+                        "filesize": 4626,
+                        "description": "This is the bdi and demographics",
+                        "storageIdentifier": "15f01763849-2e1c9cedfd10",
+                        "rootDataFileId": -1,
+                        "md5": "630ef3c5a643c4358d4a2c56ab3cb17c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "630ef3c5a643c4358d4a2c56ab3cb17c"
+                        },
+                        "creationDate": "2017-10-09"
+                    }
+                },
+                {
+                    "description": "this is the summarized data of just the used items from experiment 1 needed for the r code to run correlations",
+                    "label": "data.affect.txt",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 29749,
+                    "dataFile": {
+                        "id": 7498070,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "data.affect.txt",
+                        "contentType": "text/plain",
+                        "filesize": 10917,
+                        "description": "this is the summarized data of just the used items from experiment 1 needed for the r code to run correlations",
+                        "storageIdentifier": "15f01763249-337ae9050518",
+                        "rootDataFileId": -1,
+                        "md5": "289d4cc57477a953a73c28c8b5db56df",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "289d4cc57477a953a73c28c8b5db56df"
+                        },
+                        "creationDate": "2017-10-09"
+                    }
+                },
+                {
+                    "description": "this is the data for the trivialities experiment",
+                    "label": "dat.triv.txt",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 29749,
+                    "dataFile": {
+                        "id": 7498069,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "dat.triv.txt",
+                        "contentType": "text/plain",
+                        "filesize": 3600770,
+                        "description": "this is the data for the trivialities experiment",
+                        "storageIdentifier": "15f01763bb1-0d9f6d74dba9",
+                        "rootDataFileId": -1,
+                        "md5": "baffed302c5946e9c98a368912796d18",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "baffed302c5946e9c98a368912796d18"
+                        },
+                        "creationDate": "2017-10-09"
+                    }
+                },
+                {
+                    "description": "File Layout for the all.affect.txt data",
+                    "label": "File Layout - all.affect.txt",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 29749,
+                    "dataFile": {
+                        "id": 7498072,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "File Layout - all.affect.txt",
+                        "contentType": "text/plain",
+                        "filesize": 81,
+                        "description": "File Layout for the all.affect.txt data",
+                        "storageIdentifier": "15f017629d9-16a7f281d4a6",
+                        "rootDataFileId": -1,
+                        "md5": "8b91547ec67515d7ed006ffb05a4a1f6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8b91547ec67515d7ed006ffb05a4a1f6"
+                        },
+                        "creationDate": "2017-10-09"
+                    }
+                },
+                {
+                    "description": "File Layout for the bdi data",
+                    "label": "FileLayoutBdi.demo.txt",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 29749,
+                    "dataFile": {
+                        "id": 7498075,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "FileLayoutBdi.demo.txt",
+                        "contentType": "text/plain",
+                        "filesize": 340,
+                        "description": "File Layout for the bdi data",
+                        "storageIdentifier": "15f0176277d-789849e48bf0",
+                        "rootDataFileId": -1,
+                        "md5": "7c5c4af7c3158b1cd4eb1690efcb60ac",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7c5c4af7c3158b1cd4eb1690efcb60ac"
+                        },
+                        "creationDate": "2017-10-09"
+                    }
+                },
+                {
+                    "label": "OdumDataDepositForm.pdf",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 29749,
+                    "dataFile": {
+                        "id": 7498078,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "OdumDataDepositForm.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 371994,
+                        "storageIdentifier": "15f01815c53-79bed1b115b1",
+                        "rootDataFileId": -1,
+                        "md5": "de8561501bdddca991c190f27bdda0f2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "de8561501bdddca991c190f27bdda0f2"
+                        },
+                        "creationDate": "2017-10-09"
+                    }
+                },
+                {
+                    "description": "This is the r code for the analysis of the experiment",
+                    "label": "triv3.r",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 29749,
+                    "dataFile": {
+                        "id": 7498071,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "triv3.r",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 7959,
+                        "description": "This is the r code for the analysis of the experiment",
+                        "storageIdentifier": "15f01763584-d2c824eb984b",
+                        "rootDataFileId": -1,
+                        "md5": "3b491d44dc789dae4d6bd480ea61286f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3b491d44dc789dae4d6bd480ea61286f"
+                        },
+                        "creationDate": "2017-10-09"
+                    }
+                },
+                {
+                    "description": "File Layout for the data.triv.txt data",
+                    "label": "TXT.rtf",
+                    "restricted": true,
+                    "directoryLabel": "File Layout - data.triv.rtfd",
+                    "version": 1,
+                    "datasetVersionId": 29749,
+                    "dataFile": {
+                        "id": 7498074,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "TXT.rtf",
+                        "contentType": "application/rtf",
+                        "filesize": 1803,
+                        "description": "File Layout for the data.triv.txt data",
+                        "storageIdentifier": "15f01762e69-74f3645a6169",
+                        "rootDataFileId": -1,
+                        "md5": "411988b83444aac1c4daf50398b67615",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "411988b83444aac1c4daf50398b67615"
+                        },
+                        "creationDate": "2017-10-09"
+                    }
+                }
+            ]
+        }
+    }
+}

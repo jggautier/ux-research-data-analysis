@@ -1,0 +1,728 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-RACEDATE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-22",
+        "datasetVersion": {
+            "id": 3490,
+            "storageIdentifier": "file://1902.29/CAPS-RACEDATE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-22T16:11:45Z",
+            "releaseTime": "2009-05-22T00:00:00Z",
+            "createTime": "2007-08-28T15:23:35Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Attitudes Toward Interracial Dating (CAPS-RACEDATE module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-RACEDATE"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-RACEDATE"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This unit was developed by James Ferrer, a student reporter for the Phoenix. It consists of 31 items about attitudes toward interracial dating.</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Interracial dating"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dating"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Attitudes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Racial attitudes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "College students"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published references."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_racedate_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10785,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_racedate_data",
+                        "contentType": "text/plain",
+                        "filesize": 49400,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_racedate_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_racedate_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10789,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_racedate_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 6250,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_racedate_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_racedate_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10791,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_racedate_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 45200,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_racedate_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_racedate_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10784,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_racedate_source",
+                        "contentType": "text/plain",
+                        "filesize": 12921,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_racedate_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_racedate_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10786,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_racedate_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22468,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_racedate_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_racedate_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "Data File 1 (caps_1986_racedate_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10787,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_racedate_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19200,
+                        "storageIdentifier": "caps_1986_racedate_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:TuHvNMb7rLwWpSUSucVojg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_racedate_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10781,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_racedate_data",
+                        "contentType": "text/plain",
+                        "filesize": 49400,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_racedate_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_racedate_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10792,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_racedate_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 6269,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_racedate_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_racedate_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10779,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_racedate_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 44800,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_racedate_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_racedate_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10778,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_racedate_source",
+                        "contentType": "text/plain",
+                        "filesize": 12406,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_racedate_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_racedate_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10777,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_racedate_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22386,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_racedate_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_racedate_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "Data File 2 (caps_1987_racedate_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10793,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_racedate_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19012,
+                        "storageIdentifier": "caps_1987_racedate_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:SDXGr+bjEKusnzZv1QOzqA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_racedate_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10794,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_racedate_data",
+                        "contentType": "text/plain",
+                        "filesize": 49920,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_racedate_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_racedate_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10783,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_racedate_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 5645,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_racedate_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_racedate_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10780,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_racedate_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 48000,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_racedate_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_racedate_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10790,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_racedate_source",
+                        "contentType": "text/plain",
+                        "filesize": 15598,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_racedate_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_racedate_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10782,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_racedate_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 23124,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_racedate_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_racedate_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3490,
+                    "categories": [
+                        "Data File 3 (caps_1988_racedate_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10788,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_racedate_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19584,
+                        "storageIdentifier": "caps_1988_racedate_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:9PD6kJp7l4af9wtHDV2QtA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

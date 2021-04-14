@@ -1,0 +1,756 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-LOVE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3417,
+            "storageIdentifier": "file://1902.29/CAPS-LOVE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T19:04:24Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:21:55Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Romantic Love Scale (CAPS-LOVE module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-LOVE"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-LOVE"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This questionnaire was developed by Cindy Hazan and Phillip Shaver (1986, Shaver, Hazan, and Bradshaw, 1986) to explore the implications of an attachment theoretical conception of romantic love. The first 56 items (LOVE1-LOVE56) assess a respondent's most important romantic love relationship. These have been factor analyzed and shown to contain 12 reasonably reliable scales: Happiness, Friendship, Trust, Fear of Closeness, Acceptance, Emotional Extremes, Jealousy, Obsessive Preoccupation, Sex\nual Attraction, Desire for Union, Desire for Reciprocation, and Love and First Sight. LOVE57-LOVE61 ask whether the relationship described was a past or current one, how long the relationship lasted, how many times the R has been in love, age at first love, # times in love before age 10. Later parts of the questionnaire assess the respondent's attachment history with mother (items LOVE62-LOVE66) and with father (items LOVE72-LOVE76), the parents' relationship with each other (items I1-I12, LOVE83-LOVE84) and the respondent's attachment style (items LOVE86-LOVE89, TIM11-TIM13, TIM21-TIM24, ME1-ME5, ME21-ME23).\n</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Love"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Romantic love"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Attachment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Attachment history"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Parental relationship"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Attachment style"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Romantic relationships"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Shaver, P., Hazan, C., and Bradshaw, D. (1986, in press). Love as attachment: The integration of three behavioral systems. In R. J. Sternberg and M. Barnes (eds.), Anatomy of Love. New Haven: Yale University Press."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_love_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9701,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_love_data",
+                        "contentType": "text/plain",
+                        "filesize": 501020,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_love_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_love_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9696,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_love_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 17847,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_love_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_love_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9690,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_love_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 449440,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_love_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_love_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9692,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_love_source",
+                        "contentType": "text/plain",
+                        "filesize": 44076,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_love_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_love_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9699,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_love_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 89626,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_love_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_love_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "Data File 1 (caps_1986_love_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9694,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_love_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 79455,
+                        "storageIdentifier": "caps_1986_love_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:l0WR5TlwLXTahMbqkIwsRQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_love_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9702,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_love_data",
+                        "contentType": "text/plain",
+                        "filesize": 452140,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_love_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_love_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9691,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_love_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 17741,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_love_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_love_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9700,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_love_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 437840,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_love_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_love_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9688,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_love_source",
+                        "contentType": "text/plain",
+                        "filesize": 41609,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_love_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_love_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9704,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_love_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 80770,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_love_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_love_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "Data File 2 (caps_1987_love_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9693,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_love_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 68152,
+                        "storageIdentifier": "caps_1987_love_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:CkFMU4/7QyCA+UWVi4QX9A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_love_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9695,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_love_data",
+                        "contentType": "text/plain",
+                        "filesize": 452140,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_love_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_love_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9697,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_love_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 13988,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_love_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_love_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9698,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_love_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 461920,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_love_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_love_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9703,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_love_source",
+                        "contentType": "text/plain",
+                        "filesize": 44269,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_love_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_love_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9689,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_love_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 92332,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_love_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_love_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3417,
+                    "categories": [
+                        "Data File 3 (caps_1988_love_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9705,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_love_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 79444,
+                        "storageIdentifier": "caps_1988_love_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:aXBbAbuQYdERdDYcVe8l6g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

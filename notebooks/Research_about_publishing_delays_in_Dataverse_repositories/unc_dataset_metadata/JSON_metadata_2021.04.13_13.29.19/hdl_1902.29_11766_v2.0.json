@@ -1,0 +1,464 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/11766",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2014-09-29",
+        "datasetVersion": {
+            "id": 387,
+            "storageIdentifier": "file://1902.29/11766",
+            "versionNumber": 2,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Added publication information.",
+            "distributionDate": "2014-08-07",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2014-09-30T13:38:09Z",
+            "releaseTime": "2014-09-30T00:00:00Z",
+            "createTime": "2014-09-30T13:38:09Z",
+            "license": "NONE",
+            "termsOfUse": "Citation requirements: In accordance with the norms of the academic and scientific communities, works (publications, presentations or research reports) which use the data from this study should include appropriate citation to the source of the data.  Data Disclaimer:  Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall Emory University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "citationRequirements": "In accordance with the norms of the academic and scientific communities, works (publications, presentations, or research reports) which use the data from this study should include appropriate citation to the source of the data.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Tracing Footsteps: A HGIS Project Mapping Out Liturgical Processions in 9th and 10th Century Constantinople"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "O'Riordan, Simon"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Simon O'Riordan"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "soriordan@emory.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This report surveys a successful attempt to build a HGIS (historical geographic information system) of liturgical processional routes in the city of Constantinople (modern day Istanbul) during the 9th and 10th centuries. Data about the routes was gathered from the Typikon of the Great Church, a medieval book describing the liturgical ceremonies of the Hagia Sophia, the largest and most important church in Constantinople during the Byzantine era. Information about the different churches mentioned in the Typikon was gathered from a variety of sources, most notably from Raymond Janin's multivolume series on the subject. Major problems during the construction of the HGIS were finding accurate information on churches that no longer exist, constructing a map of an area which is dramatically different today topologically and the lack of English language sources. Despite these problems, the resulting HGIS allows for a clearer view of how processional routes moved across the city."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Historical geographic information systems"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "LCSH"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects/sh2007006469.html"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Byzantine Empire--Study and teaching"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "LCSH"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects/sh85018523.html"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Processions, Religious"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "LCSH"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects/sh85107146.html"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Digital Humanities"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "O'Riordan, Simon (2014). Tracing Footsteps: A HGIS Project Mapping Out Liturgical Processions in 9th and 10th Century Constantinople. Master's Thesis, University of North Carolina at Chapel Hill."
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://cdr.lib.unc.edu/record/uuid:3b49666d-34ce-4d98-8413-6c555dafcd20"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Type: Technical Requirements - Notes: In order to view the HGIS, ArcMap must be used and the .MXD file, the .PNG file and all shapefiles must be downloaded.;"
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2014-04"
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2014-08-07"
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Simon O'Riordan"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2014-08-07"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "800"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1000"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Textual Data, Spatial Data"
+                            ]
+                        },
+                        {
+                            "typeName": "software",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "softwareName": {
+                                        "typeName": "softwareName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Microsoft Office 2011"
+                                    },
+                                    "softwareVersion": {
+                                        "typeName": "softwareVersion",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Microsoft Office 2011"
+                                    }
+                                },
+                                {
+                                    "softwareName": {
+                                        "typeName": "softwareName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "10.2.2"
+                                    },
+                                    "softwareVersion": {
+                                        "typeName": "softwareVersion",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "10.2.2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "relatedMaterial",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Janin, Raymond. La Ge\u0301ographie eccle\u0301siastique de l'Empire byzantin. 1. Part: Le Sie\u0300ge de Constantinople et le Patriarcat Oecume\u0301nique. 3rd Vol. : Les E\u0301glises et les Monaste\u0300res. Paris: Institut Franc\u0327ais d'Etudes Byzantines, 1969.  Le Typikon de la Grande Eglise. Fr. trans. Juan Mateos, Rome: Orientalia Christiana Analecta, 1962-1963.  Baldovin, John F. The Urban character of Christian Worship. Rome: Pontifical Institute of Oriental Studies, 1987."
+                            ]
+                        },
+                        {
+                            "typeName": "relatedDatasets",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Berger, Albricht. \u201cImperial and Ecclesiastical Processions in Constantinople.\u201d In Byzantine Constantinople: Movements, Topography and Everyday Life. ed. Nevra Necipog\u030clu. Boston: Brill, 2001."
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Constantinople (Istanbul)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "geographicUnit",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "City"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "A list of all the shapefiles necessary to view and use the HGIS.",
+                    "label": "Archive_of_Shapefiles.tgz",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 387,
+                    "dataFile": {
+                        "id": 7086880,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Archive_of_Shapefiles.tgz",
+                        "contentType": "application/octet-stream",
+                        "filesize": 75475,
+                        "description": "A list of all the shapefiles necessary to view and use the HGIS.",
+                        "storageIdentifier": "14950",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-08-07"
+                    }
+                },
+                {
+                    "description": "A .PNG file of a map of Constantinople, in which the processional routes are layered on top. ",
+                    "label": "Complete_Map_of_Constantinople.png",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 387,
+                    "dataFile": {
+                        "id": 7086878,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Complete_Map_of_Constantinople.png",
+                        "contentType": "image/png",
+                        "filesize": 4403627,
+                        "description": "A .PNG file of a map of Constantinople, in which the processional routes are layered on top. ",
+                        "storageIdentifier": "14948",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-08-07"
+                    }
+                },
+                {
+                    "description": "The .MXD file that is necessary to view and use the HGIS.",
+                    "label": "Liturgical_Processions.mxd",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 387,
+                    "dataFile": {
+                        "id": 7086879,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Liturgical_Processions.mxd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 787456,
+                        "description": "The .MXD file that is necessary to view and use the HGIS.",
+                        "storageIdentifier": "14949",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-08-07"
+                    }
+                },
+                {
+                    "description": "An Excel Database listing the 20 processional routes, the 21 locations and other useful information in understanding the liturgical processions in Constantinople.",
+                    "label": "Procession_Database.xlsx",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 387,
+                    "categories": [
+                        "Data File"
+                    ],
+                    "dataFile": {
+                        "id": 7086877,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Procession_Database.xlsx",
+                        "contentType": "application/octet-stream",
+                        "filesize": 33120,
+                        "description": "An Excel Database listing the 20 processional routes, the 21 locations and other useful information in understanding the liturgical processions in Constantinople.",
+                        "storageIdentifier": "14947",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-08-07"
+                    }
+                },
+                {
+                    "description": "A PDF explaining the background, purpose and results of the study.",
+                    "label": "Tracing Footsteps. pdf.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 387,
+                    "categories": [
+                        "Documentation File"
+                    ],
+                    "dataFile": {
+                        "id": 7086876,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Tracing Footsteps. pdf.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2909674,
+                        "description": "A PDF explaining the background, purpose and results of the study.",
+                        "storageIdentifier": "14946",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2014-08-07"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,265 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/SGZQGT",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-06-24",
+        "datasetVersion": {
+            "id": 30779,
+            "storageIdentifier": "file://10.15139/S3/SGZQGT",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:VFqU+M36JX0EAIbb50stmw==",
+            "lastUpdateTime": "2019-06-24T18:03:34Z",
+            "releaseTime": "2019-06-24T18:03:34Z",
+            "createTime": "2019-02-28T19:50:23Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Bot Persistence Data Files"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Schuchard, Ross"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "George Mason University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Schuchard, Ross"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "George Mason University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "rschucha@gmu.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "User bot labels and .gexf network files for retweet network of:\r\n(1) US Election Conversation (1-28 FEB 16)\r\n(2) Ukraine Conflict Conversation (1-28 AUG 16)\r\n(3) Turkish Censorship Conversation (1.28 DEC 16)\r\n"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Computer and Information Science"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Schuchard, Ross"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-02-28"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "trump_week1 2 3 4_author_network.gexf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30779,
+                    "dataFile": {
+                        "id": 7505060,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "trump_week1 2 3 4_author_network.gexf",
+                        "contentType": "application/octet-stream",
+                        "filesize": 806831913,
+                        "storageIdentifier": "16935913d3f-3e4a4e10fc90",
+                        "rootDataFileId": -1,
+                        "md5": "5fc0ff18ce86f19538cfd84aa6eb4d26",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5fc0ff18ce86f19538cfd84aa6eb4d26"
+                        },
+                        "creationDate": "2019-02-28"
+                    }
+                },
+                {
+                    "label": "turkey_week1 2 3 4_author_network.gexf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30779,
+                    "dataFile": {
+                        "id": 7505062,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "turkey_week1 2 3 4_author_network.gexf",
+                        "contentType": "application/octet-stream",
+                        "filesize": 220413350,
+                        "storageIdentifier": "169359422c5-427c32e56682",
+                        "rootDataFileId": -1,
+                        "md5": "776d3c18429acd90f65e3cdde0cf2675",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "776d3c18429acd90f65e3cdde0cf2675"
+                        },
+                        "creationDate": "2019-02-28"
+                    }
+                },
+                {
+                    "label": "ukraine_week1 2 3 4_author_network.gexf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30779,
+                    "dataFile": {
+                        "id": 7505057,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ukraine_week1 2 3 4_author_network.gexf",
+                        "contentType": "application/octet-stream",
+                        "filesize": 52664364,
+                        "storageIdentifier": "1693584e81a-ef6239e672b8",
+                        "rootDataFileId": -1,
+                        "md5": "2bd2757a578730101186266cc2273049",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2bd2757a578730101186266cc2273049"
+                        },
+                        "creationDate": "2019-02-28"
+                    }
+                },
+                {
+                    "label": "user_bot_labels(Turkey_Censorship).tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30779,
+                    "dataFile": {
+                        "id": 7505058,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "user_bot_labels(Turkey_Censorship).tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 29319499,
+                        "storageIdentifier": "1693594768b-a487dc48da23",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 23967851,
+                        "UNF": "UNF:6:Ns5XY840OIoACtRKme16FQ==",
+                        "rootDataFileId": -1,
+                        "md5": "6179eb3a7d3596a58f5c5d58d7a9e7f5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6179eb3a7d3596a58f5c5d58d7a9e7f5"
+                        },
+                        "creationDate": "2019-02-28"
+                    }
+                },
+                {
+                    "label": "user_bot_labels(Ukraine_Conflict).tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30779,
+                    "dataFile": {
+                        "id": 7505059,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "user_bot_labels(Ukraine_Conflict).tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 8006573,
+                        "storageIdentifier": "16935949047-5cbd5fd453ad",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 6542849,
+                        "UNF": "UNF:6:ZEyHgPVjbvYBvTzTLUwryg==",
+                        "rootDataFileId": -1,
+                        "md5": "e3204434c9c18f383301087e2a200e77",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e3204434c9c18f383301087e2a200e77"
+                        },
+                        "creationDate": "2019-02-28"
+                    }
+                },
+                {
+                    "label": "user_bot_labels(US_Election).tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30779,
+                    "dataFile": {
+                        "id": 7505061,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "user_bot_labels(US_Election).tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 73095291,
+                        "storageIdentifier": "16935955b44-ede444d6ceea",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 59800903,
+                        "UNF": "UNF:6:s8XKJvoPCSsP75k4J/UJuw==",
+                        "rootDataFileId": -1,
+                        "md5": "5aead1f51b27e8d5593c04fa466044a0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5aead1f51b27e8d5593c04fa466044a0"
+                        },
+                        "creationDate": "2019-02-28"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,933 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-GOODBAD",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3329,
+            "storageIdentifier": "file://1902.29/CAPS-GOODBAD",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T15:59:41Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:20:39Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Good/Bad Event Questionnaire (CAPS-GOODBAD CAPS-GEVENT CAPS-BEVENT CAPS-MOOD CAPS-GOODMOOD CAPS-BADMOOD modules)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-GOODBAD"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-GOODBAD CAPS-GEVENT CAPS-BEVENT CAPS-MOOD CAPS-GOODMOOD CAPS-BADMOOD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This project, initiated by Wendy Lin (grad student in Psychology at UNC-CH), is aimed at investigating whether different wordings of questions will influence respondents' mood and judgements of happiness and satisfaction with life. A fourth of the Rs were presented with a question asking them to describe in detail a recent event that made them feel really good (GEVENT). Another fourth were to describe an event that made them feel really bad (BEVENT). These Rs were then presented with a 17-ite\nm questionnaire that asked them to indicate (T/F) to negatively or positively phrased items (negative for Rs in bad event condition, positive for good event). Rs then answered a 9-item mood scale (MOOD). The remaining half of the Rs did not answer the open-ended (G/BEVENT) questionnaires, but did answer the 17-item good/bad scales (1/4 Rs in each of these conditions) and then the mood scale.\n</p><p>Scaling for GOODBAD. Retain original codes on all individual items. Recode as follows for the purpose of creating summary measures: GOOD1-GOOD17 if orig score =1 then recode=1, if orig score =2 then recode=0. BAD1-BAD17 If orig score=1 then recode=1, if orig score=2 then recode=0. Create GOODTOT=sum of recoded GOOD1-GOOD17. Create BADTOT= sum of recoded BAD1-BAD17. Crate COND=LETTER. COND=event description/questionnaire combination. COND values 1=GOODE/GOODQ, 2=BADE/BADQ, 3=GOODQ only, 4=\nBADQ only.</p><p>This unit was also administered in CAPS/85. In CAPS/85 four separate datasets were created with the GEVENT, BEVENT, GOODMOOD, and BADMOOD information. In CAPS/86, all of the data are in a single dataset, GOODBAD.</p><p>GEVENT consists of Rs open-ended responses to the question: 'Please describe as vividly and in as much detail as possible a recent event that has made you feel really good. Indicate how the event made you feel, what aspects of it made you feel that way, what the e\nxperience made you think about, etc.'</p><p>BEVENT consists of Rs open-ended responses to the question: 'Please describe as vividly and in as much detail as possible a recent event that has made you feel really bad. Indicate how the event made you feel, what aspects of it made you feel that way, what the experience made you think about, etc.'</p><p>GOODMOOD consists of responses to 17 T/F items which are positive, desirable events in an undergraduate's daily life. Also includes a total for numbe\nr of 'true' responses (indicating positive mood).</p><p>BADMOOD consists of responses to 17 T/F items which are negative, undesirable events in an undergraduate's daily life. Also includes a total for number of 'false' responses (indicating positive mood).</p><p>MOOD consists of responses to 9, 11-point scale items measuring mood. Three composite measures have been created (all items scored as administered, except item 5, which is reverse scored for these composites): (1) total over all 9 items\n(2) present mood and (3) future outlook.</p><p>Scaling for MOOD: (FEEL5 reverse score) FEELING=average of (FEEL1+FEEL2+FEEL3+FEEL4+FEEL5+FEEL6+FEEL7+FEEL8+FEEL9) PRESENTF= average of (FEEL1+FEEL2+FEEL3+FEEL4+FEEL5) FUTUREF= average of (FEEL6+FEEL7+FEEL8+FEEL9)</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Affect"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Mood"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Happiness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Satisfaction"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Outlook"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Life events"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Schwarz, N., and Lore, G. L. (1983) Mood, Distribution, and Judgements of Well-Being: Informative and Directive Functions of Affective States. Journal of Personality and Social Psychology, 45, 513-523."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_badmood_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8752,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_badmood_data",
+                        "contentType": "text/plain",
+                        "filesize": 24960,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_badmood_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_badmood_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8762,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_badmood_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 21360,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_badmood_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_badmood_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8755,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_badmood_source",
+                        "contentType": "text/plain",
+                        "filesize": 18705,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_badmood_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_badmood_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8764,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_badmood_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 10824,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_badmood_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_badmood_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File 1 (caps_1985_badmood_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8769,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_badmood_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 8425,
+                        "storageIdentifier": "caps_1985_badmood_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:b88KzC27wuLD6+LbmUFsIg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_bevent_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8772,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_bevent_data",
+                        "contentType": "text/plain",
+                        "filesize": 43810,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_bevent_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_bevent_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8758,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_bevent_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 99840,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_bevent_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_bevent_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8770,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_bevent_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 26404,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_bevent_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_bevent_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File 2 (caps_1985_bevent_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8768,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_bevent_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 22539,
+                        "storageIdentifier": "caps_1985_bevent_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:ry0AzL3mXZs9vWThidi03A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_gevent_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8754,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_gevent_data",
+                        "contentType": "text/plain",
+                        "filesize": 45500,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_gevent_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_gevent_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8776,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_gevent_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 128320,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_gevent_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_gevent_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8753,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_gevent_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 24436,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_gevent_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_gevent_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File 3 (caps_1985_gevent_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8759,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_gevent_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 20211,
+                        "storageIdentifier": "caps_1985_gevent_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:TByBacQqOeM+PHcW4d0C3Q==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_goodbad_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8775,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_goodbad_source",
+                        "contentType": "text/plain",
+                        "filesize": 8643,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_goodbad_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_goodmood_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8763,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_goodmood_data",
+                        "contentType": "text/plain",
+                        "filesize": 24960,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_goodmood_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_goodmood_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8766,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_goodmood_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 20880,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_goodmood_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_goodmood_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8757,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_goodmood_source",
+                        "contentType": "text/plain",
+                        "filesize": 18576,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_goodmood_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_goodmood_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 8771,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_goodmood_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 10660,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_goodmood_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_goodmood_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File 4 (caps_1985_goodmood_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8756,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_goodmood_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 8353,
+                        "storageIdentifier": "caps_1985_goodmood_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:f5joey7ODYv2CKSQjT+f4A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_goodbad_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8765,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_goodbad_data",
+                        "contentType": "text/plain",
+                        "filesize": 418600,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_goodbad_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_goodbad_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SAS Program Code (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8760,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_goodbad_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 8818,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_goodbad_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_goodbad_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8774,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_goodbad_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 270400,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_goodbad_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_goodbad_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8767,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_goodbad_source",
+                        "contentType": "text/plain",
+                        "filesize": 15671,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_goodbad_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_goodbad_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8761,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_goodbad_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 58958,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_goodbad_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_goodbad_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3329,
+                    "categories": [
+                        "Data File 5 (CAPS-GOODBAD/caps_1986_goodbad_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8773,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_goodbad_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 55048,
+                        "storageIdentifier": "caps_1986_goodbad_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:QtQ1MECd6qoSsPPqBuh3UQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

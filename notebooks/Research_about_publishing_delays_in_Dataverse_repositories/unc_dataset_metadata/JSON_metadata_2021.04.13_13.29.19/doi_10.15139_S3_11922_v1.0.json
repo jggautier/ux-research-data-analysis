@@ -1,0 +1,134 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/11922",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2015-01-13",
+        "datasetVersion": {
+            "id": 1406,
+            "storageIdentifier": "file://10.15139/S3/11922",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "",
+            "distributionDate": "2012",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2015-01-13T21:31:37Z",
+            "releaseTime": "2015-01-13T00:00:00Z",
+            "createTime": "2015-01-13T21:30:42Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Dataset S1.csv"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "McKay, J. L."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This file includes the musculoskeletal models used in McKay and Ting, 2012."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "McKay JL, Ting LH, 2012. Optimization of muscle activity for task-level goals predicts complex changes in limb forces across biomechanical contexts. PLoS Computational Biology 8: e1002465. PMCID: 3325175"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2012"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015-01-13"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "Dataset S1.csv",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1406,
+                    "dataFile": {
+                        "id": 7166505,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Dataset S1.csv",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 20622,
+                        "description": "",
+                        "storageIdentifier": "16150",
+                        "rootDataFileId": -1,
+                        "md5": "1600f011b7270a8c0835c39fefe3829f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1600f011b7270a8c0835c39fefe3829f"
+                        },
+                        "creationDate": "2015-01-13"
+                    }
+                }
+            ]
+        }
+    }
+}

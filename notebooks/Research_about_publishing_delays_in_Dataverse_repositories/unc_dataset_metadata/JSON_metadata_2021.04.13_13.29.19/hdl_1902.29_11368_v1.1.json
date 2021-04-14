@@ -1,0 +1,409 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/11368",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2013-06-19",
+        "datasetVersion": {
+            "id": 5261,
+            "storageIdentifier": "file://1902.29/11368",
+            "versionNumber": 1,
+            "versionMinorNumber": 1,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2016-09-29T16:02:35Z",
+            "releaseTime": "2016-09-29T16:02:35Z",
+            "createTime": "2016-09-29T16:02:30Z",
+            "license": "NONE",
+            "termsOfUse": "This data is intended for internal, non-commercial academic research by UNC Chapel Hill's employees and students only. This data cannot be used for marketing purposes. This data cannot be shared with organizations that are not part of UNC Chapel Hill.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2007 Consumer Data - North Carolina"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Jack Walker"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kenan Institute"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Jack_Walker@kenan-flagler.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "This record contains 2007 North Carolina consumer data compiled by ReferenceUSA.  The data include household information including size, construction type, and geographic location along with predictors of household wealth and income."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "consumer, consumer profiling, household income, home ownership"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "LC Subject Headings"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "North Carolina"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "LC Name Authority File"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/names"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "consumer profiling, home ownership, household income"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "LC Subject Headings"
+                                    },
+                                    "topicClassVocabURI": {
+                                        "typeName": "topicClassVocabURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://id.loc.gov/authorities/subjects"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ReferenceUSA"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Infogroup"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "RefUSA"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.referenceusa.com/Home/Home"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://referenceusaresourcecenter.files.wordpress.com/2011/08/referenceusa_alt_576pxh_png-e1314284519733.jpg?w=288&h=120"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kenan Institute"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kenan-Flagler Business School - University of North Caroilna at Chapel Hill"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.kenan-flagler.unc.edu/kenan-institute"
+                                    },
+                                    "distributorLogoURL": {
+                                        "typeName": "distributorLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.kenan-flagler.unc.edu/lib/images/logo-unc.gif"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2013-06-05"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2007"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "dataset"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "United States"
+                                    }
+                                },
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "North Carolina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "geographicUnit",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "State"
+                            ]
+                        }
+                    ]
+                },
+                "socialscience": {
+                    "displayName": "Social Science and Humanities Metadata",
+                    "fields": [
+                        {
+                            "typeName": "universe",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "consumers"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Subsettable Dataset File ",
+                    "label": "infogroup_cons_2007_NC_2.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5261,
+                    "categories": [
+                        "Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 7069977,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "infogroup_cons_2007_NC_2.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1488257589,
+                        "description": "Subsettable Dataset File ",
+                        "storageIdentifier": "10297",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 1264644180,
+                        "UNF": "UNF:5:rA/+aGV0xC8097WvGEs6QQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-17"
+                    }
+                },
+                {
+                    "description": "SAS Dataset File - Includes Data for NC",
+                    "label": "infogroup_cons_2007_nc.sas7bdat",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5261,
+                    "categories": [
+                        "Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 7068550,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "infogroup_cons_2007_nc.sas7bdat",
+                        "contentType": "application/x-sas-system",
+                        "filesize": 1072890880,
+                        "description": "SAS Dataset File - Includes Data for NC",
+                        "storageIdentifier": "8167",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-10"
+                    }
+                },
+                {
+                    "description": "Codebook",
+                    "label": "Layout - Consumer DB Historical 2006-2012.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5261,
+                    "categories": [
+                        "Codebook"
+                    ],
+                    "dataFile": {
+                        "id": 7068526,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Layout - Consumer DB Historical 2006-2012.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 39149,
+                        "description": "Codebook",
+                        "storageIdentifier": "8143",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-06-05"
+                    }
+                }
+            ]
+        }
+    }
+}

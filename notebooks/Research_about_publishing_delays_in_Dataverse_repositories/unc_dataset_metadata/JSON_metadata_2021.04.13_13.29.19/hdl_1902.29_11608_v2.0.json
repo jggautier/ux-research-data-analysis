@@ -1,0 +1,343 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/11608",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2013-12-17",
+        "datasetVersion": {
+            "id": 1987,
+            "storageIdentifier": "file://1902.29/11608",
+            "versionNumber": 2,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Edited distribution date to correspond to publication date.",
+            "distributionDate": "2011",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2013-12-17T17:13:31Z",
+            "releaseTime": "2013-12-17T00:00:00Z",
+            "createTime": "2013-12-17T17:13:31Z",
+            "license": "NONE",
+            "termsOfUse": "<b>Conditions</b> <br></br> User agrees that he/she will use these data only for analysis purposes and not take any actions to identify or contact individuals, communities, or organizations. User agrees to use appropriate safeguards to protect the data from misuse and shall promptly notify the State Politics and  Policy Quarterly (SPPQ) of any unauthorized or impermissible use or disclosure of the data of which he/she becomes aware. <br></br> <b>Disclaimer</b> <br></br> Files are offered \"as is\"\nwith no warranty or claim of fitness for any purpose. In no event shall the University or SPPQ be liable for any actual, incidental or consequential damages arising from use of these files.\n<br></br> By clicking the \"I agree\" checkbox, below, I confirm that I have read and understood each and every term set forth in the terms and conditions for the use of data and other materials found above, and I agree to be bound by all of such terms and conditions. If I do not understand or agree to all of the terms and conditions, I must not use or download any data or other materials.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication data for: Linear Models with Outliers: Choosing between Conditional-Mean and Conditional-Median Methods"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harden, Jeffrey"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Desmarais, Bruce"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of Massachusetts-Amherst"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Jeffrey J. Harden"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "jjharden@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "State politics researchers commonly employ ordinary least squares (OLS) regression or one of its variants to test linear hypotheses. However, OLS is easily influenced by outliers and thus can produce misleading results when the error term distribution has heavy tails. Here we demonstrate that median regression (MR), an alternative to OLS that conditions the median of the dependent variable (rather than the mean) on the independent variables, can be a solution to this problem. Then we propose and validate a hypothesis test that applied researchers can use to select between OLS and MR in a given sample of data. Finally, we present two examples from state politics research in which (1) the test selects MR over OLS and (2) differences in results between the two methods could lead to different substantive inferences. We conclude that MR and the test we propose can improve linear models in state politics research."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2011"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Ordinary Least Squares (OLS) regression"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Median Regression (MR)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harden, Jeffrey J. and Bruce A. Desmarais. 2011. \"Linear Models with Outliers: Choosing between Conditional-Mean and Conditional-Median Methods.\" <i>State Politics &amp; Policy Quarterly</i> 11(4): 371-389 ."
+                                    },
+                                    "publicationIDType": {
+                                        "typeName": "publicationIDType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "doi"
+                                    },
+                                    "publicationIDNumber": {
+                                        "typeName": "publicationIDNumber",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "10.1177/1532440011408929"
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://dx.doi.org/10.1177/1532440011408929"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "State Politics & Policy Quarterly"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sage Journals"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "SPPQ"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://online.sagepub.com/"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://spa.sagepub.com/publisher/icons/SJO_banner.gif"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2011"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.odum.unc.edu/"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2011"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2013-12-17"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "R function for performing CVDM test",
+                    "label": "Harden and Desmarais (2011) CVDM Function.r",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1987,
+                    "categories": [
+                        "Programming Code"
+                    ],
+                    "dataFile": {
+                        "id": 7080970,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Harden and Desmarais (2011) CVDM Function.r",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 5482,
+                        "description": "R function for performing CVDM test",
+                        "storageIdentifier": "12968",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-12-17"
+                    }
+                },
+                {
+                    "description": "R simulation example file",
+                    "label": "Harden and Desmarais (2011) Simulation Example.r",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1987,
+                    "categories": [
+                        "Programming Code"
+                    ],
+                    "dataFile": {
+                        "id": 7080972,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Harden and Desmarais (2011) Simulation Example.r",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 3590,
+                        "description": "R simulation example file",
+                        "storageIdentifier": "12970",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-12-17"
+                    }
+                },
+                {
+                    "description": "PDF file",
+                    "label": "Harden and Desmarais (2011) Web Appendix.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1987,
+                    "categories": [
+                        "Appendix"
+                    ],
+                    "dataFile": {
+                        "id": 7080971,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Harden and Desmarais (2011) Web Appendix.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 198705,
+                        "description": "PDF file",
+                        "storageIdentifier": "12969",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-12-17"
+                    }
+                }
+            ]
+        }
+    }
+}

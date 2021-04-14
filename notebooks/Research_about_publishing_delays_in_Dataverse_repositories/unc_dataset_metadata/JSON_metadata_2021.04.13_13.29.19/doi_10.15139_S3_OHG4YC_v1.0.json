@@ -1,0 +1,134 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/OHG4YC",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-02-27",
+        "datasetVersion": {
+            "id": 30775,
+            "storageIdentifier": "file://10.15139/S3/OHG4YC",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:z6JGwpi2tftxFU+tbVH/3g==",
+            "lastUpdateTime": "2019-02-27T18:30:59Z",
+            "releaseTime": "2019-02-27T18:30:59Z",
+            "createTime": "2019-02-27T15:47:27Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Iris Dataset"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "O, Andrey"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "O, Andrey"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "andrey.odum@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Iris dataset"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Other"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "O, Andrey"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-02-27"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "iris.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30775,
+                    "dataFile": {
+                        "id": 7505050,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "iris.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 4708,
+                        "storageIdentifier": "1692fa3256c-941ae113f3cb",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:z6JGwpi2tftxFU+tbVH/3g==",
+                        "rootDataFileId": -1,
+                        "md5": "6028673813172db8af6fbd383e408d1e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6028673813172db8af6fbd383e408d1e"
+                        },
+                        "creationDate": "2019-02-27"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1420 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-MOOD",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3450,
+            "storageIdentifier": "file://1902.29/CAPS-MOOD",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T19:42:04Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:22:33Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Mood Scale (CAPS-MOOD module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-MOOD"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-MOOD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This is a 9-item mood scale. It was also administered in CAPS/85 and CAPS/86. In CAPS/87, the scale followed BONUS6 and BONUS7, which manipulated the R's receipt of individual and team bonuses (see those units for detail). In CAPS/88, the scale proceeded BONUS 4-8 (see those units for detail).</p><p>Consists of responses to 9, 11-point scale items measuring mood. Three composite measures have been created (all items scored as administered, except item 5, which is reverse scored for these comp\nosites): (1) total over all 9 items, (2) present mood, and (3) future outlook.\n</p><p>Scaling information: *(FEEL5 reverse score) TOTMOOD=average of (FEEL1+FEEL2+FEEL3+FEEL4+*FEEL5+FEEL6+FEEL7+FEEL8+FEEL9) PRESMOOD= average of (FEEL1+FEEL2+FEEL3+FEEL4+*FEEL5) FUTRMOOD= average of (FEEL6+FEEL7+FEEL8+FEEL9)</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Affect"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Mood"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Happiness"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Satisfaction"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Outlook"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Life events"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Schwarz, N., and Clore, G. L. (1983) Mood, Misattribution, and Judgements of Well-Being: Informative and Directive Functions of Affective States. Journal of Personality and Social Psychology, 45, 513-523."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_mood_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10077,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_mood_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_mood_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_mood_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10113,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_mood_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 31840,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_mood_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_mood_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10119,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_mood_source",
+                        "contentType": "text/plain",
+                        "filesize": 12126,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_mood_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_mood_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10090,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_mood_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18532,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_mood_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_mood_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File 1 (caps_1985_mood_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10081,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_mood_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17542,
+                        "storageIdentifier": "caps_1985_mood_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:ysWdD0ACklRZafHs6IKQzg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_mood_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10093,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_mood_data",
+                        "contentType": "text/plain",
+                        "filesize": 35880,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_mood_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_mood_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10094,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_mood_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3967,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_mood_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_mood_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10100,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_mood_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 26160,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_mood_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_mood_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10098,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_mood_source",
+                        "contentType": "text/plain",
+                        "filesize": 6175,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_mood_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_mood_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10078,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_mood_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17466,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_mood_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_mood_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File 2 (caps_1986_mood_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10084,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_mood_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16259,
+                        "storageIdentifier": "caps_1986_mood_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:wvkZHgkUhhxzVvZ0y0/TfQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_mood2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10083,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood2_data",
+                        "contentType": "text/plain",
+                        "filesize": 36660,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_mood2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_mood2_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10099,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood2_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3869,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_mood2_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_mood2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10096,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 26560,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_mood2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_mood2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10103,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17220,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_mood2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_mood2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File 3 (caps_1987_mood2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10107,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15275,
+                        "storageIdentifier": "caps_1987_mood2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Ga8iFdI6XNhUVis+MG3Fvg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_mood_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10111,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood_data",
+                        "contentType": "text/plain",
+                        "filesize": 36660,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_mood_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_mood_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10112,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3863,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_mood_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_mood_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10088,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 26560,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_mood_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_mood_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10110,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood_source",
+                        "contentType": "text/plain",
+                        "filesize": 6140,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_mood_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_mood_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10091,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17138,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_mood_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_mood_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File 4 (caps_1987_mood_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10079,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_mood_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15289,
+                        "storageIdentifier": "caps_1987_mood_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:mE5C/LNHxoSsl28fsJJgZQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10101,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood1_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10104,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 26160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10106,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16892,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_mood1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File 5 (caps_1988_mood1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10108,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15015,
+                        "storageIdentifier": "caps_1988_mood1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:53a5jBv9Co37ieMOUif6mQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10118,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood2_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10076,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 26160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10095,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16892,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_mood2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File 6 (caps_1988_mood2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10116,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15023,
+                        "storageIdentifier": "caps_1988_mood2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:82DH2L3ZMJoylOTdB1ITfw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood3_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10105,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood3_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood3_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood3_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10087,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood3_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 26160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood3_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood3_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10109,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood3_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16892,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood3_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_mood3_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File 7 (caps_1988_mood3_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10097,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood3_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15013,
+                        "storageIdentifier": "caps_1988_mood3_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:zrqEWaOA1JbSdFeJT12vEw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood4_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10086,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood4_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood4_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood4_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10085,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood4_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 26160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood4_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood4_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10080,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood4_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16892,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood4_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_mood4_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File 8 (caps_1988_mood4_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10114,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood4_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15007,
+                        "storageIdentifier": "caps_1988_mood4_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:RhFI5NlhWmUn9vGqaw41Sw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood5_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10117,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood5_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood5_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood5_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10092,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood5_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 26160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood5_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood5_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10115,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood5_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 16892,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood5_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_mood5_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Data File 9 (caps_1988_mood5_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10089,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood5_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15015,
+                        "storageIdentifier": "caps_1988_mood5_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:t/4iMlURcJr6ElZmCltfXQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10082,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2770,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_mood_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3450,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10102,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_mood_source",
+                        "contentType": "text/plain",
+                        "filesize": 7181,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_mood_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

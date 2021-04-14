@@ -1,0 +1,1666 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-30621",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 1660,
+            "storageIdentifier": "file://1902.29/D-30621",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T15:48:54Z",
+            "license": "NONE",
+            "termsOfUse": "Citation requirements: <br /><br /> Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data. <br /><br /> Data Disclaimer: <br /><br /> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of the\nse files.",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Census of Agriculture, 1992"
+                        },
+                        {
+                            "typeName": "subtitle",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Final County File"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-30621"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "U.S. Bureau of the Census"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "U.S. Department of Commerce"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>Data are presented for all farms and for all farms with sales of $10,000 or more. Data include number of farms, land in farms, size of farms, value of land and buildings, value of machinery and equipment, characteristics of operator, selected production expenses, total crop land, irrigation of farm land, value of agriculture products sold, inventory and sale of livestock and poultry, and major crops harvested.</p><p>Data are available for each State and for each county.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Farms"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Crops"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Farm values"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Universe: The universe is all farms. A farm is any place from which $1,000 or more of agricultural products were sold, or normally would have been sold, during the census year.;Type: ODUM:ACCESS.CATEGORY Notes: I;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The Bureau"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1993"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Washington, DC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1992"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Summary statistics)"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ak.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Alaska"
+                    ],
+                    "dataFile": {
+                        "id": 16888,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ak.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 537656,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ak.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ak.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Alaska"
+                    ],
+                    "dataFile": {
+                        "id": 16872,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ak.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 537656,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ak.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_al.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Alabama"
+                    ],
+                    "dataFile": {
+                        "id": 16880,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_al.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 5299752,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_al.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ar.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Arizona"
+                    ],
+                    "dataFile": {
+                        "id": 16894,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ar.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 5914216,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ar.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ca.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, California"
+                    ],
+                    "dataFile": {
+                        "id": 16874,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ca.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 4608480,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ca.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_cdbk.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Codebook, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 16885,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 7221768,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_co.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Colorado"
+                    ],
+                    "dataFile": {
+                        "id": 16856,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_co.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 5002121,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_co.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ct.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Connecticut"
+                    ],
+                    "dataFile": {
+                        "id": 16861,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ct.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 768080,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ct.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_de.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Delaware"
+                    ],
+                    "dataFile": {
+                        "id": 16879,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_de.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 384040,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_de.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_fl.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Florida"
+                    ],
+                    "dataFile": {
+                        "id": 16881,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_fl.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 5309353,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_fl.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ga.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Georgia"
+                    ],
+                    "dataFile": {
+                        "id": 16895,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ga.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 12366088,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ga.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_hi.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Hawaii"
+                    ],
+                    "dataFile": {
+                        "id": 16863,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_hi.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 460848,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_hi.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ia.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Iowa"
+                    ],
+                    "dataFile": {
+                        "id": 16865,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ia.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 7757608,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ia.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_id.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Idaho"
+                    ],
+                    "dataFile": {
+                        "id": 16871,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_id.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 3542769,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_id.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_il.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Illinois"
+                    ],
+                    "dataFile": {
+                        "id": 16878,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_il.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 7997633,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_il.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_in.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Indiana"
+                    ],
+                    "dataFile": {
+                        "id": 16882,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_in.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 7219952,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_in.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ks.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Kansas"
+                    ],
+                    "dataFile": {
+                        "id": 16850,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ks.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 8228057,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ks.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ky.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Kentucky"
+                    ],
+                    "dataFile": {
+                        "id": 16893,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ky.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 9370576,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ky.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_la.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Louisiana"
+                    ],
+                    "dataFile": {
+                        "id": 16853,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_la.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 5069328,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_la.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ma.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Massachusetts"
+                    ],
+                    "dataFile": {
+                        "id": 16854,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ma.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 1238529,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ma.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_md.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Maryland"
+                    ],
+                    "dataFile": {
+                        "id": 16846,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_md.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 1920200,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_md.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_me.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Maine"
+                    ],
+                    "dataFile": {
+                        "id": 16892,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_me.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 1382544,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_me.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_mi.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Michigan"
+                    ],
+                    "dataFile": {
+                        "id": 16887,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_mi.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 6538281,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_mi.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_mn.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Minnesota"
+                    ],
+                    "dataFile": {
+                        "id": 16866,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_mn.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 6835912,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_mn.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_mo.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Missouri"
+                    ],
+                    "dataFile": {
+                        "id": 16847,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_mo.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 8919329,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_mo.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ms.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Mississippi"
+                    ],
+                    "dataFile": {
+                        "id": 16868,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ms.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 6451872,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ms.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_mt.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Montana"
+                    ],
+                    "dataFile": {
+                        "id": 16875,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_mt.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 4454864,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_mt.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_nc.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, North Carolina"
+                    ],
+                    "dataFile": {
+                        "id": 16891,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_nc.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 7834416,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_nc.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_nd.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, North Dakota"
+                    ],
+                    "dataFile": {
+                        "id": 16859,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_nd.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 4224440,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_nd.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ne.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Nebraska"
+                    ],
+                    "dataFile": {
+                        "id": 16884,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ne.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 7296760,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ne.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_nh.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, New Hampshire"
+                    ],
+                    "dataFile": {
+                        "id": 16896,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_nh.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 931297,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_nh.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_nj.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, New Jersey"
+                    ],
+                    "dataFile": {
+                        "id": 16889,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_nj.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 1766584,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_nj.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_nm.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, New Mexico"
+                    ],
+                    "dataFile": {
+                        "id": 16849,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_nm.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 2688280,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_nm.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_nv.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Nevada"
+                    ],
+                    "dataFile": {
+                        "id": 16864,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_nv.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 1459352,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_nv.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ny.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, New York"
+                    ],
+                    "dataFile": {
+                        "id": 16857,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ny.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 4915712,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ny.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_oh.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Ohio"
+                    ],
+                    "dataFile": {
+                        "id": 16852,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_oh.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 6922321,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_oh.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ok.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Oklahoma"
+                    ],
+                    "dataFile": {
+                        "id": 16883,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ok.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 6067832,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ok.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_or.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 16862,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_or.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 2918704,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_or.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_pa.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Pennsylvania"
+                    ],
+                    "dataFile": {
+                        "id": 16873,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_pa.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 5299752,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_pa.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ri.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Rhode Island"
+                    ],
+                    "dataFile": {
+                        "id": 16870,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ri.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 537656,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ri.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_sc.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, South Carolina"
+                    ],
+                    "dataFile": {
+                        "id": 16886,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_sc.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 3686784,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_sc.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_sd.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, South Dakota"
+                    ],
+                    "dataFile": {
+                        "id": 16848,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_sd.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 5222944,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_sd.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_tn.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Tennessee"
+                    ],
+                    "dataFile": {
+                        "id": 16869,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_tn.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 7450376,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_tn.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_tx.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Texas"
+                    ],
+                    "dataFile": {
+                        "id": 16851,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_tx.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 19662848,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_tx.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_us.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, United States"
+                    ],
+                    "dataFile": {
+                        "id": 16855,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_us.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 3994016,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_us.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_ut.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Utah"
+                    ],
+                    "dataFile": {
+                        "id": 16897,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_ut.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 2381048,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_ut.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_va.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Virginia"
+                    ],
+                    "dataFile": {
+                        "id": 16867,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_va.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 7690401,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_va.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_vt.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Vermont"
+                    ],
+                    "dataFile": {
+                        "id": 16858,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_vt.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 1238529,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_vt.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_wa.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Washington"
+                    ],
+                    "dataFile": {
+                        "id": 16876,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_wa.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 3158729,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_wa.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_wi.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Wisconsin"
+                    ],
+                    "dataFile": {
+                        "id": 16890,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_wi.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 5683792,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_wi.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_wv.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, West Virginia"
+                    ],
+                    "dataFile": {
+                        "id": 16877,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_wv.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 4387657,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_wv.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cen_agric_ag92_wy.cnty",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1660,
+                    "categories": [
+                        "Data, Logical Record, Wyoming"
+                    ],
+                    "dataFile": {
+                        "id": 16860,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cen_agric_ag92_wy.cnty",
+                        "contentType": "text/plain",
+                        "filesize": 1920200,
+                        "description": "",
+                        "storageIdentifier": "cen_agric_ag92_wy.cnty",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

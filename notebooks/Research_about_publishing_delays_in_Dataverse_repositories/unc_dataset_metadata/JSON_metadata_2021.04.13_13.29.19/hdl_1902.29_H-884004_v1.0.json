@@ -1,0 +1,823 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-884004",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2008-03-18",
+        "datasetVersion": {
+            "id": 2999,
+            "storageIdentifier": "file://1902.29/H-884004",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2008-03-18T16:06:43Z",
+            "releaseTime": "2008-03-18T00:00:00Z",
+            "createTime": "2007-08-29T14:56:48Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 1988 Teenage Pregnancy, Sex Education, and Birth Control Survey, study no. 884004"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-884004"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 884004"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:study"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "74-01-8840-04-HARRIS-88"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>\"This study is in four parts: National cross-section of adults (regular questions plus special questions on family planning in developing countries); and three state samples in New York, Wisconsin, and Pennsylvania. Each focus on the issues of teenage pregnancy, parental and school involvement in sex education, and birth control services and methods. Variables include the issue of abortion, talking about sex with your children, family planning clinics, Right-to-Life organization, and type of\nhealth insurance. The international set of questions focus on issues related to population growth, contraception, abortion, public policy, knowledge and consequences of rapid population growth, and U.S. government policy.\"\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Population growth"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Family planning"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sex education"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Population growth and fertility studies"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: H-884004;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988-05-06"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "New York, Pennsylvania, Wisconsin"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_s884004_ny_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Column Binary File -- New York"
+                    ],
+                    "dataFile": {
+                        "id": 27080,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_ny_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 238080,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_ny_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_ny_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "SAS Code -- New York"
+                    ],
+                    "dataFile": {
+                        "id": 27091,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_ny_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 42895,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_ny_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_ny_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "SAS Export Library -- New York"
+                    ],
+                    "dataFile": {
+                        "id": 58200,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_ny_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 623840,
+                        "description": "",
+                        "storageIdentifier": "1020",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_ny_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Data File -- New York (harris_s884004_ny_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 58201,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_ny_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 163145,
+                        "description": "",
+                        "storageIdentifier": "1021",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 163590,
+                        "UNF": "UNF:3:lu1IdCktjrrpy7sXyWG3dw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_pa_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Column Binary File -- Pennsylvania"
+                    ],
+                    "dataFile": {
+                        "id": 27082,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_pa_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 222720,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_pa_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_pa_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Questionnaire, PDF File -- New York, Pennsylvania, and Wisconsin"
+                    ],
+                    "dataFile": {
+                        "id": 27089,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_pa_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 438418,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_pa_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_pa_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "SAS Code -- Pennsylvania"
+                    ],
+                    "dataFile": {
+                        "id": 27074,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_pa_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 41368,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_pa_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_pa_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "SAS Export Library -- Pennsylvania"
+                    ],
+                    "dataFile": {
+                        "id": 59443,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_pa_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 569280,
+                        "description": "",
+                        "storageIdentifier": "1250",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_pa_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Data File -- Pennsylvania (harris_s884004_pa_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 59444,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_pa_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 149738,
+                        "description": "",
+                        "storageIdentifier": "1251",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 149896,
+                        "UNF": "UNF:3:eSRHnZ7m0X5zDD1XX9054A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_wi_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Column Binary File -- Wisconsin"
+                    ],
+                    "dataFile": {
+                        "id": 27079,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_wi_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 204000,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_wi_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_wi_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "SAS Code -- Wisconsin"
+                    ],
+                    "dataFile": {
+                        "id": 27076,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_wi_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 41605,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_wi_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_wi_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "SAS Export Library -- Wisconsin"
+                    ],
+                    "dataFile": {
+                        "id": 58204,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_wi_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 530240,
+                        "description": "",
+                        "storageIdentifier": "1024",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_wi_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Data File -- Wisconsin (harris_s884004_wi_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 58205,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_wi_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 137683,
+                        "description": "",
+                        "storageIdentifier": "1025",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 139892,
+                        "UNF": "UNF:3:pruLgobUQATAoQeFfsyNQQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_xsect_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Column Binary File -- Cross-section"
+                    ],
+                    "dataFile": {
+                        "id": 27088,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_xsect_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 600000,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_xsect_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_xsect_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Questionnaire, PDF File -- Cross-section"
+                    ],
+                    "dataFile": {
+                        "id": 27093,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_xsect_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 486869,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_xsect_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_xsect_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "SAS Code -- Cross-section"
+                    ],
+                    "dataFile": {
+                        "id": 27083,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_xsect_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 47039,
+                        "description": "",
+                        "storageIdentifier": "harris_s884004_xsect_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_xsect_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "SAS Export Library -- Cross-section"
+                    ],
+                    "dataFile": {
+                        "id": 58803,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_xsect_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 1636320,
+                        "description": "",
+                        "storageIdentifier": "1130",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s884004_xsect_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2999,
+                    "categories": [
+                        "Data File -- Cross-section (harris_s884004_xsect_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 58804,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s884004_xsect_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 453725,
+                        "description": "",
+                        "storageIdentifier": "1131",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 429516,
+                        "UNF": "UNF:3:41pG3MbR2bo+Q77agzr4TQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

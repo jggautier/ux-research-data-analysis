@@ -1,0 +1,340 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/11991",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2015-05-18",
+        "datasetVersion": {
+            "id": 352,
+            "storageIdentifier": "file://10.15139/S3/11991",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Version 1.0",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2015-05-18T14:13:12Z",
+            "releaseTime": "2015-05-18T00:00:00Z",
+            "createTime": "2015-05-13T13:03:47Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Dissecting allele architecture of early onset IBD using high-density genotyping"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cutler, David J."
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dept. of Human Genetics, Emory University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Zwick, Michael E."
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dept. of Human Genetics, Emory University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Okou, David T."
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dept. of Pediatrics, Emory University"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Prahalad, Sampath"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dept. of Pediatrics, Emory University"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kugathasan, Subra"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dept. of Pediatrics, Emory University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "skugath@emory.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The inflammatory bowel diseases (IBD) are common, complex disorders in which genetic and environmental factors are believed to interact leading to chronic inflammatory responses against the gut microbiota. Earlier genetic studies performed in mostly adult population of European descent identified 163 loci affecting IBD risk, but most have relatively modest effect sizes, and altogether explain only ~20% of the genetic susceptibility. Pediatric onset represents about 25% of overall incident cases in IBD, characterized by distinct disease physiology, course and risks. The goal of this study is to compare the allelic architecture of early onset IBD with adult onset in population of European descent."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015-05-13"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Plink file",
+                    "label": "CD_Controls.drop06.anon.bed.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 352,
+                    "dataFile": {
+                        "id": 7183959,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "CD_Controls.drop06.anon.bed.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 24764599,
+                        "description": "Plink file",
+                        "storageIdentifier": "17324",
+                        "rootDataFileId": -1,
+                        "md5": "92db152f83a7c6c54c2bddc3c4243c91",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "92db152f83a7c6c54c2bddc3c4243c91"
+                        },
+                        "creationDate": "2015-05-18"
+                    }
+                },
+                {
+                    "description": "Plink file",
+                    "label": "CD_Controls.drop06.anon.bim.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 352,
+                    "dataFile": {
+                        "id": 7183966,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "CD_Controls.drop06.anon.bim.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1676583,
+                        "description": "Plink file",
+                        "storageIdentifier": "17325",
+                        "rootDataFileId": -1,
+                        "md5": "373f4c05db9ee3dc347f5b6f822a1b50",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "373f4c05db9ee3dc347f5b6f822a1b50"
+                        },
+                        "creationDate": "2015-05-18"
+                    }
+                },
+                {
+                    "description": "Plink file",
+                    "label": "CD_Controls.drop06.anon.fam.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 352,
+                    "dataFile": {
+                        "id": 7183961,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "CD_Controls.drop06.anon.fam.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 17640,
+                        "description": "Plink file",
+                        "storageIdentifier": "17326",
+                        "rootDataFileId": -1,
+                        "md5": "bd7ff3852957e2ed26d7fb4eb85c0abd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bd7ff3852957e2ed26d7fb4eb85c0abd"
+                        },
+                        "creationDate": "2015-05-18"
+                    }
+                },
+                {
+                    "description": "CSV file",
+                    "label": "Combined_2645_Samples_Genotypes.anon.csv.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 352,
+                    "dataFile": {
+                        "id": 7183963,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Combined_2645_Samples_Genotypes.anon.csv.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 96917961,
+                        "description": "CSV file",
+                        "storageIdentifier": "17331",
+                        "rootDataFileId": -1,
+                        "md5": "d94477d466288d2f75fcf1453282319c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d94477d466288d2f75fcf1453282319c"
+                        },
+                        "creationDate": "2015-05-18"
+                    }
+                },
+                {
+                    "description": "CSV file",
+                    "label": "Combined_2645_Samples_Pedigree.anon.csv.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 352,
+                    "dataFile": {
+                        "id": 7183964,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Combined_2645_Samples_Pedigree.anon.csv.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 18609,
+                        "description": "CSV file",
+                        "storageIdentifier": "17330",
+                        "rootDataFileId": -1,
+                        "md5": "791912576a240f6761cac82b3633eaab",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "791912576a240f6761cac82b3633eaab"
+                        },
+                        "creationDate": "2015-05-18"
+                    }
+                },
+                {
+                    "description": "Plink file",
+                    "label": "IBDminusCD_Controls.drop06.anon.bed.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 352,
+                    "dataFile": {
+                        "id": 7183960,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "IBDminusCD_Controls.drop06.anon.bed.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 18503973,
+                        "description": "Plink file",
+                        "storageIdentifier": "17327",
+                        "rootDataFileId": -1,
+                        "md5": "e70e49868ec9c9d3c08998114ace73a1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e70e49868ec9c9d3c08998114ace73a1"
+                        },
+                        "creationDate": "2015-05-18"
+                    }
+                },
+                {
+                    "description": "Plink file",
+                    "label": "IBDminusCD_Controls.drop06.anon.bim.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 352,
+                    "dataFile": {
+                        "id": 7183965,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "IBDminusCD_Controls.drop06.anon.bim.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 1671040,
+                        "description": "Plink file",
+                        "storageIdentifier": "17328",
+                        "rootDataFileId": -1,
+                        "md5": "c7c97bdb03ecbb9054b0d62eaf492e18",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c7c97bdb03ecbb9054b0d62eaf492e18"
+                        },
+                        "creationDate": "2015-05-18"
+                    }
+                },
+                {
+                    "description": "Plink file",
+                    "label": "IBDminusCD_Controls.drop06.anon.fam.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 352,
+                    "dataFile": {
+                        "id": 7183962,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "IBDminusCD_Controls.drop06.anon.fam.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 12978,
+                        "description": "Plink file",
+                        "storageIdentifier": "17329",
+                        "rootDataFileId": -1,
+                        "md5": "bc7cfdbcc60d6fa9590ad1f6b718cdef",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bc7cfdbcc60d6fa9590ad1f6b718cdef"
+                        },
+                        "creationDate": "2015-05-18"
+                    }
+                }
+            ]
+        }
+    }
+}

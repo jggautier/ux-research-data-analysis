@@ -1,0 +1,334 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/C-101",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 4013,
+            "storageIdentifier": "file://1902.29/C-101",
+            "versionNumber": 2,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2013-06-18T14:03:30Z",
+            "releaseTime": "2013-06-18T00:00:00Z",
+            "createTime": "2013-06-14T17:02:50Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Census of Population and Housing, 1980: School District Equivalency Files (MARF 3 and 4)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "C-101"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:study"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "46-01-MARF3-CENSUS-80"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "U.S. Bureau of the Census"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This file 3 contains the geographic items from Summary Tape File 1A (STF1A) and Summary Tape File 3A (STF 3A), as well as total population and housing unit counts. The MARF 4 file contains geographic items from Summary Tape File 1b (STF 1B), as well as total population and housing unit counts.</p><p>The geographic levels on MARF 3 are sequenced hierarchically as follows: States (including the District of Columbia), counties or county equivalents, minor civil divisions (MCDs) or census county\ndivisions (CCDs), places or place segments within MCDs/CCDs, remainder of MCD/CCD, census tracts or block numbering areas (BNAs), and block groups (BGs) or, for areas that are not block-numbered, enumeration districts (EDs). The geographic levels on MARF 4 are sequenced hierarchically as follows: States (including the District of Columbia), standard metropolitan statistical areas (SMSAs), nonSMSA remainder of State, counties or county equivalents, minor civil divisions (MCDs) within counties (available for 20 specified States), places within MCDs within counties (20 specified states) or places within counties (remaining 31 States), census tracts or block numbering areas (BNAs), and blocks or, for nonblock numbered areas, enumeration districts (EDs). Data for SMSAs which cross State lines are shown only for that portion in the particular State file. Summaries are also provided for partially block- numbered portions of all geographic levels.\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Geographic reference file"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: All persons and housing units in the United States;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:STRUCTURE.FILE:SORT.SEQUENCE Notes: The file is sorted by level of geographic hierarchy.;Type: ODUM:NOTES.CONTENTS Notes: File 1: School district equivalency file (MARF 3) -- File 2: School district equivalency file (MARF 4);"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The Bureau"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1983"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Washington, DC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Summary statistics)"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "States, Counties, Places, Census Tracts, Minor Civil Divisions, Census County Divisions, Block Numbering Areas, Block Groups"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf380.nc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4013,
+                    "categories": [
+                        "Data, Logical Record, MARF3, N.C."
+                    ],
+                    "dataFile": {
+                        "id": 4796,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf380.nc",
+                        "contentType": "text/plain",
+                        "filesize": 3446319,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf380.nc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf480.nc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4013,
+                    "categories": [
+                        "Data, Logical Record, MARF4, N.C."
+                    ],
+                    "dataFile": {
+                        "id": 4797,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf480.nc",
+                        "contentType": "text/plain",
+                        "filesize": 24971315,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf480.nc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_pdfdocs_marf3480.nc.codebook.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4013,
+                    "categories": [
+                        "Codebook, MARF 3& 4, NC, PDF Format"
+                    ],
+                    "dataFile": {
+                        "id": 4795,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_pdfdocs_marf3480.nc.codebook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 5005450,
+                        "description": "",
+                        "storageIdentifier": "census_c80_pdfdocs_marf3480.nc.codebook.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

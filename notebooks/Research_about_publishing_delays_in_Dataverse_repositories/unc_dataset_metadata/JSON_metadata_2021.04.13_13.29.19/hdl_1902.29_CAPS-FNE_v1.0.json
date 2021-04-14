@@ -1,0 +1,688 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-FNE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3447,
+            "storageIdentifier": "file://1902.29/CAPS-FNE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T15:49:44Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:20:19Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Fear of Negative Evaluation Scale (CAPS-FNE module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-FNE"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-FNE"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Fear of Negative Evaluation scale (FNE) is a 30-item true-false measure of fear of receiving negative evaluations from others. Included are items measuring apprehension about others' evaluations, avoidance of evaluative situations, and the expectation that others would evaluate one negatively. The presence of high FNE does not necessarily imply that an individual evaluates himself negatively, or that he/she is concerned about revealing his/her inferiority. Fear of loss of social approval\nis identical to FNE, but the opposite instance of FNE is simply lack of anxiety about others' evaluations, not necessarily a desire for positive evaluation. High FNE differs from test anxiety in that it is not specific to testing conditions, but may operated in any social, evaluative situation, such as being on a date, talking to one's superiors, or being interviewed for a job.\n</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Fear of negative evaluation scale"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Fear of negative evaluation scale"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Negative evaluation"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Evaluation anxiety"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Anxiety"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Evaluative apprehension"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Social approval"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Evaluative stress"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Watson, David and Friend, Ronald, Measurement of Social-Evaluative Anxiety, Journal of Consulting and Clinical Psychology, 1969, vol. 33, no. 4, 448-457."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_fne_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8677,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fne_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fne_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_fne_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8669,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fne_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4480,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fne_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_fne_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8667,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fne_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 44320,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fne_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_fne_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8676,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fne_source",
+                        "contentType": "text/plain",
+                        "filesize": 7610,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fne_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_fne_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8668,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fne_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22386,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_fne_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_fne_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "Data File 1 (caps_1986_fne_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8670,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_fne_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19071,
+                        "storageIdentifier": "caps_1986_fne_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:Wsv/jN51u9GqiwHm5bB36w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_fne_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8673,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_fne_data",
+                        "contentType": "text/plain",
+                        "filesize": 37050,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_fne_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_fne_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8674,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_fne_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4704,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_fne_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_fne_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8675,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_fne_source",
+                        "contentType": "text/plain",
+                        "filesize": 7608,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_fne_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fne_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8666,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fne_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fne_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fne_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8671,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fne_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3109,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fne_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fne_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8672,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fne_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 45200,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fne_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fne_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8665,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fne_source",
+                        "contentType": "text/plain",
+                        "filesize": 9225,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fne_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_fne_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8678,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fne_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 22550,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_fne_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_fne_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3447,
+                    "categories": [
+                        "Data File 2 (caps_1988_fne_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8679,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_fne_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 19008,
+                        "storageIdentifier": "caps_1988_fne_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:J9YgdLNgyV031KsD5u7n/A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

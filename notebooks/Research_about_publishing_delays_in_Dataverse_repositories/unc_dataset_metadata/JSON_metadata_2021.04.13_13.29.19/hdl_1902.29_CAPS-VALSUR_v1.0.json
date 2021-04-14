@@ -1,0 +1,713 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-VALSUR",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-20",
+        "datasetVersion": {
+            "id": 3558,
+            "storageIdentifier": "file://1902.29/CAPS-VALSUR",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-20T14:04:46Z",
+            "releaseTime": "2009-04-20T00:00:00Z",
+            "createTime": "2007-08-28T15:26:08Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Value Survey (CAPS-VALSUR module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-VALSUR"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-VALSUR"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The 24 item Value Survey was developed by Geert Hofsteade. Hofsteade used 6 items from each of four dimensions, but results have not confirmed the existence of these factors. There are no standard scales constructed from this measure. The items are measured on a 5-point agree-disagree scale with a midpoint labeled 'undecided'.</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Value survey"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Values"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Geert Hofsteade, Cultures Consequences, Beverly Hills: Sage, 1980. The Value Survey module is not itself described in this publication, but the dimensions used to develop the scale are described. More information can be obtained from Geert Hofsteade, Velperweg 95, 6824 HH Arnhem, Netherlands."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_valsur_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11976,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_valsur_source",
+                        "contentType": "text/plain",
+                        "filesize": 33282,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_valsur_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_valsur_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11966,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_valsur_data",
+                        "contentType": "text/plain",
+                        "filesize": 50440,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_valsur_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_valsur_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11974,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_valsur_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3275,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_valsur_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_valsur_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11977,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_valsur_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 38240,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_valsur_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_valsur_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11970,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_valsur_source",
+                        "contentType": "text/plain",
+                        "filesize": 4377,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_valsur_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_valsur_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11969,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_valsur_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 23452,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_valsur_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_valsur_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Data File 1 (caps_1986_valsur_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11971,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_valsur_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18166,
+                        "storageIdentifier": "caps_1986_valsur_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:TY2MXp268hkmDfQUa/GWSA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_valsur_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11978,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_valsur_data",
+                        "contentType": "text/plain",
+                        "filesize": 39390,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_valsur_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_valsur_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11975,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_valsur_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3408,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_valsur_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_valsur_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11979,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_valsur_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 39520,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_valsur_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_valsur_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11963,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_valsur_source",
+                        "contentType": "text/plain",
+                        "filesize": 7893,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_valsur_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_valsur_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11972,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_valsur_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21566,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_valsur_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_valsur_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Data File 2 (caps_1987_valsur_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11965,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_valsur_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18594,
+                        "storageIdentifier": "caps_1987_valsur_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:CrQ4s1AXK74QoKbFFC9J/A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_valsur_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11962,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_valsur_data",
+                        "contentType": "text/plain",
+                        "filesize": 38220,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_valsur_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_valsur_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11964,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_valsur_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2908,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_valsur_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_valsur_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11973,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_valsur_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 40480,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_valsur_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_valsur_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11967,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_valsur_source",
+                        "contentType": "text/plain",
+                        "filesize": 8347,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_valsur_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_valsur_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11980,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_valsur_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21320,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_valsur_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_valsur_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3558,
+                    "categories": [
+                        "Data File 3 (caps_1988_valsur_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11968,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_valsur_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18228,
+                        "storageIdentifier": "caps_1988_valsur_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:CtwXSIjQBYhUJ31mtJbUBA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1675 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/9JJNBV",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-11-14",
+        "datasetVersion": {
+            "id": 30816,
+            "storageIdentifier": "file://10.15139/S3/9JJNBV",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:J9LNFrDW5nOeanmYf1CxVA==",
+            "lastUpdateTime": "2019-11-14T16:06:47Z",
+            "releaseTime": "2019-11-14T16:06:47Z",
+            "createTime": "2019-04-09T17:57:15Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "availabilityStatus": "#### Getting and preparing Data ####<br>\r\nNIMP provides yearly state legislative donation data. This process has changed\r\novertime, but they are very willing to work with scholars. You will need data\r\nthat provides either aggregate yearly donations from each group to each\r\ncandidate or every donation. This is the process at it stands in April of 2019.<br></br>\r\n\r\n1) Create an account with Followthemoney.org Then fill out the exemption form to\r\nget expanded academic access from them.  (The exemption form is in your account\r\nsettings. Click on 'Download Limits' in the User Options box, and then the\r\n\"apply for free expanded access\" link at the end of the first paragraph. Fill\r\nout and send the form in, and NIMP will get to you right away)<br></br>\r\n\r\n2) The best way to download the data is by election year. This link:\r\nhttps://www.followthemoney.org/show-me?dt=1&y=2001&c-exi=1&c-r-ot=H&d-et=3#[{1|gro=c-t-id,d-id\r\nwill bring you to the data for the 2001 election. To download the data scroll\r\nto the bottom of the page and click the CSV link. Follow the prompts.\r\n  Note: The following options should be checked: Records, and Candidates. In\r\n  addition the top should be \"Q: Show me Non-Individuals' contributions to State\r\n  House/Assembly Candidates in elections in 2001 (within federal, state and\r\n  local data)\" (so you will get just non-individuals and state leg candidates)<br></br>\r\n\r\n3) To download all the data you will just have to switch out 2001 with other\r\nyears.<br></br>\r\n\r\n4) The scripts that follow assume you've saved each year as:\r\nFollowTheMoneyDownloadXXXX.csv where XXXX is the full year (2001 for example).",
+            "disclaimer": "The <i>State Politics & Policy Quarterly</i> and the Odum Institute for Research in Social Science are not responsible for the accuracy or quality of data uploaded within the <i>SPPQ</i> Dataverse, for the use of those data, or for interpretations or conclusions based on their use.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication Data for: Mapping Influence: Partisan Networks Across the United States, 2000 to 2016"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Reuning, Kevin"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Miami University"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    },
+                                    "authorIdentifier": {
+                                        "typeName": "authorIdentifier",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "0000-0003-0022-6301"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Reuning, Kevin"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Miami University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "kevin.reuning@gmail.com"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The parties as networks approach has become a critical component of understanding American political parties. Research on it has so far mainly focused on variation in the placement of candidates within a network at the national level. This is impart due to a lack of data on state level party networks.  In this article I fill that gap by developing state party networks for 47 states from 2000 to 2016 using candidate donation data. To do this I introduce a backboning network analysis method not yet used in political science to infer relationships among donors at the state level. Finally I validate these state networks and then show how parties have varied across states and over time. The networks developed here will be made publicly available for future research. Being able to quantify variation in party network structure will be important for understanding variation in party-policy linkages at the state level."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Parties"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Networks"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Backboning network analysis"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Political parties"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "State politics"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Reuning, Kevin. [date]. \u201cMapping Influence: Partisan Networks Across the United States, 2000 to 2016.\u201d <i>State Politics & Policy Quarterly</i> Forthcoming. <a href=\"http://spa.sagepub.com/\" target=\"_blank\">http://spa.sagepub.com/</a>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "This dataset underwent an independent verification process that replicated the tables and figures in the primary article. For the supplementary materials, verification was performed solely for the successful execution of code. The verification process was carried out by the Odum Institute for Research in Social Science at the University of North Carolina at Chapel Hill. <br></br>\r\n\r\nData for the backboning process for this manuscript are not available on the AJPS Dataverse due to the terms of use of the data producer. To request access to these data please see the Terms of Use for this record."
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Reuning, Kevin"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-04-09"
+                        },
+                        {
+                            "typeName": "dataSources",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Klarner, Carl, 2013, \u201cState Partisan Balance Data, 1937 - 2011\u201d, http://hdl.handle.net/1902.1/20403.<br></br>\r\nNational Institute of Money in Politics. Retrieved from: https://www.followthemoney.org/"
+                            ]
+                        }
+                    ]
+                },
+                "journal": {
+                    "displayName": "Journal Metadata",
+                    "fields": [
+                        {
+                            "typeName": "journalVolumeIssue",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "journalVolume": {
+                                        "typeName": "journalVolume",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Forthcoming"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "app_fig_1_3.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507156,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "app_fig_1_3.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 6426,
+                        "description": "",
+                        "storageIdentifier": "16d3b182409-702803857d5d",
+                        "rootDataFileId": -1,
+                        "md5": "4da75657a990896e6af8bba3f30d0308",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4da75657a990896e6af8bba3f30d0308"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "app_fig_4.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507157,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "app_fig_4.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 251,
+                        "description": "",
+                        "storageIdentifier": "16d3b182411-5bc8cee0c35c",
+                        "rootDataFileId": -1,
+                        "md5": "e6501ff74e833b5bbdd6a74b794cbdba",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e6501ff74e833b5bbdd6a74b794cbdba"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "assort.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507158,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "assort.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 30191,
+                        "description": "",
+                        "storageIdentifier": "16d3b182415-173e0533f182",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 30227,
+                        "UNF": "UNF:6:XkgubbneRPtD13DGF0IahA==",
+                        "rootDataFileId": -1,
+                        "md5": "fd55458cff3a57018dc983da81ffe1ba",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "fd55458cff3a57018dc983da81ffe1ba"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "backboning.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507159,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "backboning.txt",
+                        "contentType": "text/plain",
+                        "filesize": 4042,
+                        "description": "",
+                        "storageIdentifier": "16d3b18241c-f0b3590edd0c",
+                        "rootDataFileId": -1,
+                        "md5": "b4d6676d66a37b72cda45cfbaef3e5d1",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b4d6676d66a37b72cda45cfbaef3e5d1"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "codebook.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507160,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "codebook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 154696,
+                        "description": "",
+                        "storageIdentifier": "16d3b182425-e87295d77ec6",
+                        "rootDataFileId": -1,
+                        "md5": "3e521bcae60e2c694026f2f46c840993",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3e521bcae60e2c694026f2f46c840993"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "DataCombine.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507161,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "DataCombine.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 2007,
+                        "description": "",
+                        "storageIdentifier": "16d3b18242a-9e36cb3fee9a",
+                        "rootDataFileId": -1,
+                        "md5": "f19711d8bdd9f4e24effa81d566b49be",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f19711d8bdd9f4e24effa81d566b49be"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2001-2002-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507162,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2001-2002-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 153029,
+                        "description": "",
+                        "storageIdentifier": "16d3b182432-14b46ad77e8b",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 153054,
+                        "UNF": "UNF:6:Yjo+KYX1rc57qP7DNL3eBg==",
+                        "rootDataFileId": -1,
+                        "md5": "7d5083908500d92591f3b56f420522f4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7d5083908500d92591f3b56f420522f4"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2001-2004-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507163,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2001-2004-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 151441,
+                        "description": "",
+                        "storageIdentifier": "16d3b18243c-2e5ac31c1892",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 151466,
+                        "UNF": "UNF:6:XHK9DLzqf2cuBEDcS+cAWg==",
+                        "rootDataFileId": -1,
+                        "md5": "ded517b0c8b072d16294100575f1d48a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ded517b0c8b072d16294100575f1d48a"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2003-2004-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507164,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2003-2004-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 69984,
+                        "description": "",
+                        "storageIdentifier": "16d3b182444-2600dbd4a8ef",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 70009,
+                        "UNF": "UNF:6:6iVB8rPz5fDrFPJGaXecrQ==",
+                        "rootDataFileId": -1,
+                        "md5": "0578de1a3e10338f27fb041e09439251",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0578de1a3e10338f27fb041e09439251"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2003-2006-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507165,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2003-2006-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 158999,
+                        "description": "",
+                        "storageIdentifier": "16d3b18244d-048c16d7f576",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 159024,
+                        "UNF": "UNF:6:m5U/u/LfePBRHvExgI5jrg==",
+                        "rootDataFileId": -1,
+                        "md5": "3ddc2dfb7fa8f8239d36c8e643c66f82",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3ddc2dfb7fa8f8239d36c8e643c66f82"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2005-2006-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507166,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2005-2006-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 90297,
+                        "description": "",
+                        "storageIdentifier": "16d3b182456-5d4db714c928",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 90322,
+                        "UNF": "UNF:6:4FXe20dzSwfXLwGmvrj9BA==",
+                        "rootDataFileId": -1,
+                        "md5": "c41273b44d3d04da7f4f9fdbd09db5b4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c41273b44d3d04da7f4f9fdbd09db5b4"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2005-2008-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507167,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2005-2008-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 155000,
+                        "description": "",
+                        "storageIdentifier": "16d3b18245e-f496af28a17e",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 155025,
+                        "UNF": "UNF:6:epM9t030hbB6FrteeFh4KA==",
+                        "rootDataFileId": -1,
+                        "md5": "3a1cfb704a07273f17a068a01dbb866f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3a1cfb704a07273f17a068a01dbb866f"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2007-2008-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507168,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2007-2008-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 97179,
+                        "description": "",
+                        "storageIdentifier": "16d3b182467-474ba9708aac",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 97204,
+                        "UNF": "UNF:6:W+DR49D7R2KvOGZOY4Lb1g==",
+                        "rootDataFileId": -1,
+                        "md5": "5dc001a313f5bb3ff1195b0b1a7b2820",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5dc001a313f5bb3ff1195b0b1a7b2820"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2007-2010-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507169,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2007-2010-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 100879,
+                        "description": "",
+                        "storageIdentifier": "16d3b18246f-5909de81210f",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 100904,
+                        "UNF": "UNF:6:oOSzdPsYKwawzA8mRHurTA==",
+                        "rootDataFileId": -1,
+                        "md5": "a55955e080d447a27784118e4b1edb1b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a55955e080d447a27784118e4b1edb1b"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2009-2010-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507170,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2009-2010-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 64900,
+                        "description": "",
+                        "storageIdentifier": "16d3b182477-8168e57d4d9e",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 64925,
+                        "UNF": "UNF:6:Q5wODYylXoCVVQGgz3Vrow==",
+                        "rootDataFileId": -1,
+                        "md5": "496737a285b089ecc847b07b55ee26e5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "496737a285b089ecc847b07b55ee26e5"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2009-2012-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507171,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2009-2012-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 114300,
+                        "description": "",
+                        "storageIdentifier": "16d3b18247f-81c1be98fb35",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 114325,
+                        "UNF": "UNF:6:OwOIAofZGKGZO7zFQgZzgw==",
+                        "rootDataFileId": -1,
+                        "md5": "6d1bacfe05b4f124417597d8e26f88e5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6d1bacfe05b4f124417597d8e26f88e5"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2011-2012-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507172,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2011-2012-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 105106,
+                        "description": "",
+                        "storageIdentifier": "16d3b182486-556b3fc1db4f",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 105131,
+                        "UNF": "UNF:6:vUYOjNzXaNiZD7daX1qYTQ==",
+                        "rootDataFileId": -1,
+                        "md5": "c31d010ddebccdb8e8a0af0859dd400c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c31d010ddebccdb8e8a0af0859dd400c"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2011-2014-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507173,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2011-2014-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 154222,
+                        "description": "",
+                        "storageIdentifier": "16d3b18248e-1fbe937ebdc2",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 154247,
+                        "UNF": "UNF:6:rInZ+xj1Md1K9h9WSx0UvQ==",
+                        "rootDataFileId": -1,
+                        "md5": "3f02a4f98acbbed36584f85c418ed987",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3f02a4f98acbbed36584f85c418ed987"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2013-2014-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507174,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2013-2014-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 76640,
+                        "description": "",
+                        "storageIdentifier": "16d3b182496-fc1fdef0f996",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 76665,
+                        "UNF": "UNF:6:MC6ZAXfw4VyYpl6N/SfpYA==",
+                        "rootDataFileId": -1,
+                        "md5": "578a48c200e5e6b8d57215c2361b5438",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "578a48c200e5e6b8d57215c2361b5438"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_CO-2013-2016-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507175,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_CO-2013-2016-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 137963,
+                        "description": "",
+                        "storageIdentifier": "16d3b18249e-d5615a19e97d",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 137988,
+                        "UNF": "UNF:6:PPxndeYkmDuGxNVNpTXqUA==",
+                        "rootDataFileId": -1,
+                        "md5": "bfe8e4af0297626f298254b0b70f59ea",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bfe8e4af0297626f298254b0b70f59ea"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "EL_SC-2013-2014-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507176,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "EL_SC-2013-2014-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 117318,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824a6-e7c5aa12d6fa",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 117343,
+                        "UNF": "UNF:6:CeghTgZp4oJ4ECj7WRD+LQ==",
+                        "rootDataFileId": -1,
+                        "md5": "eb58d459e37e5d1dd646d70418e61174",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "eb58d459e37e5d1dd646d70418e61174"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "ergm_stats.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507177,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ergm_stats.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 49302,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824ad-aba00c520f9d",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 49579,
+                        "UNF": "UNF:6:P3Ofm4SkskkVrqClYDNoGQ==",
+                        "rootDataFileId": -1,
+                        "md5": "3f6524420df8bf032f01313557af3eac",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3f6524420df8bf032f01313557af3eac"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "fig_10.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507180,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fig_10.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 2726,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824bf-b84d220bd776",
+                        "rootDataFileId": -1,
+                        "md5": "966c1321da82c3b66a51589ac2ab3909",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "966c1321da82c3b66a51589ac2ab3909"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "fig_6.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507181,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fig_6.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 334,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824c6-284367407a7a",
+                        "rootDataFileId": -1,
+                        "md5": "1d046791b6b9ff51f174f2e9472d7e97",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1d046791b6b9ff51f174f2e9472d7e97"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "fig_7.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507182,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fig_7.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 1409,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824ca-f2fbee3b74df",
+                        "rootDataFileId": -1,
+                        "md5": "4e6855be1e40f7d089291bb54d1d7862",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4e6855be1e40f7d089291bb54d1d7862"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "fig_8.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507183,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fig_8.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 351,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824d1-ff0035354ac7",
+                        "rootDataFileId": -1,
+                        "md5": "c0805652195ca4f7a6bc6eaaed52e6dc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c0805652195ca4f7a6bc6eaaed52e6dc"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "fig_9.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507184,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "fig_9.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 10692,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824d6-2685cec4f656",
+                        "rootDataFileId": -1,
+                        "md5": "2ff00e7e2acf6728ba2b02644bd79948",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2ff00e7e2acf6728ba2b02644bd79948"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "figs_1_2.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507178,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "figs_1_2.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 1428,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824b4-38acd22ee081",
+                        "rootDataFileId": -1,
+                        "md5": "2e2d6398af5f9feafc0f981caaeb76b8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2e2d6398af5f9feafc0f981caaeb76b8"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "figs_3_5.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507179,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "figs_3_5.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 7504,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824ba-4823c0c5d934",
+                        "rootDataFileId": -1,
+                        "md5": "872b0d60b80ad987e89f23f05f554bba",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "872b0d60b80ad987e89f23f05f554bba"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "HPC_mpi.pbs",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507185,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "HPC_mpi.pbs",
+                        "contentType": "application/octet-stream",
+                        "filesize": 351,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824dd-e86bad84b7b2",
+                        "rootDataFileId": -1,
+                        "md5": "09a1454587fc60c4828e2e7edae0b5fd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "09a1454587fc60c4828e2e7edae0b5fd"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "hurdleBackbone_0.0.2.tar.gz",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507186,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "hurdleBackbone_0.0.2.tar.gz",
+                        "contentType": "application/x-gzip",
+                        "filesize": 3004,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824e2-9022c36ec531",
+                        "rootDataFileId": -1,
+                        "md5": "fc57c40a4e557d2858d672cc092ca52e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "fc57c40a4e557d2858d672cc092ca52e"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "init_state_data.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507187,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "init_state_data.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 46622,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824e9-7d97a988785f",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 46772,
+                        "UNF": "UNF:6:NbZ7e2rBJd7Cfh7p2gchVA==",
+                        "rootDataFileId": -1,
+                        "md5": "7c98afcd84bcb351edb3fd0cd1f55d5d",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7c98afcd84bcb351edb3fd0cd1f55d5d"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "koch_nc.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507188,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "koch_nc.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 385,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824f0-6c1c6da537d0",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 474,
+                        "UNF": "UNF:6:W2cD3m0pm4Wo5iRORFojsw==",
+                        "rootDataFileId": -1,
+                        "md5": "38b72dbde765c5a59f37443d7d04ee69",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "38b72dbde765c5a59f37443d7d04ee69"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "leg_comp.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507189,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "leg_comp.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 63276,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824f6-97339cbaf882",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 64206,
+                        "UNF": "UNF:6:Nxc9MoXw9OE+3Q6FoNlCUA==",
+                        "rootDataFileId": -1,
+                        "md5": "99b501464bf80256848d1241cb1e71b3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "99b501464bf80256848d1241cb1e71b3"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MakeBackbones_HPC.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507190,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MakeBackbones_HPC.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 5928,
+                        "description": "",
+                        "storageIdentifier": "16d3b1824fe-42b3abcd2ce9",
+                        "rootDataFileId": -1,
+                        "md5": "16c4064c7fda71d6eb55ee3702841de9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "16c4064c7fda71d6eb55ee3702841de9"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2001-2002-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507191,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2001-2002-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 40049,
+                        "description": "",
+                        "storageIdentifier": "16d3b182505-0a5dc970b43f",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 40700,
+                        "UNF": "UNF:6:9idQAJ5CpDkpCFkzpU1oow==",
+                        "rootDataFileId": -1,
+                        "md5": "40658ffe5325abcfe69f1839cabe568f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "40658ffe5325abcfe69f1839cabe568f"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2001-2004-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507192,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2001-2004-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 49482,
+                        "description": "",
+                        "storageIdentifier": "16d3b18250d-3c8fa9fe2e39",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 50273,
+                        "UNF": "UNF:6:OIClegPOEDjlUwxpSqOogw==",
+                        "rootDataFileId": -1,
+                        "md5": "7ea8577acff53f5315cabc25b37eb928",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7ea8577acff53f5315cabc25b37eb928"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2003-2004-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507193,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2003-2004-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 35954,
+                        "description": "",
+                        "storageIdentifier": "16d3b182515-65c377e7f711",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 36559,
+                        "UNF": "UNF:6:+wA1iEXe55NEhUN6mWGGXg==",
+                        "rootDataFileId": -1,
+                        "md5": "072a0073ca323c1a664e49545c5f683f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "072a0073ca323c1a664e49545c5f683f"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2003-2006-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507194,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2003-2006-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 51570,
+                        "description": "",
+                        "storageIdentifier": "16d3b18251d-d2e37cc39851",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 52403,
+                        "UNF": "UNF:6:CNKsVWoxbF/R0nYVxELs7A==",
+                        "rootDataFileId": -1,
+                        "md5": "eaae6a0b8a593359c1ead4bb1e576e36",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "eaae6a0b8a593359c1ead4bb1e576e36"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2005-2006-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507195,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2005-2006-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 36649,
+                        "description": "",
+                        "storageIdentifier": "16d3b182525-4be7518ab203",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 37262,
+                        "UNF": "UNF:6:snMm3WXbKCMRCLpOb1e6SQ==",
+                        "rootDataFileId": -1,
+                        "md5": "a034edbd071dd1f09cc4cb1bd7844b62",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a034edbd071dd1f09cc4cb1bd7844b62"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2005-2008-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507196,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2005-2008-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 46388,
+                        "description": "",
+                        "storageIdentifier": "16d3b18252d-5919936dff70",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 47147,
+                        "UNF": "UNF:6:Vq01vxDN7jfTjTjD/IeDYw==",
+                        "rootDataFileId": -1,
+                        "md5": "1f38c0efda4a3d11debbe035538a1001",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "1f38c0efda4a3d11debbe035538a1001"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2007-2008-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507197,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2007-2008-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 33623,
+                        "description": "",
+                        "storageIdentifier": "16d3b182536-ef7d2602dcb1",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 34192,
+                        "UNF": "UNF:6:je0I6+jm9W/Zn3Gvghi5xw==",
+                        "rootDataFileId": -1,
+                        "md5": "24638bd33477f1bc5f15b166908b614a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "24638bd33477f1bc5f15b166908b614a"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2007-2010-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507198,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2007-2010-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 40563,
+                        "description": "",
+                        "storageIdentifier": "16d3b18253f-86a00f05c242",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 41226,
+                        "UNF": "UNF:6:c49bsO1vlvN1qlthg1gupg==",
+                        "rootDataFileId": -1,
+                        "md5": "692e6ff5f93aacffce4c121f894df3a2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "692e6ff5f93aacffce4c121f894df3a2"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2009-2010-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507199,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2009-2010-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 35277,
+                        "description": "",
+                        "storageIdentifier": "16d3b182547-155fa5d8d2ae",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 35856,
+                        "UNF": "UNF:6:Euec5Rwfe0WSSK03GIUMtA==",
+                        "rootDataFileId": -1,
+                        "md5": "2cff19c476c86bf4e47713fc1590f720",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2cff19c476c86bf4e47713fc1590f720"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2009-2012-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507200,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2009-2012-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 45489,
+                        "description": "",
+                        "storageIdentifier": "16d3b18254f-8f2e85d5d74b",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 46194,
+                        "UNF": "UNF:6:CkkW0BHEO9mbdIO3HtZObw==",
+                        "rootDataFileId": -1,
+                        "md5": "50481f216dcadb3bff05e41314b34ee9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "50481f216dcadb3bff05e41314b34ee9"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2011-2012-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507201,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2011-2012-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 39886,
+                        "description": "",
+                        "storageIdentifier": "16d3b182556-7ffca2394a33",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 40513,
+                        "UNF": "UNF:6:MpubXTUzWkQnwVNKvWWCPw==",
+                        "rootDataFileId": -1,
+                        "md5": "0329c095d23114497f1df70c691b84bc",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0329c095d23114497f1df70c691b84bc"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2011-2014-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507202,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2011-2014-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 46725,
+                        "description": "",
+                        "storageIdentifier": "16d3b18255e-3cb29014be86",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 47448,
+                        "UNF": "UNF:6:U9NBDPXBGx8dzv2I0jjKsg==",
+                        "rootDataFileId": -1,
+                        "md5": "43fcd72470ede06aacf53700e3428e4c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "43fcd72470ede06aacf53700e3428e4c"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2013-2014-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507203,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2013-2014-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 33105,
+                        "description": "",
+                        "storageIdentifier": "16d3b182566-eaea2a391a9b",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 33644,
+                        "UNF": "UNF:6:HLt8+qksCWP8YDRdZARY4Q==",
+                        "rootDataFileId": -1,
+                        "md5": "9f825c36e806cf18519e109c962305a3",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "9f825c36e806cf18519e109c962305a3"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_CO-2013-2016-Senate.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507204,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_CO-2013-2016-Senate.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 40702,
+                        "description": "",
+                        "storageIdentifier": "16d3b18256d-49e3b1454ad7",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 41349,
+                        "UNF": "UNF:6:pK9BY36ictUbD5UCjOE8GQ==",
+                        "rootDataFileId": -1,
+                        "md5": "aad4f715f78f5a42e17dd171fbcb1c34",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "aad4f715f78f5a42e17dd171fbcb1c34"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "MD_SC-2013-2014-House.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507205,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "MD_SC-2013-2014-House.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 47542,
+                        "description": "",
+                        "storageIdentifier": "16d3b182574-3a48e79bd6e8",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 48323,
+                        "UNF": "UNF:6:KNgHW1hJu9l+IKjipXHnZg==",
+                        "rootDataFileId": -1,
+                        "md5": "490c4cf566b57d721adaad440dd05dbe",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "490c4cf566b57d721adaad440dd05dbe"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "network_stats.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507206,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "network_stats.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 3106184,
+                        "description": "",
+                        "storageIdentifier": "16d3b18259f-7de2d0024993",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 3134789,
+                        "UNF": "UNF:6:As6P0nrr6eN2BFWVNTouyg==",
+                        "rootDataFileId": -1,
+                        "md5": "50dc4ad77dccea63afe4bb0a8714d240",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "50dc4ad77dccea63afe4bb0a8714d240"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "readme.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507207,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "readme.txt",
+                        "contentType": "text/plain",
+                        "filesize": 6574,
+                        "description": "",
+                        "storageIdentifier": "16d3b1825b5-ecdcc6df0a60",
+                        "rootDataFileId": -1,
+                        "md5": "3216ba6a696afc4a010f95f404ca5757",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3216ba6a696afc4a010f95f404ca5757"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "scripts.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507208,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "scripts.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 1350,
+                        "description": "",
+                        "storageIdentifier": "16d3b1825bc-62a6f7d47ca1",
+                        "rootDataFileId": -1,
+                        "md5": "ab3f6b25d4028730880ada90123e5166",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "ab3f6b25d4028730880ada90123e5166"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "state_list.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30816,
+                    "dataFile": {
+                        "id": 7507209,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "state_list.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 24838,
+                        "description": "",
+                        "storageIdentifier": "16d3b1825c4-202453ffee35",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "originalFileSize": 24893,
+                        "UNF": "UNF:6:AaNkgSTC65Pd0lMiO1KwfQ==",
+                        "rootDataFileId": -1,
+                        "md5": "bfa2bce655cf8f5edc7b2a4280fe3163",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "bfa2bce655cf8f5edc7b2a4280fe3163"
+                        },
+                        "creationDate": "2019-09-16"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,529 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/LLU0OD",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2021-01-30",
+        "datasetVersion": {
+            "id": 31791,
+            "storageIdentifier": "file://10.15139/S3/LLU0OD",
+            "versionNumber": 3,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:BYpGauFV7VZzO0+bX4gMiw==",
+            "lastUpdateTime": "2021-02-24T01:34:59Z",
+            "releaseTime": "2021-02-24T01:34:59Z",
+            "createTime": "2021-02-24T01:33:34Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication Data for: Predicting the Existence and Prevalence of U.S. Water Quality Trading Markets"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Branham, Jordan"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    },
+                                    "authorIdentifier": {
+                                        "typeName": "authorIdentifier",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "0000-0002-5793-4846"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Branham, Jordan"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "jbranham@live.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Water Quality Trading (WQT) programs aim to efficiently reduce pollution through market-based incentives. However, WQT performance is uneven; while several programs have found frequent use, many experience operational barriers and low trading activity. What factors are associated with WQT existence, prevalence, and operational stage? In this paper, we present and analyze the most complete database of WQT programs in the United States (147 programs/policies), detailing market designs, trading mechanisms, traded pollutants, and segmented geographies in 355 distinct markets. We use hurdle models (joint binary and count regressions) to evaluate markets in concert with demographic, political, and environmental covariates. We find that only one half of markets become operational, new market establishment has declined since 2013, and market existence and prevalence has nuanced relationships with local political ideology, urban infrastructure, waterway and waterbody extents, regulated environmental impacts, and historic waterway impairment. Our findings suggest opportunities for better projecting program need and targeting program funding."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Branham, Jordan"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2021-01-06"
+                        },
+                        {
+                            "typeName": "dataSources",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "EPA's Smart Location Database, Version 2.0 (2013). Accessible at: https://www.epa.gov/smartgrowth/smart-location-mapping#SLD",
+                                "EPA's National Hydrography Dataset Plus (NHDPlus), Version 2.0 (2020). Accessible at: https://www.epa.gov/waterdata/get-nhdplus-national-hydrography-dataset-plus-data",
+                                "U.S. Census Bureau (2000, 2010, 2017). Prepared by and acquired from Social Explorer: https://www.socialexplorer.com/tables"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "NASS data.",
+                    "label": "Ag_Census_Map_data_07172015.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513982,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Ag_Census_Map_data_07172015.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2923,
+                        "description": "NASS data.",
+                        "storageIdentifier": "17762c85600-b35512d94bb1",
+                        "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "originalFormatLabel": "MS Excel Spreadsheet",
+                        "originalFileSize": 12144916,
+                        "UNF": "UNF:6:5/fQdaAr+G9Ko3byYv7Myg==",
+                        "rootDataFileId": -1,
+                        "md5": "7e06bbc3408146f62b7d801f5f6c2a5c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7e06bbc3408146f62b7d801f5f6c2a5c"
+                        },
+                        "creationDate": "2021-02-02"
+                    }
+                },
+                {
+                    "description": "Political ideology data from Tausanovich and Warsaw (2013).",
+                    "label": "Ideology.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513980,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Ideology.zip",
+                        "contentType": "application/zip",
+                        "filesize": 1705391,
+                        "description": "Political ideology data from Tausanovich and Warsaw (2013).",
+                        "storageIdentifier": "17762c40467-7e3e5af6302e",
+                        "rootDataFileId": -1,
+                        "md5": "8cb43f7d586240623584390e337d6782",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8cb43f7d586240623584390e337d6782"
+                        },
+                        "creationDate": "2021-02-02"
+                    }
+                },
+                {
+                    "description": "Original WQT program database used in analysis.",
+                    "label": "original_wqt_program_database.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7515327,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "original_wqt_program_database.RData",
+                        "contentType": "application/gzip",
+                        "filesize": 49627924,
+                        "description": "Original WQT program database used in analysis.",
+                        "storageIdentifier": "177cb6d3675-a622aead7cca",
+                        "rootDataFileId": -1,
+                        "md5": "e474cdcb55d7536e748014d604efc4a9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e474cdcb55d7536e748014d604efc4a9"
+                        },
+                        "creationDate": "2021-02-22"
+                    }
+                },
+                {
+                    "description": "Section 10/404 permitting data.",
+                    "label": "ORM FOIA data.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513935,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ORM FOIA data.zip",
+                        "contentType": "application/zip",
+                        "filesize": 97349841,
+                        "description": "Section 10/404 permitting data.",
+                        "storageIdentifier": "177548a6285-5fdf06ddd76e",
+                        "rootDataFileId": -1,
+                        "md5": "f7a9c885e1591dd12af750c5bf1d9164",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f7a9c885e1591dd12af750c5bf1d9164"
+                        },
+                        "creationDate": "2021-01-30"
+                    }
+                },
+                {
+                    "description": "Waters in 303d.",
+                    "label": "rad_303d_20150501_fgdb.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513987,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "rad_303d_20150501_fgdb.zip",
+                        "contentType": "application/zip",
+                        "filesize": 682984720,
+                        "description": "Waters in 303d.",
+                        "storageIdentifier": "17762ce2130-7fa4ff4998c2",
+                        "rootDataFileId": -1,
+                        "md5": "a03b17d48331d421f199f87b46bbae49",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a03b17d48331d421f199f87b46bbae49"
+                        },
+                        "creationDate": "2021-02-02"
+                    }
+                },
+                {
+                    "description": "Impaired waters (2002).",
+                    "label": "rad_impw02_20140207_fgdb.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513986,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "rad_impw02_20140207_fgdb.zip",
+                        "contentType": "application/zip",
+                        "filesize": 395340502,
+                        "description": "Impaired waters (2002).",
+                        "storageIdentifier": "17762cbadc0-bb5159111aab",
+                        "rootDataFileId": -1,
+                        "md5": "915945f79b6c2919a25a46879db0e6ba",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "915945f79b6c2919a25a46879db0e6ba"
+                        },
+                        "creationDate": "2021-02-02"
+                    }
+                },
+                {
+                    "description": "TMDLs",
+                    "label": "rad_impwtmdls_20150501_fgdb.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513988,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "rad_impwtmdls_20150501_fgdb.zip",
+                        "contentType": "application/zip",
+                        "filesize": 314911055,
+                        "description": "TMDLs",
+                        "storageIdentifier": "17762d05b6b-3bdf8bf8cefc",
+                        "rootDataFileId": -1,
+                        "md5": "d2667bdc4718a2c0f5f4733672835718",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d2667bdc4718a2c0f5f4733672835718"
+                        },
+                        "creationDate": "2021-02-02"
+                    }
+                },
+                {
+                    "label": "RIBITS.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513977,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RIBITS.zip",
+                        "contentType": "application/zip",
+                        "filesize": 922799,
+                        "storageIdentifier": "17762bbdd0b-e2bb17938e17",
+                        "rootDataFileId": -1,
+                        "md5": "7d848f5c9ff1fcbca836e7df59afd443",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7d848f5c9ff1fcbca836e7df59afd443"
+                        },
+                        "creationDate": "2021-02-02"
+                    }
+                },
+                {
+                    "description": "Data update.",
+                    "label": "updated_wqt_program_database.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7515328,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "updated_wqt_program_database.RData",
+                        "contentType": "application/gzip",
+                        "filesize": 49564245,
+                        "description": "Data update.",
+                        "storageIdentifier": "177cb6d54f2-4b7ee05bae73",
+                        "rootDataFileId": -1,
+                        "md5": "d98ab30959717acc1ef2c3530cbb108c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d98ab30959717acc1ef2c3530cbb108c"
+                        },
+                        "creationDate": "2021-02-22"
+                    }
+                },
+                {
+                    "label": "us_county_2015_timevariesbyrow_annualprecipitation.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513978,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "us_county_2015_timevariesbyrow_annualprecipitation.zip",
+                        "contentType": "application/zip",
+                        "filesize": 11806776,
+                        "storageIdentifier": "17762bc0a46-6393f6eb7de2",
+                        "rootDataFileId": -1,
+                        "md5": "2c9e575a48d857cdbc07c0c43d2711fe",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2c9e575a48d857cdbc07c0c43d2711fe"
+                        },
+                        "creationDate": "2021-02-02"
+                    }
+                },
+                {
+                    "label": "us_county_2015_timevariesbyrow_normalprecipitation.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513979,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "us_county_2015_timevariesbyrow_normalprecipitation.zip",
+                        "contentType": "application/zip",
+                        "filesize": 1040116,
+                        "storageIdentifier": "17762bc0d39-0a13d7d4dbaf",
+                        "rootDataFileId": -1,
+                        "md5": "dc473273b3822c343568ae6e03cd96d2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dc473273b3822c343568ae6e03cd96d2"
+                        },
+                        "creationDate": "2021-02-02"
+                    }
+                },
+                {
+                    "description": "US Census TIGER/Line boundaries of census tracts (2017).",
+                    "label": "US_tract_2017.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513989,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "US_tract_2017.zip",
+                        "contentType": "application/zipped-shapefile",
+                        "filesize": 433295688,
+                        "description": "US Census TIGER/Line boundaries of census tracts (2017).",
+                        "storageIdentifier": "17762d2bf0a-192498b03c16",
+                        "rootDataFileId": -1,
+                        "md5": "959fa0d423a1dc917c3af4b9f26db3c6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "959fa0d423a1dc917c3af4b9f26db3c6"
+                        },
+                        "creationDate": "2021-02-02"
+                    }
+                },
+                {
+                    "description": "Covariate data used in analysis and modeling, with census tracts as base unit of analysis.",
+                    "label": "wqt_final_dataset_9_29.RData",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7515329,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "wqt_final_dataset_9_29.RData",
+                        "contentType": "application/x-rlang-transport",
+                        "filesize": 76686119,
+                        "description": "Covariate data used in analysis and modeling, with census tracts as base unit of analysis.",
+                        "storageIdentifier": "177cb6ea739-b2cc86b7e0d0",
+                        "rootDataFileId": -1,
+                        "md5": "74c85b6e2581b63ca67b073dc3f5f34c",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "74c85b6e2581b63ca67b073dc3f5f34c"
+                        },
+                        "creationDate": "2021-02-22"
+                    }
+                },
+                {
+                    "description": "Metadata for covariate data used for modeling and analysis.",
+                    "label": "wqt_final_dataset_metadata.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7515331,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "wqt_final_dataset_metadata.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 12554,
+                        "description": "Metadata for covariate data used for modeling and analysis.",
+                        "storageIdentifier": "177d1ab33e1-089840514e9c",
+                        "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "originalFormatLabel": "MS Excel Spreadsheet",
+                        "originalFileSize": 14668,
+                        "UNF": "UNF:6:oT9GkW8rbvvtBuoKd2h6Vg==",
+                        "rootDataFileId": -1,
+                        "md5": "2c1cc84d4781b83d907187782b991057",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2c1cc84d4781b83d907187782b991057"
+                        },
+                        "creationDate": "2021-02-23"
+                    }
+                },
+                {
+                    "description": "This code runs and produces output of the hurdle models used in the analysis.",
+                    "label": "wqt_modeling.Rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513933,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "wqt_modeling.Rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 35442,
+                        "description": "This code runs and produces output of the hurdle models used in the analysis.",
+                        "storageIdentifier": "1775481a038-f6c984211c6f",
+                        "rootDataFileId": -1,
+                        "md5": "fea0d1d9e59298f4d0afa8bab10eb56b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "fea0d1d9e59298f4d0afa8bab10eb56b"
+                        },
+                        "creationDate": "2021-01-30"
+                    }
+                },
+                {
+                    "description": "This code produces the six figures in Figure 2.",
+                    "label": "wqt_paper_figures.R",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 31791,
+                    "dataFile": {
+                        "id": 7513934,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "wqt_paper_figures.R",
+                        "contentType": "type/x-r-syntax",
+                        "filesize": 10581,
+                        "description": "This code produces the six figures in Figure 2.",
+                        "storageIdentifier": "1775481a0bf-45cce2e14fb8",
+                        "rootDataFileId": -1,
+                        "md5": "000798923828d272a342a648bd089ffb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "000798923828d272a342a648bd089ffb"
+                        },
+                        "creationDate": "2021-01-30"
+                    }
+                }
+            ]
+        }
+    }
+}

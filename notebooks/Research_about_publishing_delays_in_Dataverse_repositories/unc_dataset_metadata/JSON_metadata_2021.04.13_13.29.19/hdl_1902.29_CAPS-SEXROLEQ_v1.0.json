@@ -1,0 +1,864 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-SEXROLEQ",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-04-28",
+        "datasetVersion": {
+            "id": 3520,
+            "storageIdentifier": "file://1902.29/CAPS-SEXROLEQ",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-04-28T14:34:38Z",
+            "releaseTime": "2009-04-28T00:00:00Z",
+            "createTime": "2007-08-28T15:24:59Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Sex-role Attitudes (CAPS-SEXROLEQ and CAPS-SEXROLE module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-SEXROLEQ"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-SEXROLEQ CAPS-SEXROLE"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This 12-item unit measures Rs sex-role attitudes -- particularly attitudes about women's roles. Answer format is a 6-point scale where 1=strongly agree, 2=agree, 3=moderately agree, 4=moderately disagree, 5=disagree, and 6=strongly disagree. Items 2,3,5,7, and 11 are statements of traditional positions. The other items are reverse scored and all items summed to produce a summary measure TRADROLE which ranges from 12-72, with higher scores indicating more traditional sex role attitudes.</p><p>\nThe unit is called SEXROLEQ after CAPS/85. In CAPS/85 it was called SEXROLE.\n</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sex role attitudes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "gender roles"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Feminism"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Women's roles"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Roles"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Mason, Karen O. and Bumpass, Larry, U.S. Women's Sex-Role Ideology, 1970, AJS, Vol. 80. number 5, pp. 1212-1219."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_sexrole_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11329,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sexrole_data",
+                        "contentType": "text/plain",
+                        "filesize": 39000,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_sexrole_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_sexrole_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11326,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sexrole_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 29120,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_sexrole_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_sexrole_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11330,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sexrole_source",
+                        "contentType": "text/plain",
+                        "filesize": 20511,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_sexrole_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_sexrole_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 11328,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sexrole_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17548,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_sexrole_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_sexrole_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Data File 1 (caps_1985_sexrole_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11332,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_sexrole_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15724,
+                        "storageIdentifier": "caps_1985_sexrole_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:jg872thkEI1kQQqxele1+Q==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sexroleq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11327,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sexroleq_data",
+                        "contentType": "text/plain",
+                        "filesize": 37050,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sexroleq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sexroleq_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11324,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sexroleq_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2773,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sexroleq_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sexroleq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11319,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sexroleq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 27760,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sexroleq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sexroleq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11320,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sexroleq_source",
+                        "contentType": "text/plain",
+                        "filesize": 2102,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sexroleq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_sexroleq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 11325,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sexroleq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17630,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_sexroleq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_sexroleq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Data File 2 (caps_1986_sexroleq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11334,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_sexroleq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15407,
+                        "storageIdentifier": "caps_1986_sexroleq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:hEh1gTrnbrLuMYd8gmr7Cg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sexroleq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11318,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sexroleq_data",
+                        "contentType": "text/plain",
+                        "filesize": 37050,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sexroleq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sexroleq_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11315,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sexroleq_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3427,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sexroleq_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sexroleq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11333,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sexroleq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 27760,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sexroleq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sexroleq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11335,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sexroleq_source",
+                        "contentType": "text/plain",
+                        "filesize": 5029,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sexroleq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_sexroleq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 11316,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sexroleq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17630,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_sexroleq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_sexroleq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Data File 3 (caps_1987_sexroleq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11336,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_sexroleq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15415,
+                        "storageIdentifier": "caps_1987_sexroleq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:dKHM51wMI93a+htqa7z2Rg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_sexroleq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11331,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_sexroleq_data",
+                        "contentType": "text/plain",
+                        "filesize": 37050,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_sexroleq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_sexroleq_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11314,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_sexroleq_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2145,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_sexroleq_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_sexroleq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11322,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_sexroleq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 28640,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_sexroleq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_sexroleq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11323,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_sexroleq_source",
+                        "contentType": "text/plain",
+                        "filesize": 6515,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_sexroleq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_sexroleq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 11321,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_sexroleq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 17630,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_sexroleq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_sexroleq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3520,
+                    "categories": [
+                        "Data File 4 (caps_1988_sexroleq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 11317,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_sexroleq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15390,
+                        "storageIdentifier": "caps_1988_sexroleq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:LbffxQa0qMWQeycuYPeWPQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

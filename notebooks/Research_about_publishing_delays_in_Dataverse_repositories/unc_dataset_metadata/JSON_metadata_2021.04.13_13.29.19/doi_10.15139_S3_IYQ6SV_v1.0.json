@@ -1,0 +1,184 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/IYQ6SV",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-02-02",
+        "datasetVersion": {
+            "id": 25356,
+            "storageIdentifier": "file://10.15139/S3/IYQ6SV",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:pTCIC3C7Lvsz/tJ8NDYhuw==",
+            "lastUpdateTime": "2017-02-02T20:46:05Z",
+            "releaseTime": "2017-02-02T20:46:05Z",
+            "createTime": "2016-10-17T19:20:50Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "termsOfAccess": "12/09/2016 dmg. At Karen Grewen's request, after meeting with her, me and Elizabeth Gunn.",
+            "fileAccessRequest": true,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "[02]  Master Inventory (\"Control\") dataset (treatment groups, gender, age, etc)"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Grewen, Karen"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thu-Mai Christian"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odumarchive@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Main demographic variables including treatment group assignments, child gender and age and some variables about Mom's drug use. \r\n(For more information about drug use, also see Maternal Substance Use, Timeline Followback Summary and Timeline Followback.) \r\n<br><br>\r\n<b>NOTE:</b>There were several date variables on the original Control datafile, which have all been replaced with the Baby's Age at that date calculated in two ways: the chronological age and the Gestational Age, both measured in days.\r\n<br><br>\r\nFor other comments, please see <b>Notes on the data files in entries [02] through [27] for Project #2</b> in the entry titled \"[01] CAMID Project 2 (humans): Guide Documents.\"\r\n<br><br>\r\nOriginal file: \\Johns\\Project2\\Main\\_Control\\Data\\ctrl_xx.sas7bdat\r\n<br>\r\nData processed: 3/20/2015\r\n"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "cocaine"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Gardner, David"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-10-17"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "label": "control_35_arc.tab",
+                    "restricted": true,
+                    "version": 3,
+                    "datasetVersionId": 25356,
+                    "dataFile": {
+                        "id": 7490266,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "control_35_arc.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16235,
+                        "storageIdentifier": "158db30be66-39ad65c608f4",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:6:pTCIC3C7Lvsz/tJ8NDYhuw==",
+                        "rootDataFileId": -1,
+                        "md5": "0c3a15c17e4be005b91e38ebb271eb61",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0c3a15c17e4be005b91e38ebb271eb61"
+                        },
+                        "creationDate": "2016-12-07"
+                    }
+                },
+                {
+                    "label": "Control Codebook.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 25356,
+                    "dataFile": {
+                        "id": 7490264,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Control Codebook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 46462,
+                        "storageIdentifier": "158db2d2004-344d846914ad",
+                        "rootDataFileId": -1,
+                        "md5": "91c5a036ae8123d812096ac7c03ecc64",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "91c5a036ae8123d812096ac7c03ecc64"
+                        },
+                        "creationDate": "2016-12-07"
+                    }
+                }
+            ]
+        }
+    }
+}

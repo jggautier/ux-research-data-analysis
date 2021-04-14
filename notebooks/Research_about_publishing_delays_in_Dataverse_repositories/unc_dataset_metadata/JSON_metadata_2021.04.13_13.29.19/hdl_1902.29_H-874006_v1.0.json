@@ -1,0 +1,614 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/H-874006",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2008-02-12",
+        "datasetVersion": {
+            "id": 2955,
+            "storageIdentifier": "file://1902.29/H-874006",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2008-02-12T15:56:45Z",
+            "releaseTime": "2008-02-12T00:00:00Z",
+            "createTime": "2007-08-29T14:55:43Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential\ndamages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Harris 1987 American Parent and Teacher Survey, study no. 874006"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "H-874006"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Harris study no. 874006"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:study"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "74-01-874006-HARRIS-87"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Metropolitan Life and Affiliated Companies"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This is the fourth in a series of surveys focusing on the teaching profession. This one measures the perceptions of teachers and parents on the education of children in public schools. Variables include rating of current schools, involvement of parents, contact with teachers, after school programs, critical rating of parents, plans for improving education, additional ways to utilize school facilities, and programs to prevent children from dropping out of school.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Education"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Teachers"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Parents"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public schools"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Harris telephone surveys use a form of random digit dialing. From a random multi-stage cluster sampling design, they obtain a national cross-section of U.S. adults. Interviewers are usually given the first five digits of a series of randomly selected residential telephone geographic locations, including minor civil divisions. The interviewer then adds two randomly generated digits to complete a new seven-digit number.;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: H-874006;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Louis Harris and Associates, Inc."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1987-05-12"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "New York, NY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Harris public opinion survey"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "harris_s874006_parents_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "Column Binary File -- Parents"
+                    ],
+                    "dataFile": {
+                        "id": 26661,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_parents_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 482640,
+                        "description": "",
+                        "storageIdentifier": "harris_s874006_parents_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_parents_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "Questionnaire, PDF File -- Parents"
+                    ],
+                    "dataFile": {
+                        "id": 26662,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_parents_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 457045,
+                        "description": "",
+                        "storageIdentifier": "harris_s874006_parents_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_parents_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "SAS Code -- Parents"
+                    ],
+                    "dataFile": {
+                        "id": 26657,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_parents_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 35639,
+                        "description": "",
+                        "storageIdentifier": "harris_s874006_parents_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_parents_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "SAS Export Library -- Parents"
+                    ],
+                    "dataFile": {
+                        "id": 57620,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_parents_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 1769680,
+                        "description": "",
+                        "storageIdentifier": "947",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_parents_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "Data File -- Parents (harris_s874006_parents_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 57621,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_parents_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 446386,
+                        "description": "",
+                        "storageIdentifier": "948",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 470106,
+                        "UNF": "UNF:3:OSV9sR0Hrqy015rBZ1L4vg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_report.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "Report, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 26663,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_report.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 11157752,
+                        "description": "",
+                        "storageIdentifier": "harris_s874006_report.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_teachers_colbin",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "Column Binary File -- Teachers"
+                    ],
+                    "dataFile": {
+                        "id": 26669,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_teachers_colbin",
+                        "contentType": "application/octet-stream",
+                        "filesize": 320640,
+                        "description": "",
+                        "storageIdentifier": "harris_s874006_teachers_colbin",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_teachers_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "Questionnaire, PDF File -- Teachers"
+                    ],
+                    "dataFile": {
+                        "id": 26666,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_teachers_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 372431,
+                        "description": "",
+                        "storageIdentifier": "harris_s874006_teachers_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_teachers_sascode",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "SAS Code -- Teachers"
+                    ],
+                    "dataFile": {
+                        "id": 26668,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_teachers_sascode",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 31763,
+                        "description": "",
+                        "storageIdentifier": "harris_s874006_teachers_sascode",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_teachers_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "SAS Export Library -- Teachers"
+                    ],
+                    "dataFile": {
+                        "id": 57622,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_teachers_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 881200,
+                        "description": "",
+                        "storageIdentifier": "949",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "harris_s874006_teachers_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 2955,
+                    "categories": [
+                        "Data File -- Teachers (harris_s874006_teachers_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 57623,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "harris_s874006_teachers_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 216424,
+                        "description": "",
+                        "storageIdentifier": "950",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 233372,
+                        "UNF": "UNF:3:2GvL27nDawMzkONm29UTiw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

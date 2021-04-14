@@ -1,0 +1,686 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-FORM2F",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3449,
+            "storageIdentifier": "file://1902.29/CAPS-FORM2F",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T15:50:58Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:20:20Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Forced Choice F Scale -- Form II (CAPS-FORM2F module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-FORM2F"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-FORM2F"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>Forced Choice F Scale (Berkowitz and Wolkon 1964) Form II (Forced Choice Christie) The Forced Choice F Scale was designed to measure authoritarianism as defined by the California study (Adorno et al, 1950) while avoiding two problems accounted with previous scales: 1) acquiescence response set and 2) inadequate counterbalancing which yields unreliability and perhaps multidimensionality. Form II (FCC) used 25 items appearing in the original F Scale paired with Christie's reversals. Each pair c\nonstitutes an item. The items appear in random order. For 13 randomly chosen items, the original statement from the F Scale preceded its reversal, while in the other 12 items, the reversal came first. The forced choice technique appears to be one of the best solutions to the problem of agreement set. This scale correlates highly with F+ and F- subscales of balanced forms, although these subscales usually do not correlate highly with each other.\n</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Authoritarianism"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Acquiescient response set F-scale"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Berkowitz, N.H. and Wolken, G.H. A forced choice form of the F scale-free of acquiescent response set. Sociometry, 1964, 27, 54-65."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1986_form2f_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8689,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_form2f_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_form2f_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_form2f_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8696,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_form2f_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 12393,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_form2f_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_form2f_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8694,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_form2f_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 39760,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_form2f_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_form2f_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8693,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_form2f_source",
+                        "contentType": "text/plain",
+                        "filesize": 43344,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_form2f_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_form2f_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 8682,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_form2f_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21156,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_form2f_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_form2f_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "Data File 1 (caps_1986_form2f_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8686,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_form2f_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18104,
+                        "storageIdentifier": "caps_1986_form2f_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:rT4a2NfGe1EGcPs3rr9GfA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_form2f_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8691,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_form2f_data",
+                        "contentType": "text/plain",
+                        "filesize": 37050,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_form2f_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_form2f_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8688,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_form2f_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 12150,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_form2f_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_form2f_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8683,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_form2f_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 39440,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_form2f_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_form2f_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8685,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_form2f_source",
+                        "contentType": "text/plain",
+                        "filesize": 27135,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_form2f_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_form2f_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 8690,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_form2f_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 20992,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_form2f_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_form2f_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "Data File 2 (caps_1987_form2f_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8684,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_form2f_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17924,
+                        "storageIdentifier": "caps_1987_form2f_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:qzAtemfp08K623t/pgcLSw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_form2f_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8695,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_form2f_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_form2f_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_form2f_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8697,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_form2f_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 14319,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_form2f_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_form2f_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8692,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_form2f_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 40720,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_form2f_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_form2f_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8687,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_form2f_source",
+                        "contentType": "text/plain",
+                        "filesize": 49407,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_form2f_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_form2f_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 8680,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_form2f_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21238,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_form2f_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_form2f_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3449,
+                    "categories": [
+                        "Data File 3 (caps_1988_form2f_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 8681,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_form2f_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18048,
+                        "storageIdentifier": "caps_1988_form2f_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:0CyjExar6VQHJWx8xXGjEg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

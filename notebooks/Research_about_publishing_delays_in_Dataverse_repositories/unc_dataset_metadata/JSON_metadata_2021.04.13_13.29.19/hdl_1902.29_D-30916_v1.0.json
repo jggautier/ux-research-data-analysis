@@ -1,0 +1,587 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-30916",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 4337,
+            "storageIdentifier": "file://1902.29/D-30916",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "distributionDate": "1996",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T15:59:23Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Kentucky Spring Poll Survey, (Parts 1 & 2), 1994"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-30916"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "NNSP-KY-033"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Survey Research Center, University of Kentucky"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This statewide survey focuses on life in Kentucky, President and Governor ratings, and state taxes. Additional variables for Part I include Kentucky Education Reform Act (KERA), taxes, environmental concerns, computer programs in schools, and parents involvement in local schools. Part II include medical insurance, wildlife, fisheries, abortion, computers, and access to the Internet.</p><p>Part I: May 12 - June 2 and Part II: May 17 - June 1, 1994</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Taxes--State"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "KERA"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Environment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Computer technology"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Omnibus and public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Public opinion"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:PUBLIC.OPINION.POLLS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: Residents of Kentucky ages 18 and older in households with telephones. The data file includes county residence and data may be aggregated to rural and urban areas.;Type: ODUM:ACCESS.CATEGORY Notes: I;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Survey Research Center, University of Kentucky"
+                                    },
+                                    "producerURL": {
+                                        "typeName": "producerURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://survey.rgs.uky.edu/"
+                                    },
+                                    "producerLogoURL": {
+                                        "typeName": "producerLogoURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://survey.rgs.uky.edu/src_sig.gif"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1994"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Lexington, KY"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                },
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute for Research in Social Science, University of North Carolina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1996"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1994-05-12"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1994-06-02"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Survey)"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kentucky"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "nnsp_kentucky_spring94_part1.data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4337,
+                    "categories": [
+                        "Part 1- Card-image data"
+                    ],
+                    "dataFile": {
+                        "id": 17786,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_kentucky_spring94_part1.data",
+                        "contentType": "text/plain",
+                        "filesize": 203796,
+                        "description": "",
+                        "storageIdentifier": "nnsp_kentucky_spring94_part1.data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_kentucky_spring94_part1.sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4337,
+                    "categories": [
+                        "Part 1- SAS Export File"
+                    ],
+                    "dataFile": {
+                        "id": 17785,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_kentucky_spring94_part1.sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 662640,
+                        "description": "",
+                        "storageIdentifier": "nnsp_kentucky_spring94_part1.sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_kentucky_spring94_part1.spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4337,
+                    "categories": [
+                        "Part 1- SPSS portable file"
+                    ],
+                    "dataFile": {
+                        "id": 17784,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_kentucky_spring94_part1.spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 165807,
+                        "description": "",
+                        "storageIdentifier": "nnsp_kentucky_spring94_part1.spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "nnsp_kentucky_spring94_part1.spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4337,
+                    "categories": [
+                        "Data File 1 (nnsp_kentucky_spring94_part1.spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 17788,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_kentucky_spring94_part1.spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 166271,
+                        "storageIdentifier": "nnsp_kentucky_spring94_part1.spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:cF3a0ZVpjSMMY1cfrnztDA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_kentucky_spring94_part2.data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4337,
+                    "categories": [
+                        "Part 2- Card-image data"
+                    ],
+                    "dataFile": {
+                        "id": 17780,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_kentucky_spring94_part2.data",
+                        "contentType": "text/plain",
+                        "filesize": 257580,
+                        "description": "",
+                        "storageIdentifier": "nnsp_kentucky_spring94_part2.data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_kentucky_spring94_part2.sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4337,
+                    "categories": [
+                        "Part 2- SAS Export File"
+                    ],
+                    "dataFile": {
+                        "id": 17787,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_kentucky_spring94_part2.sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 846880,
+                        "description": "",
+                        "storageIdentifier": "nnsp_kentucky_spring94_part2.sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_kentucky_spring94_part2.spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4337,
+                    "categories": [
+                        "Part 2- SPSS portable file"
+                    ],
+                    "dataFile": {
+                        "id": 17783,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_kentucky_spring94_part2.spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 213840,
+                        "description": "",
+                        "storageIdentifier": "nnsp_kentucky_spring94_part2.spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "nnsp_kentucky_spring94_part2.spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4337,
+                    "categories": [
+                        "Data File 2 (nnsp_kentucky_spring94_part2.spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 17781,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_kentucky_spring94_part2.spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 229725,
+                        "storageIdentifier": "nnsp_kentucky_spring94_part2.spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:T1+4YsA+94dHi+xc/EHf9w==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "nnsp_kentucky_spring94_quest.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4337,
+                    "categories": [
+                        "Questionnaire, PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 17782,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "nnsp_kentucky_spring94_quest.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1960798,
+                        "description": "",
+                        "storageIdentifier": "nnsp_kentucky_spring94_quest.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

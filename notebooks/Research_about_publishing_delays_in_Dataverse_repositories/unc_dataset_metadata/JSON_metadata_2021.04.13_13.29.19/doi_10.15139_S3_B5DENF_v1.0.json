@@ -1,0 +1,304 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/B5DENF",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2018-04-29",
+        "datasetVersion": {
+            "id": 30533,
+            "storageIdentifier": "file://10.15139/S3/B5DENF",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "UNF": "UNF:6:aHlCCHWJ7BZrrNW+s4hcyg==",
+            "lastUpdateTime": "2018-04-29T18:24:55Z",
+            "releaseTime": "2018-04-29T18:24:55Z",
+            "createTime": "2018-04-28T16:18:46Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Data and Code to Replicate Perez, Fox, and McClure \"Unequal State Support of Religion: On Resentment, Equality, and the Separation of Religion and State\" (2017)"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Young, Matthew"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Young, Matthew"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of North Carolina at Chapel Hill"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "mhyoung@live.unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The upload contains 7 files: \r\n1. A README file (.txt) containing instructions for replicating the entire project, as well as the necessary syntax to run the models in STATA. \r\n2. A R markdown script (.rmd) that contains the code necessary to run the preliminary data cleaning and manipulation process. \r\n3. A PDF copy of the replication and extension paper. \r\n4. The dataset received from the author (\"Replication data.dta\") in STATA 13 format.\r\n 5. The Religion and State Minorities dataset module, necessary for crafting the new variables for extension. \r\n6. The dataset created at the end of the data manipulation process, entitled \"Extension_data.dta\" (2018-04-27)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Other"
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Perez, Nahshon, Jonathan Fox, and Jennifer M. McClure. \u201cUnequal State Support of Religion: On Resentment, Equality, and the Separation of Religion and State.\u201d Politics, Religion, & Ideology. 2017. "
+                                    },
+                                    "publicationIDType": {
+                                        "typeName": "publicationIDType",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "doi"
+                                    },
+                                    "publicationIDNumber": {
+                                        "typeName": "publicationIDNumber",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "10.1080/21567689.2017.1400429"
+                                    },
+                                    "publicationURL": {
+                                        "typeName": "publicationURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://doi.org/10.1080/21567689.2017.1400429"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Young, Matthew"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2018-04-28"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "R script for data cleaning and manipulation. ",
+                    "label": "Data prep.rmd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30533,
+                    "dataFile": {
+                        "id": 7503203,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Data prep.rmd",
+                        "contentType": "application/octet-stream",
+                        "filesize": 14660,
+                        "description": "R script for data cleaning and manipulation. ",
+                        "storageIdentifier": "1630d0a913b-d3fa3ce1057e",
+                        "rootDataFileId": -1,
+                        "md5": "33e3b0c4884c027266439902da874212",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "33e3b0c4884c027266439902da874212"
+                        },
+                        "creationDate": "2018-04-28"
+                    }
+                },
+                {
+                    "description": "Output from R script for data cleaning and manipulation",
+                    "label": "Extension_data.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30533,
+                    "dataFile": {
+                        "id": 7503205,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Extension_data.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1314986,
+                        "description": "Output from R script for data cleaning and manipulation",
+                        "storageIdentifier": "1630d0a9b5c-db71b6ada11e",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:6:rJjXoqzM9szRyj0Wt5ZbQw==",
+                        "rootDataFileId": -1,
+                        "md5": "a54ffdb08a87ee59f01a7c505412c635",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "a54ffdb08a87ee59f01a7c505412c635"
+                        },
+                        "creationDate": "2018-04-28"
+                    }
+                },
+                {
+                    "description": "Religion and State Round 2 Minorities data module",
+                    "label": "RAS2.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 30533,
+                    "dataFile": {
+                        "id": 7503206,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "RAS2.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1070565,
+                        "description": "Religion and State Round 2 Minorities data module",
+                        "storageIdentifier": "1630d0aa161-f28fcd800b7a",
+                        "originalFileFormat": "text/csv",
+                        "originalFormatLabel": "Comma Separated Values",
+                        "UNF": "UNF:6:OgNFqvn3rOaTM/Ms6P+TKA==",
+                        "rootDataFileId": -1,
+                        "md5": "169bc3f4fcaaa234f874480552ee2f1b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "169bc3f4fcaaa234f874480552ee2f1b"
+                        },
+                        "creationDate": "2018-04-28"
+                    }
+                },
+                {
+                    "description": "Instructions for replication and STATA code",
+                    "label": "README and STATA syntax.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30533,
+                    "dataFile": {
+                        "id": 7503204,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "README and STATA syntax.txt",
+                        "contentType": "text/plain",
+                        "filesize": 1645,
+                        "description": "Instructions for replication and STATA code",
+                        "storageIdentifier": "1630d0b008e-052a34eefe92",
+                        "rootDataFileId": -1,
+                        "md5": "b22349279434d8a7bfaa940095add607",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b22349279434d8a7bfaa940095add607"
+                        },
+                        "creationDate": "2018-04-28"
+                    }
+                },
+                {
+                    "description": "Replication and extension paper. ",
+                    "label": "Religion and Resentment_Young.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30533,
+                    "dataFile": {
+                        "id": 7503207,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Religion and Resentment_Young.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 145576,
+                        "description": "Replication and extension paper. ",
+                        "storageIdentifier": "1630d0b51f9-a073ac3b344c",
+                        "rootDataFileId": 7503207,
+                        "md5": "f7c21957eb9abe30b0074cb3b1798ce6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f7c21957eb9abe30b0074cb3b1798ce6"
+                        },
+                        "creationDate": "2018-04-28"
+                    }
+                },
+                {
+                    "description": "Replication dataset provided by author",
+                    "label": "Replication data.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 30533,
+                    "dataFile": {
+                        "id": 7503208,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Replication data.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 1216285,
+                        "description": "Replication dataset provided by author",
+                        "storageIdentifier": "1630d0aa80d-0e8d25fa004d",
+                        "rootDataFileId": -1,
+                        "md5": "b0c05f7995e475f2998297772f6e8e48",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b0c05f7995e475f2998297772f6e8e48"
+                        },
+                        "creationDate": "2018-04-28"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,916 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/11952",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2015-05-07",
+        "datasetVersion": {
+            "id": 5146,
+            "storageIdentifier": "file://10.15139/S3/11952",
+            "versionNumber": 1,
+            "versionMinorNumber": 1,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2016-09-28T21:18:56Z",
+            "releaseTime": "2016-09-28T21:18:56Z",
+            "createTime": "2016-09-28T17:37:48Z",
+            "license": "NONE",
+            "termsOfUse": "Files downloaded from this Dataverse may not be redistributed in any form (electronic, electro-magnetic or printed) without prior permission from the distributor of the data.  </p> <p>By clicking the \"I agree\" checkbox, I confirm that I have read and understood each and every term set forth in the terms and conditions for the use of data and other materials found below, and I agree to be bound by all of such terms and conditions.</p>  <p>If\r\nI do not understand or agree to all of the terms and conditions, I must not use or download any data or other materials.\r\n</p>  <p>--------</p>  <p><b>Rules and Conduct</b></p>  <p>As a condition of use, you promise not to use the Service for any purpose that is prohibited by the Terms of Use. For purposes of the Terms of Use, \"Content\" includes, without limitation, any information, data, text, software, scripts, graphics, and interactive features generated, provided, or otherwise made accessible by ODUM or its partners on or through the Service. By way of example, and not as a limitation, you shall not (or permit\r\nothers to) either (a) take any action or (b) upload, download, post, submit or otherwise distribute or facilitate distribution of any content using any communications service or other service available on or through the Service, that:\r\n</p> <ul><li>infringes any patent, trademark, trade secret, copyright, right of publicity or other right of any other person or entity;</li> <li>is unlawful, threatening, abusive, harassing, defamatory, libelous, deceptive, fraudulent, invasive of another's privacy, tortious, obscene, offensive, or profane;</li> <li>constitutes unauthorized or unsolicited advertising, junk or bulk e-mail (\"spamming\");</li> <li>contains software viruses or any other computer codes, files, or programs that are des\r\nigned or intended to disrupt, damage, limit or interfere with the proper function of any software, hardware, or telecommunications equipment or to damage or obtain unauthorized access to any system, data or other information of ODUM or any third party; or Additionally, you shall not: (i) take any action that imposes or may impose (as determined by ODUM in its sole discretion) an unreasonable or disproportionately large load on ODUM's (or its third party providers') infrastructure; (ii) interfere or attempt to interfere with the proper working of the Service or any activities conducted on the Service; or (iii) bypass any measures ODUM may use to prevent or restrict access to the Service (or other accounts, computer systems or networks connected to the Service).\r\n</li></ul>  <p>You shall abide by all applicable local, state, national and international laws and regulations.</p>  <p><b><i>Data for this article was supplied by MEASURE Evaluation, a project of the United States Agency for International Development.</i></b></p>",
+            "citationRequirements": "<b>CITATION REQUIREMENTS</b> <p>The Requestor shall follow internationally recognized authorship criteria and acknowledge MEASURE Evaluation researchers and the international researcher/s involved in the data analysis.   Any publications, presentations or reports resulting from Requestor\u2019s analysis of the data should acknowledge MEASURE Evaluation using the following text: </p> <p><blockquote>Data for this research was provided by MEASURE Evaluation, funded by the United States Agency for Intern\r\national Development (USAID). Views expressed do not necessarily reflect those of USAID, the US government, or MEASURE Evaluation.\r\n</blockquote></p>",
+            "conditions": "<b>CONDITIONS</b> <p><ul><li>The data files have been made publicly accessible. Staff at MEASURE Evaluation and the Odum Institute are not available to assist with accessing and using these files.</li>  <li>Requestor agrees that he/she will use these data only for analysis purposes and not take any actions to identify or contact individuals, communities, or specific service providers.  Individuals, health facilities and/or health care providers shall not be identified in publications, reports, o\r\nr presentations, either directly or indirectly.</li>  <li>Requestor agrees to use appropriate safeguards to protect the data from misuse and shall promptly notify MEASURE Evaluation of any unauthorized or impermissible use or disclosure of the data of which he/she becomes aware.</li></ul></p>",
+            "disclaimer": "<b>DISCLAIMER</b> <p>Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental, or consequential damages arising from use of these files.</p>",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Guyana PLACE Study 2014"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Guyana Ministry of Health"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Guyana Bureau of Statistics"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "measure@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The Guyana Biobehavioural Surveillance Survey (BBSS) is a key source of information for Guyana\u2019s routine health information system. For the 2014 round of data collection, the BBSS relied upon the PLACE (Priorities for Local AIDS Control Efforts) methodology. PLACE is a rapid assessment tool to monitor and improve AIDS prevention program coverage in areas where HIV transmission is most likely to occur. PLACE is designed for local program managers who want to know where to target resources to prevent new infections. PLACE systematically identifies gaps in current prevention programs, enhances the local use of these findings to improve program delivery, and monitors program coverage over time using over time using easy-to-understand indicators and coverage maps. Although PLACE findings may be used to inform several AIDS control activities, the focus is on monitoring behavior and program coverage. PLACE can also provide estimates of the size of populations key to the epidemic, including sex workers and men who have sex with men."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences",
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "HIV"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "AIDS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "HIV/AIDS Prevention"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    }
+                                },
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Guyana Ministry of Health"
+                                    }
+                                },
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Guyana Bureau of Statistics"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/measure"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015-04-23"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2014"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2014"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfCollection",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dateOfCollectionStart": {
+                                        "typeName": "dateOfCollectionStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013-12"
+                                    },
+                                    "dateOfCollectionEnd": {
+                                        "typeName": "dateOfCollectionEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2014-10"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Interviews"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Priorities for Local AIDS Control Efforts (PLACE)"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "Guyana"
+                                    }
+                                },
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Hinterlands, Coastal Regions"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Report",
+                    "label": "PLACEGuyana14_3GY-3_BBSS 2014 Final Report.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183824,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_BBSS 2014 Final Report.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3733063,
+                        "description": "Report",
+                        "storageIdentifier": "17166",
+                        "rootDataFileId": -1,
+                        "md5": "59455d20e7d8e3e2c8377250e89fc6b2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "59455d20e7d8e3e2c8377250e89fc6b2"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "Variable Names and Numbers",
+                    "label": "PLACEGuyana14_3GY-3_BBSS Guyana variables names and numbers.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183818,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_BBSS Guyana variables names and numbers.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 92601,
+                        "description": "Variable Names and Numbers",
+                        "storageIdentifier": "17155",
+                        "rootDataFileId": -1,
+                        "md5": "f91a9447f620b14121ec8aac2e39e0e0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f91a9447f620b14121ec8aac2e39e0e0"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "PLACEGuyana14_3GY-3_Combined Form D.toshare.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183806,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Combined Form D.toshare.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 2613993,
+                        "description": "",
+                        "storageIdentifier": "17145",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 2415839,
+                        "UNF": "UNF:5:O0QKU/o4ZosQF0hd56yd+g==",
+                        "rootDataFileId": -1,
+                        "md5": "c6acdea89e30c8d2f06a5308da8efe98",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c6acdea89e30c8d2f06a5308da8efe98"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "Excel - ORIGINAL",
+                    "label": "PLACEGuyana14_3GY-3_Combined Form D.toshare.xlsx",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183810,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Combined Form D.toshare.xlsx",
+                        "contentType": "application/octet-stream",
+                        "filesize": 3768694,
+                        "description": "Excel - ORIGINAL",
+                        "storageIdentifier": "17150",
+                        "rootDataFileId": -1,
+                        "md5": "3521c153192f76f766daf5e1d7aaf37f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3521c153192f76f766daf5e1d7aaf37f"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "PLACEGuyana14_3GY-3_Exported Coastal S.toshare.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183807,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Exported Coastal S.toshare.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 22367,
+                        "description": "",
+                        "storageIdentifier": "17146",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 28302,
+                        "UNF": "UNF:5:FjcjwPdDE8y4SG07r6dsjw==",
+                        "rootDataFileId": -1,
+                        "md5": "c52bab626489887e0737f83c0390fa88",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c52bab626489887e0737f83c0390fa88"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "Excel - ORIGINAL",
+                    "label": "PLACEGuyana14_3GY-3_Exported Coastal S.toshare.xlsx",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183811,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Exported Coastal S.toshare.xlsx",
+                        "contentType": "application/octet-stream",
+                        "filesize": 45000,
+                        "description": "Excel - ORIGINAL",
+                        "storageIdentifier": "17151",
+                        "rootDataFileId": -1,
+                        "md5": "6abcad3199ba3a63c773fb403e29ce1a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6abcad3199ba3a63c773fb403e29ce1a"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "PLACEGuyana14_3GY-3_Exported Hinterlands E.toshare.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183805,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Exported Hinterlands E.toshare.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 11220,
+                        "description": "",
+                        "storageIdentifier": "17149",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 34400,
+                        "UNF": "UNF:5:3N44RZqcja2fXdwD5dL3Sg==",
+                        "rootDataFileId": -1,
+                        "md5": "4e97e18919406a5a06ab44bab63550c0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4e97e18919406a5a06ab44bab63550c0"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "Excel - ORIGINAL",
+                    "label": "PLACEGuyana14_3GY-3_Exported Hinterlands E.toshare.xlsx",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183812,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Exported Hinterlands E.toshare.xlsx",
+                        "contentType": "application/octet-stream",
+                        "filesize": 26197,
+                        "description": "Excel - ORIGINAL",
+                        "storageIdentifier": "17152",
+                        "rootDataFileId": -1,
+                        "md5": "797356c5cb562f5be35981f4b305b590",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "797356c5cb562f5be35981f4b305b590"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "PLACEGuyana14_3GY-3_Exported Hinterlands S.toshare.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183803,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Exported Hinterlands S.toshare.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 6630,
+                        "description": "",
+                        "storageIdentifier": "17147",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 13550,
+                        "UNF": "UNF:5:6uYnCx7CQF4F4XMbiHPMDg==",
+                        "rootDataFileId": -1,
+                        "md5": "acc18afc5e764b39b2bbd8104cd21d16",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "acc18afc5e764b39b2bbd8104cd21d16"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "Excel - ORIGINAL",
+                    "label": "PLACEGuyana14_3GY-3_Exported Hinterlands S.toshare.xlsx",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183808,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Exported Hinterlands S.toshare.xlsx",
+                        "contentType": "application/octet-stream",
+                        "filesize": 19503,
+                        "description": "Excel - ORIGINAL",
+                        "storageIdentifier": "17153",
+                        "rootDataFileId": -1,
+                        "md5": "7d6bf0b1abef9d5e2f9fd476c10456fa",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "7d6bf0b1abef9d5e2f9fd476c10456fa"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form B Size Estimation Form for Key Pop 3.13.2014.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183813,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form B Size Estimation Form for Key Pop 3.13.2014.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 121415,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17156",
+                        "rootDataFileId": -1,
+                        "md5": "acb8b847c6f7280d8a415c8860a2fc73",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "acb8b847c6f7280d8a415c8860a2fc73"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "PLACEGuyana14_3GY-3_Form C Combined.toshare.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183804,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form C Combined.toshare.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 107548,
+                        "description": "",
+                        "storageIdentifier": "17148",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "originalFileSize": 120137,
+                        "UNF": "UNF:5:deJtHdBN7TeRYtY6dLNZqQ==",
+                        "rootDataFileId": -1,
+                        "md5": "edee2cc135d4f3c368f0fe9f7eaf92e7",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "edee2cc135d4f3c368f0fe9f7eaf92e7"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "Excel - ORIGINAL",
+                    "label": "PLACEGuyana14_3GY-3_Form C Combined.toshare.xlsx",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7183809,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form C Combined.toshare.xlsx",
+                        "contentType": "application/octet-stream",
+                        "filesize": 161355,
+                        "description": "Excel - ORIGINAL",
+                        "storageIdentifier": "17154",
+                        "rootDataFileId": -1,
+                        "md5": "39b1372997469324b1700c712736b142",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "39b1372997469324b1700c712736b142"
+                        },
+                        "creationDate": "2015-05-06"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form C Site and Event Questionnaire Guyana 10.7.13.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183816,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form C Site and Event Questionnaire Guyana 10.7.13.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 117469,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17157",
+                        "rootDataFileId": -1,
+                        "md5": "471a524dbad0d575ce36f343c8a3ea59",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "471a524dbad0d575ce36f343c8a3ea59"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form C Site and Event Questionnaire Guyana coastal 3.12.14.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183815,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form C Site and Event Questionnaire Guyana coastal 3.12.14.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 118390,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17158",
+                        "rootDataFileId": -1,
+                        "md5": "62c2c63f224cb7b575a27a2c74f794e2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "62c2c63f224cb7b575a27a2c74f794e2"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form D Questionnaire for Individuals Guyana 12.5.13cut.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183821,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form D Questionnaire for Individuals Guyana 12.5.13cut.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 206588,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17159",
+                        "rootDataFileId": -1,
+                        "md5": "5c67933753ccf73be971d9a1b63244f8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5c67933753ccf73be971d9a1b63244f8"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form D Questionnaire for Individuals Guyana coastal 2.27.14.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183814,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form D Questionnaire for Individuals Guyana coastal 2.27.14.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 207338,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17160",
+                        "rootDataFileId": -1,
+                        "md5": "48466ee95f3078cb3687d7ddb1925b3a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "48466ee95f3078cb3687d7ddb1925b3a"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form E Landing Description Form 10.7.13.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183822,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form E Landing Description Form 10.7.13.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 110484,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17161",
+                        "rootDataFileId": -1,
+                        "md5": "63e2a011a2d78d0c3c182181a7be1683",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "63e2a011a2d78d0c3c182181a7be1683"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form R Venue Register 10.7.2013.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183817,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form R Venue Register 10.7.2013.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 102003,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17162",
+                        "rootDataFileId": -1,
+                        "md5": "6a2dd15a686e105b691a3bc5bf6054bb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6a2dd15a686e105b691a3bc5bf6054bb"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form R Venue Register coastal 2.17.2014.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183820,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form R Venue Register coastal 2.17.2014.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 100674,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17163",
+                        "rootDataFileId": -1,
+                        "md5": "06aa89c34c604d59e11b6cfc301b7df9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "06aa89c34c604d59e11b6cfc301b7df9"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form S Site Supervisor Form 10.7.2013.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183819,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form S Site Supervisor Form 10.7.2013.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 107340,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17164",
+                        "rootDataFileId": -1,
+                        "md5": "5807e1b049f211564089ae7b971ffb4a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "5807e1b049f211564089ae7b971ffb4a"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                },
+                {
+                    "description": "Questionnaire",
+                    "label": "PLACEGuyana14_3GY-3_Form S Site Supervisor Form coastal 2.10.2014.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5146,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7183823,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "PLACEGuyana14_3GY-3_Form S Site Supervisor Form coastal 2.10.2014.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 106860,
+                        "description": "Questionnaire",
+                        "storageIdentifier": "17165",
+                        "rootDataFileId": -1,
+                        "md5": "69422786c10eca6f6b877bcd00b02c81",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "69422786c10eca6f6b877bcd00b02c81"
+                        },
+                        "creationDate": "2015-05-07"
+                    }
+                }
+            ]
+        }
+    }
+}

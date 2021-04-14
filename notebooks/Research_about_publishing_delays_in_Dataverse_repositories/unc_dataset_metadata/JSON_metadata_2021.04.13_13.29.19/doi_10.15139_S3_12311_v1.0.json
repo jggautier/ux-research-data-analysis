@@ -1,0 +1,207 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12311",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-02-02",
+        "datasetVersion": {
+            "id": 162,
+            "storageIdentifier": "file://10.15139/S3/12311",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "5/2/2016 dmg Initial Set-up",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-02-02T21:02:14Z",
+            "releaseTime": "2017-02-02T21:02:14Z",
+            "createTime": "2016-05-02T22:00:29Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "[Exp 08] Matthew MCMURRAY's MRI Scan data analyzed by IPEK OGUZ in 2011-12"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "McMurray, Matthew"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thu-Mai Christian"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odumarchive@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Dr. Oguz analyzed MRI data from Matt\u2019s animals.  Matt supervised the animals\u2019 MRI scans back in 2010.  The MRI scans were done on the live animal.     Dr. Oguz analyzed the data in 2011-12.  She determined volumes and other characteristics of regions through automated means.  Some regions were selected for manual determination, which was considered to be more accurate."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013-04-05"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "cocaine"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-05-02"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Volumes of brain structures of DAMS live-scanned on post-partum day 5.",
+                    "label": "dams_03.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 162,
+                    "dataFile": {
+                        "id": 7185833,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "dams_03.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 10135,
+                        "description": "Volumes of brain structures of DAMS live-scanned on post-partum day 5.",
+                        "storageIdentifier": "19545",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:TffdMEp+4lmqTu8TSrqWRQ==",
+                        "rootDataFileId": -1,
+                        "md5": "19e0694e229f322a183e93deb77c1dc6",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "19e0694e229f322a183e93deb77c1dc6"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                },
+                {
+                    "description": "Guide to the data files in this experiment.",
+                    "label": "Ipek Oguz`s MRI Codebooks.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 162,
+                    "dataFile": {
+                        "id": 7375042,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Ipek Oguz`s MRI Codebooks.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 100983,
+                        "description": "Guide to the data files in this experiment.",
+                        "storageIdentifier": "157d2b6f8a0-3b5e2be305b7",
+                        "rootDataFileId": -1,
+                        "md5": "4d4f36d75b1377159028666f94b7f578",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4d4f36d75b1377159028666f94b7f578"
+                        },
+                        "creationDate": "2016-10-17"
+                    }
+                },
+                {
+                    "description": "Volumes of brain structures of PUPS live-scanned on post-natal day 14.",
+                    "label": "pnd14_03.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 162,
+                    "dataFile": {
+                        "id": 7185832,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "pnd14_03.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 95849,
+                        "description": "Volumes of brain structures of PUPS live-scanned on post-natal day 14.",
+                        "storageIdentifier": "19546",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:FQh7/X6SygY7EmAiwIuCjQ==",
+                        "rootDataFileId": -1,
+                        "md5": "8adba5f95c8af09ebeeb6faf19ae78fd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "8adba5f95c8af09ebeeb6faf19ae78fd"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                }
+            ]
+        }
+    }
+}

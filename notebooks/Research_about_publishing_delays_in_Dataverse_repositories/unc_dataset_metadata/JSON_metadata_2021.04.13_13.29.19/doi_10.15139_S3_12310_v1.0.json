@@ -1,0 +1,246 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12310",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-02-02",
+        "datasetVersion": {
+            "id": 161,
+            "storageIdentifier": "file://10.15139/S3/12310",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "5/2/2016 dmg Initial set-up",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-02-02T20:53:04Z",
+            "releaseTime": "2017-02-02T20:53:04Z",
+            "createTime": "2016-05-02T21:26:58Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "[Exp 07] Matthew MCMURRAY's Thermal, Weight and Environmental Experiments on Pups at Post-Natal Days 3 and 5."
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "McMurray, Matthew"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thu-Mai Christian"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odumarchive@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "NOTE: Environmental Data The ENV_xx dataset is sister to this THER_xx data.  It contains the actual temperatures of the water bath over the course of the 3-hour experiment.   They are in the same folders as the THER_xx data.  Experimental Procedure:  Ideally, each dam (mother rat) provided four experiments:  Two experiments were performed on Day 3 for a male and female animal from the litter.   On Day 5, different male and female littermates were selected for new experiments.  No member of the litter was used twice: the animals on days 3 and 5 are different animals.  Deviations from the ideal are common.  There are many dams with just two experiments.  NOTE on values of SEX and TREATMENT:  These variables characterize the rat who\u2019s the subject of the experiment.  They don\u2019t change for the full duration of the experiment.  I thought it would be convenient to put them on this dataset, rather than on a separate dataset where they would have to be merged in.  Similarly, the value of RAWFILENAME is constant throughout the experiment."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2010-04-26"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-05-02"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Environmental data: The temperatures of the air and water bath during the 3-hour experiment. The data is at 10-minute intervals.",
+                    "label": "env_01.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 161,
+                    "dataFile": {
+                        "id": 7185830,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "env_01.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 3647,
+                        "description": "Environmental data: The temperatures of the air and water bath during the 3-hour experiment. The data is at 10-minute intervals.",
+                        "storageIdentifier": "19543",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:bwBLwk4pZMuFOg87oEg+dw==",
+                        "rootDataFileId": -1,
+                        "md5": "73b746cfdea1565c06b5a1e983aad75f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "73b746cfdea1565c06b5a1e983aad75f"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                },
+                {
+                    "description": "Datafile THER_01 summarized. Pup temperatures measured at the shoulder blades and back on post-natal days 3 and 5. Only the hourly means are reported.",
+                    "label": "ther_01_hour.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 161,
+                    "dataFile": {
+                        "id": 7185829,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ther_01_hour.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 56552,
+                        "description": "Datafile THER_01 summarized. Pup temperatures measured at the shoulder blades and back on post-natal days 3 and 5. Only the hourly means are reported.",
+                        "storageIdentifier": "19541",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:VxQpmTTV7VTZAjbYZ4F87A==",
+                        "rootDataFileId": -1,
+                        "md5": "99b20497853ef0efddfe235199f191e4",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "99b20497853ef0efddfe235199f191e4"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                },
+                {
+                    "description": "Second-by-second pup temperature data:  Pup temperatures measured at the shoulder blades and back on post-natal days 3 and 5. ",
+                    "label": "ther_01.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 161,
+                    "dataFile": {
+                        "id": 7185828,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "ther_01.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 144983417,
+                        "description": "Second-by-second pup temperature data:  Pup temperatures measured at the shoulder blades and back on post-natal days 3 and 5. ",
+                        "storageIdentifier": "19540",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:byNYowkLNRRPLzeYo28V1w==",
+                        "rootDataFileId": -1,
+                        "md5": "442e20016f48c2f221deada03d1dcae5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "442e20016f48c2f221deada03d1dcae5"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                },
+                {
+                    "description": "Guide to the datafiles in this experiment.",
+                    "label": "Thermal Codebooks.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 161,
+                    "dataFile": {
+                        "id": 7375052,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Thermal Codebooks.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 43158,
+                        "description": "Guide to the datafiles in this experiment.",
+                        "storageIdentifier": "157d2c158ad-4d2e1a1145c6",
+                        "rootDataFileId": -1,
+                        "md5": "3f6de55cbd4285440ef03f9d348a3902",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "3f6de55cbd4285440ef03f9d348a3902"
+                        },
+                        "creationDate": "2016-10-17"
+                    }
+                },
+                {
+                    "description": "Pup weights on post-natal days 3 and 5.  The pup dam's treatment group is also shown.",
+                    "label": "wts_01.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 161,
+                    "dataFile": {
+                        "id": 7185827,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "wts_01.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5924,
+                        "description": "Pup weights on post-natal days 3 and 5.  The pup dam's treatment group is also shown.",
+                        "storageIdentifier": "19542",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:VoN5gJ0ioNnaUPj6+elfLw==",
+                        "rootDataFileId": -1,
+                        "md5": "dc3cbd2ac3939604db39128854d12623",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dc3cbd2ac3939604db39128854d12623"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                }
+            ]
+        }
+    }
+}

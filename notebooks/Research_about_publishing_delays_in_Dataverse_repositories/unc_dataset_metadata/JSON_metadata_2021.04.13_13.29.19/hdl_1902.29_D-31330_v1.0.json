@@ -1,0 +1,668 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-31330",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 4833,
+            "storageIdentifier": "file://1902.29/D-31330",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T16:03:06Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "This data is restricted to UNC faculty, staff, and students. Licensing agreements have been established by the original provider of the datasets and must be respected. Exceptions cannot be granted.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Medical Expenditure Panel Survey : 1996 Panel Round 1 Parent Identifiers and HMO Data/Round 2 Health Status and Access to Care Data (HC-002)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-31330"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "47-01-MEPS-HC002-AHCPR-96"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Agency for Health Care Policy and Research"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Household Component (HC) of the Medical Expenditure Survey (MEPS) is a nationally representative survey of the U.S. civilian population which collects medical expenditure data at both the person and household levels. The focus of the MEPS HC is to collect detailed data on demographic characteristics, health conditions, health status, use of medical care services, charges and payments, access to care, satisfaction with care, health insurance coverage, income, and employment.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health costs"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Medical expenses"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Households"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: The MEPS HC collects data through an overlapping panel design. In this design, data are collected through a preliminary contact followed by a series of five rounds of interviews over a two and a half year period. Two calendar years of medical expenditures and utilization are collected from each household. This series of data collection is launched again each subsequent year on a new sample of household to provide overlapping panels of data. A sample of 10,500 household was drawn for the study.;Type: ODUM:ACCESS.CATEGORY Notes: II;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Agency for Health Care Policy and Research"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1997"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Rockville, MD"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "1996"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "meps_hc002_cdbk.pdf",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Codebook, PDF File for All HC-002 Data Files"
+                    ],
+                    "dataFile": {
+                        "id": 18629,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_cdbk.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 128004,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_cdbk.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_doc.access.pdf",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Documentation, PDF File - Questionnaire Section for Round 2 Access Data"
+                    ],
+                    "dataFile": {
+                        "id": 18622,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_doc.access.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 30683,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_doc.access.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_doc.hlthstat.pdf",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Documentation, PDF File - Questionnaire Section for Round 2 Health Status Data"
+                    ],
+                    "dataFile": {
+                        "id": 18628,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_doc.hlthstat.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 63745,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_doc.hlthstat.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_doc.hmo1.pdf",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Documentation, PDF File - Questionnaire Section for Round 1 HMO Data, Part 1"
+                    ],
+                    "dataFile": {
+                        "id": 18626,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_doc.hmo1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 136029,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_doc.hmo1.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_doc.hmo2.pdf",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Documentation, PDF File - Questionnaire Section for Round 1 HMO Data, Part 2"
+                    ],
+                    "dataFile": {
+                        "id": 18617,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_doc.hmo2.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 8558,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_doc.hmo2.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_doc.parid1.pdf",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Documentation, PDF File - Questionnaire Section for Round 1 Parent Identifiers"
+                    ],
+                    "dataFile": {
+                        "id": 18624,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_doc.parid1.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 60963,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_doc.parid1.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_f1.data",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Data, Logical Record - Round 1 Parent Identifiers and HMO Data"
+                    ],
+                    "dataFile": {
+                        "id": 18619,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_f1.data",
+                        "contentType": "text/plain",
+                        "filesize": 1431208,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_f1.data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_f1.sas.export",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "SAS Export File - Round 1 Parent Identifiers and HMO Data"
+                    ],
+                    "dataFile": {
+                        "id": 18620,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_f1.sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 2377280,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_f1.sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_f1.spss.portable",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "SPSS Portable File - Round 1 Parent Identifiers and HMO Data"
+                    ],
+                    "dataFile": {
+                        "id": 18627,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_f1.spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 1454762,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_f1.spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "meps_hc002_f1.spss.tab",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Data File 1 (meps_hc002_f1.spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 18618,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_f1.spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1503326,
+                        "storageIdentifier": "meps_hc002_f1.spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:JRHYk0Onyf3J+AaN/UreKA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_f2.data",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Data, Logical Record - Round 2 Health Status and Access to Care Data"
+                    ],
+                    "dataFile": {
+                        "id": 18625,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_f2.data",
+                        "contentType": "text/plain",
+                        "filesize": 7058799,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_f2.data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_f2.sas.export",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "SAS Export File - Round 2 Health Status and Access to Care Data"
+                    ],
+                    "dataFile": {
+                        "id": 18623,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_f2.sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 25405120,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_f2.sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_f2.spss.portable",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "SPSS Portable File - Round 2 Health Status and Access to Care Data"
+                    ],
+                    "dataFile": {
+                        "id": 18615,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_f2.spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 9407942,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_f2.spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "meps_hc002_f2.spss.tab",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "Data File 2 (meps_hc002_f2.spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 18616,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_f2.spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 9223852,
+                        "storageIdentifier": "meps_hc002_f2.spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:vKLM1fwCcnE0rJEM5vUyMw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "meps_hc002_sascrds",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 4833,
+                    "categories": [
+                        "SAS Data Definitions for All HC-002 Data Files"
+                    ],
+                    "dataFile": {
+                        "id": 18621,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "meps_hc002_sascrds",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 25205,
+                        "description": "",
+                        "storageIdentifier": "meps_hc002_sascrds",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

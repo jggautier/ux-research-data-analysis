@@ -1,0 +1,3480 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/D-31556",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 1687,
+            "storageIdentifier": "file://1902.29/D-31556",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T16:06:02Z",
+            "license": "NONE",
+            "termsOfUse": "Citation requirements: <br /><br /> Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data. <br /><br /> Data Disclaimer: <br /><br /> Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of the\nse files.",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Current Population Survey (CPS) Labor Extracts, 1979-2000 Merged Outgoing Rotation Group FIle"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "D-31556"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:study"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "14-2-NBER-1979-2000"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The National Bureau of Economic Research"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "National Bureau of Economic Research"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The collection reflects changes that have occurred in Standard Metropolitan Statistical Areas (SMSAs), as well as Primary Metropolitan Statistical Areas (PMSAs). Geographic coverage of metropolitan areas increases through time. The collection include all 50 states and the District of Columbia.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Employment"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Earnings"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: The universe consists of all persons in the civilian non- institutional population of the U.S. living in housing units and male members of the armed forces living in civilian housing units on a military base or with the family not on a military base. A probability sample is used in selecting housing units.;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:CODEBOOK.NUMBER Notes: 14-2-NBER-1979-2000;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The National Bureau of Economic Research"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2001"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Cambridge, MA"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "States, SMSAs"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg00.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19293,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg00.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 25495270,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg00.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg79.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19282,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg79.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 24633895,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg79.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg80.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19243,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg80.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 28949020,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg80.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg81.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19298,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg81.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 27302245,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg81.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg82.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19267,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg82.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 26330170,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg82.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg83.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19253,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg83.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 27536799,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg83.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg84.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19218,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg84.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 29902950,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg84.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg85.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19321,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg85.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 30240168,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg85.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg86.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19292,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg86.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 30428815,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg86.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg87.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19231,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg87.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 30334225,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg87.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg88.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19234,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg88.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 28878115,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg88.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg89.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19229,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg89.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 30202543,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg89.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg90.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19274,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg90.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 31732486,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg90.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg91.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19210,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg91.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 31405777,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg91.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg92.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19252,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg92.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 30565283,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg92.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg93.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19214,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg93.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 30188175,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg93.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg94.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19211,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg94.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 25861529,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg94.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg95.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19291,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg95.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 26723540,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg95.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg96.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19255,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg96.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 23065623,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg96.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg97.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19283,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg97.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 23297940,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg97.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg98.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19319,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg98.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 23276111,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg98.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_annual_morg99.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Annual Data -- Stata Dataset"
+                    ],
+                    "dataFile": {
+                        "id": 19284,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_annual_morg99.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 25448470,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_annual_morg99.dta",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_cpsapdx.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- Microsoft Word File"
+                    ],
+                    "dataFile": {
+                        "id": 19317,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_cpsapdx.doc",
+                        "contentType": "application/msword",
+                        "filesize": 1353216,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_cpsapdx.doc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_cpsapdx.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19249,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_cpsapdx.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 286322,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_cpsapdx.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_cpsappx.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19276,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_cpsappx.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2352323,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_cpsappx.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_cpsx.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- Microsoft Word File"
+                    ],
+                    "dataFile": {
+                        "id": 19219,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_cpsx.doc",
+                        "contentType": "application/msword",
+                        "filesize": 294400,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_cpsx.doc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_cpsx.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19297,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_cpsx.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 104004,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_cpsx.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_gead9498.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19268,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_gead9498.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 62583,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_gead9498.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_metrochg.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19223,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_metrochg.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2233561,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_metrochg.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg78.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19215,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg78.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3383817,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg78.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg82.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19271,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg82.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2602187,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg82.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg83.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19222,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg83.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3954026,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg83.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg84.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19308,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg84.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3491744,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg84.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg85.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19217,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg85.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1949546,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg85.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg86.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19241,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg86.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2641345,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg86.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg89.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19305,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg89.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1211554,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg89.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg92.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19238,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg92.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1416987,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg92.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg94.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19233,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg94.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 355085,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg94.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg95.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19278,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg95.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 455687,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg95.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg98.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19216,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg98.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 3980321,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg98.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_morg99.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19275,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_morg99.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 187751,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_morg99.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_readme.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- Text File"
+                    ],
+                    "dataFile": {
+                        "id": 19239,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_readme.txt",
+                        "contentType": "text/plain",
+                        "filesize": 854,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_readme.txt",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_tp63.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- PDF File"
+                    ],
+                    "dataFile": {
+                        "id": 19247,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_tp63.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 2250391,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_tp63.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_docs_usernote.asc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Documentation -- Text File"
+                    ],
+                    "dataFile": {
+                        "id": 19259,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_docs_usernote.asc",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 14821,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_docs_usernote.asc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_aef79_83.dbd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- DBD File"
+                    ],
+                    "dataFile": {
+                        "id": 19307,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_aef79_83.dbd",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 3922,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_aef79_83.dbd",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_aef84_88.dbd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- DBD File"
+                    ],
+                    "dataFile": {
+                        "id": 19212,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_aef84_88.dbd",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 4152,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_aef84_88.dbd",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_aef89_93.dbd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- DBD File"
+                    ],
+                    "dataFile": {
+                        "id": 19301,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_aef89_93.dbd",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 4092,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_aef89_93.dbd",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_aef94_97.dbd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- DBD File"
+                    ],
+                    "dataFile": {
+                        "id": 19265,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_aef94_97.dbd",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 4039,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_aef94_97.dbd",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_aef98.dbd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- DBD File"
+                    ],
+                    "dataFile": {
+                        "id": 19277,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_aef98.dbd",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 3637,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_aef98.dbd",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_annual2000.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19320,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_annual2000.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 11579,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_annual2000.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_annual2000.log",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Log"
+                    ],
+                    "dataFile": {
+                        "id": 19245,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_annual2000.log",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 133322,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_annual2000.log",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_dcthead",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Program File"
+                    ],
+                    "dataFile": {
+                        "id": 19260,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_dcthead",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 30,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_dcthead",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels00.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19209,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels00.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 95337,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels00.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels00.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19232,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels00.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 126296,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels00.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels00.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19204,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels00.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 132629,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels00.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels79_82.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19226,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels79_82.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 30573,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels79_82.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels79_82.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19207,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels79_82.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 53801,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels79_82.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels79_82.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19285,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels79_82.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 56038,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels79_82.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels83.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19309,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels83.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 61465,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels83.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels83.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19248,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels83.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 90828,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels83.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels83.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19208,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels83.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 94866,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels83.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels84.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19246,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels84.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 33281,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels84.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels84.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19299,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels84.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 63380,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels84.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels84.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19314,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels84.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 65694,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels84.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels85.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19261,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels85.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 33635,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels85.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels85.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19250,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels85.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 63760,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels85.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels85.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19225,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels85.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 66063,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels85.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels86_88.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19294,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels86_88.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 41763,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels86_88.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels86_88.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19230,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels86_88.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 72032,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels86_88.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels86_88.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19263,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels86_88.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 74711,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels86_88.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels89_91.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19306,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels89_91.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 57492,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels89_91.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels89_91.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19240,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels89_91.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 87988,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels89_91.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels89_91.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19280,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels89_91.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 91711,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels89_91.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels92_93.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19295,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels92_93.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 57968,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels92_93.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels92_93.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19302,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels92_93.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 88567,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels92_93.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels92_93.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19258,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels92_93.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 92455,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels92_93.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels94.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19300,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels94.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 73857,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels94.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels94.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19279,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels94.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 104490,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels94.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels94.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19281,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels94.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 110198,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels94.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels95.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19251,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels95.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 65348,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels95.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels95.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19262,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels95.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 95765,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels95.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels95.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19270,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels95.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 100817,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels95.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels96_97.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19288,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels96_97.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 65082,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels96_97.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels96_97.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19315,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels96_97.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 95413,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels96_97.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels96_97.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19289,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels96_97.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 100393,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels96_97.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels98.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19269,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels98.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 65220,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels98.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels98.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19273,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels98.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 95601,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels98.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels98.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19244,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels98.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 100597,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels98.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels99.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19224,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels99.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 95211,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels99.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels99.sas",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SAS System Program"
+                    ],
+                    "dataFile": {
+                        "id": 19206,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels99.sas",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 126249,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels99.sas",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_labels99.sps",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, SPSS Program"
+                    ],
+                    "dataFile": {
+                        "id": 19303,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_labels99.sps",
+                        "contentType": "text/x-spss-syntax",
+                        "filesize": 132578,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_labels99.sps",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_occ70.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19296,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_occ70.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 22025,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_occ70.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_occ80_83_91.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19318,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_occ80_83_91.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 28606,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_occ80_83_91.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_occ80_92_94.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19287,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_occ80_92_94.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 28543,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_occ80_92_94.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_labels_occ80_95_00.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Labels, Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19266,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_labels_occ80_95_00.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 28468,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_labels_occ80_95_00.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_means.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19205,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_means.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 376,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_means.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_means.log",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Log"
+                    ],
+                    "dataFile": {
+                        "id": 19242,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_means.log",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 67122,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_means.log",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_meanYY.zip",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- WinZip File"
+                    ],
+                    "dataFile": {
+                        "id": 19228,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_meanYY.zip",
+                        "contentType": "application/zip",
+                        "filesize": 91828,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_meanYY.zip",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_monthly.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19304,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_monthly.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 579,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_monthly.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg79.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19264,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg79.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 8250,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg79.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg80.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19235,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg80.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 8252,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg80.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg81.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19286,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg81.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 8306,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg81.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg82.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19316,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg82.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 8269,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg82.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg83.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19256,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg83.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 8302,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg83.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg84.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19203,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg84.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 7316,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg84.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg85.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19290,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg85.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 8452,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg85.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg86.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19237,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg86.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 14741,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg86.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg87.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19220,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg87.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 14753,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg87.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg88.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19312,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg88.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 15105,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg88.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg89.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19272,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg89.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 15931,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg89.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg90.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19213,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg90.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 15881,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg90.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg91.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19227,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg91.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 15882,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg91.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg92.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19254,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg92.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 15879,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg92.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg93.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19310,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg93.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 15944,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg93.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg94.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19313,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg94.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 16851,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg94.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg95.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19257,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg95.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 8913,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg95.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg96.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19311,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg96.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 8956,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg96.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_morg97.do",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Stata Do File"
+                    ],
+                    "dataFile": {
+                        "id": 19236,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_morg97.do",
+                        "contentType": "text/x-stata-syntax",
+                        "filesize": 8950,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_morg97.do",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "cps_labor_extracts_sources_readme.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 1687,
+                    "categories": [
+                        "Sources -- Microsoft Word File"
+                    ],
+                    "dataFile": {
+                        "id": 19221,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "cps_labor_extracts_sources_readme.doc",
+                        "contentType": "application/msword",
+                        "filesize": 892,
+                        "description": "",
+                        "storageIdentifier": "cps_labor_extracts_sources_readme.doc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

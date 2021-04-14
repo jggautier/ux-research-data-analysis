@@ -1,0 +1,776 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12274",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2016-04-22",
+        "datasetVersion": {
+            "id": 5140,
+            "storageIdentifier": "file://10.15139/S3/12274",
+            "versionNumber": 1,
+            "versionMinorNumber": 1,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2016-09-28T21:16:15Z",
+            "releaseTime": "2016-09-28T21:16:15Z",
+            "createTime": "2016-09-28T17:19:41Z",
+            "license": "NONE",
+            "termsOfUse": "Files downloaded from this Dataverse may not be redistributed in any form (electronic, electro-magnetic or printed) without prior permission from the distributor of the data.  </p> <p>By clicking the \"I agree\" checkbox, I confirm that I have read and understood each and every term set forth in the terms and conditions for the use of data and other materials found below, and I agree to be bound by all of such terms and conditions.</p>  <p>If\r\nI do not understand or agree to all of the terms and conditions, I must not use or download any data or other materials.\r\n</p>  <p>--------</p>  <p><b>Rules and Conduct</b></p>  <p>As a condition of use, you promise not to use the Service for any purpose that is prohibited by the Terms of Use. For purposes of the Terms of Use, \"Content\" includes, without limitation, any information, data, text, software, scripts, graphics, and interactive features generated, provided, or otherwise made accessible by ODUM or its partners on or through the Service. By way of example, and not as a limitation, you shall not (or permit\r\nothers to) either (a) take any action or (b) upload, download, post, submit or otherwise distribute or facilitate distribution of any content using any communications service or other service available on or through the Service, that:\r\n</p> <ul><li>infringes any patent, trademark, trade secret, copyright, right of publicity or other right of any other person or entity;</li> <li>is unlawful, threatening, abusive, harassing, defamatory, libelous, deceptive, fraudulent, invasive of another's privacy, tortious, obscene, offensive, or profane;</li> <li>constitutes unauthorized or unsolicited advertising, junk or bulk e-mail (\"spamming\");</li> <li>contains software viruses or any other computer codes, files, or programs that are des\r\nigned or intended to disrupt, damage, limit or interfere with the proper function of any software, hardware, or telecommunications equipment or to damage or obtain unauthorized access to any system, data or other information of ODUM or any third party; or Additionally, you shall not: (i) take any action that imposes or may impose (as determined by ODUM in its sole discretion) an unreasonable or disproportionately large load on ODUM's (or its third party providers') infrastructure; (ii) interfere or attempt to interfere with the proper working of the Service or any activities conducted on the Service; or (iii) bypass any measures ODUM may use to prevent or restrict access to the Service (or other accounts, computer systems or networks connected to the Service).\r\n</li></ul>  <p>You shall abide by all applicable local, state, national and international laws and regulations.</p>  <p><b><i>Data for this article was supplied by MEASURE Evaluation, a project of the United States Agency for International Development.</i></b></p>",
+            "citationRequirements": "<b>CITATION REQUIREMENTS</b> <p>The Requestor shall follow internationally recognized authorship criteria and acknowledge MEASURE Evaluation researchers and the international researcher/s involved in the data analysis.   Any publications, presentations or reports resulting from Requestor\u2019s analysis of the data should acknowledge MEASURE Evaluation using the following text: </p> <p><blockquote>Data for this research was provided by MEASURE Evaluation, funded by the United States Agency for Intern\r\national Development (USAID). Views expressed do not necessarily reflect those of USAID, the US government, or MEASURE Evaluation.\r\n</blockquote></p>",
+            "conditions": "<b>CONDITIONS</b> <p><ul><li>The data files have been made publicly accessible. Staff at MEASURE Evaluation and the Odum Institute are not available to assist with accessing and using these files.</li>  <li>Requestor agrees that he/she will use these data only for analysis purposes and not take any actions to identify or contact individuals, communities, or specific service providers.  Individuals, health facilities and/or health care providers shall not be identified in publications, reports, o\r\nr presentations, either directly or indirectly.</li>  <li>Requestor agrees to use appropriate safeguards to protect the data from misuse and shall promptly notify MEASURE Evaluation of any unauthorized or impermissible use or disclosure of the data of which he/she becomes aware.</li></ul></p>",
+            "disclaimer": "<b>DISCLAIMER</b> <p>Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental, or consequential damages arising from use of these files.</p>",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Bangladesh Urban Health Survey (UHS) 2013"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "National Institute of Population Research and Training (NIPORT)"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "measure_bangladesh@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The 2013 Bangladesh Urban Health Survey (UHS) is a representative household survey of slums and non-slums of City Corporations and other urban areas that was implemented through a collaborative effort of the National Institute of Population Research and Training (NIPORT), Measure Evaluation, University of North Carolina at Chapel Hill, USA, and icddr,b. Associates for Community and Population Research, a Bangladeshi private research agency, conducted the field survey in the City Corporation areas, municipalities and large towns with population over 45,000.\r\n<br></br>The 2013 UHS is a follow-up survey conducted after seven years from the first UHS conducted in 2006. Primarily the survey was designed to examine the changes in the health and service utilization profile of the urban population with explicit attention to examine differences between slum and non-slum groups. The information collected in the 2013 UHS will be instrumental in determining directions for the urban health program in Bangladesh. Data concerning important urban health issues like migration, fertility and family planning, maternal and newborn health, childhood mortality, child health, feeding practices, and nutritional status etc. are crucial in designing policies and programs. Hopefully, intra-urban differentials in health service utilization between two surveys will be helpful to demonstrate an increased commitment to improving the lives of urban people in Bangladesh."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences",
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health survey"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Household survey"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Urban population"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Urban growth"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "producerAffiliation": {
+                                        "typeName": "producerAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina at Chapel Hill"
+                                    }
+                                },
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "National Institute of Population Research and Training"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "NIPORT"
+                                    }
+                                },
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "International Centre for Diarrhoeal Disease Research, Bangladesh"
+                                    },
+                                    "producerAbbreviation": {
+                                        "typeName": "producerAbbreviation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "icddr,b"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/measure"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-04-18"
+                        },
+                        {
+                            "typeName": "timePeriodCovered",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "timePeriodCoveredStart": {
+                                        "typeName": "timePeriodCoveredStart",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013"
+                                    },
+                                    "timePeriodCoveredEnd": {
+                                        "typeName": "timePeriodCoveredEnd",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2013"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Survey"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Urban Health Survey (UHS)"
+                                }
+                            }
+                        },
+                        {
+                            "typeName": "relatedDatasets",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "<a href=\"http://hdl.handle.net/1902.29/11182\">Bangladesh Urban Health Survey (UHS) 2006</a>"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "Bangladesh"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "socialscience": {
+                    "displayName": "Social Science and Humanities Metadata",
+                    "fields": [
+                        {
+                            "typeName": "unitOfAnalysis",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Households; Individuals"
+                            ]
+                        },
+                        {
+                            "typeName": "universe",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Bangladesh households within slums and non-slums of City Corporations and other urban areas"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Data Code Information",
+                    "label": "UHS 2013 Code.txt",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7185732,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS 2013 Code.txt",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 141234,
+                        "description": "Data Code Information",
+                        "storageIdentifier": "19443",
+                        "rootDataFileId": -1,
+                        "md5": "6215aed044d42175279f4be3e24557d0",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "6215aed044d42175279f4be3e24557d0"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Community Questionnaire",
+                    "label": "UHS 2013 Community Questionnaire.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7185733,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS 2013 Community Questionnaire.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4559450,
+                        "description": "Community Questionnaire",
+                        "storageIdentifier": "19444",
+                        "rootDataFileId": -1,
+                        "md5": "628f64535d634f829e113898a828c566",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "628f64535d634f829e113898a828c566"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Descriptions of Data Files",
+                    "label": "UHS 2013  data file  without identifiers.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7185766,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS 2013  data file  without identifiers.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 158504,
+                        "description": "Descriptions of Data Files",
+                        "storageIdentifier": "19477",
+                        "rootDataFileId": -1,
+                        "md5": "fe3b8baa8f22fd09173ffffd441b776f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "fe3b8baa8f22fd09173ffffd441b776f"
+                        },
+                        "creationDate": "2016-04-22"
+                    }
+                },
+                {
+                    "description": "Household Questionnaire",
+                    "label": "UHS 2013 HH Questionnaire.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7185727,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS 2013 HH Questionnaire.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 217928,
+                        "description": "Household Questionnaire",
+                        "storageIdentifier": "19438",
+                        "rootDataFileId": -1,
+                        "md5": "c4af7df4671f958a4d23816501846955",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c4af7df4671f958a4d23816501846955"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Male Questionnaire",
+                    "label": "UHS 2013 Male Questionnaire.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7185728,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS 2013 Male Questionnaire.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 322337,
+                        "description": "Male Questionnaire",
+                        "storageIdentifier": "19439",
+                        "rootDataFileId": -1,
+                        "md5": "e75b0e6aee5a6471336974a0d7b152e2",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e75b0e6aee5a6471336974a0d7b152e2"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Women Long Questionnaire",
+                    "label": "UHS 2013 Women Long Questionnaire.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7185729,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS 2013 Women Long Questionnaire.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 508300,
+                        "description": "Women Long Questionnaire",
+                        "storageIdentifier": "19440",
+                        "rootDataFileId": -1,
+                        "md5": "20bf7f255711efa38e6edfdc3efa323b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "20bf7f255711efa38e6edfdc3efa323b"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Women Short Questionnaire",
+                    "label": "UHS 2013 Women Short Questionnaire.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7185730,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS 2013 Women Short Questionnaire.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 280233,
+                        "description": "Women Short Questionnaire",
+                        "storageIdentifier": "19441",
+                        "rootDataFileId": -1,
+                        "md5": "e7ca583a9cc6e954c2e4ddb0ebbf5bc5",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "e7ca583a9cc6e954c2e4ddb0ebbf5bc5"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Community Data - Stata Original",
+                    "label": "UHS_COMDT.dta",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7185767,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS_COMDT.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 1216800,
+                        "description": "Community Data - Stata Original",
+                        "storageIdentifier": "19478",
+                        "rootDataFileId": -1,
+                        "md5": "cc547be4ccfbbea7c4bb680dc8223686",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "cc547be4ccfbbea7c4bb680dc8223686"
+                        },
+                        "creationDate": "2016-04-22"
+                    }
+                },
+                {
+                    "description": "Community Data - SPSS Original",
+                    "label": "UHS_COMSV.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7185757,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS_COMSV.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 1233307,
+                        "description": "Community Data - SPSS Original",
+                        "storageIdentifier": "19467",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 1068013,
+                        "UNF": "UNF:5:WWy/l5FIJCm3gi+9kcgnzg==",
+                        "rootDataFileId": -1,
+                        "md5": "b848273303cd3679e51fe5ce6a145d5b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b848273303cd3679e51fe5ce6a145d5b"
+                        },
+                        "creationDate": "2016-04-22"
+                    }
+                },
+                {
+                    "description": "Household Data - Stata Original",
+                    "label": "UHS_HHDT.dta",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7185722,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS_HHDT.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 199841829,
+                        "description": "Household Data - Stata Original",
+                        "storageIdentifier": "19433",
+                        "rootDataFileId": -1,
+                        "md5": "4f6be7f8a5dfa7cf83f61a068b1aa69a",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "4f6be7f8a5dfa7cf83f61a068b1aa69a"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Household Data - SPSS Original",
+                    "label": "UHS_HHSV.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7185721,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS_HHSV.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 34356083,
+                        "description": "Household Data - SPSS Original",
+                        "storageIdentifier": "19432",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 29156012,
+                        "UNF": "UNF:5:0ZLguqYhQgJes9YojjtTdw==",
+                        "rootDataFileId": -1,
+                        "md5": "365ffc4103c2d26b59fbd29d1e6a69eb",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "365ffc4103c2d26b59fbd29d1e6a69eb"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Men's Data - Stata Original",
+                    "label": "UHS_IMDT.dta",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7185725,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS_IMDT.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 12650492,
+                        "description": "Men's Data - Stata Original",
+                        "storageIdentifier": "19436",
+                        "rootDataFileId": -1,
+                        "md5": "511d92a818eee07d802fe9daf0479b9f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "511d92a818eee07d802fe9daf0479b9f"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Men's Data - SPSS Original",
+                    "label": "UHS_IMSV.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7185723,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS_IMSV.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 3678954,
+                        "description": "Men's Data - SPSS Original",
+                        "storageIdentifier": "19434",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 3086782,
+                        "UNF": "UNF:5:8/vwKUpJhl8UfJAdGr+tpg==",
+                        "rootDataFileId": -1,
+                        "md5": "78a541bca60a39add72f7d2341d44c7f",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "78a541bca60a39add72f7d2341d44c7f"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Women's Data - Stata Original",
+                    "label": "UHS_IQDT.dta",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7185724,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS_IQDT.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 462379568,
+                        "description": "Women's Data - Stata Original",
+                        "storageIdentifier": "19435",
+                        "rootDataFileId": -1,
+                        "md5": "0b9cc75bf83c38045930eb201ab8a76b",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "0b9cc75bf83c38045930eb201ab8a76b"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Women's Data - SPSS Original",
+                    "label": "UHS_IQSV.tab",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7185726,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "UHS_IQSV.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 88060931,
+                        "description": "Women's Data - SPSS Original",
+                        "storageIdentifier": "19437",
+                        "originalFileFormat": "application/x-spss-sav",
+                        "originalFormatLabel": "SPSS Binary",
+                        "originalFileSize": 71254078,
+                        "UNF": "UNF:5:l8QvHKP7YQk2wzJ1/Dev/g==",
+                        "rootDataFileId": -1,
+                        "md5": "363fd877902cd3e2a6485e4d79dc33be",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "363fd877902cd3e2a6485e4d79dc33be"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                },
+                {
+                    "description": "Technical Report",
+                    "label": "Urban Health Survey 2013 PDF.pdf",
+                    "restricted": false,
+                    "version": 2,
+                    "datasetVersionId": 5140,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7185734,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Urban Health Survey 2013 PDF.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 393746462,
+                        "description": "Technical Report",
+                        "storageIdentifier": "19445",
+                        "rootDataFileId": -1,
+                        "md5": "17d224ca3952cf2c1a51c9dd4f77e20e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "17d224ca3952cf2c1a51c9dd4f77e20e"
+                        },
+                        "creationDate": "2016-04-19"
+                    }
+                }
+            ]
+        }
+    }
+}

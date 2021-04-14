@@ -1,0 +1,186 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/MHNUNE",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2019-08-08",
+        "datasetVersion": {
+            "id": 30898,
+            "storageIdentifier": "file://10.15139/S3/MHNUNE",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2019-08-08T16:41:37Z",
+            "releaseTime": "2019-08-08T16:41:37Z",
+            "createTime": "2019-06-07T13:00:37Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "CMAQ Model Version 5.3 Input Data -- 1/1/2016 - 12/31/2016 12km CONUS"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "US EPA"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ORD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Kristen Foley"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "foley.kristen@epa.gov"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h3>Data Summary:</h3><p>CMAQv5.3 input data for a 01/01/2016 - 12/31/2016 simulation over the Continental US.  <strong>Note:The datasets are on a Google Drive. The metadata associated with this DOI contain the link to the Google Drive folder and instructions for downloading the data.</strong>\r\n\r\n<h2>File Location and Download Instructions:</h2>\r\n<ul> <li><strong><a href=\"https://drive.google.com/drive/folders/1QyT1I4wgtvYufCKCtE6skfOSK_4KS9Vu\">Link to input files for 2016_12US1 benchmark case</a></strong> </li>\r\n<li> <strong><a href=\"https://drive.google.com/open?id=1e7B94zFkbKygVWfrhGwEZL51jF4fGXGXZbvi6KzXYQ4\">Download instructions </a></strong> </li> </ul>\r\n\r\n\r\n<h2>File Format:</h2>The 2016 model input are stored as netcdf formatted files using I/O API data structures <a href=\"https://www.cmascenter.org/ioapi/\">(https://www.cmascenter.org/ioapi/)</a>. Information on the model projection and grid structure is contained in the header information of the netcdf file.  The output files can be opened and manipulated using I/O API utilities (e.g. M3XTRACT, M3WNDW) or other software programs that can read and write netcdf formatted files (e.g. Fortran, R, Python).<br> "
+                                    }
+                                },
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h3>Emissions Inputs</h3>\r\n<ul><li>2016beta Emissions Modeling Platform (also referred to as \"2016ff\")</li>\r\n<li>Detailed information on the 2016beta Platform is available here: <a href=\"http://views.cira.colostate.edu/wiki/wiki/10197 \">http://views.cira.colostate.edu/wiki/wiki/10197 </a></li></ul>\r\n\r\n<h3>Meteorology Inputs</h3>\r\n<ul><li>MCIP Version: Meteorology-Chemistry Interface Processor, version 4.3</li>\r\n<li>WRF Model: Weather Research Forecast model, version 3.8 (WRF v3.8) simulated meteorology for 2016.</li> \r\n<li>Land Cover: 2011 National Land Cover Database (NLCD)</li> \r\n<li>Data assimilation: based on version-2 four-dimensional data assimilation (FDDA) with no nudging in the planetary boundary layer and used blended 3-hourly reanalysis fields (combination of 3-hour Meteorological Assimilation Data Ingest System (MADIS) data and intermediate 12km North American Mesoscale Model (NAM) 3-hour forecast)</li> \r\n<li>ptop=50 hPa</li>\r\n<li>WRF v3.8 parameters:</li> \r\n- Morrison double-moment microphysics<br>\r\n- RRTMG longwave and shortwave radiation<br>\r\n-Kain Fritsch with kfeta_trigger = 1 (default trigger)<br>\r\n- lightning assimilation<br> \r\n-Pleim-Xiu land-surface model and surface layer/ ACM2 PBL<br>\r\n<li>Vertical Resolution: 35 layers from the surface to the top of the free troposphere with layer 1 nominally 19 m tall.</li></ul>\r\n"
+                                    }
+                                },
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h3>Boundary Conditions from HCMAQ</h3>\r\n<ul><li>Model version: CMAQv5.3 beta2 (February 2018), including full halogen and DMS chemistry</li><li>Grid spacing: 108 x 108 km on a polar stereographic grid covering the northern hemisphere</li><li>Vertical layers: 44</li><li>Meteorological fields: WRF3.8</li><li>Emissions: 2016 emissions modeling platform + 2015 China inventory + projected 2010 Hemispheric Transport of Air Pollutants (HTAP) v2 inventory.  Details available in presentation by J. Vukovich at the 2018 CMAS conference: <a href=\"https://www.cmascenter.org/conference//2018/slides/1530_vukovich_development_2016_2018.pptx\">https://www.cmascenter.org/conference//2018/slides/1530_vukovich_development_2016_2018.pptx</a></li><li>Chemical mechanism: CB6R3M_AE7_KMTBR</li><li>Dry Deposition: M3DRY</li><li>Science options set to Y: KZMIN, CTM_SFC_HONO, PX_VERSION, CTM_GRAV_SETL, CTM_ILDEPV, CTM_WB_DUST, CTM_ZERO_PCSOA</li></ul>"
+                                    }
+                                },
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<h3>FEST-C</h3>\r\n<ul><li>FEST-C version: 1.4</li>\r\n<li>Source of meteorology inputs: OAQPS US2 Met with lightning assimilation</li>\r\n<li>Source of deposition: 2016 deposition output from CMAQv5.2 simulation with WRVv3.8 meteorology inputs</li>\r\n<li>USGS year: 2011 NLCD/MODIS</li>\r\n<li>Spatial Allocator version: 4.3.2</li></ul>\r\n"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Earth and Environmental Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CMAQ"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Community Multiscale Air Quality Modeling System"
+                                    },
+                                    "keywordVocabularyURI": {
+                                        "typeName": "keywordVocabularyURI",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "https://www.epa.gov/cmaq"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2016"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Simulation Year"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CMAQv5.3"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Boykin, Randa"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2019-06-07"
+                        }
+                    ]
+                }
+            },
+            "files": []
+        }
+    }
+}

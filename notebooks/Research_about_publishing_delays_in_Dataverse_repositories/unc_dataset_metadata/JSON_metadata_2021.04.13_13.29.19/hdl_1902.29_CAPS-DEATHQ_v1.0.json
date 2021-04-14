@@ -1,0 +1,999 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-DEATHQ",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3402,
+            "storageIdentifier": "file://1902.29/CAPS-DEATHQ",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T18:44:56Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:19:08Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Death Anxiety Scale (CAPS-DEATHQ and CAPS-DEATHQ2 modules)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-DEATHQ"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-DEATHQ CAPS-DEATHQ2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This fifteen item Death Anxiety Scale was developed by Templer (1969). Answer format is T/F.</p><p>Scoring information: Retain original scoring on all individual items. Create composite score=DTHSCALE= Add 1 to DTHSCALE for each of the following values=1 DEATH 1,4,8,9,10,11,12,13,14 Add 1 to DTHSCALE for each of the following values=2 DEATH 2,3,5,6,7,15 (Range of DTHSCALE=0-15). In 1987, a revised version (DEATHQ2) was also administered. See Source document for further information.</p><p>High\ner scores indicate greater death anxiety.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Death"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Death anxiety"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Anxiety"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Templer, D.I., The construction and validation of a death anxiety scale. The Journal of General Psychology, 82, 1970, 165-177."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_deathq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7974,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_deathq_data",
+                        "contentType": "text/plain",
+                        "filesize": 39000,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_deathq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_deathq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7953,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_deathq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 32880,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_deathq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_deathq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7961,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_deathq_source",
+                        "contentType": "text/plain",
+                        "filesize": 18705,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_deathq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_deathq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7968,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_deathq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18614,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_deathq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_deathq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File 1 (caps_1985_deathq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7956,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_deathq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16532,
+                        "storageIdentifier": "caps_1985_deathq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:BOFPGXGW6imYgel3Z0GRhg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_deathq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7949,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_deathq_data",
+                        "contentType": "text/plain",
+                        "filesize": 37440,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_deathq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_deathq_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7963,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_deathq_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3332,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_deathq_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_deathq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7965,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_deathq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 30640,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_deathq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_deathq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7967,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_deathq_source",
+                        "contentType": "text/plain",
+                        "filesize": 2340,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_deathq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_deathq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7952,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_deathq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18368,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_deathq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_deathq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File 2 (caps_1986_deathq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7959,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_deathq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16054,
+                        "storageIdentifier": "caps_1986_deathq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:1+oww9G8FJobxZmbiludiQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7966,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq2_data",
+                        "contentType": "text/plain",
+                        "filesize": 36270,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq2_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7964,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq2_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3594,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq2_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7971,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 30800,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7969,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq2_source",
+                        "contentType": "text/plain",
+                        "filesize": 4814,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7973,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18204,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_deathq2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File 3 (caps_1987_deathq2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7970,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15735,
+                        "storageIdentifier": "caps_1987_deathq2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:NA2nzgY5tQNhLj5xcwjyIQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7960,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq_data",
+                        "contentType": "text/plain",
+                        "filesize": 39000,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7951,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2886,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7972,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 31680,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7954,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq_source",
+                        "contentType": "text/plain",
+                        "filesize": 5676,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_deathq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7948,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 19106,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_deathq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_deathq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File 4 (caps_1987_deathq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7958,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_deathq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16752,
+                        "storageIdentifier": "caps_1987_deathq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:m8LQp6gbuGMkxmSDhBIsOQ==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_deathq_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7975,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_deathq_data",
+                        "contentType": "text/plain",
+                        "filesize": 38220,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_deathq_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_deathq_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7957,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_deathq_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2187,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_deathq_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_deathq_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7962,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_deathq_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 32160,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_deathq_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_deathq_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7976,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_deathq_source",
+                        "contentType": "text/plain",
+                        "filesize": 6594,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_deathq_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_deathq_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7955,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_deathq_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18860,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_deathq_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_deathq_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3402,
+                    "categories": [
+                        "Data File 5 (caps_1988_deathq_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7950,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_deathq_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16464,
+                        "storageIdentifier": "caps_1988_deathq_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:VImzvKdOxfr47HvcYM9sPw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,732 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/10668",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2011-04-12",
+        "datasetVersion": {
+            "id": 499,
+            "storageIdentifier": "file://1902.29/10668",
+            "versionNumber": 3,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "4.18.13 - Deleted Data Sets; \n4.22.13 - Uploaded De-Identified Data Sets and Documentation\n4.30.13 - Updated Terms of Use",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2016-09-29T13:31:41Z",
+            "releaseTime": "2016-09-29T13:31:41Z",
+            "createTime": "2013-03-27T20:28:52Z",
+            "license": "NONE",
+            "termsOfUse": "Files downloaded from this Dataverse may not be redistributed in any form (electronic, electro-magnetic or printed) without prior permission from the distributor of the data.  </p> <p>By clicking the \"I agree\" checkbox, I confirm that I have read and understood each and every term set forth in the terms and conditions for the use of data and other materials found below, and I agree to be bound by all of such terms and conditions.</p>  <p>If\r\nI do not understand or agree to all of the terms and conditions, I must not use or download any data or other materials.\r\n</p>  <p>--------</p>  <p><b>Rules and Conduct</b></p>  <p>As a condition of use, you promise not to use the Service for any purpose that is prohibited by the Terms of Use. For purposes of the Terms of Use, \"Content\" includes, without limitation, any information, data, text, software, scripts, graphics, and interactive features generated, provided, or otherwise made accessible by ODUM or its partners on or through the Service. By way of example, and not as a limitation, you shall not (or permit\r\nothers to) either (a) take any action or (b) upload, download, post, submit or otherwise distribute or facilitate distribution of any content using any communications service or other service available on or through the Service, that:\r\n</p> <ul><li>infringes any patent, trademark, trade secret, copyright, right of publicity or other right of any other person or entity;</li> <li>is unlawful, threatening, abusive, harassing, defamatory, libelous, deceptive, fraudulent, invasive of another's privacy, tortious, obscene, offensive, or profane;</li> <li>constitutes unauthorized or unsolicited advertising, junk or bulk e-mail (\"spamming\");</li> <li>contains software viruses or any other computer codes, files, or programs that are des\r\nigned or intended to disrupt, damage, limit or interfere with the proper function of any software, hardware, or telecommunications equipment or to damage or obtain unauthorized access to any system, data or other information of ODUM or any third party; or Additionally, you shall not: (i) take any action that imposes or may impose (as determined by ODUM in its sole discretion) an unreasonable or disproportionately large load on ODUM's (or its third party providers') infrastructure; (ii) interfere or attempt to interfere with the proper working of the Service or any activities conducted on the Service; or (iii) bypass any measures ODUM may use to prevent or restrict access to the Service (or other accounts, computer systems or networks connected to the Service).\r\n</li></ul>  <p>You shall abide by all applicable local, state, national and international laws and regulations.</p>  <p><b><i>Data for this article was supplied by MEASURE Evaluation, a project of the United States Agency for International Development.</i></b></p>",
+            "citationRequirements": "<b>CITATION REQUIREMENTS</b> <p>The Requestor shall follow internationally recognized authorship criteria and acknowledge MEASURE Evaluation researchers and the international researcher/s involved in the data analysis.   Any publications, presentations or reports resulting from Requestor\u2019s analysis of the data should acknowledge MEASURE Evaluation using the following text: </p> <p><blockquote>Data for this research was provided by MEASURE Evaluation, funded by the United States Agency for Intern\r\national Development (USAID). Views expressed do not necessarily reflect those of USAID, the US government, or MEASURE Evaluation.\r\n</blockquote></p>",
+            "conditions": "<b>CONDITIONS</b> <p><ul><li>The data files have been made publicly accessible. Staff at MEASURE Evaluation and the Odum Institute are not available to assist with accessing and using these files.</li>  <li>Requestor agrees that he/she will use these data only for analysis purposes and not take any actions to identify or contact individuals, communities, or specific service providers.  Individuals, health facilities and/or health care providers shall not be identified in publications, reports, o\r\nr presentations, either directly or indirectly.</li>  <li>Requestor agrees to use appropriate safeguards to protect the data from misuse and shall promptly notify MEASURE Evaluation of any unauthorized or impermissible use or disclosure of the data of which he/she becomes aware.</li></ul></p>",
+            "disclaimer": "<b>DISCLAIMER</b> <p>Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental, or consequential damages arising from use of these files.</p>",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "South Africa PLACE Study 2003"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Pailman, C"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Weir, S S"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Herman, C K"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "measure@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Researchers implemented the PLACE (Priorities for Local AIDS Control Efforts) method in two townships in the Eastern Cape of South Africa in 2001 and 2003. As part of an initiative to focus on these locals that have an elevated risk of HIV and other sexually transmitted infections, the PLACE protocal was implemented to identify specific high-risk locations where locals met to find new sexual partners and inject drugs and to monitor strategically located prevention efforts. Townships in Port Elizabeth and Utienhage were selected because of high levels of poverty, population mobility, and unemployment. A list of sites where people meet new sexual partners was developed, and interview teams visited and mapped each site. Researchers then asked people attending these venues about their sexual behaviors, knowledge, and receptivity to HIV/AIDS prevention efforts. This 106-page report provides the results of these protocols and provides recommendation for future HIV/AIDS prevention interventions."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences",
+                                "Social Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "HIV"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "AIDS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "HIV/AIDS prevention"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "MEASURE Evaluation"
+                                    },
+                                    "distributorAffiliation": {
+                                        "typeName": "distributorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Carolina Population Center, University of North Carolina"
+                                    },
+                                    "distributorURL": {
+                                        "typeName": "distributorURL",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "http://www.cpc.unc.edu/measure"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2011-04-12"
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Interviews"
+                            ]
+                        },
+                        {
+                            "typeName": "series",
+                            "multiple": false,
+                            "typeClass": "compound",
+                            "value": {
+                                "seriesName": {
+                                    "typeName": "seriesName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Priorities for Local AIDS Control Efforts (PLACE)"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "country": {
+                                        "typeName": "country",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "South Africa"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Individual Questionnaire",
+                    "label": "CPE Individual.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Central Port Elizabeth"
+                    ],
+                    "dataFile": {
+                        "id": 7068046,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "CPE Individual.doc",
+                        "contentType": "application/msword",
+                        "filesize": 53760,
+                        "description": "Individual Questionnaire",
+                        "storageIdentifier": "4700",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Site Verification Questionnaire",
+                    "label": "CPE Site Verification.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Central Port Elizabeth"
+                    ],
+                    "dataFile": {
+                        "id": 7068050,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "CPE Site Verification.doc",
+                        "contentType": "application/msword",
+                        "filesize": 237568,
+                        "description": "Site Verification Questionnaire",
+                        "storageIdentifier": "4701",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Individual Questionnaire",
+                    "label": "DV Individual Followup Final.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Duncan"
+                    ],
+                    "dataFile": {
+                        "id": 7068045,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "DV Individual Followup Final.doc",
+                        "contentType": "application/msword",
+                        "filesize": 95744,
+                        "description": "Individual Questionnaire",
+                        "storageIdentifier": "4702",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Site Verification Questionnaire",
+                    "label": "DV Site Verification Followup Final.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Duncan"
+                    ],
+                    "dataFile": {
+                        "id": 7068047,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "DV Site Verification Followup Final.doc",
+                        "contentType": "application/msword",
+                        "filesize": 273408,
+                        "description": "Site Verification Questionnaire",
+                        "storageIdentifier": "4703",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Individual Questionnaire data",
+                    "label": "p_indiv_CPE.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Central Port Elizabeth"
+                    ],
+                    "dataFile": {
+                        "id": 7068038,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "p_indiv_CPE.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 90655,
+                        "description": "Individual Questionnaire data",
+                        "storageIdentifier": "4692",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:cmgYlW3wWzSgMlORrqqaJA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Individual Questionnaire data",
+                    "label": "p_indiv_DV.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Duncan"
+                    ],
+                    "dataFile": {
+                        "id": 7068040,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "p_indiv_DV.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 220223,
+                        "description": "Individual Questionnaire data",
+                        "storageIdentifier": "4693",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:bD8hHzNGxjK5NuNYn2lksw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Individual Questionnaire data",
+                    "label": "p_indiv_UIT.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Uitenhage"
+                    ],
+                    "dataFile": {
+                        "id": 7068035,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "p_indiv_UIT.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 127583,
+                        "description": "Individual Questionnaire data",
+                        "storageIdentifier": "4694",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:F85rR9JZ6xzQsPGo0uuIzw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Individual Questionnaire data",
+                    "label": "p_indiv_WAL.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Walmer"
+                    ],
+                    "dataFile": {
+                        "id": 7068036,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "p_indiv_WAL.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 210786,
+                        "description": "Individual Questionnaire data",
+                        "storageIdentifier": "4695",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:x+N0Taf0+SZi2sBTWQ17+g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Site Verification Questionnaire data",
+                    "label": "p_site_CPE.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Central Port Elizabeth"
+                    ],
+                    "dataFile": {
+                        "id": 7068039,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "p_site_CPE.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 35470,
+                        "description": "Site Verification Questionnaire data",
+                        "storageIdentifier": "4696",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:k9ZmMb3HiwHM2aFUVh9mrA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Site Verification Questionnaire data",
+                    "label": "p_site_DV.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Duncan"
+                    ],
+                    "dataFile": {
+                        "id": 7068037,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "p_site_DV.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 86695,
+                        "description": "Site Verification Questionnaire data",
+                        "storageIdentifier": "4697",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:1epVirdNYCjrYkL2Bgrn9g==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Site Verification Questionnaire data",
+                    "label": "p_site_UIT.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Uitenhage"
+                    ],
+                    "dataFile": {
+                        "id": 7068042,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "p_site_UIT.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 153446,
+                        "description": "Site Verification Questionnaire data",
+                        "storageIdentifier": "4698",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:uzQ3lKnYDir2G2CDo7lheg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Site Verification Questionnaire data",
+                    "label": "p_site_WAL.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Walmer"
+                    ],
+                    "dataFile": {
+                        "id": 7068041,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "p_site_WAL.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 44234,
+                        "description": "Site Verification Questionnaire data",
+                        "storageIdentifier": "4699",
+                        "originalFileFormat": "application/x-stata",
+                        "originalFormatLabel": "Stata Binary",
+                        "UNF": "UNF:5:sKDj9bgiqSb48WRxfrM6gw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Technical Report",
+                    "label": "tr-04-22.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7068052,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "tr-04-22.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 1442310,
+                        "description": "Technical Report",
+                        "storageIdentifier": "4708",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Individual Questionnaire",
+                    "label": "Uitenhage Individual questionnaire.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Uitenhage"
+                    ],
+                    "dataFile": {
+                        "id": 7068044,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Uitenhage Individual questionnaire.doc",
+                        "contentType": "application/msword",
+                        "filesize": 276992,
+                        "description": "Individual Questionnaire",
+                        "storageIdentifier": "4704",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Site Verification Questionnaire",
+                    "label": "Uitenhage Site Verification.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Uitenhage"
+                    ],
+                    "dataFile": {
+                        "id": 7068049,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Uitenhage Site Verification.doc",
+                        "contentType": "application/msword",
+                        "filesize": 81920,
+                        "description": "Site Verification Questionnaire",
+                        "storageIdentifier": "4705",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Individual Questionnaire",
+                    "label": "Walmer Individual questionnaire.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Walmer"
+                    ],
+                    "dataFile": {
+                        "id": 7068048,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Walmer Individual questionnaire.doc",
+                        "contentType": "application/msword",
+                        "filesize": 118784,
+                        "description": "Individual Questionnaire",
+                        "storageIdentifier": "4706",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "Site Verification Questionnaire",
+                    "label": "Walmer Site Verification.doc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Walmer"
+                    ],
+                    "dataFile": {
+                        "id": 7068043,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Walmer Site Verification.doc",
+                        "contentType": "application/msword",
+                        "filesize": 119808,
+                        "description": "Site Verification Questionnaire",
+                        "storageIdentifier": "4707",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "wp-04-84.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 499,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7068051,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "wp-04-84.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 876138,
+                        "description": "",
+                        "storageIdentifier": "4709",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-22"
+                    }
+                }
+            ]
+        }
+    }
+}

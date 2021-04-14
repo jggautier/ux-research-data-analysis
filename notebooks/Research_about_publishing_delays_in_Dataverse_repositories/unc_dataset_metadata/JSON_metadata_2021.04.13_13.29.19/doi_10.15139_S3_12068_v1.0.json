@@ -1,0 +1,157 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12068",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2015-07-31",
+        "datasetVersion": {
+            "id": 124,
+            "storageIdentifier": "file://10.15139/S3/12068",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2015-07-31T14:28:44Z",
+            "releaseTime": "2015-07-31T00:00:00Z",
+            "createTime": "2015-07-31T14:27:23Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Replication data for: Bonneau, Chris W. and Heather Marie Rice.  2009.  \"Impartial Judges? Race, Institutional Context, and U.S. State Supreme Courts.\"  State Politics and Policy Quarterly 9 (Winter): 381-403."
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Bonneau, Chris W. and Heather Marie Rice.  2009.  \"Impartial Judges? Race, Institutional Context, and U.S. State Supreme Courts.\"  State Politics and Policy Quarterly 9 (Winter): 381-403."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2015-07-31"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "replication data",
+                    "label": "SPPQ 2009 replication.dta",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 124,
+                    "categories": [
+                        "Data"
+                    ],
+                    "dataFile": {
+                        "id": 7184473,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SPPQ 2009 replication.dta",
+                        "contentType": "application/x-stata",
+                        "filesize": 39183041,
+                        "description": "replication data",
+                        "storageIdentifier": "17896",
+                        "rootDataFileId": -1,
+                        "md5": "258eab98f6ed87dba3e9e3a72f880b4e",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "258eab98f6ed87dba3e9e3a72f880b4e"
+                        },
+                        "creationDate": "2015-07-31"
+                    }
+                },
+                {
+                    "description": "do file",
+                    "label": "SPPQ 2009 STATA code.txt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 124,
+                    "categories": [
+                        "Documentation"
+                    ],
+                    "dataFile": {
+                        "id": 7184474,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "SPPQ 2009 STATA code.txt",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 9722,
+                        "description": "do file",
+                        "storageIdentifier": "17897",
+                        "rootDataFileId": -1,
+                        "md5": "c49382df45c7c22118eb1ef8a6373006",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "c49382df45c7c22118eb1ef8a6373006"
+                        },
+                        "creationDate": "2015-07-31"
+                    }
+                }
+            ]
+        }
+    }
+}

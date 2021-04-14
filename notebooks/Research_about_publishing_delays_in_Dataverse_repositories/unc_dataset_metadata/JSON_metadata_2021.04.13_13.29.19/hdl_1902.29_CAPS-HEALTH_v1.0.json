@@ -1,0 +1,1184 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-HEALTH",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-19",
+        "datasetVersion": {
+            "id": 3345,
+            "storageIdentifier": "file://1902.29/CAPS-HEALTH",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-19T16:20:18Z",
+            "releaseTime": "2009-05-19T00:00:00Z",
+            "createTime": "2007-08-28T15:21:05Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "General and Specific Self-report Health Measures (CAPS-HEALTH1 and CAPS-HEALTH2 module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-HEALTH"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-HEALTH1 CAPS-HEALTH2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This 120 item questionnaire obtains both general and specific self-report health measures. Included are an overall health rating, willingness to change lifestyle, alcohol use, smoking, exercise habits, eating habits, nutrition, happiness, concentration, stress measures, reactions to stress, illness and illness outcomes, and medication history.</p><p>In CAPS85 part of the unit was administered twice. The second administration is called HEALTH2</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Health promotion"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Self-care"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Lifestyles"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Alcohol use"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Smoking"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Tobacco"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Physical exercise"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Exercise habits"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Eating habits"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Diet"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Nutrition"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Stress"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Happiness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Reactions to stress"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Illness"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Illness outcomes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Medication history"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "No published reference."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_health1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9090,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health1_data",
+                        "contentType": "text/plain",
+                        "filesize": 461240,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_health1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_health1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9075,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 302960,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_health1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_health1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9068,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health1_source",
+                        "contentType": "text/plain",
+                        "filesize": 178536,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_health1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_health1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9083,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 54284,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_health1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_health1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File 1 (caps_1985_health1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9089,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 46893,
+                        "storageIdentifier": "caps_1985_health1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:/UGm5YvbQJz6tJGd5dWHIw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_health2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9080,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health2_data",
+                        "contentType": "text/plain",
+                        "filesize": 51220,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_health2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_health2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9084,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 22640,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_health2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_health2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9087,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health2_source",
+                        "contentType": "text/plain",
+                        "filesize": 19866,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_health2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_health2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 9079,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 13694,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_health2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_health2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File 2 (caps_1985_health2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9072,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_health2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 11919,
+                        "storageIdentifier": "caps_1985_health2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:q6JhbVyXu8ofRGjFgRQZHA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_health1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9076,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_health1_data",
+                        "contentType": "text/plain",
+                        "filesize": 456560,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_health1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_health1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9064,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_health1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 8213,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_health1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_health1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9066,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_health1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 291440,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_health1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_health1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9067,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_health1_source",
+                        "contentType": "text/plain",
+                        "filesize": 31334,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_health1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_health1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 9091,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_health1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 54694,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_health1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_health1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File 3 (caps_1986_health1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9082,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_health1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 46830,
+                        "storageIdentifier": "caps_1986_health1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:rYaq4GI+EYZtIOLNwxatiw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_health1_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9088,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_health1_data",
+                        "contentType": "text/plain",
+                        "filesize": 247000,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_health1_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_health1_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9078,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_health1_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 13822,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_health1_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_health1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9081,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_health1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 204960,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_health1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_health1_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9074,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_health1_source",
+                        "contentType": "text/plain",
+                        "filesize": 31326,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_health1_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_health1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 9071,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_health1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 56580,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_health1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_health1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File 4 (caps_1987_health1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9085,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_health1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 50705,
+                        "storageIdentifier": "caps_1987_health1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 56580,
+                        "UNF": "UNF:3:tZwl3w2+HfaMkNKQMrVJOg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_health1_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9073,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_health1_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 235040,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_health1_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_health1_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9077,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_health1_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 55842,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_health1_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_health1_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File 5 (caps_1988_health1_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 9086,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_health1_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 48019,
+                        "storageIdentifier": "caps_1988_health1_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 55842,
+                        "UNF": "UNF:3:7rdkf7AkexF6vQkQ2Iu3FA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_health_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9069,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_health_data",
+                        "contentType": "text/plain",
+                        "filesize": 241800,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_health_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_health_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9070,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_health_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 11065,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_health_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_health_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3345,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 9065,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_health_source",
+                        "contentType": "text/plain",
+                        "filesize": 30691,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_health_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

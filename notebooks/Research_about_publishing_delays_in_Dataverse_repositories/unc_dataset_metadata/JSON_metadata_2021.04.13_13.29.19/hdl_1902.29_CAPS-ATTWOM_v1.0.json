@@ -1,0 +1,864 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-ATTWOM",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3322,
+            "storageIdentifier": "file://1902.29/CAPS-ATTWOM",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T16:10:55Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:17:39Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Spence-Helmreich Attitudes towards Women Scale (shortened version) (CAPS-ATTWOM module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-ATTWOM"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-ATTWOM"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This questionnaire is a shortened version of the Spence-Helmreich Attitudes towards Women Scale (AWS). The scale contains items on the rights and roles of women in major activities in which normative expectations could be the same for men and women. A low total reflects traditional values held by the individual while a high score reflects liberal views.</p><p>Scoring information: Note: This scale was administered to participants in the 1983-84 CAPS panel. However, in that dataset, a summary s\ncore was not created. Users may create a summary score using the following procedure, as variable names in the 83-84 file correspond to those in this dataset.\n</p><p>Note: A LOW score indicates STRONGER traditional views.</p><p>See codebook for additional information</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Attitudes toward women"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Feminism"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Women"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Sex role stereotypes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Gender stereotypes"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Spence, Janet T., Helmreich, Robert and Stapp, Joy. 'A Short Version of the Attitudes Toward Women Scale (AWS)' (Bulletin of the) Psychonomic Society 1973, Vol.2(4): 219-220."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_attwom_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7112,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_attwom_data",
+                        "contentType": "text/plain",
+                        "filesize": 49400,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_attwom_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_attwom_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7097,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_attwom_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 39600,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_attwom_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_attwom_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7105,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_attwom_source",
+                        "contentType": "text/plain",
+                        "filesize": 32508,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_attwom_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_attwom_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7111,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_attwom_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 20254,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_attwom_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_attwom_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Data File 1 (caps_1985_attwom_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7101,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_attwom_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17479,
+                        "storageIdentifier": "caps_1985_attwom_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:xA+oRoGzjxdV/uIK6kB7QA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_attwom_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7110,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_attwom_data",
+                        "contentType": "text/plain",
+                        "filesize": 47320,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_attwom_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_attwom_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7115,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_attwom_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4278,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_attwom_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_attwom_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7102,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_attwom_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 38080,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_attwom_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_attwom_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7095,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_attwom_source",
+                        "contentType": "text/plain",
+                        "filesize": 4653,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_attwom_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_attwom_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7106,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_attwom_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 20336,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_attwom_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_attwom_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Data File 2 (caps_1986_attwom_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7099,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_attwom_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 17193,
+                        "storageIdentifier": "caps_1986_attwom_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:pcIXktfm5Y3IR9ERGFHeSA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_attwom_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7094,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_attwom_data",
+                        "contentType": "text/plain",
+                        "filesize": 38610,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_attwom_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_attwom_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7109,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_attwom_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 4642,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_attwom_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_attwom_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7098,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_attwom_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 40800,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_attwom_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_attwom_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7104,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_attwom_source",
+                        "contentType": "text/plain",
+                        "filesize": 8704,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_attwom_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_attwom_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7114,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_attwom_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21812,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_attwom_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_attwom_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Data File 3 (caps_1987_attwom_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7113,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_attwom_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18711,
+                        "storageIdentifier": "caps_1987_attwom_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:duYeg3Hhdtzd+fDxO6ZAWg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_attwom_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7093,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_attwom_data",
+                        "contentType": "text/plain",
+                        "filesize": 38220,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_attwom_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_attwom_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7108,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_attwom_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3002,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_attwom_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_attwom_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7096,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_attwom_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 41440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_attwom_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_attwom_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7103,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_attwom_source",
+                        "contentType": "text/plain",
+                        "filesize": 9999,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_attwom_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_attwom_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7107,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_attwom_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21648,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_attwom_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_attwom_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3322,
+                    "categories": [
+                        "Data File 4 (caps_1988_attwom_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7100,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_attwom_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18424,
+                        "storageIdentifier": "caps_1988_attwom_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:vWbhQk1SnDgfcFhXX2sFwg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,881 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-PSS",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-22",
+        "datasetVersion": {
+            "id": 3488,
+            "storageIdentifier": "file://1902.29/CAPS-PSS",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-22T16:07:32Z",
+            "releaseTime": "2009-05-22T00:00:00Z",
+            "createTime": "2007-08-28T15:23:31Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Perceived Stress Scale (CAPS-PSS module)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-PSS"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-PSS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>The Perceived Stress Scale (PSS) is designed to measure the degree to which situations in one's life are appraised as stressful. Designed for use with community samples with at least a high school education, the PSS is a 14-item global measure of the levels of stress experienced in the last month. Items measure the extent to which respondents find their lives unpredictable, uncontrollable and overloading. Administration of the scale has proven it to possess substantial reliability and validit\ny, and to be a potential tool for predicting the role of appraised stress levels in etiology of disease and behavioral disorders.\n</p><p>Scoring information: Items 4,5,6,7,9,10 and 13 are scored in the reverse direction for the purpose of creating a total score. Total score (PSSTOTAL) is then obtained by summing across all items. Reverse scoring is dropped from the dataset after the total score is created. Original scoring on all individual items is retained.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Perceived stress scale"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Stress"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Perceived stress"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Coping"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "publication",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "publicationCitation": {
+                                        "typeName": "publicationCitation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Cohen, S., T. Kamarck, and R. Mermelstein. 'A Global measure of perceived stress,' Journal of Health and Social Behavior, 1983, vol.24, pp. 385-396."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1984_pss_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SAS Export Library (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 10742,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_pss_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 18800,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_pss_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_pss_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 10730,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_pss_source",
+                        "contentType": "text/plain",
+                        "filesize": 36120,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_pss_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1984_pss_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SPSS Portable File (1984)"
+                    ],
+                    "dataFile": {
+                        "id": 10746,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_pss_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 8200,
+                        "description": "",
+                        "storageIdentifier": "caps_1984_pss_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1984_pss_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Data File 1 (caps_1984_pss_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10747,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1984_pss_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 5741,
+                        "storageIdentifier": "caps_1984_pss_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 8200,
+                        "UNF": "UNF:3:E+iA/D7+lEJryyj5S9duuw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_pss_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10737,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_pss_data",
+                        "contentType": "text/plain",
+                        "filesize": 41730,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_pss_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_pss_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 10741,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_pss_source",
+                        "contentType": "text/plain",
+                        "filesize": 24639,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_pss_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_pss_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10732,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_pss_data",
+                        "contentType": "text/plain",
+                        "filesize": 37830,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_pss_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_pss_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10731,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_pss_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2246,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_pss_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_pss_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10744,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_pss_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 30080,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_pss_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_pss_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10735,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_pss_source",
+                        "contentType": "text/plain",
+                        "filesize": 7087,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_pss_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_pss_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 10733,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_pss_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18368,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_pss_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_pss_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Data File 2 (caps_1986_pss_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10740,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_pss_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16180,
+                        "storageIdentifier": "caps_1986_pss_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 18368,
+                        "UNF": "UNF:3:ayQ/Pp9ipWqydYhFT4WLyA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_pss_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10736,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_pss_data",
+                        "contentType": "text/plain",
+                        "filesize": 38610,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_pss_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_pss_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10734,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_pss_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3230,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_pss_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_pss_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10743,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_pss_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 30560,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_pss_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_pss_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10751,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_pss_source",
+                        "contentType": "text/plain",
+                        "filesize": 7085,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_pss_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_pss_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 10749,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_pss_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18614,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_pss_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_pss_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Data File 3 (caps_1987_pss_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10738,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_pss_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16510,
+                        "storageIdentifier": "caps_1987_pss_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 18614,
+                        "UNF": "UNF:3:j6MAEoWqeU8oKqEuQPaLdw==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_pss_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10745,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_pss_data",
+                        "contentType": "text/plain",
+                        "filesize": 38610,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_pss_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_pss_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10748,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_pss_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 2091,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_pss_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_pss_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10729,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_pss_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 31440,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_pss_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_pss_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10750,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_pss_source",
+                        "contentType": "text/plain",
+                        "filesize": 7288,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_pss_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_pss_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 10728,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_pss_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18696,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_pss_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_pss_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3488,
+                    "categories": [
+                        "Data File 4 (caps_1988_pss_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 10739,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_pss_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 16434,
+                        "storageIdentifier": "caps_1988_pss_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "originalFileSize": 18696,
+                        "UNF": "UNF:3:0QLTnh/iUuDnEI1GJ5k1fA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

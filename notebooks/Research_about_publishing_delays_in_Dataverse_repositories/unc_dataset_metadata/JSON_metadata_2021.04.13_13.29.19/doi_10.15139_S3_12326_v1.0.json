@@ -1,0 +1,180 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12326",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-02-02",
+        "datasetVersion": {
+            "id": 168,
+            "storageIdentifier": "file://10.15139/S3/12326",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "6/9/2016 Initial setup",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-02-02T20:50:19Z",
+            "releaseTime": "2017-02-02T20:50:19Z",
+            "createTime": "2016-06-09T21:54:11Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "[Exp 14] Beatriz PANIAGUA's Rat pup brain structures at post-natal day 5"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Paniagua, Beatriz"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thu-Mai Christian"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odumarchive@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Rat pups were sacrificed on PND 5 and the volumes of brain regions were measured.  This experiment had some dams in the CS group, in addition to the usual CC and UN dams.  NOTE: The dams in this experiment had not been used in previous experiments.    IDs:  Interestingly, for this experiment there seem to be only one pup for each Pup Dam (Pup Provider), identified by PD_ID.  This differs from previous set-ups where there were two pups, one male and one female, for each dam.   PD_ID alone identifies the pup."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2014-07-21"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "cocaine"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-06-09"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Post-Natal Day 5 Analysis Dataset: Size of various brain structures in the rat pup at PND 5.  Unlike Experiment B, there is only one pup for each pup dam.",
+                    "label": "b5_01.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 168,
+                    "dataFile": {
+                        "id": 7185920,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "b5_01.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 29770,
+                        "description": "Post-Natal Day 5 Analysis Dataset: Size of various brain structures in the rat pup at PND 5.  Unlike Experiment B, there is only one pup for each pup dam.",
+                        "storageIdentifier": "19643",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:Yw8OPCdwYWUHXnYG/bCUTg==",
+                        "rootDataFileId": -1,
+                        "md5": "b7378a735c01cdb19b402f14867ae7fd",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "b7378a735c01cdb19b402f14867ae7fd"
+                        },
+                        "creationDate": "2016-06-09"
+                    }
+                },
+                {
+                    "description": "Guide to the datafiles in this experiment.",
+                    "label": "July 2014 PND5 DTI Codebooks.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 168,
+                    "dataFile": {
+                        "id": 7375050,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "July 2014 PND5 DTI Codebooks.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 39847,
+                        "description": "Guide to the datafiles in this experiment.",
+                        "storageIdentifier": "157d2bf0463-0bba8665b90b",
+                        "rootDataFileId": -1,
+                        "md5": "223f1841792e96e5aa79f13f974d1f74",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "223f1841792e96e5aa79f13f974d1f74"
+                        },
+                        "creationDate": "2016-10-17"
+                    }
+                }
+            ]
+        }
+    }
+}

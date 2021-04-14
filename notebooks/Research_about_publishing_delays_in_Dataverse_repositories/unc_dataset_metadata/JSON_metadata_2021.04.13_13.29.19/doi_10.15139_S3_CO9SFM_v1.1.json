@@ -1,0 +1,202 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/CO9SFM",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2020-08-05",
+        "datasetVersion": {
+            "id": 31530,
+            "storageIdentifier": "file://10.15139/S3/CO9SFM",
+            "versionNumber": 1,
+            "versionMinorNumber": 1,
+            "versionState": "RELEASED",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2020-08-30T19:15:30Z",
+            "releaseTime": "2020-08-30T19:15:30Z",
+            "createTime": "2020-08-05T20:58:26Z",
+            "license": "CC0",
+            "termsOfUse": "CC0 Waiver",
+            "termsOfAccess": "please request access",
+            "fileAccessRequest": true,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Deidentified Data Set for Symptom Duration Study"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Tong, David"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "authorIdentifierScheme": {
+                                        "typeName": "authorIdentifierScheme",
+                                        "multiple": false,
+                                        "typeClass": "controlledVocabulary",
+                                        "value": "ORCID"
+                                    },
+                                    "authorIdentifier": {
+                                        "typeName": "authorIdentifier",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "0000-0001-9761-6124"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Tong, David"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Emory University"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "dtong@emory.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Data set for symptom duration study 1) data to recreate heat maps for all patients and by provider assessed severity and 2) symptom duration for all patients and by provider assessed severity"
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2020-8-5"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "covid symptom duration prevalence"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "depositor",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Tong, David"
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2020-08-05"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "dailydataforheatmaps",
+                    "label": "Deidentified Daily Data wo hospitalization for Heat Map.xlsx",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 31530,
+                    "dataFile": {
+                        "id": 7511291,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Deidentified Daily Data wo hospitalization for Heat Map.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 498088,
+                        "description": "dailydataforheatmaps",
+                        "storageIdentifier": "173c061bc8b-8f99267635bf",
+                        "rootDataFileId": -1,
+                        "md5": "dd73d4b3842ecf5f260862cf4f428728",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "dd73d4b3842ecf5f260862cf4f428728"
+                        },
+                        "creationDate": "2020-08-05"
+                    }
+                },
+                {
+                    "description": "symptomduration",
+                    "label": "Sx Duration wo hospitalization Deidentified.xlsx",
+                    "restricted": true,
+                    "version": 1,
+                    "datasetVersionId": 31530,
+                    "dataFile": {
+                        "id": 7511290,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Sx Duration wo hospitalization Deidentified.xlsx",
+                        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                        "filesize": 600372,
+                        "description": "symptomduration",
+                        "storageIdentifier": "173c060f2b5-549f12d4d697",
+                        "rootDataFileId": -1,
+                        "md5": "d42cad91802df3a9dfed20c29d4c9c59",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "d42cad91802df3a9dfed20c29d4c9c59"
+                        },
+                        "creationDate": "2020-08-05"
+                    }
+                }
+            ]
+        }
+    }
+}

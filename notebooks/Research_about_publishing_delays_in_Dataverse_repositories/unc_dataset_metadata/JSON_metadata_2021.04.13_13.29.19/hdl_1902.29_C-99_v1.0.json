@@ -1,0 +1,1691 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/C-99",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2007-11-30",
+        "datasetVersion": {
+            "id": 4020,
+            "storageIdentifier": "file://1902.29/C-99",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "archiveTime": "2013-06-18T14:32:21Z",
+            "lastUpdateTime": "2007-11-30T05:00:00Z",
+            "releaseTime": "2007-11-30T00:00:00Z",
+            "createTime": "2007-08-28T15:16:39Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Census of population and housing, 1980"
+                        },
+                        {
+                            "typeName": "subtitle",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "master area reference file (MARF)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "C-99"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:study"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "46-01-MARF-CENSUS-80"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "U.S. Bureau of the Census"
+                                    }
+                                },
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "United States"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This file contains the geographic items from Summary Tape File 1, as well as total population, provisional population counts by race and Spanish origin, the number of families, and the number of persons in group quarters.</p><p>Also included are the number of one-person households, the total number of housing units, the number of occupied housing units, and the number of owner-occupied housing units.</p><p>MARF provides summaries and codes for States or State equivalents, counties of county e\nquivalents, minor civil divisions (MCDs) or census county divisions (CCDs), places or place segments within MCDs/CCDs, remainder of MCD/CCD, census tracts or block numbering areas (BNAs), and block groups (BGs) or, for areas that are not block-numbered, enumeration districts (EDs).\n</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "topicClassification",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Census"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                },
+                                {
+                                    "topicClassValue": {
+                                        "typeName": "topicClassValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Geographic reference file"
+                                    },
+                                    "topicClassVocab": {
+                                        "typeName": "topicClassVocab",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:MAIN.HEADING"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "notesText",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Subject: Study Level Error Note, Notes: All persons and housing units in the United States;Type: ODUM:ACCESS.CATEGORY Notes: I;Type: ODUM:STRUCTURE.FILE:SORT.SEQUENCE Notes: The file is sorted by level of geographic hierarchy.;"
+                        },
+                        {
+                            "typeName": "producer",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "producerName": {
+                                        "typeName": "producerName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The Bureau"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1981"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Washington, DC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "kindOfData",
+                            "multiple": true,
+                            "typeClass": "primitive",
+                            "value": [
+                                "Numeric (Summary statistics)"
+                            ]
+                        }
+                    ]
+                },
+                "geospatial": {
+                    "displayName": "Geospatial Metadata",
+                    "fields": [
+                        {
+                            "typeName": "geographicCoverage",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherGeographicCoverage": {
+                                        "typeName": "otherGeographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "States (or State equivalents), Counties, Places, Census Tracts, Minor Civil Divisions, Census County Divisions, Block Numbering Areas, Block Groups, Enumeration Districts"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ak",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Alaska"
+                    ],
+                    "dataFile": {
+                        "id": 6477,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ak",
+                        "contentType": "text/plain",
+                        "filesize": 602730,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ak",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.al",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Alabama"
+                    ],
+                    "dataFile": {
+                        "id": 6482,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.al",
+                        "contentType": "text/plain",
+                        "filesize": 2894880,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.al",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ar",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Arkansas"
+                    ],
+                    "dataFile": {
+                        "id": 6504,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ar",
+                        "contentType": "text/plain",
+                        "filesize": 2942240,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ar",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.az",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Arizona"
+                    ],
+                    "dataFile": {
+                        "id": 6485,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.az",
+                        "contentType": "text/plain",
+                        "filesize": 1759720,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.az",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ca",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, California"
+                    ],
+                    "dataFile": {
+                        "id": 6497,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ca",
+                        "contentType": "text/plain",
+                        "filesize": 12323220,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ca",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.co",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Colorado"
+                    ],
+                    "dataFile": {
+                        "id": 6519,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.co",
+                        "contentType": "text/plain",
+                        "filesize": 2289190,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.co",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ct",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Connecticut"
+                    ],
+                    "dataFile": {
+                        "id": 6521,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ct",
+                        "contentType": "text/plain",
+                        "filesize": 1576570,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ct",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.dc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, District of Columbia"
+                    ],
+                    "dataFile": {
+                        "id": 6495,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.dc",
+                        "contentType": "text/plain",
+                        "filesize": 293410,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.dc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.de",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Delaware"
+                    ],
+                    "dataFile": {
+                        "id": 6491,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.de",
+                        "contentType": "text/plain",
+                        "filesize": 425130,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.de",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.fl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Florida"
+                    ],
+                    "dataFile": {
+                        "id": 6496,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.fl",
+                        "contentType": "text/plain",
+                        "filesize": 5993630,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.fl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ga",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Georgia"
+                    ],
+                    "dataFile": {
+                        "id": 6503,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ga",
+                        "contentType": "text/plain",
+                        "filesize": 4136600,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ga",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.hi",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Hawaii"
+                    ],
+                    "dataFile": {
+                        "id": 6514,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.hi",
+                        "contentType": "text/plain",
+                        "filesize": 462870,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.hi",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ia",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Iowa"
+                    ],
+                    "dataFile": {
+                        "id": 6512,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ia",
+                        "contentType": "text/plain",
+                        "filesize": 4018570,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ia",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.id",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Idaho"
+                    ],
+                    "dataFile": {
+                        "id": 6523,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.id",
+                        "contentType": "text/plain",
+                        "filesize": 1120730,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.id",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.il",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Illinois"
+                    ],
+                    "dataFile": {
+                        "id": 6487,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.il",
+                        "contentType": "text/plain",
+                        "filesize": 9268500,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.il",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.in",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Indiana"
+                    ],
+                    "dataFile": {
+                        "id": 6516,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.in",
+                        "contentType": "text/plain",
+                        "filesize": 4341210,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.in",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ks",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Kansas"
+                    ],
+                    "dataFile": {
+                        "id": 6493,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ks",
+                        "contentType": "text/plain",
+                        "filesize": 3066930,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ks",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ky",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Kentucky"
+                    ],
+                    "dataFile": {
+                        "id": 6486,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ky",
+                        "contentType": "text/plain",
+                        "filesize": 2375400,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ky",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.la",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Louisiana"
+                    ],
+                    "dataFile": {
+                        "id": 6510,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.la",
+                        "contentType": "text/plain",
+                        "filesize": 3005880,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.la",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ma",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Massachusetts"
+                    ],
+                    "dataFile": {
+                        "id": 6501,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ma",
+                        "contentType": "text/plain",
+                        "filesize": 3018460,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ma",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.md",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Maryland"
+                    ],
+                    "dataFile": {
+                        "id": 6478,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.md",
+                        "contentType": "text/plain",
+                        "filesize": 2665480,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.md",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.me",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Maine"
+                    ],
+                    "dataFile": {
+                        "id": 6515,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.me",
+                        "contentType": "text/plain",
+                        "filesize": 1078550,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.me",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.mi",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Michigan"
+                    ],
+                    "dataFile": {
+                        "id": 6525,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.mi",
+                        "contentType": "text/plain",
+                        "filesize": 6118320,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.mi",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.mn",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Minnesota"
+                    ],
+                    "dataFile": {
+                        "id": 6506,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.mn",
+                        "contentType": "text/plain",
+                        "filesize": 4621670,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.mn",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.mo",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Missouri"
+                    ],
+                    "dataFile": {
+                        "id": 6492,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.mo",
+                        "contentType": "text/plain",
+                        "filesize": 4727490,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.mo",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ms",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Mississippi"
+                    ],
+                    "dataFile": {
+                        "id": 6511,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ms",
+                        "contentType": "text/plain",
+                        "filesize": 2981460,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ms",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.mt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Montana"
+                    ],
+                    "dataFile": {
+                        "id": 6481,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.mt",
+                        "contentType": "text/plain",
+                        "filesize": 1047100,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.mt",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.nc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, North Carolina"
+                    ],
+                    "dataFile": {
+                        "id": 6513,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.nc",
+                        "contentType": "text/plain",
+                        "filesize": 4832200,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.nc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.nd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, North Dakota"
+                    ],
+                    "dataFile": {
+                        "id": 6483,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.nd",
+                        "contentType": "text/plain",
+                        "filesize": 1911050,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.nd",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ne",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Nebraska"
+                    ],
+                    "dataFile": {
+                        "id": 6517,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ne",
+                        "contentType": "text/plain",
+                        "filesize": 2436820,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ne",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.nh",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, New Hampshire"
+                    ],
+                    "dataFile": {
+                        "id": 6509,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.nh",
+                        "contentType": "text/plain",
+                        "filesize": 634180,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.nh",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.nj",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, New Jersey"
+                    ],
+                    "dataFile": {
+                        "id": 6499,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.nj",
+                        "contentType": "text/plain",
+                        "filesize": 3784360,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.nj",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.nm",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, New Mexico"
+                    ],
+                    "dataFile": {
+                        "id": 6480,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.nm",
+                        "contentType": "text/plain",
+                        "filesize": 1270950,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.nm",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.nv",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Nevada"
+                    ],
+                    "dataFile": {
+                        "id": 6524,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.nv",
+                        "contentType": "text/plain",
+                        "filesize": 527990,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.nv",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ny",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, New York"
+                    ],
+                    "dataFile": {
+                        "id": 6490,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ny",
+                        "contentType": "text/plain",
+                        "filesize": 10505780,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ny",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.oh",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Ohio"
+                    ],
+                    "dataFile": {
+                        "id": 6476,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.oh",
+                        "contentType": "text/plain",
+                        "filesize": 7609050,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.oh",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ok",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Oklahoma"
+                    ],
+                    "dataFile": {
+                        "id": 6500,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ok",
+                        "contentType": "text/plain",
+                        "filesize": 3004030,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ok",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.or",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Oregon"
+                    ],
+                    "dataFile": {
+                        "id": 6473,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.or",
+                        "contentType": "text/plain",
+                        "filesize": 1916600,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.or",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.pa",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Pennsylvania"
+                    ],
+                    "dataFile": {
+                        "id": 6475,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.pa",
+                        "contentType": "text/plain",
+                        "filesize": 7946490,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.pa",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.pr",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Puerto Rico"
+                    ],
+                    "dataFile": {
+                        "id": 6522,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.pr",
+                        "contentType": "text/plain",
+                        "filesize": 2735780,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.pr",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ri",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Rhode Island"
+                    ],
+                    "dataFile": {
+                        "id": 6489,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ri",
+                        "contentType": "text/plain",
+                        "filesize": 469530,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ri",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.sc",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, South Carolina"
+                    ],
+                    "dataFile": {
+                        "id": 6520,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.sc",
+                        "contentType": "text/plain",
+                        "filesize": 2615530,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.sc",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.sd",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, South Dakota"
+                    ],
+                    "dataFile": {
+                        "id": 6507,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.sd",
+                        "contentType": "text/plain",
+                        "filesize": 1747140,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.sd",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.tn",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Tennessee"
+                    ],
+                    "dataFile": {
+                        "id": 6488,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.tn",
+                        "contentType": "text/plain",
+                        "filesize": 3068780,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.tn",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.tx",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Texas"
+                    ],
+                    "dataFile": {
+                        "id": 6498,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.tx",
+                        "contentType": "text/plain",
+                        "filesize": 9495680,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.tx",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.ut",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Utah"
+                    ],
+                    "dataFile": {
+                        "id": 6479,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.ut",
+                        "contentType": "text/plain",
+                        "filesize": 1161800,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.ut",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.va",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Virginia"
+                    ],
+                    "dataFile": {
+                        "id": 6505,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.va",
+                        "contentType": "text/plain",
+                        "filesize": 3406960,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.va",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.vt",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Vermont"
+                    ],
+                    "dataFile": {
+                        "id": 6518,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.vt",
+                        "contentType": "text/plain",
+                        "filesize": 378140,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.vt",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.wa",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Washington"
+                    ],
+                    "dataFile": {
+                        "id": 6474,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.wa",
+                        "contentType": "text/plain",
+                        "filesize": 2837900,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.wa",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.wi",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Wisconsin"
+                    ],
+                    "dataFile": {
+                        "id": 6494,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.wi",
+                        "contentType": "text/plain",
+                        "filesize": 4354530,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.wi",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.wv",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, West Virginia"
+                    ],
+                    "dataFile": {
+                        "id": 6484,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.wv",
+                        "contentType": "text/plain",
+                        "filesize": 1524770,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.wv",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_marf_marf80.wy",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Data, Logical Record, Wyoming"
+                    ],
+                    "dataFile": {
+                        "id": 6508,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_marf_marf80.wy",
+                        "contentType": "text/plain",
+                        "filesize": 585340,
+                        "description": "",
+                        "storageIdentifier": "census_c80_marf_marf80.wy",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "census_c80_pdfdocs_marf80.codebook.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 4020,
+                    "categories": [
+                        "Codebook, North Carolina, PDF Format"
+                    ],
+                    "dataFile": {
+                        "id": 6502,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "census_c80_pdfdocs_marf80.codebook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 4659518,
+                        "description": "",
+                        "storageIdentifier": "census_c80_pdfdocs_marf80.codebook.pdf",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

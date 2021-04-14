@@ -1,0 +1,121 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/11289",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2013-04-29",
+        "datasetVersion": {
+            "id": 2075,
+            "storageIdentifier": "file://1902.29/11289",
+            "versionNumber": 2,
+            "versionMinorNumber": 1,
+            "versionState": "RELEASED",
+            "versionNote": "GEO2R gene expression analysis for HPV cancer cells vs normals",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2016-09-29T20:57:26Z",
+            "releaseTime": "2016-09-29T20:57:26Z",
+            "createTime": "2013-04-29T13:56:50Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Test: Expression data from HPV cancer cell lines"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Rolando Garcia-Milian"
+                                    },
+                                    "authorAffiliation": {
+                                        "typeName": "authorAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of Florida"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Datasets containing the results of gene expression analysis using GEO2R for different HPV cancer cell lines and normal samples."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2013-04-29"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "results from geo2r expression analysis of cervical cancer vs normal cells",
+                    "label": "geo2rtest",
+                    "restricted": true,
+                    "version": 2,
+                    "datasetVersionId": 2075,
+                    "categories": [
+                        "gene expressiion analysis"
+                    ],
+                    "dataFile": {
+                        "id": 7068154,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "geo2rtest",
+                        "contentType": "text/plain; charset=US-ASCII",
+                        "filesize": 2672485,
+                        "description": "results from geo2r expression analysis of cervical cancer vs normal cells",
+                        "storageIdentifier": "4819",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-04-29"
+                    }
+                }
+            ]
+        }
+    }
+}

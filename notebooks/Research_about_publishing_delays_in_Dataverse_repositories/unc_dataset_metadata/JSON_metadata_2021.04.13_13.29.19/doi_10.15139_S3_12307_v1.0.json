@@ -1,0 +1,234 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://doi.org/10.15139/S3/12307",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2017-02-02",
+        "datasetVersion": {
+            "id": 158,
+            "storageIdentifier": "file://10.15139/S3/12307",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "5/2/2016 dmg",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2017-02-02T20:54:27Z",
+            "releaseTime": "2017-02-02T20:54:27Z",
+            "createTime": "2016-05-02T20:25:19Z",
+            "license": "NONE",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "[Exp 04] Sarah WILLIAMS's Vocalization Experiment"
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Williams, Sarah"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactName": {
+                                        "typeName": "datasetContactName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Thu-Mai Christian"
+                                    },
+                                    "datasetContactAffiliation": {
+                                        "typeName": "datasetContactAffiliation",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    },
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odumarchive@unc.edu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "The purpose of this experiment is to characterize the cries emitted by a group of four pups.  These four pups will be used later in the important Retrieval experiments.  A group of four pups\u2014always two male and two female pups from the same mother\u2014are recorded for at least 60 seconds and a spectrum analysis done on the sounds.  All pups belong to the same treatment (or \u201cexposure\u201d) group, determined by what was done to their mother.  The treatments are: untreated (UN), cocaine in IV (CC) and saline in IV (CS).     Recordings are taken on Days 1, 3 and 5.  (Day 1 is the day of the pups\u2019 birth.)  These are the same days used in the Retrieval experiment.  On days 1 and 3, the possible treatments are UN and CC (saline is not a possibility).  On Day 5, all three treatments are possibilities.  The voice analyzer does a fast-fourier transform on the digitized recording.  It measures the loudness of the cries in 0.3-second intervals in two wide bands (called Low and High).  For greater discrimination, it also measures the loudness in 0.3-second interval in 1 kHz bands.    The file naming convention is a bookkeeping convenience for the later Retrieval experiment.  The Target Dam whose ID and treatment appear in the file name is *not* the mother of the rats.  Rather, it is the subject of the later Retrieval experiment.  NOTE: The pups used in this experiment were also used in Experiment 5, the retrieval experiment."
+                                    },
+                                    "dsDescriptionDate": {
+                                        "typeName": "dsDescriptionDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "2010-04-22"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "subject",
+                            "multiple": true,
+                            "typeClass": "controlledVocabulary",
+                            "value": [
+                                "Medicine, Health and Life Sciences"
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "cocaine"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dateOfDeposit",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "2016-05-02"
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "Some environmental data about pups: Temperatures, separation times, etc.",
+                    "label": "linkvoc_02.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 158,
+                    "dataFile": {
+                        "id": 7185820,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "linkvoc_02.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 44221,
+                        "description": "Some environmental data about pups: Temperatures, separation times, etc.",
+                        "storageIdentifier": "19533",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:znrHnyt7GY+UovNgsX7Hsw==",
+                        "rootDataFileId": -1,
+                        "md5": "2e6bba465f99b539a5f6dee539529ce8",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "2e6bba465f99b539a5f6dee539529ce8"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                },
+                {
+                    "description": "Frequency spectrum of vocalizations of groups of pups (2 male pups and 2 female) used in the Retrieval Experiment, Experiment 4 later.",
+                    "label": "spe_02.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 158,
+                    "dataFile": {
+                        "id": 7185819,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "spe_02.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 54661795,
+                        "description": "Frequency spectrum of vocalizations of groups of pups (2 male pups and 2 female) used in the Retrieval Experiment, Experiment 4 later.",
+                        "storageIdentifier": "19532",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:lNO5dXJYLsES9tR4ywL4rg==",
+                        "rootDataFileId": -1,
+                        "md5": "f5e0a9136cb74c613e2a705108402245",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "f5e0a9136cb74c613e2a705108402245"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                },
+                {
+                    "description": "Vocalization data: Starting times and lengths of each cry from each pup individually.  Cry-level data (each observation is one cry).",
+                    "label": "voc_02.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 158,
+                    "dataFile": {
+                        "id": 7185818,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "voc_02.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 10289433,
+                        "description": "Vocalization data: Starting times and lengths of each cry from each pup individually.  Cry-level data (each observation is one cry).",
+                        "storageIdentifier": "19531",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:5:jGaC2k+nTVURhgFYVlb2Ag==",
+                        "rootDataFileId": -1,
+                        "md5": "692b7fc72639d4c34e37a298ec8630d9",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "692b7fc72639d4c34e37a298ec8630d9"
+                        },
+                        "creationDate": "2016-05-02"
+                    }
+                },
+                {
+                    "description": "Guide to the datafiles in this experiment.",
+                    "label": "Vocalization Codebook.pdf",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 158,
+                    "dataFile": {
+                        "id": 7375056,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "Vocalization Codebook.pdf",
+                        "contentType": "application/pdf",
+                        "filesize": 64763,
+                        "description": "Guide to the datafiles in this experiment.",
+                        "storageIdentifier": "157d2c661fa-a6e77a9a4a03",
+                        "rootDataFileId": -1,
+                        "md5": "46da4a660e8f8fbece06718a3431dd49",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": "46da4a660e8f8fbece06718a3431dd49"
+                        },
+                        "creationDate": "2016-10-17"
+                    }
+                }
+            ]
+        }
+    }
+}

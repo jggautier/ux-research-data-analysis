@@ -1,0 +1,985 @@
+{
+    "status": "OK",
+    "data": {
+        "persistentUrl": "https://hdl.handle.net/1902.29/CAPS-CONTEXT",
+        "publisher": "UNC Dataverse",
+        "publicationDate": "2009-05-18",
+        "datasetVersion": {
+            "id": 3386,
+            "storageIdentifier": "file://1902.29/CAPS-CONTEXT",
+            "versionNumber": 1,
+            "versionMinorNumber": 0,
+            "versionState": "RELEASED",
+            "versionNote": "Initial version",
+            "productionDate": "Production Date",
+            "lastUpdateTime": "2009-05-18T17:57:57Z",
+            "releaseTime": "2009-05-18T00:00:00Z",
+            "createTime": "2007-08-28T15:18:31Z",
+            "license": "NONE",
+            "citationRequirements": "Research publications, news or magazine articles and radio or television broadcasts employing statistical summaries of the Odum Institute data should give an appropriate citation to the Institute as the source of the data.",
+            "conditions": "Files are publicly available.  Institute staff <B>are not</B> available to assist extramural clients with accessing and using these files.",
+            "disclaimer": "Files are offered \"as is\" with no warranty or claim of fitness for any purpose. In no event shall the University be liable for any actual, incidental or consequential damages arising from use of these files.",
+            "fileAccessRequest": false,
+            "metadataBlocks": {
+                "citation": {
+                    "displayName": "Citation Metadata",
+                    "fields": [
+                        {
+                            "typeName": "title",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Drinking Contexts (CAPS-CONTEXT CAPS-DRNKACT and CAPS-DRNKCOL2 modules)"
+                        },
+                        {
+                            "typeName": "otherId",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-CONTEXT"
+                                    }
+                                },
+                                {
+                                    "otherIdAgency": {
+                                        "typeName": "otherIdAgency",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "odum:extended"
+                                    },
+                                    "otherIdValue": {
+                                        "typeName": "otherIdValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "CAPS-CONTEXT CAPS-DRNKACT CAPS-DRNKCOL2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "author",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "authorName": {
+                                        "typeName": "authorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "datasetContact",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "datasetContactEmail": {
+                                        "typeName": "datasetContactEmail",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "N/A"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "dsDescription",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "dsDescriptionValue": {
+                                        "typeName": "dsDescriptionValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "<p>This unit was developed by James A. and Beverly B. Wiggins to measure drinking contexts. The 29-item scale asks the respondent to indicate how frequently he/she has had alcoholic drinks in each context. Respondents who do not drink do not answer the questions in this unit.</p><p>In CAPS/85 similar questions were part of DRNKACT and DRNKCOL2.</p><p>No standard scoring.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "keyword",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Alcohol"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Drinking"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Student drinking"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "College student drinking"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                },
+                                {
+                                    "keywordValue": {
+                                        "typeName": "keywordValue",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Drinking contexts"
+                                    },
+                                    "keywordVocabulary": {
+                                        "typeName": "keywordVocabulary",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "ODUM:INDEX.TERMS"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "typeName": "productionDate",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "1988"
+                        },
+                        {
+                            "typeName": "productionPlace",
+                            "multiple": false,
+                            "typeClass": "primitive",
+                            "value": "Chapel Hill, NC"
+                        },
+                        {
+                            "typeName": "distributor",
+                            "multiple": true,
+                            "typeClass": "compound",
+                            "value": [
+                                {
+                                    "distributorName": {
+                                        "typeName": "distributorName",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Odum Institute"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "files": [
+                {
+                    "description": "",
+                    "label": "caps_1985_drnkact_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7728,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkact_data",
+                        "contentType": "text/plain",
+                        "filesize": 75530,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_drnkact_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_drnkact_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7731,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkact_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 87120,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_drnkact_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_drnkact_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7741,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkact_source",
+                        "contentType": "text/plain",
+                        "filesize": 114423,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_drnkact_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_drnkact_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7738,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkact_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 30996,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_drnkact_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_drnkact_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File 1 (caps_1985_drnkact_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7726,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkact_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 26786,
+                        "storageIdentifier": "caps_1985_drnkact_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:9fxKLiOp9g0uOYViA2xkMA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_drnkcol2_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7717,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkcol2_data",
+                        "contentType": "text/plain",
+                        "filesize": 180310,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_drnkcol2_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_drnkcol2_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SAS Export Library (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7721,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkcol2_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 351920,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_drnkcol2_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_drnkcol2_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7719,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkcol2_source",
+                        "contentType": "text/plain",
+                        "filesize": 109005,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_drnkcol2_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1985_drnkcol2_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SPSS Portable File (1985)"
+                    ],
+                    "dataFile": {
+                        "id": 7714,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkcol2_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 54448,
+                        "description": "",
+                        "storageIdentifier": "caps_1985_drnkcol2_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1985_drnkcol2_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File 2 (caps_1985_drnkcol2_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7736,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1985_drnkcol2_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 49225,
+                        "storageIdentifier": "caps_1985_drnkcol2_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:kz8K4acjwze0erZ2R7vyUA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_context_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7716,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_context_data",
+                        "contentType": "text/plain",
+                        "filesize": 37050,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_context_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_context_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SAS Control Cards (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7715,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_context_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3803,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_context_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_context_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SAS Export Library (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7722,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_context_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 42160,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_context_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_context_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7739,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_context_source",
+                        "contentType": "text/plain",
+                        "filesize": 7808,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_context_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1986_context_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SPSS Portable File (1986)"
+                    ],
+                    "dataFile": {
+                        "id": 7729,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_context_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21320,
+                        "description": "",
+                        "storageIdentifier": "caps_1986_context_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1986_context_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File 3 (caps_1986_context_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7718,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1986_context_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18425,
+                        "storageIdentifier": "caps_1986_context_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:JYDTm3sQ7Ru83yCWiIFqbg==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_context_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7725,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_context_data",
+                        "contentType": "text/plain",
+                        "filesize": 36660,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_context_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_context_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SAS Control Cards (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7724,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_context_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3803,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_context_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_context_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SAS Export Library (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7740,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_context_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 41760,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_context_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_context_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7737,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_context_source",
+                        "contentType": "text/plain",
+                        "filesize": 7806,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_context_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1987_context_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SPSS Portable File (1987)"
+                    ],
+                    "dataFile": {
+                        "id": 7720,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_context_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 21156,
+                        "description": "",
+                        "storageIdentifier": "caps_1987_context_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1987_context_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File 4 (caps_1987_context_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7735,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1987_context_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 18232,
+                        "storageIdentifier": "caps_1987_context_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:kId5XwYfLxLAKwpNmNBspA==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_context_data",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7727,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_context_data",
+                        "contentType": "text/plain",
+                        "filesize": 31590,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_context_data",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_context_freqjcl",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SAS Control Cards (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7723,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_context_freqjcl",
+                        "contentType": "text/x-sas-syntax",
+                        "filesize": 3173,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_context_freqjcl",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_context_sas.export",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SAS Export Library (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7734,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_context_sas.export",
+                        "contentType": "application/x-sas-transport",
+                        "filesize": 38640,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_context_sas.export",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_context_source",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Question Text and/or Programming Statements (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7733,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_context_source",
+                        "contentType": "text/plain",
+                        "filesize": 8463,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_context_source",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "description": "",
+                    "label": "caps_1988_context_spss.portable",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "SPSS Portable File (1988)"
+                    ],
+                    "dataFile": {
+                        "id": 7730,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_context_spss.portable",
+                        "contentType": "application/x-spss-por",
+                        "filesize": 18942,
+                        "description": "",
+                        "storageIdentifier": "caps_1988_context_spss.portable",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                },
+                {
+                    "label": "caps_1988_context_spss.tab",
+                    "restricted": false,
+                    "version": 1,
+                    "datasetVersionId": 3386,
+                    "categories": [
+                        "Data File 5 (caps_1988_context_spss.portable)"
+                    ],
+                    "dataFile": {
+                        "id": 7732,
+                        "persistentId": "",
+                        "pidURL": "",
+                        "filename": "caps_1988_context_spss.tab",
+                        "contentType": "text/tab-separated-values",
+                        "filesize": 15876,
+                        "storageIdentifier": "caps_1988_context_spss.tab",
+                        "originalFileFormat": "application/x-spss-por",
+                        "originalFormatLabel": "SPSS Portable",
+                        "UNF": "UNF:3:XMhbvhuJXGj8+CjR9+uh1A==",
+                        "rootDataFileId": -1,
+                        "md5": "",
+                        "checksum": {
+                            "type": "MD5",
+                            "value": ""
+                        },
+                        "creationDate": "2013-02-25"
+                    }
+                }
+            ]
+        }
+    }
+}

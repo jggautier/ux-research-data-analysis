@@ -1,0 +1,272 @@
+{
+    "status": "OK",
+    "data": {
+        "id": 4,
+        "name": "astrophysics",
+        "displayName": "Astronomy and Astrophysics Metadata",
+        "fields": {
+            "astroType": {
+                "name": "astroType",
+                "displayName": "Type",
+                "title": "Type",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The nature or genre of the content of the files in the dataset."
+            },
+            "astroFacility": {
+                "name": "astroFacility",
+                "displayName": "Facility",
+                "title": "Facility",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The observatory or facility where the data was obtained. "
+            },
+            "astroInstrument": {
+                "name": "astroInstrument",
+                "displayName": "Instrument",
+                "title": "Instrument",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The instrument used to collect the data."
+            },
+            "astroObject": {
+                "name": "astroObject",
+                "displayName": "Object",
+                "title": "Object",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "Astronomical Objects represented in the data (Given as SIMBAD recognizable names preferred)."
+            },
+            "resolution.Spatial": {
+                "name": "resolution.Spatial",
+                "displayName": "Spatial Resolution",
+                "title": "Spatial Resolution",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The spatial (angular) resolution that is typical of the observations, in decimal degrees."
+            },
+            "resolution.Spectral": {
+                "name": "resolution.Spectral",
+                "displayName": "Spectral Resolution",
+                "title": "Spectral Resolution",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The spectral resolution that is typical of the observations, given as the ratio \u03bb/\u0394\u03bb."
+            },
+            "resolution.Temporal": {
+                "name": "resolution.Temporal",
+                "displayName": "Time Resolution",
+                "title": "Time Resolution",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The temporal resolution that is typical of the observations, given in seconds."
+            },
+            "coverage.Spectral.Bandpass": {
+                "name": "coverage.Spectral.Bandpass",
+                "displayName": "Bandpass",
+                "title": "Bandpass",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "Conventional bandpass name"
+            },
+            "coverage.Spectral.CentralWavelength": {
+                "name": "coverage.Spectral.CentralWavelength",
+                "displayName": "Central Wavelength (m)",
+                "title": "Central Wavelength (m)",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The central wavelength of the spectral bandpass, in meters."
+            },
+            "coverage.Spectral.Wavelength": {
+                "name": "coverage.Spectral.Wavelength",
+                "displayName": "Wavelength Range",
+                "title": "Wavelength Range",
+                "type": "NONE",
+                "watermark": "Enter a floating-point number.",
+                "description": "The minimum and maximum wavelength of the spectral bandpass.",
+                "childFields": {
+                    "coverage.Spectral.MinimumWavelength": {
+                        "name": "coverage.Spectral.MinimumWavelength",
+                        "displayName": "Wavelength Range Minimum (m)",
+                        "title": "Minimum (m)",
+                        "type": "FLOAT",
+                        "watermark": "Enter a floating-point number.",
+                        "description": "The minimum wavelength of the spectral bandpass, in meters."
+                    },
+                    "coverage.Spectral.MaximumWavelength": {
+                        "name": "coverage.Spectral.MaximumWavelength",
+                        "displayName": "Wavelength Range Maximum (m)",
+                        "title": "Maximum (m)",
+                        "type": "FLOAT",
+                        "watermark": "Enter a floating-point number.",
+                        "description": "The maximum wavelength of the spectral bandpass, in meters."
+                    }
+                }
+            },
+            "coverage.Spectral.MinimumWavelength": {
+                "name": "coverage.Spectral.MinimumWavelength",
+                "displayName": "Wavelength Range Minimum (m)",
+                "title": "Minimum (m)",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The minimum wavelength of the spectral bandpass, in meters."
+            },
+            "coverage.Spectral.MaximumWavelength": {
+                "name": "coverage.Spectral.MaximumWavelength",
+                "displayName": "Wavelength Range Maximum (m)",
+                "title": "Maximum (m)",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The maximum wavelength of the spectral bandpass, in meters."
+            },
+            "coverage.Temporal": {
+                "name": "coverage.Temporal",
+                "displayName": "Dataset Date Range",
+                "title": "Dataset Date Range",
+                "type": "NONE",
+                "watermark": "",
+                "description": " Time period covered by the data.",
+                "childFields": {
+                    "coverage.Temporal.StartTime": {
+                        "name": "coverage.Temporal.StartTime",
+                        "displayName": "Dataset Date Range Start",
+                        "title": "Start",
+                        "type": "DATE",
+                        "watermark": "YYYY-MM-DD",
+                        "description": "Dataset Start Date"
+                    },
+                    "coverage.Temporal.StopTime": {
+                        "name": "coverage.Temporal.StopTime",
+                        "displayName": "Dataset Date Range End",
+                        "title": "End",
+                        "type": "DATE",
+                        "watermark": "YYYY-MM-DD",
+                        "description": "Dataset End Date"
+                    }
+                }
+            },
+            "coverage.Temporal.StartTime": {
+                "name": "coverage.Temporal.StartTime",
+                "displayName": "Dataset Date Range Start",
+                "title": "Start",
+                "type": "DATE",
+                "watermark": "YYYY-MM-DD",
+                "description": "Dataset Start Date"
+            },
+            "coverage.Temporal.StopTime": {
+                "name": "coverage.Temporal.StopTime",
+                "displayName": "Dataset Date Range End",
+                "title": "End",
+                "type": "DATE",
+                "watermark": "YYYY-MM-DD",
+                "description": "Dataset End Date"
+            },
+            "coverage.Spatial": {
+                "name": "coverage.Spatial",
+                "displayName": "Sky Coverage",
+                "title": "Sky Coverage",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The sky coverage of the data object."
+            },
+            "coverage.Depth": {
+                "name": "coverage.Depth",
+                "displayName": "Depth Coverage",
+                "title": "Depth Coverage",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The (typical) depth coverage, or sensitivity, of the data object in Jy."
+            },
+            "coverage.ObjectDensity": {
+                "name": "coverage.ObjectDensity",
+                "displayName": "Object Density",
+                "title": "Object Density",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The (typical) density of objects, catalog entries, telescope pointings, etc., on the sky, in number per square degree."
+            },
+            "coverage.ObjectCount": {
+                "name": "coverage.ObjectCount",
+                "displayName": "Object Count",
+                "title": "Object Count",
+                "type": "INT",
+                "watermark": "Enter an integer.",
+                "description": "The total number of objects, catalog entries, etc., in the data object."
+            },
+            "coverage.SkyFraction": {
+                "name": "coverage.SkyFraction",
+                "displayName": "Fraction of Sky",
+                "title": "Fraction of Sky",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The fraction of the sky represented in the observations, ranging from 0 to 1."
+            },
+            "coverage.Polarization": {
+                "name": "coverage.Polarization",
+                "displayName": "Polarization",
+                "title": "Polarization",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "The polarization coverage"
+            },
+            "redshiftType": {
+                "name": "redshiftType",
+                "displayName": "RedshiftType",
+                "title": "RedshiftType",
+                "type": "TEXT",
+                "watermark": "",
+                "description": "RedshiftType string C \"Redshift\"; or \"Optical\" or \"Radio\" definitions of Doppler velocity used in the data object."
+            },
+            "resolution.Redshift": {
+                "name": "resolution.Redshift",
+                "displayName": "Redshift Resolution",
+                "title": "Redshift Resolution",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The resolution in redshift (unitless) or Doppler velocity (km/s) in the data object."
+            },
+            "coverage.RedshiftValue": {
+                "name": "coverage.RedshiftValue",
+                "displayName": "Redshift Value",
+                "title": "Redshift Value",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The value of the redshift (unitless) or Doppler velocity (km/s in the data object.",
+                "childFields": {
+                    "coverage.Redshift.MinimumValue": {
+                        "name": "coverage.Redshift.MinimumValue",
+                        "displayName": "Redshift Value Minimum",
+                        "title": "Minimum",
+                        "type": "FLOAT",
+                        "watermark": "Enter a floating-point number.",
+                        "description": "The minimum value of the redshift (unitless) or Doppler velocity (km/s in the data object."
+                    },
+                    "coverage.Redshift.MaximumValue": {
+                        "name": "coverage.Redshift.MaximumValue",
+                        "displayName": "Redshift Value Maximum",
+                        "title": "Maximum",
+                        "type": "FLOAT",
+                        "watermark": "Enter a floating-point number.",
+                        "description": "The maximum value of the redshift (unitless) or Doppler velocity (km/s in the data object."
+                    }
+                }
+            },
+            "coverage.Redshift.MinimumValue": {
+                "name": "coverage.Redshift.MinimumValue",
+                "displayName": "Redshift Value Minimum",
+                "title": "Minimum",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The minimum value of the redshift (unitless) or Doppler velocity (km/s in the data object."
+            },
+            "coverage.Redshift.MaximumValue": {
+                "name": "coverage.Redshift.MaximumValue",
+                "displayName": "Redshift Value Maximum",
+                "title": "Maximum",
+                "type": "FLOAT",
+                "watermark": "Enter a floating-point number.",
+                "description": "The maximum value of the redshift (unitless) or Doppler velocity (km/s in the data object."
+            }
+        }
+    }
+}
