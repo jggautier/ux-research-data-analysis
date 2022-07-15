@@ -1,7 +1,7 @@
 -- Get the depositor and author metadata for every published, non-harvested dataset in the repository
 with
 	all_versions_deaccessioned_or_draft as(
-		select distinct dvobject.id as dataset_id
+		select distinct dataset.id as dataset_id
 		from datasetversion
 		join dataset on dataset.id = datasetversion.dataset_id
 		where
@@ -11,6 +11,8 @@ with
 	dataset_depositors as(
 		select
 		authenticateduser.id as depositor_id,
+		authenticateduser.firstname as depositor_firstname,
+		authenticateduser.lastname as depositor_lastname,
 		authenticateduser.affiliation as depositor_affiliation,
 		authenticateduser.email as depositor_email,
 		case
@@ -102,6 +104,7 @@ with
 select
 	concat('https://doi.org/', dvobject.authority, '/', dvobject.identifier) as dataset_doi_url, 
 	dataset_depositors.depositor_id, dataset_depositors.depositor_account_type,
+	dataset_depositors.depositor_firstname, dataset_depositors.depositor_lastname,
 	dataset_depositors.depositor_affiliation, dataset_depositors.depositor_email,
 	author_names.author_name, author_affiliations.author_affiliation,
 	author_identifier_schemes.author_identifier_scheme, author_identifiers.author_identifier
