@@ -1,0 +1,161 @@
+Section of DataCite schema document,DataCite/Datacite,OpenAIRE/oai_datacite,Recommending changes
+DataCite schema version,Points to 4.5 version of DataCite (see https://schema.datacite.org/meta/kernel-4.5),Points to 4.1 version of DataCite (see https://schema.datacite.org/meta/kernel-4.1),No changes recommended: Julian recommends not changing which version of DataCite either export points to
+Publication Year,"From Jim's comparison in June 2024, for the DataCite export's publicationYear element:
+- Dataverse uses the year of the date field that the user has set as the citation date, using the API endpoint ""Set Citation Date Field Type for a Dataset""
+- If the user hasn't set the dataset's citation date using that API endpoint, then the DataCite export uses the latest of:
+    - the Publication Date, when the dataset's first version was published in the Dataverse repository or 
+    - the embargo citation date, being the latest date of embargoed files on the dataset's first version
+- If the latest dataset version is a draft and the user hasn't set any embargo dates for files in the dataset, the DataCite export uses the date when the user last updated the draft version","From Jim's comparison in June 2024, for OpenAIRE export's publicationYear element, Dataverse uses the year of the latest Publication Date, Distribution Date, or Deposit Date.",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Creator,"When the user adds an author and any author identifier type (except for DAI), the identifier's URL is included in DataCite's schemeURI property. 
+
+For example:
+<nameIdentifier nameIdentifierScheme=""ORCID"" schemeURI=""https://orcid.org"">https://orcid.org/0000-0001-9229-5317</nameIdentifier>
+
+<nameIdentifier nameIdentifierScheme=""ISNI"" schemeURI=""http://www.isni.org"">http://www.isni.org/isni/0000000121479733</nameIdentifier>","When the user adds an author and an ORCID identifier type, the identifier's URL is included in a SchemeURI property, instead of DataCite's schemeURI property.
+
+When the user adds an author and any identifier type that is not an ORCID, the identifier's URL is not included in any SchemeURI or schemeURI property.
+
+For example:
+<nameIdentifier SchemeURI=""https://orcid.org/"" nameIdentifierScheme=""ORCID"">0000-0001-9229-5317</nameIdentifier>
+
+<nameIdentifier nameIdentifierScheme=""ISNI"">0000000121479733</nameIdentifier>","Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here? That is, use a property named schemeURI instead of SchemeURI (with a capital S). And use it when the user adds an author and an author identifier type, except for DAI."
+Creator,"When the user adds an author and a DAI author identifier type and a DAI identifier, the author identifier is not included in DataCite's nameIdentifier property","When the user adds an author and a DAI author identifier type and a DAI identifier, the author identifier is included in DataCite's nameIdentifier property.
+
+For example:
+<nameIdentifier nameIdentifierScheme=""DAI"">info:eu-repo/dai/nl/072728442</nameIdentifier>","Recommending change to DataCite/Datacite export: Can the DataCite/Datacite export work in the way that the OpenAIRE/oai_datacite does, so that when the user adds an author and a DAI author identifier type and a DAI identifier, the author identifier is included in DataCite's nameIdentifier property?"
+Creator,"When the user uses the controlled vocabulary functionality to add a ROR to an author affiliation, the affiliation includes the affiliationIdentifier, schemeURI, and affiliationIdentifierScheme, and the value of the affiliation property is the organization's name.
+
+For example:
+<affiliation affiliationIdentifier=""https://ror.org/03vek6s52"" schemeURI=""https://ror.org"" affiliationIdentifierScheme=""ROR"">Harvard University</affiliation>
+","When the user uses the controlled vocabulary functionality to add a ROR to an author affiliation, the affiliation does not include the affiliationIdentifier, schemeURI, and affiliationIdentifierScheme, and the value of the affiliation property is the ROR URL.
+
+For example:
+<affiliation>https://ror.org/03vek6s52</affiliation>
+",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Contributors,"Includes guessed nameTypes (person or organization) when the user chooses any option from Dataverse's Contributor Types dropdown and when the user does not choose an option from the dropdown.
+
+For example:
+<contributor contributorType=""Producer"">
+     <contributorName nameType=""Personal"">Producer Name</contributorName>","Includes guessed nameTypes (person or organization) when the user chooses any of half of the options from Dataverse's Contributor Type dropdown, and when the user does not choose an option from the dropdown.
+
+Doesn't include guessed nameTypes when the user chooses any of the following options from the Contributor Type dropdown: Producer, Distributor, Editor, Hosting Institution, Project Leader, Project Manager, Project Member, Researcher, Rights Holder, Sponsor, Supervisor, Work Package Leader, and Other
+
+For example:
+<contributor contributorType=""Producer"">
+     <contributorName>Producer Name</contributorName>",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export include guessed nameTypes (person or organization) when the user chooses any option from Dataverse's Contributor Types dropdown and when the user does not choose an option from the dropdown?
+Contributors,"When the user adds a contributor name and doesn't choose a contributor type, the contributorType is ""Other""
+
+For example:
+<contributor contributorType=""Other"">
+     <contributorName nameType=""Personal"">Contributor Name with no Contributor Type chosen</contributorName>
+</contributor>","When the user adds a contributor name and doesn't choose a contributor type, there is no contributorType
+
+For example:
+ <contributor>
+     <contributorName>Contributor Name with no Contributor Type chosen</contributorName>
+</contributor>",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Subjects,"When the user enters a Keyword Term URI, it's excluded from the DataCite export's valueURI element
+
+For example:
+<subject schemeURI=""https://keywordcontrolledvocabularyurl1.org"" subjectScheme=""Keyword Vocab Name1"">Keyword1</subject>
+
+<subject>Keyword5</subject>","When the user enters a Keyword Term URI, Dataverse adds it in the OpenAIRE export's valueURI element
+
+For example:
+<subject schemeURI=""https://keywordcontrolledvocabularyurl1.org"" valueURI=""https://keywordtermuri1.org"" subjectScheme=""Keyword Vocab Name1"">Keyword1</subject>
+
+<subject valueURI=""https://keywordtermuri5.org"">Keyword5</subject>","Recommending change to DataCite/Datacite export: Can the DataCite/Datacite export work in the way that the OpenAIRE/oai_datacite does, so that when the user enters a Keyword Term URI, Dataverse adds it in the DataCite/Datacite export's valueURI element?"
+Dates,"The dataset version's release time, when the user published the dataset's latest version, is added in the DataCite export's ""date"" element, using ""Updated"" as the dateType 
+
+For example:
+<date dateType=""Updated"">2025-12-07</date>","The dataset version's release time, when the user published the dataset's latest version, is added in the OpenAIRE export's ""date"" element, using ""Available"" as the dateType:
+
+For example:
+<date dateType=""Available"">2025-12-07</date>",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Dates,"When the user uses the Date of Collection field but doesn’t include both Start and End dates, the export still includes a date element with the dateType ""Collected"", using ""null"" for the missing start or end date
+
+For example:
+<date dateType=""Collected"">2000-08-01/null</date>
+<date dateType=""Collected"">null/2000-09-01</date>","When the user uses the Date of Collection field but doesn’t include both Start and End dates, the export does not include the Date of Collection dates that the user entered",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Dates,"Includes what the user enters in the citation metadata block's Time Period field
+
+For example:
+<date dateType=""Other"" dateInformation=""Time period covered by the data"">2000-04-01/2000-05-01</date>
+<date dateType=""Other"" dateInformation=""Time period covered by the data"">2000-05-02/null</date>
+<date dateType=""Other"" dateInformation=""Time period covered by the data"">null/2000-05-03</date>",Does not include what the user enters in the citation metadata block's Time Period field,Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Alternate Identifiers,"Includes the dataset's Previous Dataset Persistent ID in the DataCite export's Alternate Identifier element
+
+For example:
+<alternateIdentifier alternateIdentifierType=""Handle"">1902.1/VMQYSNLHTN</alternateIdentifier>",Does not include the dataset's Previous Dataset Persistent ID in the OpenAIRE export's Alternate Identifier element,Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Alternate Identifiers,"When the user adds an Other Identifier and doesn't choose an Agency, the alternateIdentifierType is "":unav""
+
+For example:
+<alternateIdentifier alternateIdentifierType="":unav"">https://nogagencyvalue.org/1234</alternateIdentifier>","When the user adds an Other Identifier and doesn't choose an Agency, there is no alternateIdentifierType",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Related Identifier,"When the user does not choose an option from the Related Publication Relation Type dropdown, IsSupplementTo is used as the relationType 
+
+For example:
+<relatedIdentifier relationType=""IsSupplementTo"" relatedIdentifierType=""ARK"">12345</relatedIdentifier>","When the user does not choose an option from the Related Publication Relation Type dropdown, IsCitedBy is used as the relationType
+
+For example:
+<relatedIdentifier relationType=""IsCitedBy"" relatedIdentifierType=""ARK"">12345</relatedIdentifier>",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Related Identifier,"When the user chooses cstr or URL from the Related Publication Identifier Type dropdown, the related identifier is not added. See https://github.com/IQSS/dataverse/issues/11089 about adding it.","When the user chooses cstr or URL from the Related Publication Identifier Type dropdown, the related identifier is added
+
+For example:
+<relatedIdentifier relationType=""IsCitedBy"" relatedIdentifierType=""cstr"">CSTR:16666.11.nbsdc.J0V2mNIU</relatedIdentifier>
+<relatedIdentifier relationType=""IsCitedBy"" relatedIdentifierType=""URL"">https://url.org</relatedIdentifier>","Recommending change to DataCite/Datacite export: When the user chooses cstr or URL from the Related Publication Identifier Type dropdown, can the related identifier be added to the DataCite/Datacite export. This request is also made in the GitHub issue at https://github.com/IQSS/dataverse/issues/11089."
+Related Identifier,"When the user doesn't choose an option from the Related Publication Identifier Type dropdown and adds a DOI URL in the URL field, like https://doi.org/10.12345/FK2/123456, the related identifier is included with ""DOI"" as the relatedIdentifierType","When the user doesn't choose an option from the Related Publication Identifier Type dropdown and adds a DOI in the Identifier field, like 10.12345/FK2/123456, or adds a DOI URL in the URL field, like https://doi.org/10.12345/FK2/123456, the related identifier is not included",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Related Identifier,"When the user adds files that Dataverse registers DOIs for, information about those files are added
+
+For example:
+<relatedIdentifier relationType=""HasPart"" relatedIdentifierType=""DOI"">10.7910/DVN/YKAMUT/QCHYCL</relatedIdentifier>","When the user adds files that Dataverse registers DOIs for, information about the files are added, information about those files are not added",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Related Identifier,"When the user chooses PURL from the Related Publication Identifier Type dropdown, the related identifier is added
+
+For example:
+<relatedIdentifier relationType=""IsSupplementTo"" relatedIdentifierType=""PURL"">12345</relatedIdentifier>","When the user chooses PURL from the Related Publication Identifier Type dropdown, ""https://purl.org"" is added as the related identifier instead of the related identifier that the user entered
+
+For example:
+<relatedIdentifier relationType=""IsCitedBy"" relatedIdentifierType=""PURL"">https://purl.org</relatedIdentifier>",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+Rights,"When the user chooses a predefined license, the rights metadata includes rightsIdentifier, rightsIdentifierScheme, schemeURI and xml:lang
+
+For example:
+<rights
+    rightsURI=""http://creativecommons.org/publicdomain/zero/1.0"" 
+    rightsIdentifier=""CC0-1.0"" 
+    rightsIdentifierScheme=""SPDX"" 
+    schemeURI=""https://spdx.org/licenses/"" 
+    xml:lang=""en"">Creative Commons CC0 1.0 Universal Public Domain Dedication.
+</rights>","When the user chooses a predefined license, the rights metadata does not include rightsIdentifier, rightsIdentifierScheme, schemeURI and xml:lang
+
+For example:
+<rights 
+    rightsURI=""http://creativecommons.org/publicdomain/zero/1.0"">CC0 1.0
+</rights>
+
+rightsIdentifier, rightsIdentifierScheme, schemeURI do not exist in DataCite v4.1","No changes recommended: Julian recommends no change here, since the DataCite v4.1 requirements (being used by the OpenAIRE/oai_datacite export) don't include rightsIdentifier, rightsIdentifierScheme, and schemeURI."
+Description,"When the user does not include Software Version, Software Name is still included (in DataCite's description where descriptionType is ""TechnicalInfo"")
+
+For example:
+<description descriptionType=""TechnicalInfo"">Software Name (with no Software Version entered)</description>","When the user does not include Software Version, Software Name is not included in the export",Recommending change to OpenAIRE/oai_datacite export: Can the OpenAIRE/oai_datacite export follow the same logic that the DataCite/Datacite export does here?
+GeoLocationPlace,"What the user enters in the Geospatial metadata block's Geographic Coverage fields (Country, State, etc) are added in GeoLocationPlace
+
+For example:
+<geoLocationPlace>Afghanistan, State1,, City1,, Other1,</geoLocationPlace>","What the user enters in the Citation metadata block's Production Location field is added in GeoLocationPlace
+
+For example:
+<geoLocationPlace>Production Location1</geoLocationPlace>","Recommending change to DataCite/Datacite export: When a user enters something in the Citation metadata block's Production Location field, can the DataCite/Datacite export include it in the GeoLocationPlace?
+
+Recommending change to OpenAIRE/oai_datacite export: When a user enters something in any of the Geospatial metadata block's Geographic Covererage fields, can the OpenAIRE/oai_datacite export include it in GeoLocationPlace?"
+Funding References,"When Dataverse adds a ROR for a Funding Information Agency, the funderName is the name of the agency that the user entered and funderIdentifier includes the funderIdentifierType, schemeURI, and the URL form of the ROR ID, like https://ror.org/04vq5kb54
+
+For example:
+<fundingReference>
+<funderName>UCLA Medical Center</funderName>
+<funderIdentifier funderIdentifierType=""ROR"" schemeURI=""https://ror.org"">https://ror.org/04vq5kb54</funderIdentifier>
+</fundingReference>","When Dataverse adds a ROR for a Funding Information Agency, the funderName is the URL form of the ROR ID, like https://ror.org/04vq5kb54, and there is no funderIdentifier property
+
+For example:
+<fundingReference>
+<funderName>https://ror.org/04vq5kb54</funderName>
+</fundingReference>
+
+DataCite v4.1 includes funderIdentifier and funderIdentifierType","No changes recommended: Julian recommends no change here, since the DataCite v4.1 requirements (being used by the OpenAIRE/oai_datacite export) don't include funderIdentifier and funderIdentifierType."
