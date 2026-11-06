@@ -1,12 +1,12 @@
-"""Get the root collection URL of each installation that has author affiliations with RORs.
+"""Get the Dataverse software version of each installation that has author affiliations with RORs.
 
-Re-uses the logic of notebooks/04_get_root_collection_aliases.ipynb:
 - Installations are listed in data/processed/installations/summary_counts.csv
-- Root collection aliases are fetched with dataverse_functions.get_root_collection_info()
-- Aliases already in data/processed/root_collection_aliases.csv (including ones added
-  by hand for installations that block the API call) are used instead of calling the API again
+- Versions are fetched with dataverse_functions.get_dataverse_installation_version()
+- Versions already in data/processed/installation_dataverse_software_versions.csv (including ones added by hand
+  for installations that block the API call) are kept, and the API is only called for
+  installations without a version there
 
-Saves data/processed/root_collection_urls.csv
+Saves data/processed/installation_dataverse_software_versions.csv
 """
 import os
 import pandas as pd
@@ -35,8 +35,7 @@ headers = {
 
 processedDataDir = '/Users/juliangautier/ux-research-data-analysis/Findability_of_author_affiliations_with_rors/data/processed'
 summaryCountsFilePath = os.path.join(processedDataDir, 'installations', 'summary_counts.csv')
-knownAliasesFilePath = os.path.join(processedDataDir, 'root_collection_aliases.csv')
-outputFilePath = os.path.join(processedDataDir, 'root_collection_urls.csv')
+outputFilePath = os.path.join(processedDataDir, 'installation_dataverse_software_versions.csv')
 
 # Load installations that have author affiliations (drops QDR and Libra Data, which have 0)
 installationsDf = pd.read_csv(summaryCountsFilePath, encoding='utf-8-sig')
@@ -47,14 +46,14 @@ print(f'Row count (expecting 14): {len(installationsDf)}')
 print(f'Missing values:\n{installationsDf.isna().sum()}')
 print(f"Duplicate installation URLs: {installationsDf['installation_url'].duplicated().sum()}")
 
-# Load aliases found earlier, if any
-knownAliasesDict = {}
-if os.path.exists(knownAliasesFilePath):
-    knownAliasesDf = pd.read_csv(knownAliasesFilePath, encoding='utf-8-sig')
-    knownAliasesDf = knownAliasesDf.dropna(subset=['root_alias'])
-    knownAliasesDict = dict(zip(knownAliasesDf['installation_url'], knownAliasesDf['root_alias']))
+# Load versions found earlier or added by hand, if any
+knownVersionsDict = {}
+if os.path.exists(outputFilePath):
+    knownVersionsDf = pd.read_csv(outputFilePath, encoding='utf-8-sig')
+    knownVersionsDf = knownVersionsDf.dropna(subset=['dataverse_software_version'])
+    knownVersionsDict = dict(zip(knownVersionsDf['installation_url'], knownVersionsDf['dataverse_software_version']))
 
-rootCollectionsList = []
+versionsList = []
 failuresList = []
 
 loopObj = tqdm(bar_format=tqdmBarFormat, iterable=installationsDf.to_dict('records'))
@@ -62,14 +61,21 @@ for row in loopObj:
     installationUrl = row['installation_url']
     loopObj.set_postfix_str(installationUrl)
 
-    rootAlias = knownAliasesDict.get(installationUrl)
+    dataverseVersion = knownVersionsDict.get(installationUrl)
 
-    # Only call the API if the alias isn't already known
-    if rootAlias is None:
+    # Only call the API if the version isn't already known
+    if dataverseVersion is None:
         try:
-            rootCollectionInfoDict = dataverse_functions.get_root_collection_info(
+            versionDict = dataverse_functions.get_dataverse_installation_version(
                 installationUrl, headers=headers)
-            rootAlias = rootCollectionInfoDict['rootAlias']
+            dataverseVersion = versionDict['dataverseVersion']
+
+            # The function returns a status code instead of a version if the installation can't be reached
+            if not isinstance(dataverseVersion, str):
+                failuresList.append({
+                    'installation_url': installationUrl,
+                    'error': f'No version returned: {dataverseVersion}'})
+                dataverseVersion = None
         except Exception as e:
             failuresList.append({
                 'installation_url': installationUrl,
@@ -77,20 +83,18 @@ for row in loopObj:
         # Pause between API calls to avoid rate limits
         sleep(2)
 
-    rootCollectionUrl = f'{installationUrl}/dataverse/{rootAlias}' if rootAlias else None
-    rootCollectionsList.append({
+    versionsList.append({
         'installation_name': row['installation_name'],
         'installation_url': installationUrl,
-        'root_alias': rootAlias,
-        'root_collection_url': rootCollectionUrl})
+        'dataverse_software_version': dataverseVersion})
 
-rootCollectionsDf = pd.DataFrame(rootCollectionsList)
+versionsDf = pd.DataFrame(versionsList)
 
 print(f'Failures: {len(failuresList)}')
 for failure in failuresList:
     print(failure)
 
-# Saves a new CSV file; no raw source data files are overwritten
-rootCollectionsDf.to_csv(outputFilePath, index=False, encoding='utf-8-sig')
-print(f'Saved {len(rootCollectionsDf)} rows to {outputFilePath}')
-print(rootCollectionsDf[['installation_name', 'root_collection_url']].to_string(index=False))
+# Saves a CSV file of versions only; no raw source data files are overwritten
+versionsDf.to_csv(outputFilePath, index=False, encoding='utf-8-sig')
+print(f'Saved {len(versionsDf)} rows to {outputFilePath}')
+print(versionsDf[['installation_name', 'dataverse_software_version']].to_string(index=False))
