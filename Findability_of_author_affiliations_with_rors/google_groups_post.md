@@ -4,13 +4,25 @@ Body:
 
 Hi everyone,
 
-As we're working on helping people more easily find data in Dataverse repositories by increasing the use of persistent identifiers, I've been helping troubleshoot one or more bugs that can make data harder to discover.
+As we're working on helping people more easily find data in Dataverse repositories by increasing the use of persistent identifiers, I've been helping troubleshoot one or more bugs that can make data harder to find than we intended.
 
+The bug can affect users of and datasets published in at least 14 of the Dataverse installations we know about, whose dataset deposit forms have been redesigned to let depositors choose organizations from the ROR API when they're using the Author Affiliation field.
 
+{screenshot of redesigned_author_affiliation_field}
+
+When a depsoitor chooses one of the field's suggestions, like that second International Labour Organization option the screenshot above, Dataverse should:
+- index that organization's name and its ROR URL, so that when people search for datasets with that author affiliation by name or ROR URL, they see that dataset in their search results
+- add that organization name and ROR URL in the "DataCite/Datacite" export (and eventually the OpenAIRE/oai_datacite export ([IQSS/dataverse/issues/12297](https://github.com/IQSS/dataverse/issues/12297)))
+
+But I've found cases in those 14 Dataverse installations where 
+
+To find these installations I used [information I collected in late August 2026](https://doi.org/10.7910/DVN/LVVOER) about all known Dataverse installations, so I think it's possible that more installations' users and datasets have been affected.
 
 At least 16 Dataverse installations redesigned their dataset deposit form's author affiliation fields so that the field suggests an organization from the ROR API, and when users choose a suggested affiliation, their repository stores the organization's ROR URL.
 
-Of those 16 Dataverse installations, 14 have datasets with some author affiliation RORs that have not been sent to DataCite (when the installation has registered a DOI for the dataset).
+Of those 16 Dataverse installations, 
+
+These 14 installations have datasets with some author affiliation RORs that have not been sent to DataCite (when the installation has registered a DOI for the dataset).
 
 And when users search for datasets by the name of those author affiliations, those datasets are not included in users' search results.
 
