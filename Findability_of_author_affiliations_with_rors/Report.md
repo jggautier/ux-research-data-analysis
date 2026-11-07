@@ -1,3 +1,13 @@
+Subject line:
+
+Body:
+
+Hi everyone,
+
+As we're working on helping people more easily find data in Dataverse repositories by increasing the use of persistent identifiers, I've been helping troubleshoot one or more bugs that can make data harder to discover.
+
+
+
 At least 16 Dataverse installations redesigned their dataset deposit form's author affiliation fields so that the field suggests an organization from the ROR API, and when users choose a suggested affiliation, their repository stores the organization's ROR URL.
 
 Of those 16 Dataverse installations, 14 have datasets with some author affiliation RORs that have not been sent to DataCite (when the installation has registered a DOI for the dataset).
