@@ -1,9 +1,3 @@
-Subject line:
-
-Body:
-
-Hi everyone,
-
 As we're working on helping people more easily find data in Dataverse repositories by increasing the use of persistent identifiers, I've been helping troubleshoot one or more bugs that can make data harder to find than we intended. In a few GitHub issues where we track work related to Harvard Dataverse, I've been tracking what I've been learning. But since I've learned that the bug can affect other installations' users and datasets, I'm posting what I've learned here so folks in the Dataverse community are aware, especially folks managing installations.
 
 The bug or bugs can affect users of and datasets published in at least 14 of the Dataverse installations we know about, which have dataset deposit forms with Author Affiliation fields that have been redesigned to let depositors choose organizations from the ROR API.
