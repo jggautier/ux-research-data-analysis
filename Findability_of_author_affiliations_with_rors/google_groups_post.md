@@ -4,40 +4,31 @@ Body:
 
 Hi everyone,
 
-As we're working on helping people more easily find data in Dataverse repositories by increasing the use of persistent identifiers, I've been helping troubleshoot one or more bugs that can make data than we intended harder to find. In a few GitHub issues where we track work related to Harvard Dataverse, I've been tracking what I've been doing and learning. But since I've learned that the bug can affect other installations' users and datasets, I'm posting what I've learned here so folks in the Dataverse community are aware, especially folks managing installations.
+As we're working on helping people more easily find data in Dataverse repositories by increasing the use of persistent identifiers, I've been helping troubleshoot one or more bugs that can make data harder to find than we intended. In a few GitHub issues where we track work related to Harvard Dataverse, I've been tracking what I've been learning. But since I've learned that the bug can affect other installations' users and datasets, I'm posting what I've learned here so folks in the Dataverse community are aware, especially folks managing installations.
 
 The bug or bugs can affect users of and datasets published in at least 14 of the Dataverse installations we know about, which have dataset deposit forms with Author Affiliation fields that have been redesigned to let depositors choose organizations from the ROR API.
 
-{screenshot of redesigned_author_affiliation_field}
+{screenshot of redesigned_author_affiliation_field} (redesigned_author_affiliation_field.png)
 
 When a depositor chooses one of the field's suggestions, like that second International Labour Organization option in the screenshot above, Dataverse should:
 - index that organization's name and its ROR URL, so that when people search for datasets with that author affiliation by name or by ROR URL, they see that dataset in their search results
 - add that organization name and ROR URL in the "DataCite/Datacite" export (and eventually the OpenAIRE/oai_datacite export ([IQSS/dataverse/issues/12297](https://github.com/IQSS/dataverse/issues/12297)))
 
 But I've found cases in those 14 Dataverse installations where:
-- datasets' author affiliation names aren't indexed, so when users do name-based searches for datasets by author affiliation, datasets are missing
-- datasets' "DataCite/Datacite" exports include this author affiliation information in a way that DataCite's systems don't expect, affecting how findable those datasets are for users of DataCite's API and of dashboards and other platforms and services, like [DataCite Commons](https://commons.datacite.org), that use DataCite's API.
+- Datasets' author affiliation names aren't indexed, so when users do name-based searches for datasets by author affiliation, datasets are missing
+- Datasets' "DataCite/Datacite" exports include this author affiliation information in a way that DataCite's systems don't expect, affecting how findable those datasets are for users of DataCite's API and of dashboards and other platforms and services that use DataCite's API, like [DataCite Commons](https://commons.datacite.org).
 
-To find these installations and example datasets in them, I used [information about all known Dataverse installations](https://doi.org/10.7910/DVN/LVVOER), which I collected in late August 2026, so I think it's possible that more installations' users and datasets have been affected.
+To find these installations and example datasets in them, I used [information about all known Dataverse installations](https://doi.org/10.7910/DVN/LVVOER), which I collected in late August 2026, so I think it's possible that more installations' users and datasets have been affected since then. This bug or bugs might also affect data discoverability when people search by funder information (see https://github.com/IQSS/dataverse.harvard.edu/issues/490 for how this affects datasets in Harvard Dataverse) and by other deposit form fields that installation managers have redesigned so that depositors can choose terms from externally managed vocabularies.
 
+**About why this is happening and potential fixes**, I've seen in Harvard Dataverse that the problem involves the installation database's externalvocabularyvalue table. When a user searches for a dataset by the name of an author's affiliation and there are datasets with author affiliations that include that organization's ROR, if that ROR isn't in the externalvocabularyvalue table, the user's search results don't include the datasets with author affiliations that include that organization's ROR.
 
+For example, the links for Harvard Dataverse in the list below point to a dataset with an author whose affiliation is Western Governors University. Because the depositor chose that organization from the deposit form's Author Affiliation field, the installation recorded the ROR, https://ror.org/0210dff90, but in the installation's externalvocabularyvalue table, there's no entry for that ROR. The links below "Harvard Dataverse" include a link to the affected dataset, and links that show that searches for datasets using that author affiliation's ROR URL ("ROR-based search for author affiliation") do return that dataset, but searches using that author affiliation's name ("Name-based search for author affiliation") do not return that dataset. The ""Datacite" export" link shows how the installation included that information in the dataset's "DataCite/Datacite" export in an unexpected way, and I think that caused that information to be included in DataCite's systems in an unexpected way too, which the  "DataCite API call" link shows.
 
-*About why this is happening and potential fixes*, I've seen in Harvard Dataverse that the problem involves the installation database's externalvocabularyvalue table. When a user does an author-affiliation-name-based search and there are datasets with author affiliations that include that organization's ROR, if that ROR isn't in the externalvocabularyvalue table, the user's search results don't include the datasets with author affiliations that include that organization's ROR. For example, the links for Harvard Dataverse in the list below point to a dataset with an author whose affiliation is Western Governors University. The installation recorded the ROR, https://ror.org/0210dff90, but in the installation's externalvocabularyvalue table, there's no entry for that ROR.
+So I'm wondering if the same is true for other installations and their databases' externalvocabularyvalue tables.
 
-So I'm wondering if other installations' externalvocabularyvalue tables are missing RORs
+Jim Myers also asked in https://github.com/IQSS/dataverse.harvard.edu/issues/500#issuecomment-6693762595 why the RORs aren't in the externalvocabularyvalue table, and wrote some ideas for troubleshooting.
 
-
-Why aren't the RORs in the table?
-
-FWIW: When RORs are accessed in a CVoc field and the table doesn't have an entry, Dataverse should try to retrieve info about it from the ROR server. If that fails, it could be due to typos (are the missing RORs in exactly the same format as ones that work?), or a problem in the filtering setup for the ROR script being used. If there was a past problem, and the dataset hasn't been indexed since, it could be that nothing has triggered an attempt to contact ror.org since the problem.
-
-If entries are in the table, I can think of two possible issues:
-
-There was also a historic issue when ROR switched API versions which could cause partial entries in the CVoc table. If those aren't cleared, they could also cause a problem with names being resolved.
-If the datasets haven't been reindexed successfully since the table was updated, they wouldn't have the names available (so if they were indexed when there was a problem contacting ROR and haven't been reindexed since, they would be searchable by affiliation name).
-
-
-Here's a list of those 14 Dataverse installations, with links to example datasets; links for name-based and ROR-based searches for author affiliations; and links to "Datacite" exports and DataCite API calls. I also listed the Dataverse software version that each installation is running, in case that's a factor.
+**Here's the list of those 14 Dataverse installations**, with links to example datasets; links for name-based and ROR-based searches for author affiliations; and links to "Datacite" exports and DataCite API calls for those datasets. I also listed the Dataverse software version that each installation is running, in case that's a factor.
 
 [BSC Dataverse](https://dataverse.bsc.es), v6.10.1
 - Author affiliation (ROR URL): Institut Català de Nanociència i Nanotecnologia (https://ror.org/00k1qja49)
@@ -150,3 +141,8 @@ Here's a list of those 14 Dataverse installations, with links to example dataset
 - [ROR-based search for author affiliation](https://data.tu-dortmund.de/dataverse/root/?q=authorAffiliation:"https://ror.org/04nfjn472"&fq1=publicationStatus:"Published"&types=datasets)
 - ["Datacite" export](https://data.tu-dortmund.de/api/datasets/export?exporter=Datacite&persistentId=doi:10.17877/TUDODATA-2025-MGF1E8QB)
 - [DataCite API call](https://api.datacite.org/dois/10.17877/TUDODATA-2025-MGF1E8QB)
+
+
+Julian Gautier (he/him)
+Product Research Specialist, IQSS
+Interested in helping test Dataverse? Sign up for user experience research
